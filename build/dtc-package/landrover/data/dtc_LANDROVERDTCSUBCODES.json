@@ -1,0 +1,1538 @@
+[
+  {
+    "code": "00",
+    "description_ru": "",
+    "description_en": "- General failure information - no sub type information",
+    "severity": ""
+  },
+  {
+    "code": "01",
+    "description_ru": "",
+    "description_en": "- General failure information - general electrical failure",
+    "severity": ""
+  },
+  {
+    "code": "02",
+    "description_ru": "",
+    "description_en": "- General failure information - general signal failure",
+    "severity": ""
+  },
+  {
+    "code": "03",
+    "description_ru": "",
+    "description_en": "- General failure information - frequency modulation/pulse width modulation failure",
+    "severity": ""
+  },
+  {
+    "code": "04",
+    "description_ru": "",
+    "description_en": "- General failure information - system internal failure",
+    "severity": ""
+  },
+  {
+    "code": "05",
+    "description_ru": "",
+    "description_en": "- General failure information - system programming failure",
+    "severity": ""
+  },
+  {
+    "code": "06",
+    "description_ru": "",
+    "description_en": "- General failure information - algorithm based failure",
+    "severity": ""
+  },
+  {
+    "code": "07",
+    "description_ru": "",
+    "description_en": "- General failure information - mechanical failure",
+    "severity": ""
+  },
+  {
+    "code": "08",
+    "description_ru": "",
+    "description_en": "- General failure information - bus signal/message failure",
+    "severity": ""
+  },
+  {
+    "code": "09",
+    "description_ru": "",
+    "description_en": "- General failure information - component failure",
+    "severity": ""
+  },
+  {
+    "code": "0A",
+    "description_ru": "",
+    "description_en": "- SAE - reserved",
+    "severity": ""
+  },
+  {
+    "code": "0B",
+    "description_ru": "",
+    "description_en": "- SAE - reserved",
+    "severity": ""
+  },
+  {
+    "code": "0C",
+    "description_ru": "",
+    "description_en": "- SAE - reserved",
+    "severity": ""
+  },
+  {
+    "code": "0D",
+    "description_ru": "",
+    "description_en": "- SAE - reserved",
+    "severity": ""
+  },
+  {
+    "code": "0E",
+    "description_ru": "",
+    "description_en": "- SAE - reserved",
+    "severity": ""
+  },
+  {
+    "code": "0F",
+    "description_ru": "",
+    "description_en": "- SAE - reserved",
+    "severity": ""
+  },
+  {
+    "code": "10",
+    "description_ru": "",
+    "description_en": "- SAE - reserved",
+    "severity": ""
+  },
+  {
+    "code": "11",
+    "description_ru": "",
+    "description_en": "- General electrical failure - circuit short to ground",
+    "severity": ""
+  },
+  {
+    "code": "12",
+    "description_ru": "",
+    "description_en": "- General electrical failure - circuit short to battery",
+    "severity": ""
+  },
+  {
+    "code": "13",
+    "description_ru": "",
+    "description_en": "- General electrical failure - circuit open",
+    "severity": ""
+  },
+  {
+    "code": "14",
+    "description_ru": "",
+    "description_en": "- General electrical failure - circuit short to ground or open",
+    "severity": ""
+  },
+  {
+    "code": "15",
+    "description_ru": "",
+    "description_en": "- General electrical failure - circuit short to battery or open",
+    "severity": ""
+  },
+  {
+    "code": "16",
+    "description_ru": "",
+    "description_en": "- General electrical failure - circuit voltage below threshold",
+    "severity": ""
+  },
+  {
+    "code": "17",
+    "description_ru": "",
+    "description_en": "- General electrical failure - circuit voltage above threshold",
+    "severity": ""
+  },
+  {
+    "code": "18",
+    "description_ru": "",
+    "description_en": "- General electrical failure - circuit current below threshold",
+    "severity": ""
+  },
+  {
+    "code": "19",
+    "description_ru": "",
+    "description_en": "- General electrical failure - circuit current above threshold",
+    "severity": ""
+  },
+  {
+    "code": "1A",
+    "description_ru": "",
+    "description_en": "- General electrical failure - circuit resistance below threshold",
+    "severity": ""
+  },
+  {
+    "code": "1B",
+    "description_ru": "",
+    "description_en": "- General electrical failure - circuit resistance above threshold",
+    "severity": ""
+  },
+  {
+    "code": "1C",
+    "description_ru": "",
+    "description_en": "- General electrical failure - circuit voltage out of range",
+    "severity": ""
+  },
+  {
+    "code": "1D",
+    "description_ru": "",
+    "description_en": "- General electrical failure - circuit current out of range",
+    "severity": ""
+  },
+  {
+    "code": "1E",
+    "description_ru": "",
+    "description_en": "- General electrical failure - circuit resistance is out of range",
+    "severity": ""
+  },
+  {
+    "code": "1F",
+    "description_ru": "",
+    "description_en": "- General electrical failure - circuit intermittent",
+    "severity": ""
+  },
+  {
+    "code": "20",
+    "description_ru": "",
+    "description_en": "- SAE - reserved",
+    "severity": ""
+  },
+  {
+    "code": "21",
+    "description_ru": "",
+    "description_en": "- General signal failure - signal amplitude<minimum",
+    "severity": ""
+  },
+  {
+    "code": "22",
+    "description_ru": "",
+    "description_en": "- General signal failure - signal amplitude>maximum",
+    "severity": ""
+  },
+  {
+    "code": "23",
+    "description_ru": "",
+    "description_en": "- General signal failure - signal stays low",
+    "severity": ""
+  },
+  {
+    "code": "24",
+    "description_ru": "",
+    "description_en": "- General signal failure - signal stays high",
+    "severity": ""
+  },
+  {
+    "code": "25",
+    "description_ru": "",
+    "description_en": "- General signal failure - signal shape/waveform failure",
+    "severity": ""
+  },
+  {
+    "code": "26",
+    "description_ru": "",
+    "description_en": "- General signal failure - signal rate of change is below the threshold",
+    "severity": ""
+  },
+  {
+    "code": "27",
+    "description_ru": "",
+    "description_en": "- General signal failure - signal rate of change is above the threshold",
+    "severity": ""
+  },
+  {
+    "code": "28",
+    "description_ru": "",
+    "description_en": "- General signal failure - signal bias level is out of range/zero adjustment failure",
+    "severity": ""
+  },
+  {
+    "code": "29",
+    "description_ru": "",
+    "description_en": "- General signal failure - signal is invalid",
+    "severity": ""
+  },
+  {
+    "code": "2A",
+    "description_ru": "",
+    "description_en": "- General signal failure - Signal stuck in range",
+    "severity": ""
+  },
+  {
+    "code": "2B",
+    "description_ru": "",
+    "description_en": "- General signal failure - Signal cross coupled",
+    "severity": ""
+  },
+  {
+    "code": "2C",
+    "description_ru": "",
+    "description_en": "- SAE - reserved",
+    "severity": ""
+  },
+  {
+    "code": "2D",
+    "description_ru": "",
+    "description_en": "- SAE - reserved",
+    "severity": ""
+  },
+  {
+    "code": "2E",
+    "description_ru": "",
+    "description_en": "- SAE - reserved",
+    "severity": ""
+  },
+  {
+    "code": "2F",
+    "description_ru": "",
+    "description_en": "- General signal failure - signal is erratic",
+    "severity": ""
+  },
+  {
+    "code": "30",
+    "description_ru": "",
+    "description_en": "- SAE - reserved",
+    "severity": ""
+  },
+  {
+    "code": "31",
+    "description_ru": "",
+    "description_en": "- Frequency modulation/pulse width modulation failure - no signal",
+    "severity": ""
+  },
+  {
+    "code": "32",
+    "description_ru": "",
+    "description_en": "- Frequency modulation/pulse width modulation failure - signal low time<minimum",
+    "severity": ""
+  },
+  {
+    "code": "33",
+    "description_ru": "",
+    "description_en": "- Frequency modulation/pulse width modulation failure - signal low time>maximum",
+    "severity": ""
+  },
+  {
+    "code": "34",
+    "description_ru": "",
+    "description_en": "- Frequency modulation/pulse width modulation failure - signal high time<minimum",
+    "severity": ""
+  },
+  {
+    "code": "35",
+    "description_ru": "",
+    "description_en": "- Frequency modulation/pulse width modulation failure - signal high time>maximum",
+    "severity": ""
+  },
+  {
+    "code": "36",
+    "description_ru": "",
+    "description_en": "- Frequency modulation/pulse width modulation failure - signal frequency is too low",
+    "severity": ""
+  },
+  {
+    "code": "37",
+    "description_ru": "",
+    "description_en": "- Frequency modulation/pulse width modulation failure - signal frequency is too high",
+    "severity": ""
+  },
+  {
+    "code": "38",
+    "description_ru": "",
+    "description_en": "- Frequency modulation/pulse width modulation failure - signal frequency is incorrect",
+    "severity": ""
+  },
+  {
+    "code": "39",
+    "description_ru": "",
+    "description_en": "- Frequency modulation/pulse width modulation failure - incorrect, has too few pulses",
+    "severity": ""
+  },
+  {
+    "code": "3A",
+    "description_ru": "",
+    "description_en": "- Frequency modulation/pulse width modulation failure - incorrect, has too many pulses",
+    "severity": ""
+  },
+  {
+    "code": "3B",
+    "description_ru": "",
+    "description_en": "- SAE - reserved",
+    "severity": ""
+  },
+  {
+    "code": "3C",
+    "description_ru": "",
+    "description_en": "- SAE - reserved",
+    "severity": ""
+  },
+  {
+    "code": "3D",
+    "description_ru": "",
+    "description_en": "- SAE - reserved",
+    "severity": ""
+  },
+  {
+    "code": "3E",
+    "description_ru": "",
+    "description_en": "- SAE - reserved",
+    "severity": ""
+  },
+  {
+    "code": "3F",
+    "description_ru": "",
+    "description_en": "- SAE - reserved",
+    "severity": ""
+  },
+  {
+    "code": "40",
+    "description_ru": "",
+    "description_en": "- SAE - reserved",
+    "severity": ""
+  },
+  {
+    "code": "41",
+    "description_ru": "",
+    "description_en": "- System internal failure - general checksum failure",
+    "severity": ""
+  },
+  {
+    "code": "42",
+    "description_ru": "",
+    "description_en": "- System internal failure - general memory failure",
+    "severity": ""
+  },
+  {
+    "code": "43",
+    "description_ru": "",
+    "description_en": "- System internal failure - special memory failure",
+    "severity": ""
+  },
+  {
+    "code": "44",
+    "description_ru": "",
+    "description_en": "- System internal failure - data memory failure",
+    "severity": ""
+  },
+  {
+    "code": "45",
+    "description_ru": "",
+    "description_en": "- System internal failure - program memory failure",
+    "severity": ""
+  },
+  {
+    "code": "46",
+    "description_ru": "",
+    "description_en": "- System internal failure - calibration/parameter memory failure",
+    "severity": ""
+  },
+  {
+    "code": "47",
+    "description_ru": "",
+    "description_en": "- System internal failure - watchdog/safety failure",
+    "severity": ""
+  },
+  {
+    "code": "48",
+    "description_ru": "",
+    "description_en": "- System internal failure - supervision software failure",
+    "severity": ""
+  },
+  {
+    "code": "49",
+    "description_ru": "",
+    "description_en": "- System internal failure - internal electronic failure",
+    "severity": ""
+  },
+  {
+    "code": "4A",
+    "description_ru": "",
+    "description_en": "- System internal failure - incorrect component installed",
+    "severity": ""
+  },
+  {
+    "code": "4B",
+    "description_ru": "",
+    "description_en": "- System internal failure - over temperature",
+    "severity": ""
+  },
+  {
+    "code": "4C",
+    "description_ru": "",
+    "description_en": "- SAE - reserved",
+    "severity": ""
+  },
+  {
+    "code": "4D",
+    "description_ru": "",
+    "description_en": "- SAE - reserved",
+    "severity": ""
+  },
+  {
+    "code": "4E",
+    "description_ru": "",
+    "description_en": "- SAE - reserved",
+    "severity": ""
+  },
+  {
+    "code": "4F",
+    "description_ru": "",
+    "description_en": "- SAE - reserved",
+    "severity": ""
+  },
+  {
+    "code": "50",
+    "description_ru": "",
+    "description_en": "- SAE - reserved",
+    "severity": ""
+  },
+  {
+    "code": "51",
+    "description_ru": "",
+    "description_en": "- System programming failure - not programmed",
+    "severity": ""
+  },
+  {
+    "code": "52",
+    "description_ru": "",
+    "description_en": "- System programming failure - not activated",
+    "severity": ""
+  },
+  {
+    "code": "53",
+    "description_ru": "",
+    "description_en": "- System programming failure - deactivated",
+    "severity": ""
+  },
+  {
+    "code": "54",
+    "description_ru": "",
+    "description_en": "- System programming failure - missing calibration",
+    "severity": ""
+  },
+  {
+    "code": "55",
+    "description_ru": "",
+    "description_en": "- System programming failure - is not configured",
+    "severity": ""
+  },
+  {
+    "code": "56",
+    "description_ru": "",
+    "description_en": "- System programming failure - Invalid / incompatible configuration",
+    "severity": ""
+  },
+  {
+    "code": "57",
+    "description_ru": "",
+    "description_en": "- System programming failure - Invalid / incompatible software component",
+    "severity": ""
+  },
+  {
+    "code": "58",
+    "description_ru": "",
+    "description_en": "- SAE - reserved",
+    "severity": ""
+  },
+  {
+    "code": "59",
+    "description_ru": "",
+    "description_en": "- SAE - reserved",
+    "severity": ""
+  },
+  {
+    "code": "5A",
+    "description_ru": "",
+    "description_en": "- SAE - reserved",
+    "severity": ""
+  },
+  {
+    "code": "5B",
+    "description_ru": "",
+    "description_en": "- SAE - reserved",
+    "severity": ""
+  },
+  {
+    "code": "5C",
+    "description_ru": "",
+    "description_en": "- SAE - reserved",
+    "severity": ""
+  },
+  {
+    "code": "5D",
+    "description_ru": "",
+    "description_en": "- SAE - reserved",
+    "severity": ""
+  },
+  {
+    "code": "5E",
+    "description_ru": "",
+    "description_en": "- SAE - reserved",
+    "severity": ""
+  },
+  {
+    "code": "5F",
+    "description_ru": "",
+    "description_en": "- SAE - reserved",
+    "severity": ""
+  },
+  {
+    "code": "60",
+    "description_ru": "",
+    "description_en": "- SAE - reserved",
+    "severity": ""
+  },
+  {
+    "code": "61",
+    "description_ru": "",
+    "description_en": "- Algorithm based failure - signal calculation failure",
+    "severity": ""
+  },
+  {
+    "code": "62",
+    "description_ru": "",
+    "description_en": "- Algorithm based failure - signal compare failure",
+    "severity": ""
+  },
+  {
+    "code": "63",
+    "description_ru": "",
+    "description_en": "- Algorithm based failure - circuit/component protection time out",
+    "severity": ""
+  },
+  {
+    "code": "64",
+    "description_ru": "",
+    "description_en": "- Algorithm based failure - signal plausibility failure",
+    "severity": ""
+  },
+  {
+    "code": "65",
+    "description_ru": "",
+    "description_en": "- Algorithm based failure - signal has too few transitions/events",
+    "severity": ""
+  },
+  {
+    "code": "66",
+    "description_ru": "",
+    "description_en": "- Algorithm based failure - signal has too many transitions/events",
+    "severity": ""
+  },
+  {
+    "code": "67",
+    "description_ru": "",
+    "description_en": "- Algorithm based failure - signal is incorrect after the event",
+    "severity": ""
+  },
+  {
+    "code": "68",
+    "description_ru": "",
+    "description_en": "- Algorithm based failure - event information",
+    "severity": ""
+  },
+  {
+    "code": "69",
+    "description_ru": "",
+    "description_en": "- SAE - reserved",
+    "severity": ""
+  },
+  {
+    "code": "6A",
+    "description_ru": "",
+    "description_en": "- SAE - reserved",
+    "severity": ""
+  },
+  {
+    "code": "6B",
+    "description_ru": "",
+    "description_en": "- SAE - reserved",
+    "severity": ""
+  },
+  {
+    "code": "6C",
+    "description_ru": "",
+    "description_en": "- SAE - reserved",
+    "severity": ""
+  },
+  {
+    "code": "6D",
+    "description_ru": "",
+    "description_en": "- SAE - reserved",
+    "severity": ""
+  },
+  {
+    "code": "6E",
+    "description_ru": "",
+    "description_en": "- SAE - reserved",
+    "severity": ""
+  },
+  {
+    "code": "6F",
+    "description_ru": "",
+    "description_en": "- SAE - reserved",
+    "severity": ""
+  },
+  {
+    "code": "70",
+    "description_ru": "",
+    "description_en": "- SAE - reserved",
+    "severity": ""
+  },
+  {
+    "code": "71",
+    "description_ru": "",
+    "description_en": "- Mechanical failure - actuator is stuck",
+    "severity": ""
+  },
+  {
+    "code": "72",
+    "description_ru": "",
+    "description_en": "- Mechanical failure - actuator is stuck open",
+    "severity": ""
+  },
+  {
+    "code": "73",
+    "description_ru": "",
+    "description_en": "- Mechanical failure - actuator is stuck closed",
+    "severity": ""
+  },
+  {
+    "code": "74",
+    "description_ru": "",
+    "description_en": "- Mechanical failure - actuator is slipping",
+    "severity": ""
+  },
+  {
+    "code": "75",
+    "description_ru": "",
+    "description_en": "- Mechanical failure - emergency position is not reachable",
+    "severity": ""
+  },
+  {
+    "code": "76",
+    "description_ru": "",
+    "description_en": "- Mechanical failure - wrong mounting position",
+    "severity": ""
+  },
+  {
+    "code": "77",
+    "description_ru": "",
+    "description_en": "- Mechanical failure - commanded position is not reachable",
+    "severity": ""
+  },
+  {
+    "code": "78",
+    "description_ru": "",
+    "description_en": "- Mechanical failure - alignment or adjustment is incorrect",
+    "severity": ""
+  },
+  {
+    "code": "79",
+    "description_ru": "",
+    "description_en": "- Mechanical failure - mechanical linkage failure",
+    "severity": ""
+  },
+  {
+    "code": "7A",
+    "description_ru": "",
+    "description_en": "- Mechanical failure - fluid leak or seal failure",
+    "severity": ""
+  },
+  {
+    "code": "7B",
+    "description_ru": "",
+    "description_en": "- Mechanical failure - low fluid level",
+    "severity": ""
+  },
+  {
+    "code": "7C",
+    "description_ru": "",
+    "description_en": "- SAE - reserved",
+    "severity": ""
+  },
+  {
+    "code": "7D",
+    "description_ru": "",
+    "description_en": "- SAE - reserved",
+    "severity": ""
+  },
+  {
+    "code": "7E",
+    "description_ru": "",
+    "description_en": "- SAE - reserved",
+    "severity": ""
+  },
+  {
+    "code": "7F",
+    "description_ru": "",
+    "description_en": "- SAE - reserved",
+    "severity": ""
+  },
+  {
+    "code": "80",
+    "description_ru": "",
+    "description_en": "- SAE - reserved",
+    "severity": ""
+  },
+  {
+    "code": "81",
+    "description_ru": "",
+    "description_en": "- Bus signal/message failure - invalid serial data received",
+    "severity": ""
+  },
+  {
+    "code": "82",
+    "description_ru": "",
+    "description_en": "- Bus signal/message failure - alive/sequence counter is incorrect/not updated",
+    "severity": ""
+  },
+  {
+    "code": "83",
+    "description_ru": "",
+    "description_en": "- Bus signal/message failure - value of signal protection calculation is incorrect",
+    "severity": ""
+  },
+  {
+    "code": "84",
+    "description_ru": "",
+    "description_en": "- Bus signal/message failure - signal is below allowable range",
+    "severity": ""
+  },
+  {
+    "code": "85",
+    "description_ru": "",
+    "description_en": "- Bus signal/message failure - signal is above allowable range",
+    "severity": ""
+  },
+  {
+    "code": "86",
+    "description_ru": "",
+    "description_en": "- Bus signal/message failure - signal is invalid",
+    "severity": ""
+  },
+  {
+    "code": "87",
+    "description_ru": "",
+    "description_en": "- Bus signal/message failure - missing a message",
+    "severity": ""
+  },
+  {
+    "code": "88",
+    "description_ru": "",
+    "description_en": "- Bus signal/message failure - bus is off",
+    "severity": ""
+  },
+  {
+    "code": "89",
+    "description_ru": "",
+    "description_en": "- SAE - reserved",
+    "severity": ""
+  },
+  {
+    "code": "8A",
+    "description_ru": "",
+    "description_en": "- SAE - reserved",
+    "severity": ""
+  },
+  {
+    "code": "8B",
+    "description_ru": "",
+    "description_en": "- SAE - reserved",
+    "severity": ""
+  },
+  {
+    "code": "8C",
+    "description_ru": "",
+    "description_en": "- SAE - reserved",
+    "severity": ""
+  },
+  {
+    "code": "8D",
+    "description_ru": "",
+    "description_en": "- SAE - reserved",
+    "severity": ""
+  },
+  {
+    "code": "8E",
+    "description_ru": "",
+    "description_en": "- SAE - reserved",
+    "severity": ""
+  },
+  {
+    "code": "8F",
+    "description_ru": "",
+    "description_en": "- Bus signal/message failure - erratic",
+    "severity": ""
+  },
+  {
+    "code": "90",
+    "description_ru": "",
+    "description_en": "- SAE - reserved",
+    "severity": ""
+  },
+  {
+    "code": "91",
+    "description_ru": "",
+    "description_en": "- Component failure - parametric",
+    "severity": ""
+  },
+  {
+    "code": "92",
+    "description_ru": "",
+    "description_en": "- Component failure - performance or incorrect operation",
+    "severity": ""
+  },
+  {
+    "code": "93",
+    "description_ru": "",
+    "description_en": "- Component failure - no operation",
+    "severity": ""
+  },
+  {
+    "code": "94",
+    "description_ru": "",
+    "description_en": "- Component failure - unexpected operation",
+    "severity": ""
+  },
+  {
+    "code": "95",
+    "description_ru": "",
+    "description_en": "- Component failure - incorrect assembly",
+    "severity": ""
+  },
+  {
+    "code": "96",
+    "description_ru": "",
+    "description_en": "- Component failure - internal failure",
+    "severity": ""
+  },
+  {
+    "code": "97",
+    "description_ru": "",
+    "description_en": "- Component failure - component or system operation obstructed or blocked",
+    "severity": ""
+  },
+  {
+    "code": "98",
+    "description_ru": "",
+    "description_en": "- Component failure - component or system is over temperature",
+    "severity": ""
+  },
+  {
+    "code": "99",
+    "description_ru": "",
+    "description_en": "- SAE - reserved",
+    "severity": ""
+  },
+  {
+    "code": "9A",
+    "description_ru": "",
+    "description_en": "- Component failure - Component or system operating conditions",
+    "severity": ""
+  },
+  {
+    "code": "9B",
+    "description_ru": "",
+    "description_en": "- SAE - reserved",
+    "severity": ""
+  },
+  {
+    "code": "9C",
+    "description_ru": "",
+    "description_en": "- SAE - reserved",
+    "severity": ""
+  },
+  {
+    "code": "9D",
+    "description_ru": "",
+    "description_en": "- SAE - reserved",
+    "severity": ""
+  },
+  {
+    "code": "9E",
+    "description_ru": "",
+    "description_en": "- SAE - reserved",
+    "severity": ""
+  },
+  {
+    "code": "9F",
+    "description_ru": "",
+    "description_en": "- SAE - reserved",
+    "severity": ""
+  },
+  {
+    "code": "A0",
+    "description_ru": "",
+    "description_en": "- SAE - reserved",
+    "severity": ""
+  },
+  {
+    "code": "A1",
+    "description_ru": "",
+    "description_en": "- SAE - reserved",
+    "severity": ""
+  },
+  {
+    "code": "A2",
+    "description_ru": "",
+    "description_en": "- SAE - reserved",
+    "severity": ""
+  },
+  {
+    "code": "A3",
+    "description_ru": "",
+    "description_en": "- SAE - reserved",
+    "severity": ""
+  },
+  {
+    "code": "A4",
+    "description_ru": "",
+    "description_en": "- SAE - reserved",
+    "severity": ""
+  },
+  {
+    "code": "A5",
+    "description_ru": "",
+    "description_en": "- SAE - reserved",
+    "severity": ""
+  },
+  {
+    "code": "A6",
+    "description_ru": "",
+    "description_en": "- SAE - reserved",
+    "severity": ""
+  },
+  {
+    "code": "A7",
+    "description_ru": "",
+    "description_en": "- SAE - reserved",
+    "severity": ""
+  },
+  {
+    "code": "A8",
+    "description_ru": "",
+    "description_en": "- SAE - reserved",
+    "severity": ""
+  },
+  {
+    "code": "A9",
+    "description_ru": "",
+    "description_en": "- SAE - reserved",
+    "severity": ""
+  },
+  {
+    "code": "AA",
+    "description_ru": "",
+    "description_en": "- SAE - reserved",
+    "severity": ""
+  },
+  {
+    "code": "AB",
+    "description_ru": "",
+    "description_en": "- SAE - reserved",
+    "severity": ""
+  },
+  {
+    "code": "AC",
+    "description_ru": "",
+    "description_en": "- SAE - reserved",
+    "severity": ""
+  },
+  {
+    "code": "AD",
+    "description_ru": "",
+    "description_en": "- SAE - reserved",
+    "severity": ""
+  },
+  {
+    "code": "AE",
+    "description_ru": "",
+    "description_en": "- SAE - reserved",
+    "severity": ""
+  },
+  {
+    "code": "AF",
+    "description_ru": "",
+    "description_en": "- SAE - reserved",
+    "severity": ""
+  },
+  {
+    "code": "B0",
+    "description_ru": "",
+    "description_en": "- SAE - reserved",
+    "severity": ""
+  },
+  {
+    "code": "B1",
+    "description_ru": "",
+    "description_en": "- SAE - reserved",
+    "severity": ""
+  },
+  {
+    "code": "B2",
+    "description_ru": "",
+    "description_en": "- SAE - reserved",
+    "severity": ""
+  },
+  {
+    "code": "B3",
+    "description_ru": "",
+    "description_en": "- SAE - reserved",
+    "severity": ""
+  },
+  {
+    "code": "B4",
+    "description_ru": "",
+    "description_en": "- SAE - reserved",
+    "severity": ""
+  },
+  {
+    "code": "B5",
+    "description_ru": "",
+    "description_en": "- SAE - reserved",
+    "severity": ""
+  },
+  {
+    "code": "B6",
+    "description_ru": "",
+    "description_en": "- SAE - reserved",
+    "severity": ""
+  },
+  {
+    "code": "B7",
+    "description_ru": "",
+    "description_en": "- SAE - reserved",
+    "severity": ""
+  },
+  {
+    "code": "B8",
+    "description_ru": "",
+    "description_en": "- SAE - reserved",
+    "severity": ""
+  },
+  {
+    "code": "B9",
+    "description_ru": "",
+    "description_en": "- SAE - reserved",
+    "severity": ""
+  },
+  {
+    "code": "BA",
+    "description_ru": "",
+    "description_en": "- SAE - reserved",
+    "severity": ""
+  },
+  {
+    "code": "BB",
+    "description_ru": "",
+    "description_en": "- SAE - reserved",
+    "severity": ""
+  },
+  {
+    "code": "BC",
+    "description_ru": "",
+    "description_en": "- SAE - reserved",
+    "severity": ""
+  },
+  {
+    "code": "BD",
+    "description_ru": "",
+    "description_en": "- SAE - reserved",
+    "severity": ""
+  },
+  {
+    "code": "BE",
+    "description_ru": "",
+    "description_en": "- SAE - reserved",
+    "severity": ""
+  },
+  {
+    "code": "BF",
+    "description_ru": "",
+    "description_en": "- SAE - reserved",
+    "severity": ""
+  },
+  {
+    "code": "C0",
+    "description_ru": "",
+    "description_en": "- SAE - reserved",
+    "severity": ""
+  },
+  {
+    "code": "C1",
+    "description_ru": "",
+    "description_en": "- SAE - reserved",
+    "severity": ""
+  },
+  {
+    "code": "C2",
+    "description_ru": "",
+    "description_en": "- SAE - reserved",
+    "severity": ""
+  },
+  {
+    "code": "C3",
+    "description_ru": "",
+    "description_en": "- SAE - reserved",
+    "severity": ""
+  },
+  {
+    "code": "C4",
+    "description_ru": "",
+    "description_en": "- SAE - reserved",
+    "severity": ""
+  },
+  {
+    "code": "C5",
+    "description_ru": "",
+    "description_en": "- SAE - reserved",
+    "severity": ""
+  },
+  {
+    "code": "C6",
+    "description_ru": "",
+    "description_en": "- SAE - reserved",
+    "severity": ""
+  },
+  {
+    "code": "C7",
+    "description_ru": "",
+    "description_en": "- SAE - reserved",
+    "severity": ""
+  },
+  {
+    "code": "C8",
+    "description_ru": "",
+    "description_en": "- SAE - reserved",
+    "severity": ""
+  },
+  {
+    "code": "C9",
+    "description_ru": "",
+    "description_en": "- SAE - reserved",
+    "severity": ""
+  },
+  {
+    "code": "CA",
+    "description_ru": "",
+    "description_en": "- SAE - reserved",
+    "severity": ""
+  },
+  {
+    "code": "CB",
+    "description_ru": "",
+    "description_en": "- SAE - reserved",
+    "severity": ""
+  },
+  {
+    "code": "CC",
+    "description_ru": "",
+    "description_en": "- SAE - reserved",
+    "severity": ""
+  },
+  {
+    "code": "CD",
+    "description_ru": "",
+    "description_en": "- SAE - reserved",
+    "severity": ""
+  },
+  {
+    "code": "CE",
+    "description_ru": "",
+    "description_en": "- SAE - reserved",
+    "severity": ""
+  },
+  {
+    "code": "CF",
+    "description_ru": "",
+    "description_en": "- SAE - reserved",
+    "severity": ""
+  },
+  {
+    "code": "D0",
+    "description_ru": "",
+    "description_en": "- SAE - reserved",
+    "severity": ""
+  },
+  {
+    "code": "D1",
+    "description_ru": "",
+    "description_en": "- SAE - reserved",
+    "severity": ""
+  },
+  {
+    "code": "D2",
+    "description_ru": "",
+    "description_en": "- SAE - reserved",
+    "severity": ""
+  },
+  {
+    "code": "D3",
+    "description_ru": "",
+    "description_en": "- SAE - reserved",
+    "severity": ""
+  },
+  {
+    "code": "D4",
+    "description_ru": "",
+    "description_en": "- SAE - reserved",
+    "severity": ""
+  },
+  {
+    "code": "D5",
+    "description_ru": "",
+    "description_en": "- SAE - reserved",
+    "severity": ""
+  },
+  {
+    "code": "D6",
+    "description_ru": "",
+    "description_en": "- SAE - reserved",
+    "severity": ""
+  },
+  {
+    "code": "D7",
+    "description_ru": "",
+    "description_en": "- SAE - reserved",
+    "severity": ""
+  },
+  {
+    "code": "D8",
+    "description_ru": "",
+    "description_en": "- SAE - reserved",
+    "severity": ""
+  },
+  {
+    "code": "D9",
+    "description_ru": "",
+    "description_en": "- SAE - reserved",
+    "severity": ""
+  },
+  {
+    "code": "DA",
+    "description_ru": "",
+    "description_en": "- SAE - reserved",
+    "severity": ""
+  },
+  {
+    "code": "DB",
+    "description_ru": "",
+    "description_en": "- SAE - reserved",
+    "severity": ""
+  },
+  {
+    "code": "DC",
+    "description_ru": "",
+    "description_en": "- SAE - reserved",
+    "severity": ""
+  },
+  {
+    "code": "DD",
+    "description_ru": "",
+    "description_en": "- SAE - reserved",
+    "severity": ""
+  },
+  {
+    "code": "DE",
+    "description_ru": "",
+    "description_en": "- SAE - reserved",
+    "severity": ""
+  },
+  {
+    "code": "DF",
+    "description_ru": "",
+    "description_en": "- SAE - reserved",
+    "severity": ""
+  },
+  {
+    "code": "E0",
+    "description_ru": "",
+    "description_en": "- SAE - reserved",
+    "severity": ""
+  },
+  {
+    "code": "E1",
+    "description_ru": "",
+    "description_en": "- SAE - reserved",
+    "severity": ""
+  },
+  {
+    "code": "E2",
+    "description_ru": "",
+    "description_en": "- SAE - reserved",
+    "severity": ""
+  },
+  {
+    "code": "E3",
+    "description_ru": "",
+    "description_en": "- SAE - reserved",
+    "severity": ""
+  },
+  {
+    "code": "E4",
+    "description_ru": "",
+    "description_en": "- SAE - reserved",
+    "severity": ""
+  },
+  {
+    "code": "E5",
+    "description_ru": "",
+    "description_en": "- SAE - reserved",
+    "severity": ""
+  },
+  {
+    "code": "E6",
+    "description_ru": "",
+    "description_en": "- SAE - reserved",
+    "severity": ""
+  },
+  {
+    "code": "E7",
+    "description_ru": "",
+    "description_en": "- SAE - reserved",
+    "severity": ""
+  },
+  {
+    "code": "E8",
+    "description_ru": "",
+    "description_en": "- SAE - reserved",
+    "severity": ""
+  },
+  {
+    "code": "E9",
+    "description_ru": "",
+    "description_en": "- SAE - reserved",
+    "severity": ""
+  },
+  {
+    "code": "EA",
+    "description_ru": "",
+    "description_en": "- SAE - reserved",
+    "severity": ""
+  },
+  {
+    "code": "EB",
+    "description_ru": "",
+    "description_en": "- SAE - reserved",
+    "severity": ""
+  },
+  {
+    "code": "EC",
+    "description_ru": "",
+    "description_en": "- SAE - reserved",
+    "severity": ""
+  },
+  {
+    "code": "ED",
+    "description_ru": "",
+    "description_en": "- SAE - reserved",
+    "severity": ""
+  },
+  {
+    "code": "EE",
+    "description_ru": "",
+    "description_en": "- SAE - reserved",
+    "severity": ""
+  },
+  {
+    "code": "EF",
+    "description_ru": "",
+    "description_en": "- SAE - reserved",
+    "severity": ""
+  },
+  {
+    "code": "F0",
+    "description_ru": "",
+    "description_en": "- SAE - reserved",
+    "severity": ""
+  },
+  {
+    "code": "F1",
+    "description_ru": "",
+    "description_en": "- SAE - reserved",
+    "severity": ""
+  },
+  {
+    "code": "F2",
+    "description_ru": "",
+    "description_en": "- SAE - reserved",
+    "severity": ""
+  },
+  {
+    "code": "F3",
+    "description_ru": "",
+    "description_en": "- SAE - reserved",
+    "severity": ""
+  },
+  {
+    "code": "F4",
+    "description_ru": "",
+    "description_en": "- SAE - reserved",
+    "severity": ""
+  },
+  {
+    "code": "F5",
+    "description_ru": "",
+    "description_en": "- SAE - reserved",
+    "severity": ""
+  },
+  {
+    "code": "F6",
+    "description_ru": "",
+    "description_en": "- SAE - reserved",
+    "severity": ""
+  },
+  {
+    "code": "F7",
+    "description_ru": "",
+    "description_en": "- SAE - reserved",
+    "severity": ""
+  },
+  {
+    "code": "F8",
+    "description_ru": "",
+    "description_en": "- SAE - reserved",
+    "severity": ""
+  },
+  {
+    "code": "F9",
+    "description_ru": "",
+    "description_en": "- SAE - reserved",
+    "severity": ""
+  },
+  {
+    "code": "FA",
+    "description_ru": "",
+    "description_en": "- SAE - reserved",
+    "severity": ""
+  },
+  {
+    "code": "FB",
+    "description_ru": "",
+    "description_en": "- SAE - reserved",
+    "severity": ""
+  },
+  {
+    "code": "FC",
+    "description_ru": "",
+    "description_en": "- SAE - reserved",
+    "severity": ""
+  },
+  {
+    "code": "FD",
+    "description_ru": "",
+    "description_en": "- SAE - reserved",
+    "severity": ""
+  },
+  {
+    "code": "FE",
+    "description_ru": "",
+    "description_en": "- SAE - reserved",
+    "severity": ""
+  },
+  {
+    "code": "FF",
+    "description_ru": "",
+    "description_en": "- SAE - reserved",
+    "severity": ""
+  }
+]

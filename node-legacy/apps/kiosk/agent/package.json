@@ -1,0 +1,52 @@
+{
+  "name": "kiosk-agent",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "tsx --watch src/index.ts",
+    "dev:compat": "ts-node-dev --respawn --transpile-only src/index.ts",
+    "build": "tsc -p tsconfig.json && node scripts/copy-public.cjs",
+    "build:prod": "tsc -p tsconfig.build.json && node scripts/copy-public.cjs",
+    "start": "node dist/index.js",
+    "start:prod": "NODE_ENV=production AGENT_ENV=PROD node dist/index.js",
+    "test": "node --import ./scripts/register-ts-node.mjs --test ./src/**/*.test.ts",
+    "self-check:obd": "node --import ./scripts/register-ts-node.mjs src/devices/obd/runSelfCheck.ts",
+    "docker:build": "docker build -t kiosk-agent:latest -f ../../infra/docker/Dockerfile ../..",
+    "docker:run": "docker run -p 7070:7070 --env-file .env.production kiosk-agent:latest"
+  },
+  "dependencies": {
+    "@selfservice/payments": "file:../../../modules/service/payments/core",
+    "@selfservice/reporting": "file:../../../modules/service/reports/reporting",
+    "@selfservice/obd-diagnostics": "file:../../../modules/device/obd/diagnostics/obd-diagnostics",
+    "@supabase/supabase-js": "^2.45.0",
+    "@types/better-sqlite3": "^7.6.13",
+    "@types/ws": "^8.18.1",
+    "better-sqlite3": "^12.4.1",
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "kiosk-agent": "file:",
+    "morgan": "^1.10.0",
+    "nodemailer": "^6.10.1",
+    "pg": "^8.11.3",
+    "prom-client": "^15.1.3",
+    "serialport": "^12.0.0",
+    "socket.io": "^4.7.4",
+    "ws": "^8.18.3",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@serialport/binding-mock": "^10.2.2",
+    "@types/better-sqlite3": "^7.6.13",
+    "@types/cors": "^2.8.19",
+    "@types/express": "^4.17.21",
+    "@types/morgan": "^1.9.10",
+    "@types/node": "^20.12.12",
+    "@types/nodemailer": "^6.4.20",
+    "@types/pg": "^8.15.5",
+    "ts-node": "^10.9.2",
+    "ts-node-dev": "^2.0.0",
+    "tsx": "^4.20.6",
+    "typescript": "^5.4.5"
+  }
+}

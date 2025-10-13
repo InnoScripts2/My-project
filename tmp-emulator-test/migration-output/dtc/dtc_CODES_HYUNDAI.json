@@ -1,0 +1,116 @@
+[
+  {
+    "code": "P1100",
+    "description_ru": "",
+    "description_en": "Manifold Absolute Pressure (MAP) Sensor Malfunction (Open/Short)",
+    "severity": ""
+  },
+  {
+    "code": "P1102",
+    "description_ru": "",
+    "description_en": "Manifold Absolute Pressure (MAP) Sensor Malfunction - Low Voltage",
+    "severity": ""
+  },
+  {
+    "code": "P1103",
+    "description_ru": "",
+    "description_en": "Manifold Absolute Pressure (MAP) Sensor Malfunction - High Voltage",
+    "severity": ""
+  },
+  {
+    "code": "P1147",
+    "description_ru": "",
+    "description_en": "ETS Sub Accel Position Sensor 1 Malfunction",
+    "severity": ""
+  },
+  {
+    "code": "P1151",
+    "description_ru": "",
+    "description_en": "ETS Main Accel Position Sensor 2 Malfunction",
+    "severity": ""
+  },
+  {
+    "code": "P1155",
+    "description_ru": "",
+    "description_en": "ETS Limp Home Valve",
+    "severity": ""
+  },
+  {
+    "code": "P1159",
+    "description_ru": "",
+    "description_en": "Variable Intake Motor Malfunction",
+    "severity": ""
+  },
+  {
+    "code": "P1171",
+    "description_ru": "",
+    "description_en": "Electronic Throttle System Open",
+    "severity": ""
+  },
+  {
+    "code": "P1172",
+    "description_ru": "",
+    "description_en": "Electronic Throttle System Motor Current",
+    "severity": ""
+  },
+  {
+    "code": "P1173",
+    "description_ru": "",
+    "description_en": "Electronic Throttle System Rationality Malfunction",
+    "severity": ""
+  },
+  {
+    "code": "P1174",
+    "description_ru": "",
+    "description_en": "Electronic Throttle System #1 Close Malfunction",
+    "severity": ""
+  },
+  {
+    "code": "P1175",
+    "description_ru": "",
+    "description_en": "Electronic Throttle System #2 Close Malfunction",
+    "severity": ""
+  },
+  {
+    "code": "P1176",
+    "description_ru": "",
+    "description_en": "ETS Motor Open/Short #2",
+    "severity": ""
+  },
+  {
+    "code": "P1178",
+    "description_ru": "",
+    "description_en": "ETS Motor Battery Voltage Open",
+    "severity": ""
+  },
+  {
+    "code": "P1330",
+    "description_ru": "",
+    "description_en": "Spark Timing Adjust Malfunction",
+    "severity": ""
+  },
+  {
+    "code": "P1521",
+    "description_ru": "",
+    "description_en": "Power Steering Switch Malfunction",
+    "severity": ""
+  },
+  {
+    "code": "P1607",
+    "description_ru": "",
+    "description_en": "Electronic Throttle System Communication Error",
+    "severity": ""
+  },
+  {
+    "code": "P1614",
+    "description_ru": "",
+    "description_en": "Electronic Throttle System Module Malfunction",
+    "severity": ""
+  },
+  {
+    "code": "P1632",
+    "description_ru": "",
+    "description_en": "Traction Control System Malfunction",
+    "severity": ""
+  }
+]

@@ -1,0 +1,962 @@
+[
+  {
+    "code": "B106B",
+    "description_ru": "",
+    "description_en": "Rear Defrost Control Circuit Low",
+    "severity": ""
+  },
+  {
+    "code": "B106C",
+    "description_ru": "",
+    "description_en": "Rear Defrost Control Circuit High",
+    "severity": ""
+  },
+  {
+    "code": "B106D",
+    "description_ru": "",
+    "description_en": "Rear Defrost Control Circuit Open",
+    "severity": ""
+  },
+  {
+    "code": "B10B4",
+    "description_ru": "",
+    "description_en": "Cabin Heater 1 Control Circuit Low",
+    "severity": ""
+  },
+  {
+    "code": "B10B5",
+    "description_ru": "",
+    "description_en": "Cabin Heater 1 Control Circuit High",
+    "severity": ""
+  },
+  {
+    "code": "B10B6",
+    "description_ru": "",
+    "description_en": "Cabin Heater 1 Control Circuit Open",
+    "severity": ""
+  },
+  {
+    "code": "B10B8",
+    "description_ru": "",
+    "description_en": "Cabin Heater 2 Control Circuit Low",
+    "severity": ""
+  },
+  {
+    "code": "B10B9",
+    "description_ru": "",
+    "description_en": "Cabin Heater 2 Control Circuit High",
+    "severity": ""
+  },
+  {
+    "code": "B10BA",
+    "description_ru": "",
+    "description_en": "Cabin Heater 2 Control Circuit Open",
+    "severity": ""
+  },
+  {
+    "code": "B10BE",
+    "description_ru": "",
+    "description_en": "Condenser Fan Control Circuit Low",
+    "severity": ""
+  },
+  {
+    "code": "B10BF",
+    "description_ru": "",
+    "description_en": "Condenser Fan Control Circuit High",
+    "severity": ""
+  },
+  {
+    "code": "B10C0",
+    "description_ru": "",
+    "description_en": "Condenser Fan Control Circuit Open",
+    "severity": ""
+  },
+  {
+    "code": "B10E9",
+    "description_ru": "",
+    "description_en": "Blower Motor Control Circuit Low",
+    "severity": ""
+  },
+  {
+    "code": "B10EA",
+    "description_ru": "",
+    "description_en": "Blower Motor Control Circuit High",
+    "severity": ""
+  },
+  {
+    "code": "B10EC",
+    "description_ru": "",
+    "description_en": "Blower Motor Control Circuit Overcurrent",
+    "severity": ""
+  },
+  {
+    "code": "B10ED",
+    "description_ru": "",
+    "description_en": "Rear Defrost Control Circuit Overcurrent",
+    "severity": ""
+  },
+  {
+    "code": "B10EE",
+    "description_ru": "",
+    "description_en": "Condenser Fan Control Circuit Overcurrent",
+    "severity": ""
+  },
+  {
+    "code": "B1138",
+    "description_ru": "",
+    "description_en": "Cabin Heater 3 Control Circuit Low",
+    "severity": ""
+  },
+  {
+    "code": "B1139",
+    "description_ru": "",
+    "description_en": "Cabin Heater 3 Control Circuit High",
+    "severity": ""
+  },
+  {
+    "code": "B162B",
+    "description_ru": "",
+    "description_en": "Left Low Beam Control Circuit Low",
+    "severity": ""
+  },
+  {
+    "code": "B162C",
+    "description_ru": "",
+    "description_en": "Left Low Beam Control Circuit High",
+    "severity": ""
+  },
+  {
+    "code": "B162F",
+    "description_ru": "",
+    "description_en": "Right Low Beam Control Circuit Low",
+    "severity": ""
+  },
+  {
+    "code": "B1630",
+    "description_ru": "",
+    "description_en": "Right Low Beam Control Circuit High",
+    "severity": ""
+  },
+  {
+    "code": "B1633",
+    "description_ru": "",
+    "description_en": "Left Hi Beam Control Circuit Low",
+    "severity": ""
+  },
+  {
+    "code": "B1634",
+    "description_ru": "",
+    "description_en": "Left Hi Beam Control Circuit High",
+    "severity": ""
+  },
+  {
+    "code": "B1637",
+    "description_ru": "",
+    "description_en": "Right Hi Beam Control Circuit Low",
+    "severity": ""
+  },
+  {
+    "code": "B1638",
+    "description_ru": "",
+    "description_en": "Right Hi Beam Control Circuit High",
+    "severity": ""
+  },
+  {
+    "code": "B163B",
+    "description_ru": "",
+    "description_en": "Front Left Turn Lamp Control Circuit Low",
+    "severity": ""
+  },
+  {
+    "code": "B163C",
+    "description_ru": "",
+    "description_en": "Front Left Turn Lamp Control Circuit High",
+    "severity": ""
+  },
+  {
+    "code": "B163F",
+    "description_ru": "",
+    "description_en": "Front Right Turn Lamp Control Circuit Low",
+    "severity": ""
+  },
+  {
+    "code": "B1640",
+    "description_ru": "",
+    "description_en": "Front Right Turn Lamp Control Circuit High",
+    "severity": ""
+  },
+  {
+    "code": "B1643",
+    "description_ru": "",
+    "description_en": "Rear Left Turn Lamp Control Circuit Low",
+    "severity": ""
+  },
+  {
+    "code": "B1644",
+    "description_ru": "",
+    "description_en": "Rear Left Turn Control Circuit High",
+    "severity": ""
+  },
+  {
+    "code": "B1647",
+    "description_ru": "",
+    "description_en": "Rear Right Turn Lamp Control Circuit Low",
+    "severity": ""
+  },
+  {
+    "code": "B1648",
+    "description_ru": "",
+    "description_en": "Rear Right Turn Lamp Control Circuit High",
+    "severity": ""
+  },
+  {
+    "code": "B1659",
+    "description_ru": "",
+    "description_en": "Front Fog Lamp Control Circuit Low",
+    "severity": ""
+  },
+  {
+    "code": "B165C",
+    "description_ru": "",
+    "description_en": "Park Lamp Control Circuit Low",
+    "severity": ""
+  },
+  {
+    "code": "B165D",
+    "description_ru": "",
+    "description_en": "Park Lamp Control Circuit High",
+    "severity": ""
+  },
+  {
+    "code": "B165E",
+    "description_ru": "",
+    "description_en": "Park Lamp Control Circuit Open",
+    "severity": ""
+  },
+  {
+    "code": "B1660",
+    "description_ru": "",
+    "description_en": "Front Fog Lamp Control Circuit High",
+    "severity": ""
+  },
+  {
+    "code": "B1661",
+    "description_ru": "",
+    "description_en": "Front Fog Lamp Control Circuit Open",
+    "severity": ""
+  },
+  {
+    "code": "B1663",
+    "description_ru": "",
+    "description_en": "Rear Fog Lamp Control Circuit Low",
+    "severity": ""
+  },
+  {
+    "code": "B1664",
+    "description_ru": "",
+    "description_en": "Rear Fog Lamp Control Circuit High",
+    "severity": ""
+  },
+  {
+    "code": "B1667",
+    "description_ru": "",
+    "description_en": "Reverse Lamp Control Circuit Low",
+    "severity": ""
+  },
+  {
+    "code": "B1668",
+    "description_ru": "",
+    "description_en": "Reverse Lamp Control Circuit High",
+    "severity": ""
+  },
+  {
+    "code": "B1669",
+    "description_ru": "",
+    "description_en": "Reverse Lamp Control Circuit Open",
+    "severity": ""
+  },
+  {
+    "code": "B166B",
+    "description_ru": "",
+    "description_en": "Left Trailer Tow Lamp Control Circuit Low",
+    "severity": ""
+  },
+  {
+    "code": "B166C",
+    "description_ru": "",
+    "description_en": "Left Trailer Tow Lamp Control Circuit High",
+    "severity": ""
+  },
+  {
+    "code": "B166E",
+    "description_ru": "",
+    "description_en": "Right Trailer Tow Lamp Control Circuit",
+    "severity": ""
+  },
+  {
+    "code": "B166F",
+    "description_ru": "",
+    "description_en": "Right Trailer Tow Lamp Control Circuit Low",
+    "severity": ""
+  },
+  {
+    "code": "B1670",
+    "description_ru": "",
+    "description_en": "Right Trailer Tow Lamp Control Circuit High",
+    "severity": ""
+  },
+  {
+    "code": "B16B1",
+    "description_ru": "",
+    "description_en": "Left Stop Lamp Control Circuit High",
+    "severity": ""
+  },
+  {
+    "code": "B16B5",
+    "description_ru": "",
+    "description_en": "Right Stop Lamp Control Circuit High",
+    "severity": ""
+  },
+  {
+    "code": "B16D0",
+    "description_ru": "",
+    "description_en": "Left DRL Lamp Control Circuit Low",
+    "severity": ""
+  },
+  {
+    "code": "B16D1",
+    "description_ru": "",
+    "description_en": "Left DRL Lamp Control Circuit High",
+    "severity": ""
+  },
+  {
+    "code": "B16D4",
+    "description_ru": "",
+    "description_en": "Right DRL Lamp Control Circuit Low",
+    "severity": ""
+  },
+  {
+    "code": "B16D5",
+    "description_ru": "",
+    "description_en": "Right DRL Lamp Control Circuit High",
+    "severity": ""
+  },
+  {
+    "code": "B16D8",
+    "description_ru": "",
+    "description_en": "Left Taillamp 1 Control Circuit Low",
+    "severity": ""
+  },
+  {
+    "code": "B16E0",
+    "description_ru": "",
+    "description_en": "Right Taillamp 1 Control Circuit Low",
+    "severity": ""
+  },
+  {
+    "code": "B16F8",
+    "description_ru": "",
+    "description_en": "Front Left Fog Lamp Control Circuit Low",
+    "severity": ""
+  },
+  {
+    "code": "B16F9",
+    "description_ru": "",
+    "description_en": "Front Left Fog Lamp Control Circuit High",
+    "severity": ""
+  },
+  {
+    "code": "B16FC",
+    "description_ru": "",
+    "description_en": "Front Right Fog Lamp Control Circuit Low",
+    "severity": ""
+  },
+  {
+    "code": "B16FD",
+    "description_ru": "",
+    "description_en": "Front Right Fog Lamp Control Circuit High",
+    "severity": ""
+  },
+  {
+    "code": "B1784",
+    "description_ru": "",
+    "description_en": "Stop Lamp Control Circuit Low",
+    "severity": ""
+  },
+  {
+    "code": "B1785",
+    "description_ru": "",
+    "description_en": "Stop Lamp Control Circuit High",
+    "severity": ""
+  },
+  {
+    "code": "B1786",
+    "description_ru": "",
+    "description_en": "Stop Lamp Control Circuit Open",
+    "severity": ""
+  },
+  {
+    "code": "B1788",
+    "description_ru": "",
+    "description_en": "Headlamp Leveling Motor Control Circuit Low",
+    "severity": ""
+  },
+  {
+    "code": "B1789",
+    "description_ru": "",
+    "description_en": "Headlamp Leveling Motor Control Circuit High",
+    "severity": ""
+  },
+  {
+    "code": "B178B",
+    "description_ru": "",
+    "description_en": "Reverse Lamp Control Circuit Overcurrent",
+    "severity": ""
+  },
+  {
+    "code": "B178C",
+    "description_ru": "",
+    "description_en": "Left Trailer Tow Lamp Control Circuit Overcurrent",
+    "severity": ""
+  },
+  {
+    "code": "B178D",
+    "description_ru": "",
+    "description_en": "Front Fog Lamp Control Circuit Overcurrent",
+    "severity": ""
+  },
+  {
+    "code": "B1790",
+    "description_ru": "",
+    "description_en": "Right Trailer Tow Lamp Control Circuit Overcurrent",
+    "severity": ""
+  },
+  {
+    "code": "B17AE",
+    "description_ru": "",
+    "description_en": "Rear Left Trailer Turn Lamp Control Circuit Low",
+    "severity": ""
+  },
+  {
+    "code": "B17B2",
+    "description_ru": "",
+    "description_en": "Rear Right Trailer Turn Lamp Control Circuit Low",
+    "severity": ""
+  },
+  {
+    "code": "B17B8",
+    "description_ru": "",
+    "description_en": "Left Stop Lamp Control Circuit Overcurrent",
+    "severity": ""
+  },
+  {
+    "code": "B17B9",
+    "description_ru": "",
+    "description_en": "Right Stop Lamp Control Circuit Overcurrent",
+    "severity": ""
+  },
+  {
+    "code": "B17BF",
+    "description_ru": "",
+    "description_en": "Left Sidemarker Lamp Control Circuit Overcurrent",
+    "severity": ""
+  },
+  {
+    "code": "B17C4",
+    "description_ru": "",
+    "description_en": "Right Sidemarker Lamp Control Circuit Overcurrent",
+    "severity": ""
+  },
+  {
+    "code": "B1801",
+    "description_ru": "",
+    "description_en": "Driver Door Lock/Unlock Switch Circuit Low",
+    "severity": ""
+  },
+  {
+    "code": "B1806",
+    "description_ru": "",
+    "description_en": "Passenger Door Lock/Unlock Switch Circuit Low",
+    "severity": ""
+  },
+  {
+    "code": "B181E",
+    "description_ru": "",
+    "description_en": "Hood Ajar Input Circuit/Performance",
+    "severity": ""
+  },
+  {
+    "code": "B181F",
+    "description_ru": "",
+    "description_en": "Hood Ajar Input Circuit Low",
+    "severity": ""
+  },
+  {
+    "code": "B1820",
+    "description_ru": "",
+    "description_en": "Hood Ajar Input Circuit High",
+    "severity": ""
+  },
+  {
+    "code": "B184E",
+    "description_ru": "",
+    "description_en": "Flipper Glass Control Circuit Low",
+    "severity": ""
+  },
+  {
+    "code": "B184F",
+    "description_ru": "",
+    "description_en": "Flipper Glass Control Circuit High",
+    "severity": ""
+  },
+  {
+    "code": "B1851",
+    "description_ru": "",
+    "description_en": "Flipper Glass Switch Stuck",
+    "severity": ""
+  },
+  {
+    "code": "B186F",
+    "description_ru": "",
+    "description_en": "All Door Secondary Lock Control Circuit Low",
+    "severity": ""
+  },
+  {
+    "code": "B1870",
+    "description_ru": "",
+    "description_en": "All Door Secondary Lock Control Circuit High",
+    "severity": ""
+  },
+  {
+    "code": "B18BB",
+    "description_ru": "",
+    "description_en": "Window Control Circuit Low",
+    "severity": ""
+  },
+  {
+    "code": "B18BC",
+    "description_ru": "",
+    "description_en": "Window Control Circuit High",
+    "severity": ""
+  },
+  {
+    "code": "B191D",
+    "description_ru": "",
+    "description_en": "Window Control Circuit Overcurrent",
+    "severity": ""
+  },
+  {
+    "code": "B1934",
+    "description_ru": "",
+    "description_en": "Driver Door Lock/Unlock Switch Circuit Stuck",
+    "severity": ""
+  },
+  {
+    "code": "B1935",
+    "description_ru": "",
+    "description_en": "Passenger Door Lock/Unlock Switch Circuit Stuck",
+    "severity": ""
+  },
+  {
+    "code": "B193B",
+    "description_ru": "",
+    "description_en": "Left Power Sliding Door Switch Circuit Low",
+    "severity": ""
+  },
+  {
+    "code": "B193C",
+    "description_ru": "",
+    "description_en": "Left Power Sliding Door Switch Circuit High",
+    "severity": ""
+  },
+  {
+    "code": "B193F",
+    "description_ru": "",
+    "description_en": "Right Power Sliding Door Switch Circuit Low",
+    "severity": ""
+  },
+  {
+    "code": "B1940",
+    "description_ru": "",
+    "description_en": "Right Power Sliding Door Switch Circuit High",
+    "severity": ""
+  },
+  {
+    "code": "B1987",
+    "description_ru": "",
+    "description_en": "Left Power Sliding Door Switch Stuck",
+    "severity": ""
+  },
+  {
+    "code": "B1988",
+    "description_ru": "",
+    "description_en": "Right Power Sliding Door Switch Stuck",
+    "severity": ""
+  },
+  {
+    "code": "B198A",
+    "description_ru": "",
+    "description_en": "All Door Secondary Unlock Control Circuit Low",
+    "severity": ""
+  },
+  {
+    "code": "B198B",
+    "description_ru": "",
+    "description_en": "All Door Secondary Unlock Control Circuit High",
+    "severity": ""
+  },
+  {
+    "code": "B1D4F",
+    "description_ru": "",
+    "description_en": "Adjustable Pedal Inhibit Circuit Low",
+    "severity": ""
+  },
+  {
+    "code": "B2101",
+    "description_ru": "",
+    "description_en": "Ignition Run/Start Input Circuit Low",
+    "severity": ""
+  },
+  {
+    "code": "B2102",
+    "description_ru": "",
+    "description_en": "Ignition Run/Start Input Circuit High",
+    "severity": ""
+  },
+  {
+    "code": "B2104",
+    "description_ru": "",
+    "description_en": "Ignition Run/Start 1 Control Circuit Low",
+    "severity": ""
+  },
+  {
+    "code": "B2105",
+    "description_ru": "",
+    "description_en": "Ignition Run/Start 1 Control Circuit High",
+    "severity": ""
+  },
+  {
+    "code": "B2106",
+    "description_ru": "",
+    "description_en": "Ignition Run/Start 1 Control Circuit Open",
+    "severity": ""
+  },
+  {
+    "code": "B2108",
+    "description_ru": "",
+    "description_en": "Ignition Switch Sense Input Circuit Low",
+    "severity": ""
+  },
+  {
+    "code": "B2109",
+    "description_ru": "",
+    "description_en": "Ignition Switch Sense Input Circuit High",
+    "severity": ""
+  },
+  {
+    "code": "B210D",
+    "description_ru": "",
+    "description_en": "Battery Voltage Low",
+    "severity": ""
+  },
+  {
+    "code": "B210E",
+    "description_ru": "",
+    "description_en": "Battery Voltage High",
+    "severity": ""
+  },
+  {
+    "code": "B2112",
+    "description_ru": "",
+    "description_en": "5 Volt Supply Circuit Low",
+    "severity": ""
+  },
+  {
+    "code": "B2113",
+    "description_ru": "",
+    "description_en": "5 Volt Supply Circuit High",
+    "severity": ""
+  },
+  {
+    "code": "B2122",
+    "description_ru": "",
+    "description_en": "Ignition Run Control 1 Circuit Low",
+    "severity": ""
+  },
+  {
+    "code": "B2123",
+    "description_ru": "",
+    "description_en": "Ignition Run Control 1 Circuit High",
+    "severity": ""
+  },
+  {
+    "code": "B2124",
+    "description_ru": "",
+    "description_en": "Ignition Run Control 1 Circuit Open",
+    "severity": ""
+  },
+  {
+    "code": "B212F",
+    "description_ru": "",
+    "description_en": "Ignition Run/Acc Control Circuit Low",
+    "severity": ""
+  },
+  {
+    "code": "B2130",
+    "description_ru": "",
+    "description_en": "Ignition Run/Acc Control Circuit High",
+    "severity": ""
+  },
+  {
+    "code": "B2142",
+    "description_ru": "",
+    "description_en": "Ignition Off Draw (IOD) Fuse Not Present",
+    "severity": ""
+  },
+  {
+    "code": "B2148",
+    "description_ru": "",
+    "description_en": "Ignition Run Control 2 Circuit Low",
+    "severity": ""
+  },
+  {
+    "code": "B2149",
+    "description_ru": "",
+    "description_en": "Ignition Run Control 2 Circuit High",
+    "severity": ""
+  },
+  {
+    "code": "B214A",
+    "description_ru": "",
+    "description_en": "Ignition Run Control 2 Circuit Open",
+    "severity": ""
+  },
+  {
+    "code": "B2184",
+    "description_ru": "",
+    "description_en": "Ignition Unlock Run/Start Control Circuit Low",
+    "severity": ""
+  },
+  {
+    "code": "B2185",
+    "description_ru": "",
+    "description_en": "Ignition Unlock Run/Start Control Circuit High",
+    "severity": ""
+  },
+  {
+    "code": "B2188",
+    "description_ru": "",
+    "description_en": "Ignition Start Control Circuit Low",
+    "severity": ""
+  },
+  {
+    "code": "B2189",
+    "description_ru": "",
+    "description_en": "Ignition Start Control Circuit High",
+    "severity": ""
+  },
+  {
+    "code": "B218B",
+    "description_ru": "",
+    "description_en": "Ignition Run/Start 1 Control Circuit Overcurrent",
+    "severity": ""
+  },
+  {
+    "code": "B218C",
+    "description_ru": "",
+    "description_en": "Ignition Run Control 2 Circuit Overcurrent",
+    "severity": ""
+  },
+  {
+    "code": "B219A",
+    "description_ru": "",
+    "description_en": "Ignition Unlock Run/Start Control Circuit Overcurrent",
+    "severity": ""
+  },
+  {
+    "code": "B219F",
+    "description_ru": "",
+    "description_en": "Ignition Off Draw (IOD) Fuse Blown",
+    "severity": ""
+  },
+  {
+    "code": "B2206",
+    "description_ru": "",
+    "description_en": "Current VIN Missing / Mismatch",
+    "severity": ""
+  },
+  {
+    "code": "B2215",
+    "description_ru": "",
+    "description_en": "FCM Internal",
+    "severity": ""
+  },
+  {
+    "code": "B222C",
+    "description_ru": "",
+    "description_en": "Vehicle Configuration Not Programmed",
+    "severity": ""
+  },
+  {
+    "code": "B2304",
+    "description_ru": "",
+    "description_en": "Wiper Park Switch Input Circuit Low (Stuck Low)",
+    "severity": ""
+  },
+  {
+    "code": "B2305",
+    "description_ru": "",
+    "description_en": "Wiper Park Switch Input Circuit High (Stuck High)",
+    "severity": ""
+  },
+  {
+    "code": "B230D",
+    "description_ru": "",
+    "description_en": "Rear Wiper Park Switch Input Circuit Low (Stuck Low)",
+    "severity": ""
+  },
+  {
+    "code": "B230E",
+    "description_ru": "",
+    "description_en": "Rear Wiper Park Switch Input Circuit High (Stuck High)",
+    "severity": ""
+  },
+  {
+    "code": "B231B",
+    "description_ru": "",
+    "description_en": "Rear Wiper Motor Control Circuit Low",
+    "severity": ""
+  },
+  {
+    "code": "B231C",
+    "description_ru": "",
+    "description_en": "Rear Wiper Motor Control Circuit High",
+    "severity": ""
+  },
+  {
+    "code": "B231F",
+    "description_ru": "",
+    "description_en": "Front/Rear Washer Motor Control 1 Circuit Low",
+    "severity": ""
+  },
+  {
+    "code": "B2320",
+    "description_ru": "",
+    "description_en": "Front/Rear Washer Motor Control 1 Circuit High",
+    "severity": ""
+  },
+  {
+    "code": "B2323",
+    "description_ru": "",
+    "description_en": "Headlamp Washer Motor Control Circuit Low",
+    "severity": ""
+  },
+  {
+    "code": "B2324",
+    "description_ru": "",
+    "description_en": "Headlamp Washer Motor Control Circuit High",
+    "severity": ""
+  },
+  {
+    "code": "B2325",
+    "description_ru": "",
+    "description_en": "Headlamp Washer Motor Control Circuit Open",
+    "severity": ""
+  },
+  {
+    "code": "B2336",
+    "description_ru": "",
+    "description_en": "Horn Control Circuit Low",
+    "severity": ""
+  },
+  {
+    "code": "B2337",
+    "description_ru": "",
+    "description_en": "Horn Control Circuit High",
+    "severity": ""
+  },
+  {
+    "code": "B2338",
+    "description_ru": "",
+    "description_en": "Horn Control Circuit Open",
+    "severity": ""
+  },
+  {
+    "code": "B2346",
+    "description_ru": "",
+    "description_en": "Wiper Motor Low Speed Control Circuit Low",
+    "severity": ""
+  },
+  {
+    "code": "B2347",
+    "description_ru": "",
+    "description_en": "Wiper Motor Low Speed Control Circuit High",
+    "severity": ""
+  },
+  {
+    "code": "B2348",
+    "description_ru": "",
+    "description_en": "Wiper Motor Low Speed Control Circuit Open",
+    "severity": ""
+  },
+  {
+    "code": "B234A",
+    "description_ru": "",
+    "description_en": "Wiper Motor Hi Speed Control Circuit Low",
+    "severity": ""
+  },
+  {
+    "code": "B234B",
+    "description_ru": "",
+    "description_en": "Wiper Motor Hi Speed Control Circuit High",
+    "severity": ""
+  },
+  {
+    "code": "B234C",
+    "description_ru": "",
+    "description_en": "Wiper Motor Hi Speed Control Circuit Open",
+    "severity": ""
+  },
+  {
+    "code": "B2367",
+    "description_ru": "",
+    "description_en": "Window Washer Motor 1 Control Circuit",
+    "severity": ""
+  },
+  {
+    "code": "B2368",
+    "description_ru": "",
+    "description_en": "Window Washer Motor 1 Control Circuit Low",
+    "severity": ""
+  },
+  {
+    "code": "B2369",
+    "description_ru": "",
+    "description_en": "Window Washer Motor 1 Control Circuit High",
+    "severity": ""
+  },
+  {
+    "code": "B236A",
+    "description_ru": "",
+    "description_en": "Window Washer Motor 1 Control Circuit Open",
+    "severity": ""
+  },
+  {
+    "code": "B236F",
+    "description_ru": "",
+    "description_en": "Wiper Motor Low Speed Control Circuit Overcurrent",
+    "severity": ""
+  },
+  {
+    "code": "B2370",
+    "description_ru": "",
+    "description_en": "Wiper Motor Hi Speed Control Circuit Overcurrent",
+    "severity": ""
+  },
+  {
+    "code": "B2371",
+    "description_ru": "",
+    "description_en": "Horn Control Circuit Overcurrent",
+    "severity": ""
+  }
+]

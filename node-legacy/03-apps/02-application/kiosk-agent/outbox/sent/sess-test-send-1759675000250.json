@@ -1,0 +1,9 @@
+{
+  "id": "sess-test-send-1759675000250",
+  "to": {
+    "email": "dev@example.com"
+  },
+  "htmlPath": "c:\\Users\\Alexsey\\Desktop\\Новая папка (3)\\03-apps\\02-application\\kiosk-agent\\outbox\\sess-test-send-1759675000250.html",
+  "sentAt": "2025-10-05T14:36:40.251Z",
+  "note": "DEV only: simulated send — no external provider configured."
+}

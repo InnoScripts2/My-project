@@ -1,0 +1,179 @@
+{
+  "metadata": {
+    "description": "Standard Mode 01 PID responses",
+    "source": "ELM327 v1.5 adapter, 2015 Toyota Camry",
+    "date_captured": "2024-01-15T11:30:00Z",
+    "protocol": "ISO 15765-4 CAN",
+    "notes": "Engine running at idle, all PIDs captured within 2 seconds"
+  },
+  "frames": [
+    {
+      "command": "010C",
+      "response": "41 0C 0C 54\r\r>",
+      "expected": {
+        "success": true,
+        "mode": "41",
+        "pid": "0C",
+        "name": "rpm",
+        "value": 788,
+        "unit": "RPM",
+        "formula": "((0x0C * 256) + 0x54) / 4"
+      },
+      "notes": "Engine RPM at idle"
+    },
+    {
+      "command": "010D",
+      "response": "41 0D 00\r\r>",
+      "expected": {
+        "success": true,
+        "mode": "41",
+        "pid": "0D",
+        "name": "speed",
+        "value": 0,
+        "unit": "km/h",
+        "formula": "0x00"
+      },
+      "notes": "Vehicle speed: stationary"
+    },
+    {
+      "command": "0105",
+      "response": "41 05 5C\r\r>",
+      "expected": {
+        "success": true,
+        "mode": "41",
+        "pid": "05",
+        "name": "coolant_temp",
+        "value": 52,
+        "unit": "°C",
+        "formula": "0x5C - 40"
+      },
+      "notes": "Engine coolant temperature: 52°C (engine warm)"
+    },
+    {
+      "command": "0104",
+      "response": "41 04 2F\r\r>",
+      "expected": {
+        "success": true,
+        "mode": "41",
+        "pid": "04",
+        "name": "engine_load",
+        "value": 18.43,
+        "unit": "%",
+        "formula": "(0x2F * 100) / 255"
+      },
+      "notes": "Calculated engine load at idle"
+    },
+    {
+      "command": "0111",
+      "response": "41 11 19\r\r>",
+      "expected": {
+        "success": true,
+        "mode": "41",
+        "pid": "11",
+        "name": "throttle",
+        "value": 9.8,
+        "unit": "%",
+        "formula": "(0x19 * 100) / 255"
+      },
+      "notes": "Throttle position: near closed (idle)"
+    },
+    {
+      "command": "010F",
+      "response": "41 0F 46\r\r>",
+      "expected": {
+        "success": true,
+        "mode": "41",
+        "pid": "0F",
+        "name": "intake_temp",
+        "value": 30,
+        "unit": "°C",
+        "formula": "0x46 - 40"
+      },
+      "notes": "Intake air temperature"
+    },
+    {
+      "command": "0110",
+      "response": "41 10 01 A4\r\r>",
+      "expected": {
+        "success": true,
+        "mode": "41",
+        "pid": "10",
+        "name": "maf",
+        "value": 4.2,
+        "unit": "g/s",
+        "formula": "((0x01 * 256) + 0xA4) / 100"
+      },
+      "notes": "Mass air flow rate at idle"
+    },
+    {
+      "command": "010B",
+      "response": "41 0B 1D\r\r>",
+      "expected": {
+        "success": true,
+        "mode": "41",
+        "pid": "0B",
+        "name": "map",
+        "value": 29,
+        "unit": "kPa",
+        "formula": "0x1D"
+      },
+      "notes": "Intake manifold absolute pressure"
+    },
+    {
+      "command": "0106",
+      "response": "41 06 80\r\r>",
+      "expected": {
+        "success": true,
+        "mode": "41",
+        "pid": "06",
+        "name": "short_fuel_trim_1",
+        "value": 0,
+        "unit": "%",
+        "formula": "(0x80 - 128) * 100 / 128"
+      },
+      "notes": "Short term fuel trim (Bank 1): 0% (normal)"
+    },
+    {
+      "command": "0107",
+      "response": "41 07 82\r\r>",
+      "expected": {
+        "success": true,
+        "mode": "41",
+        "pid": "07",
+        "name": "long_fuel_trim_1",
+        "value": 1.56,
+        "unit": "%",
+        "formula": "(0x82 - 128) * 100 / 128"
+      },
+      "notes": "Long term fuel trim (Bank 1): slight positive adjustment"
+    },
+    {
+      "command": "0142",
+      "response": "41 42 34 E0\r\r>",
+      "expected": {
+        "success": true,
+        "mode": "41",
+        "pid": "42",
+        "name": "voltage",
+        "value": 13.6,
+        "unit": "V",
+        "formula": "((0x34 * 256) + 0xE0) / 1000"
+      },
+      "notes": "Control module voltage (battery)"
+    },
+    {
+      "command": "015C",
+      "response": "41 5C 32\r\r>",
+      "expected": {
+        "success": true,
+        "mode": "41",
+        "pid": "5C",
+        "name": "oil_temp",
+        "value": 10,
+        "unit": "°C",
+        "formula": "0x32 - 40"
+      },
+      "notes": "Engine oil temperature"
+    }
+  ]
+}

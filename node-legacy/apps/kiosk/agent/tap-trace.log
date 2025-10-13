@@ -1,0 +1,810 @@
+
+> kiosk-agent@0.1.0 test
+> node --import ./scripts/register-ts-node.mjs --test ./src/**/*.test.ts --test-reporter=tap
+
+TAP version 13
+# (node:36236) [DEP0180] DeprecationWarning: fs.Stats constructor is deprecated.
+# (Use `node --trace-deprecation ...` to show where the warning was created)
+# Subtest: resolveStorageLocation ╨┐╤А╨╡╨┤╨┐╨╛╤З╨╕╤В╨░╨╡╤В bucket/prefix ╨╕╨╖ instructions
+ok 1 - resolveStorageLocation ╨┐╤А╨╡╨┤╨┐╨╛╤З╨╕╤В╨░╨╡╤В bucket/prefix ╨╕╨╖ instructions
+  ---
+  duration_ms: 1.3231
+  type: 'test'
+  ...
+# Subtest: resolveStorageLocation ╤А╨░╨╖╨▒╨╕╤А╨░╨╡╤В artifact_url ╨┐╤А╨╕ ╨╛╤В╤Б╤Г╤В╤Б╤В╨▓╨╕╨╕ prefix
+ok 2 - resolveStorageLocation ╤А╨░╨╖╨▒╨╕╤А╨░╨╡╤В artifact_url ╨┐╤А╨╕ ╨╛╤В╤Б╤Г╤В╤Б╤В╨▓╨╕╨╕ prefix
+  ---
+  duration_ms: 0.2529
+  type: 'test'
+  ...
+# Subtest: resolveStorageLocation ╤В╤А╨╡╨▒╤Г╨╡╤В ╨║╨╛╤А╤А╨╡╨║╤В╨╜╤Л╨╣ ╨┐╤А╨╡╤Д╨╕╨║╤Б
+ok 3 - resolveStorageLocation ╤В╤А╨╡╨▒╤Г╨╡╤В ╨║╨╛╤А╤А╨╡╨║╤В╨╜╤Л╨╣ ╨┐╤А╨╡╤Д╨╕╨║╤Б
+  ---
+  duration_ms: 0.5629
+  type: 'test'
+  ...
+# Subtest: sanitizeVersionSegment ╤Г╨┤╨░╨╗╤П╨╡╤В ╨╜╨╡╨┤╨╛╨┐╤Г╤Б╤В╨╕╨╝╤Л╨╡ ╤Б╨╕╨╝╨▓╨╛╨╗╤Л ╨╕ ╨╖╨░╨╝╨╡╨╜╤П╨╡╤В ╨┐╤А╨╛╨▒╨╡╨╗╤Л
+ok 4 - sanitizeVersionSegment ╤Г╨┤╨░╨╗╤П╨╡╤В ╨╜╨╡╨┤╨╛╨┐╤Г╤Б╤В╨╕╨╝╤Л╨╡ ╤Б╨╕╨╝╨▓╨╛╨╗╤Л ╨╕ ╨╖╨░╨╝╨╡╨╜╤П╨╡╤В ╨┐╤А╨╛╨▒╨╡╨╗╤Л
+  ---
+  duration_ms: 0.3244
+  type: 'test'
+  ...
+# Subtest: sanitizeVersionSegment ╨▓╨╛╨╖╨▓╤А╨░╤Й╨░╨╡╤В latest ╨┤╨╗╤П ╨┐╤Г╤Б╤В╤Л╤Е ╨╖╨╜╨░╤З╨╡╨╜╨╕╨╣
+ok 5 - sanitizeVersionSegment ╨▓╨╛╨╖╨▓╤А╨░╤Й╨░╨╡╤В latest ╨┤╨╗╤П ╨┐╤Г╤Б╤В╤Л╤Е ╨╖╨╜╨░╤З╨╡╨╜╨╕╨╣
+  ---
+  duration_ms: 0.2006
+  type: 'test'
+  ...
+# (node:34644) [DEP0180] DeprecationWarning: fs.Stats constructor is deprecated.
+# (Use `node --trace-deprecation ...` to show where the warning was created)
+# Subtest: fetchAiInsights parses JSON summary/severity when model returns JSON string
+ok 6 - fetchAiInsights parses JSON summary/severity when model returns JSON string
+  ---
+  duration_ms: 1.9402
+  type: 'test'
+  ...
+# Subtest: fetchAiInsights falls back to free-form text when JSON parse fails
+ok 7 - fetchAiInsights falls back to free-form text when JSON parse fails
+  ---
+  duration_ms: 0.5934
+  type: 'test'
+  ...
+# Subtest: fetchAiInsights throws ai_not_configured if SUPABASE env is missing
+ok 8 - fetchAiInsights throws ai_not_configured if SUPABASE env is missing
+  ---
+  duration_ms: 0.3449
+  type: 'test'
+  ...
+# Subtest: buildPayloadFromDtc maps DTC codes and descriptions
+ok 9 - buildPayloadFromDtc maps DTC codes and descriptions
+  ---
+  duration_ms: 1.1091
+  type: 'test'
+  ...
+# (node:36340) [DEP0180] DeprecationWarning: fs.Stats constructor is deprecated.
+# (Use `node --trace-deprecation ...` to show where the warning was created)
+# [EmailService] Running in DEV mode - emails will be logged
+# [CoreServices] Initialized with environment: DEV
+# [CoreServices] Payment provider: dev
+# [CoreServices] Storage path: C:\\Users\\Alexsey\\Desktop\\My project\\apps\\kiosk-agent\\.tmp\\test-core-services
+# [DevPaymentProvider] Created payment: dev_1759915139214_g53pdf
+# [DevPaymentProvider] Auto-confirmed payment dev_1759915139214_g53pdf
+# [EmailService DEV] Would send email to: test@example.com
+# [EmailService DEV] Subject: ╨Ю╤В╤З╨╡╤В ╨┤╨╕╨░╨│╨╜╨╛╤Б╤В╨╕╨║╨╕ OBD-II
+# [EmailService DEV] Attachment: C:\\Users\\Alexsey\\Desktop\\My project\\apps\\kiosk-agent\\.tmp\\test-core-services\\reports\\diagnostics-OBD-MGHS18CT-0JJ89S-1759915141730.pdf
+# Subtest: CoreServices Integration
+    # Subtest: should create a complete flow: session -> payment -> report
+    ok 1 - should create a complete flow: session -> payment -> report
+      ---
+      duration_ms: 2556.813
+      type: 'test'
+      ...
+# [SessionManager] Auto-expiring session THK-MGHS1ABU-7B0ECI
+# [DevPaymentProvider] Created payment: dev_1759915141975_k01u0w
+# [DevPaymentProvider] Manually confirmed payment dev_1759915141975_k01u0w
+# [CoreServices] Closed all services
+    # Subtest: should handle session expiry
+    ok 2 - should handle session expiry
+      ---
+      duration_ms: 204.97
+      type: 'test'
+      ...
+    # Subtest: should allow manual payment confirmation in DEV
+    ok 3 - should allow manual payment confirmation in DEV
+      ---
+      duration_ms: 1.3215
+      type: 'test'
+      ...
+    # Subtest: should create router with all endpoints
+    ok 4 - should create router with all endpoints
+      ---
+      duration_ms: 1.5029
+      type: 'test'
+      ...
+    1..4
+ok 10 - CoreServices Integration
+  ---
+  duration_ms: 2825.1367
+  type: 'suite'
+  ...
+# (node:30956) [DEP0180] DeprecationWarning: fs.Stats constructor is deprecated.
+# (Use `node --trace-deprecation ...` to show where the warning was created)
+# [DevPaymentProvider] Created payment: dev_1759915138096_2kujhe
+# [DevPaymentProvider] Created payment: dev_1759915138111_fdckfp
+# [DevPaymentProvider] Created payment: dev_1759915138112_ql19yq
+# [DevPaymentProvider] Created payment: dev_1759915138113_6yfbcz
+# Subtest: PaymentService
+    # Subtest: should create payment intent
+    ok 1 - should create payment intent
+      ---
+      duration_ms: 14.2367
+      type: 'test'
+      ...
+    # Subtest: should get payment status
+    ok 2 - should get payment status
+      ---
+      duration_ms: 1.8286
+      type: 'test'
+      ...
+    # Subtest: should get payment intent
+    ok 3 - should get payment intent
+      ---
+      duration_ms: 1.1919
+      type: 'test'
+      ...
+# [DevPaymentProvider] Manually confirmed payment dev_1759915138113_6yfbcz
+# [DevPaymentProvider] Created payment: dev_1759915138174_73mim5
+# [DevPaymentProvider] Canceled payment dev_1759915138174_73mim5
+# [DevPaymentProvider] Created payment: dev_1759915138176_6x7hcg
+    # Subtest: should confirm payment in DEV mode
+    ok 4 - should confirm payment in DEV mode
+      ---
+      duration_ms: 60.6653
+      type: 'test'
+      ...
+    # Subtest: should cancel payment
+    ok 5 - should cancel payment
+      ---
+      duration_ms: 2.2057
+      type: 'test'
+      ...
+# [DevPaymentProvider] Auto-confirmed payment dev_1759915138096_2kujhe
+# [DevPaymentProvider] Auto-confirmed payment dev_1759915138111_fdckfp
+# [DevPaymentProvider] Auto-confirmed payment dev_1759915138112_ql19yq
+# [DevPaymentProvider] Auto-confirmed payment dev_1759915138176_6x7hcg
+    # Subtest: should auto-confirm payment after delay
+    ok 6 - should auto-confirm payment after delay
+      ---
+      duration_ms: 223.5379
+      type: 'test'
+      ...
+    1..6
+ok 11 - PaymentService
+  ---
+  duration_ms: 426.2043
+  type: 'suite'
+  ...
+# (node:36416) [DEP0180] DeprecationWarning: fs.Stats constructor is deprecated.
+# (Use `node --trace-deprecation ...` to show where the warning was created)
+# Kiosk Agent listening on http://127.0.0.1:0
+# Health check endpoint: http://127.0.0.1:0/health
+# Environment: DEV
+# [0mGET /health [32m200[0m 8.015 ms - 101[0m
+# Subtest: health endpoint returns service metadata
+ok 12 - health endpoint returns service metadata
+  ---
+  duration_ms: 614.7157
+  type: 'test'
+  ...
+# Kiosk Agent listening on http://127.0.0.1:0
+# Health check endpoint: http://127.0.0.1:0/health
+# Environment: QA
+# [0mPOST /api/payments/create-intent [33m401[0m 12.366 ms - 39[0m
+# [0mPOST /api/payments/create-intent [32m200[0m 0.810 ms - 165[0m
+# Subtest: payment intent creation requires service key unless in DEV
+ok 13 - payment intent creation requires service key unless in DEV
+  ---
+  duration_ms: 65.2864
+  type: 'test'
+  ...
+# (node:35948) [DEP0180] DeprecationWarning: fs.Stats constructor is deprecated.
+# (Use `node --trace-deprecation ...` to show where the warning was created)
+# Subtest: calculateBackoffDelay
+    # Subtest: should calculate delay with exponential backoff
+    ok 1 - should calculate delay with exponential backoff
+      ---
+      duration_ms: 1.9689
+      type: 'test'
+      ...
+    # Subtest: should cap delay at maxDelayMs
+    ok 2 - should cap delay at maxDelayMs
+      ---
+      duration_ms: 4.6381
+      type: 'test'
+      ...
+    # Subtest: should apply jitter
+    ok 3 - should apply jitter
+      ---
+      duration_ms: 0.2873
+      type: 'test'
+      ...
+    1..3
+ok 14 - calculateBackoffDelay
+  ---
+  duration_ms: 8.3401
+  type: 'suite'
+  ...
+# Subtest: retryWithPolicy
+    # Subtest: should return result on success
+    ok 1 - should return result on success
+      ---
+      duration_ms: 0.4799
+      type: 'test'
+      ...
+    # Subtest: should retry on failure
+    ok 2 - should retry on failure
+      ---
+      duration_ms: 69.483
+      type: 'test'
+      ...
+    # Subtest: should throw after max attempts
+    ok 3 - should throw after max attempts
+      ---
+      duration_ms: 62.9189
+      type: 'test'
+      ...
+    # Subtest: should call callbacks
+    ok 4 - should call callbacks
+      ---
+      duration_ms: 34.9567
+      type: 'test'
+      ...
+    1..4
+ok 15 - retryWithPolicy
+  ---
+  duration_ms: 169.2833
+  type: 'suite'
+  ...
+# Subtest: loadRetryPolicyConfig
+    # Subtest: should load default config
+    ok 1 - should load default config
+      ---
+      duration_ms: 0.3846
+      type: 'test'
+      ...
+    1..1
+ok 16 - loadRetryPolicyConfig
+  ---
+  duration_ms: 0.8094
+  type: 'suite'
+  ...
+# (node:16220) [DEP0180] DeprecationWarning: fs.Stats constructor is deprecated.
+# (Use `node --trace-deprecation ...` to show where the warning was created)
+# Subtest: DeviceHealthService
+    # Subtest: singleton
+        # Subtest: should return same instance
+        ok 1 - should return same instance
+          ---
+          duration_ms: 1.2908
+          type: 'test'
+          ...
+        1..1
+    ok 1 - singleton
+      ---
+      duration_ms: 2.554
+      type: 'suite'
+      ...
+    # Subtest: getHealthReport
+        # Subtest: should return health report structure
+        ok 1 - should return health report structure
+          ---
+          duration_ms: 53.8348
+          type: 'test'
+          ...
+        # Subtest: should report devices as unavailable when not set
+        ok 2 - should report devices as unavailable when not set
+          ---
+          duration_ms: 1.7644
+          type: 'test'
+          ...
+        # Subtest: should report storage as always available
+        ok 3 - should report storage as always available
+          ---
+          duration_ms: 0.9738
+          type: 'test'
+          ...
+        # Subtest: should calculate thickness progress using driver data
+        ok 4 - should calculate thickness progress using driver data
+          ---
+          duration_ms: 2.0539
+          type: 'test'
+          ...
+        1..4
+    ok 2 - getHealthReport
+      ---
+      duration_ms: 59.0634
+      type: 'suite'
+      ...
+    # Subtest: checkHealth
+        # Subtest: should return healthy status with report
+        ok 1 - should return healthy status with report
+          ---
+          duration_ms: 1.092
+          type: 'test'
+          ...
+        # Subtest: should be healthy when no errors present
+        ok 2 - should be healthy when no errors present
+          ---
+          duration_ms: 1.0099
+          type: 'test'
+          ...
+        1..2
+    ok 3 - checkHealth
+      ---
+      duration_ms: 2.4737
+      type: 'suite'
+      ...
+    1..3
+ok 17 - DeviceHealthService
+  ---
+  duration_ms: 65.1446
+  type: 'suite'
+  ...
+# (node:34984) [DEP0180] DeprecationWarning: fs.Stats constructor is deprecated.
+# (Use `node --trace-deprecation ...` to show where the warning was created)
+# {"timestamp":"2025-10-08T09:18:58.102Z","level":"info","message":"[Elm327Driver] Initializing Elm327Driver","context":{"config":{"transport":"serial","port":"/dev/ttyUSB99","baudRate":38400,"timeout":1000}}}
+# Subtest: Elm327Driver
+    # Subtest: initialization
+        # Subtest: should start in disconnected state
+        ok 1 - should start in disconnected state
+          ---
+          duration_ms: 1.1585
+          type: 'test'
+          ...
+# {"timestamp":"2025-10-08T09:18:58.139Z","level":"warn","message":"[Elm327Driver] Connection attempt 1 failed","context":{"error":{"code":"device_connection_error","details":{"error":{}},"name":"DeviceConnectionError"}}}
+# {"timestamp":"2025-10-08T09:19:00.038Z","level":"warn","message":"[Elm327Driver] Connection attempt 2 failed","context":{"error":{"code":"device_connection_error","details":{"error":{}},"name":"DeviceConnectionError"}}}
+# {"timestamp":"2025-10-08T09:19:04.396Z","level":"warn","message":"[Elm327Driver] Connection attempt 3 failed","context":{"error":{"code":"device_connection_error","details":{"error":{}},"name":"DeviceConnectionError"}}}
+        # Subtest: should emit state_changed on init
+        ok 2 - should emit state_changed on init
+          ---
+          duration_ms: 6294.4032
+          type: 'test'
+          ...
+        1..2
+    ok 1 - initialization
+      ---
+      duration_ms: 6296.5351
+      type: 'suite'
+      ...
+    # Subtest: getHealthStatus
+        # Subtest: should return health status with metrics
+        ok 1 - should return health status with metrics
+          ---
+          duration_ms: 0.401
+          type: 'test'
+          ...
+        # Subtest: should have zero metrics initially
+        ok 2 - should have zero metrics initially
+          ---
+          duration_ms: 0.145
+          type: 'test'
+          ...
+        1..2
+    ok 2 - getHealthStatus
+      ---
+      duration_ms: 0.6695
+      type: 'suite'
+      ...
+    # Subtest: DTC parsing
+        # Subtest: should handle empty DTC response
+        ok 1 - should handle empty DTC response
+          ---
+          duration_ms: 0.1403
+          type: 'test'
+          ...
+        1..1
+    ok 3 - DTC parsing
+      ---
+      duration_ms: 0.2417
+      type: 'suite'
+      ...
+    1..3
+ok 18 - Elm327Driver
+  ---
+  duration_ms: 6298.157
+  type: 'suite'
+  ...
+# (node:15800) [DEP0180] DeprecationWarning: fs.Stats constructor is deprecated.
+# (Use `node --trace-deprecation ...` to show where the warning was created)
+# Subtest: OBD-II Integration Tests with Built-in Emulator
+    # Subtest: should connect and identify adapter
+    ok 1 - should connect and identify adapter
+      ---
+      duration_ms: 246.4631
+      type: 'test'
+      ...
+    # Subtest: should read DTC codes
+    ok 2 - should read DTC codes
+      ---
+      duration_ms: 246.184
+      type: 'test'
+      ...
+    # Subtest: should clear DTC codes
+    ok 3 - should clear DTC codes
+      ---
+      duration_ms: 391.2058
+      type: 'test'
+      ...
+    # Subtest: should read RPM data
+    ok 4 - should read RPM data
+      ---
+      duration_ms: 260.2412
+      type: 'test'
+      ...
+    # Subtest: should read temperature data
+    ok 5 - should read temperature data
+      ---
+      duration_ms: 243.2496
+      type: 'test'
+      ...
+# ЁЯЪЧ Starting complete diagnostic session...
+    # Subtest: should handle parameter changes
+    ok 6 - should handle parameter changes
+      ---
+      duration_ms: 311.7852
+      type: 'test'
+      ...
+# тЬЕ Connected to adapter
+# ЁЯФН Adapter: ELM327 v2.1
+# ЁЯЪи Found 3 DTC codes: P0171, P0420, P0301
+# ЁЯУК RPM: 800 rpm, Temperature: 85 ┬░C
+# ЁЯФз DTC codes cleared: true
+# тЬЕ DTC codes after clearing: 0
+# ЁЯСЛ Diagnostic session completed successfully
+# ЁЯОм Testing scenario: Idle Engine
+    # Subtest: should perform complete diagnostic session
+    ok 7 - should perform complete diagnostic session
+      ---
+      duration_ms: 576.2776
+      type: 'test'
+      ...
+#   RPM: 800 (expected 800)
+#   Temp: 85┬░C (expected 85┬░C)
+# ЁЯОм Testing scenario: Highway Driving
+#   RPM: 2500 (expected 2500)
+#   Temp: 95┬░C (expected 95┬░C)
+# ЁЯОм Testing scenario: Cold Start
+#   RPM: 1200 (expected 1200)
+#   Temp: 60┬░C (expected 60┬░C)
+    # Subtest: should simulate realistic vehicle scenarios
+    ok 8 - should simulate realistic vehicle scenarios
+      ---
+      duration_ms: 929.9978
+      type: 'test'
+      ...
+# тП▒я╕П Performance: 62.00ms per operation
+# ЁЯУК Total: 1240ms for 20 operations
+    # Subtest: should measure performance
+    ok 9 - should measure performance
+      ---
+      duration_ms: 1426.6414
+      type: 'test'
+      ...
+    # Subtest: should handle error conditions
+    ok 10 - should handle error conditions
+      ---
+      duration_ms: 245.989
+      type: 'test'
+      ...
+    1..10
+ok 19 - OBD-II Integration Tests with Built-in Emulator
+  ---
+  duration_ms: 4882.299
+  type: 'suite'
+  ...
+# (node:34692) [DEP0180] DeprecationWarning: fs.Stats constructor is deprecated.
+# (Use `node --trace-deprecation ...` to show where the warning was created)
+# Subtest: OBD-II Emulation Tests
+    # Subtest: ELM327 Emulator Transport
+        # Subtest: should initialize with Toyota Camry profile
+        ok 1 - should initialize with Toyota Camry profile
+          ---
+          duration_ms: 226.5772
+          type: 'test'
+          ...
+        # Subtest: should respond to basic AT commands
+        ok 2 - should respond to basic AT commands
+          ---
+          duration_ms: 529.9496
+          type: 'test'
+          ...
+        # Subtest: should return engine RPM data
+        ok 3 - should return engine RPM data
+          ---
+          duration_ms: 324.0096
+          type: 'test'
+          ...
+        # Subtest: should simulate DTC codes
+        ok 4 - should simulate DTC codes
+          ---
+          duration_ms: 325.1517
+          type: 'test'
+          ...
+        # Subtest: should clear DTC codes
+        ok 5 - should clear DTC codes
+          ---
+          duration_ms: 419.6771
+          type: 'test'
+          ...
+        # Subtest: should simulate parameter changes over time
+        ok 6 - should simulate parameter changes over time
+          ---
+          duration_ms: 5726.5366
+          type: 'test'
+          ...
+        1..6
+    ok 1 - ELM327 Emulator Transport
+      ---
+      duration_ms: 7553.6883
+      type: 'suite'
+      ...
+    # Subtest: Elm327Driver with Emulator
+        # Subtest: should connect and initialize with emulated adapter
+        ok 1 - should connect and initialize with emulated adapter
+          ---
+          duration_ms: 703.3234
+          type: 'test'
+          ...
+        # Subtest: should read DTC codes from emulated vehicle
+        ok 2 - should read DTC codes from emulated vehicle
+          ---
+          duration_ms: 698.1932
+          type: 'test'
+          ...
+        # Subtest: should clear DTC codes
+        ok 3 - should clear DTC codes
+          ---
+          duration_ms: 822.0831
+          type: 'test'
+          ...
+        # Subtest: should read live PID data
+        ok 4 - should read live PID data
+          ---
+          duration_ms: 765.9112
+          type: 'test'
+          ...
+        # Subtest: should handle different vehicle profiles
+        ok 5 - should handle different vehicle profiles
+          ---
+          duration_ms: 1393.8037
+          type: 'test'
+          ...
+        # Subtest: should handle random transport errors
+        ok 6 - should handle random transport errors
+          ---
+          duration_ms: 1383.9381
+          type: 'test'
+          ...
+        # Subtest: should propagate connection loss events
+        ok 7 - should propagate connection loss events
+          ---
+          duration_ms: 635.3245
+          type: 'test'
+          ...
+        1..7
+    ok 2 - Elm327Driver with Emulator
+      ---
+      duration_ms: 6403.5395
+      type: 'suite'
+      ...
+    1..2
+ok 20 - OBD-II Emulation Tests
+  ---
+  duration_ms: 13958.025
+  type: 'suite'
+  ...
+# (node:36500) [DEP0180] DeprecationWarning: fs.Stats constructor is deprecated.
+# (Use `node --trace-deprecation ...` to show where the warning was created)
+# Subtest: buildLaunchX431HandshakePacket produces consistent frame
+ok 21 - buildLaunchX431HandshakePacket produces consistent frame
+  ---
+  duration_ms: 1.5124
+  type: 'test'
+  ...
+# Subtest: parseLaunchX431Frame validates checksum and payload
+ok 22 - parseLaunchX431Frame validates checksum and payload
+  ---
+  duration_ms: 0.56
+  type: 'test'
+  ...
+# Subtest: parseLaunchX431Frame rejects invalid checksum
+ok 23 - parseLaunchX431Frame rejects invalid checksum
+  ---
+  duration_ms: 0.32
+  type: 'test'
+  ...
+# Subtest: sanitizeClientTag enforces ASCII length bounds
+ok 24 - sanitizeClientTag enforces ASCII length bounds
+  ---
+  duration_ms: 0.6836
+  type: 'test'
+  ...
+# Subtest: isLaunchX431Frame detects start byte
+ok 25 - isLaunchX431Frame detects start byte
+  ---
+  duration_ms: 0.2924
+  type: 'test'
+  ...
+# Subtest: checksum helper matches manual sum
+ok 26 - checksum helper matches manual sum
+  ---
+  duration_ms: 0.2633
+  type: 'test'
+  ...
+# (node:34340) [DEP0180] DeprecationWarning: fs.Stats constructor is deprecated.
+# (Use `node --trace-deprecation ...` to show where the warning was created)
+# {"timestamp":"2025-10-08T09:18:57.918Z","level":"info","message":"State transition","service":"kiosk-agent","component":"ObdOrchestrator","environment":"DEV","from":"DISCONNECTED","to":"CONNECTING"}
+# {"timestamp":"2025-10-08T09:18:57.920Z","level":"info","message":"State transition","service":"kiosk-agent","component":"ObdOrchestrator","environment":"DEV","from":"CONNECTING","to":"CONNECTED"}
+# {"timestamp":"2025-10-08T09:18:57.920Z","level":"info","message":"Driver connected successfully","service":"kiosk-agent","component":"ObdOrchestrator","environment":"DEV"}
+# {"timestamp":"2025-10-08T09:18:57.922Z","level":"info","message":"State transition","service":"kiosk-agent","component":"ObdOrchestrator","environment":"DEV","from":"DISCONNECTED","to":"CONNECTING"}
+# {"timestamp":"2025-10-08T09:18:57.922Z","level":"info","message":"State transition","service":"kiosk-agent","component":"ObdOrchestrator","environment":"DEV","from":"CONNECTING","to":"ERROR"}
+# {"timestamp":"2025-10-08T09:18:57.922Z","level":"error","message":"Connection failed","service":"kiosk-agent","component":"ObdOrchestrator","environment":"DEV","error":"Mock init failed"}
+# {"timestamp":"2025-10-08T09:18:57.923Z","level":"info","message":"State transition","service":"kiosk-agent","component":"ObdOrchestrator","environment":"DEV","from":"DISCONNECTED","to":"CONNECTING"}
+# {"timestamp":"2025-10-08T09:18:57.929Z","level":"info","message":"State transition","service":"kiosk-agent","component":"ObdOrchestrator","environment":"DEV","from":"CONNECTING","to":"CONNECTED"}
+# {"timestamp":"2025-10-08T09:18:57.930Z","level":"info","message":"Driver connected successfully","service":"kiosk-agent","component":"ObdOrchestrator","environment":"DEV"}
+# {"timestamp":"2025-10-08T09:18:57.931Z","level":"info","message":"State transition","service":"kiosk-agent","component":"ObdOrchestrator","environment":"DEV","from":"DISCONNECTED","to":"CONNECTING"}
+# {"timestamp":"2025-10-08T09:18:57.932Z","level":"info","message":"State transition","service":"kiosk-agent","component":"ObdOrchestrator","environment":"DEV","from":"CONNECTING","to":"CONNECTED"}
+# {"timestamp":"2025-10-08T09:18:57.932Z","level":"info","message":"Driver connected successfully","service":"kiosk-agent","component":"ObdOrchestrator","environment":"DEV"}
+# {"timestamp":"2025-10-08T09:18:57.940Z","level":"info","message":"State transition","service":"kiosk-agent","component":"ObdOrchestrator","environment":"DEV","sessionId":"22bd3aac-560b-464f-a84c-3026e69591c0","from":"CONNECTED","to":"SCANNING"}
+# {"timestamp":"2025-10-08T09:18:57.941Z","level":"info","message":"Scan started","service":"kiosk-agent","component":"ObdOrchestrator","environment":"DEV","sessionId":"22bd3aac-560b-464f-a84c-3026e69591c0"}
+# {"timestamp":"2025-10-08T09:18:57.942Z","level":"info","message":"State transition","service":"kiosk-agent","component":"ObdOrchestrator","environment":"DEV","from":"DISCONNECTED","to":"CONNECTING"}
+# {"timestamp":"2025-10-08T09:18:57.942Z","level":"info","message":"State transition","service":"kiosk-agent","component":"ObdOrchestrator","environment":"DEV","from":"CONNECTING","to":"CONNECTED"}
+# {"timestamp":"2025-10-08T09:18:57.942Z","level":"info","message":"Driver connected successfully","service":"kiosk-agent","component":"ObdOrchestrator","environment":"DEV"}
+# {"timestamp":"2025-10-08T09:18:57.942Z","level":"info","message":"State transition","service":"kiosk-agent","component":"ObdOrchestrator","environment":"DEV","sessionId":"d45f90c3-f655-4c7f-93c2-a70d6c049357","from":"CONNECTED","to":"SCANNING"}
+# {"timestamp":"2025-10-08T09:18:57.942Z","level":"info","message":"Scan started","service":"kiosk-agent","component":"ObdOrchestrator","environment":"DEV","sessionId":"d45f90c3-f655-4c7f-93c2-a70d6c049357"}
+# Subtest: ObdOrchestrator
+    # Subtest: connect
+        # Subtest: should transition to CONNECTED state on successful connection
+        ok 1 - should transition to CONNECTED state on successful connection
+          ---
+          duration_ms: 3.9045
+          type: 'test'
+          ...
+        # Subtest: should emit error on connection failure
+        ok 2 - should emit error on connection failure
+          ---
+          duration_ms: 1.2217
+          type: 'test'
+          ...
+        # Subtest: should return immediately if already connected
+        ok 3 - should return immediately if already connected
+          ---
+          duration_ms: 7.9132
+          type: 'test'
+          ...
+        1..3
+    ok 1 - connect
+      ---
+      duration_ms: 14.1601
+      type: 'suite'
+      ...
+    # Subtest: startScan
+        # Subtest: should create session and start scanning
+        ok 1 - should create session and start scanning
+          ---
+          duration_ms: 10.245
+          type: 'test'
+          ...
+        # Subtest: should throw error if not connected
+        ok 2 - should throw error if not connected
+          ---
+          duration_ms: 0.4139
+          type: 'test'
+          ...
+# {"timestamp":"2025-10-08T09:19:08.172Z","level":"info","message":"State transition","service":"kiosk-agent","component":"ObdOrchestrator","environment":"DEV","sessionId":"22bd3aac-560b-464f-a84c-3026e69591c0","from":"SCANNING","to":"RESULTS_READY"}
+# {"timestamp":"2025-10-08T09:19:08.172Z","level":"info","message":"Scan completed","service":"kiosk-agent","component":"ObdOrchestrator","environment":"DEV","sessionId":"22bd3aac-560b-464f-a84c-3026e69591c0","dtcCount":2,"pidCount":20}
+# {"timestamp":"2025-10-08T09:19:08.172Z","level":"info","message":"State transition","service":"kiosk-agent","component":"ObdOrchestrator","environment":"DEV","sessionId":"d45f90c3-f655-4c7f-93c2-a70d6c049357","from":"SCANNING","to":"RESULTS_READY"}
+# {"timestamp":"2025-10-08T09:19:08.172Z","level":"info","message":"Scan completed","service":"kiosk-agent","component":"ObdOrchestrator","environment":"DEV","sessionId":"d45f90c3-f655-4c7f-93c2-a70d6c049357","dtcCount":2,"pidCount":20}
+# {"timestamp":"2025-10-08T09:19:08.173Z","level":"info","message":"State transition","service":"kiosk-agent","component":"ObdOrchestrator","environment":"DEV","from":"DISCONNECTED","to":"CONNECTING"}
+# {"timestamp":"2025-10-08T09:19:08.173Z","level":"info","message":"State transition","service":"kiosk-agent","component":"ObdOrchestrator","environment":"DEV","from":"CONNECTING","to":"CONNECTED"}
+# {"timestamp":"2025-10-08T09:19:08.173Z","level":"info","message":"Driver connected successfully","service":"kiosk-agent","component":"ObdOrchestrator","environment":"DEV"}
+# {"timestamp":"2025-10-08T09:19:08.173Z","level":"info","message":"State transition","service":"kiosk-agent","component":"ObdOrchestrator","environment":"DEV","sessionId":"5932eab8-2adc-4f10-b3f0-12678b9412f3","from":"CONNECTED","to":"SCANNING"}
+# {"timestamp":"2025-10-08T09:19:08.173Z","level":"info","message":"Scan started","service":"kiosk-agent","component":"ObdOrchestrator","environment":"DEV","sessionId":"5932eab8-2adc-4f10-b3f0-12678b9412f3"}
+        # Subtest: should complete scan and transition to RESULTS_READY
+        ok 3 - should complete scan and transition to RESULTS_READY
+          ---
+          duration_ms: 10230.2646
+          type: 'test'
+          ...
+# {"timestamp":"2025-10-08T09:19:18.393Z","level":"info","message":"State transition","service":"kiosk-agent","component":"ObdOrchestrator","environment":"DEV","sessionId":"5932eab8-2adc-4f10-b3f0-12678b9412f3","from":"SCANNING","to":"RESULTS_READY"}
+# {"timestamp":"2025-10-08T09:19:18.393Z","level":"info","message":"Scan completed","service":"kiosk-agent","component":"ObdOrchestrator","environment":"DEV","sessionId":"5932eab8-2adc-4f10-b3f0-12678b9412f3","dtcCount":2,"pidCount":20}
+# {"timestamp":"2025-10-08T09:19:18.394Z","level":"info","message":"State transition","service":"kiosk-agent","component":"ObdOrchestrator","environment":"DEV","from":"DISCONNECTED","to":"CONNECTING"}
+# {"timestamp":"2025-10-08T09:19:18.394Z","level":"info","message":"State transition","service":"kiosk-agent","component":"ObdOrchestrator","environment":"DEV","from":"CONNECTING","to":"CONNECTED"}
+# {"timestamp":"2025-10-08T09:19:18.395Z","level":"info","message":"Driver connected successfully","service":"kiosk-agent","component":"ObdOrchestrator","environment":"DEV"}
+# {"timestamp":"2025-10-08T09:19:18.395Z","level":"info","message":"State transition","service":"kiosk-agent","component":"ObdOrchestrator","environment":"DEV","sessionId":"ba6a83f1-37c7-4096-a7a3-2c6850ff0322","from":"CONNECTED","to":"SCANNING"}
+# {"timestamp":"2025-10-08T09:19:18.395Z","level":"info","message":"Scan started","service":"kiosk-agent","component":"ObdOrchestrator","environment":"DEV","sessionId":"ba6a83f1-37c7-4096-a7a3-2c6850ff0322"}
+        # Subtest: should track scan progress
+        ok 4 - should track scan progress
+          ---
+          duration_ms: 10221.1958
+          type: 'test'
+          ...
+        1..4
+    ok 2 - startScan
+      ---
+      duration_ms: 20462.9301
+      type: 'suite'
+      ...
+# {"timestamp":"2025-10-08T09:19:28.641Z","level":"info","message":"State transition","service":"kiosk-agent","component":"ObdOrchestrator","environment":"DEV","sessionId":"ba6a83f1-37c7-4096-a7a3-2c6850ff0322","from":"SCANNING","to":"RESULTS_READY"}
+# {"timestamp":"2025-10-08T09:19:28.641Z","level":"info","message":"Scan completed","service":"kiosk-agent","component":"ObdOrchestrator","environment":"DEV","sessionId":"ba6a83f1-37c7-4096-a7a3-2c6850ff0322","dtcCount":2,"pidCount":20}
+# {"timestamp":"2025-10-08T09:19:28.642Z","level":"info","message":"State transition","service":"kiosk-agent","component":"ObdOrchestrator","environment":"DEV","from":"DISCONNECTED","to":"CONNECTING"}
+# {"timestamp":"2025-10-08T09:19:28.643Z","level":"info","message":"State transition","service":"kiosk-agent","component":"ObdOrchestrator","environment":"DEV","from":"CONNECTING","to":"CONNECTED"}
+# {"timestamp":"2025-10-08T09:19:28.643Z","level":"info","message":"Driver connected successfully","service":"kiosk-agent","component":"ObdOrchestrator","environment":"DEV"}
+# {"timestamp":"2025-10-08T09:19:28.643Z","level":"info","message":"State transition","service":"kiosk-agent","component":"ObdOrchestrator","environment":"DEV","from":"DISCONNECTED","to":"CONNECTING"}
+# {"timestamp":"2025-10-08T09:19:28.643Z","level":"info","message":"State transition","service":"kiosk-agent","component":"ObdOrchestrator","environment":"DEV","from":"CONNECTING","to":"CONNECTED"}
+# {"timestamp":"2025-10-08T09:19:28.643Z","level":"info","message":"Driver connected successfully","service":"kiosk-agent","component":"ObdOrchestrator","environment":"DEV"}
+# {"timestamp":"2025-10-08T09:19:28.643Z","level":"info","message":"State transition","service":"kiosk-agent","component":"ObdOrchestrator","environment":"DEV","sessionId":"03424341-01bd-45a6-980d-b760becf955c","from":"CONNECTED","to":"SCANNING"}
+# {"timestamp":"2025-10-08T09:19:28.643Z","level":"info","message":"Scan started","service":"kiosk-agent","component":"ObdOrchestrator","environment":"DEV","sessionId":"03424341-01bd-45a6-980d-b760becf955c"}
+    # Subtest: getScanResults
+        # Subtest: should return session data
+        ok 1 - should return session data
+          ---
+          duration_ms: 10247.1873
+          type: 'test'
+          ...
+        # Subtest: should return undefined for non-existent session
+        ok 2 - should return undefined for non-existent session
+          ---
+          duration_ms: 0.3695
+          type: 'test'
+          ...
+        1..2
+    ok 3 - getScanResults
+      ---
+      duration_ms: 10247.9661
+      type: 'suite'
+      ...
+    # Subtest: clearDtc
+        # Subtest: should require confirmation
+        ok 1 - should require confirmation
+          ---
+          duration_ms: 0.5648
+          type: 'test'
+          ...
+# {"timestamp":"2025-10-08T09:19:38.893Z","level":"info","message":"State transition","service":"kiosk-agent","component":"ObdOrchestrator","environment":"DEV","sessionId":"03424341-01bd-45a6-980d-b760becf955c","from":"SCANNING","to":"RESULTS_READY"}
+# {"timestamp":"2025-10-08T09:19:38.893Z","level":"info","message":"Scan completed","service":"kiosk-agent","component":"ObdOrchestrator","environment":"DEV","sessionId":"03424341-01bd-45a6-980d-b760becf955c","dtcCount":2,"pidCount":20}
+# {"timestamp":"2025-10-08T09:19:38.893Z","level":"info","message":"State transition","service":"kiosk-agent","component":"ObdOrchestrator","environment":"DEV","sessionId":"03424341-01bd-45a6-980d-b760becf955c","from":"RESULTS_READY","to":"IDLE"}
+# {"timestamp":"2025-10-08T09:19:38.893Z","level":"info","message":"DTC cleared","service":"kiosk-agent","component":"ObdOrchestrator","environment":"DEV","sessionId":"03424341-01bd-45a6-980d-b760becf955c","success":true}
+# {"timestamp":"2025-10-08T09:19:38.894Z","level":"info","message":"State transition","service":"kiosk-agent","component":"ObdOrchestrator","environment":"DEV","from":"DISCONNECTED","to":"CONNECTING"}
+# {"timestamp":"2025-10-08T09:19:38.894Z","level":"info","message":"State transition","service":"kiosk-agent","component":"ObdOrchestrator","environment":"DEV","from":"CONNECTING","to":"CONNECTED"}
+# {"timestamp":"2025-10-08T09:19:38.894Z","level":"info","message":"Driver connected successfully","service":"kiosk-agent","component":"ObdOrchestrator","environment":"DEV"}
+# {"timestamp":"2025-10-08T09:19:38.894Z","level":"info","message":"State transition","service":"kiosk-agent","component":"ObdOrchestrator","environment":"DEV","from":"CONNECTED","to":"DISCONNECTED"}
+# {"timestamp":"2025-10-08T09:19:38.894Z","level":"info","message":"Disconnected","service":"kiosk-agent","component":"ObdOrchestrator","environment":"DEV"}
+# {"timestamp":"2025-10-08T09:19:38.894Z","level":"info","message":"State transition","service":"kiosk-agent","component":"ObdOrchestrator","environment":"DEV","from":"DISCONNECTED","to":"CONNECTING"}
+# {"timestamp":"2025-10-08T09:19:38.894Z","level":"info","message":"State transition","service":"kiosk-agent","component":"ObdOrchestrator","environment":"DEV","from":"CONNECTING","to":"CONNECTED"}
+# {"timestamp":"2025-10-08T09:19:38.894Z","level":"info","message":"Driver connected successfully","service":"kiosk-agent","component":"ObdOrchestrator","environment":"DEV"}
+        # Subtest: should clear DTC codes when confirmed
+        ok 2 - should clear DTC codes when confirmed
+          ---
+          duration_ms: 10250.5146
+          type: 'test'
+          ...
+        1..2
+    ok 4 - clearDtc
+      ---
+      duration_ms: 10251.3514
+      type: 'suite'
+      ...
+    # Subtest: disconnect
+        # Subtest: should disconnect and transition to DISCONNECTED state
+        ok 1 - should disconnect and transition to DISCONNECTED state
+          ---
+          duration_ms: 0.3545
+          type: 'test'
+          ...
+        1..1
+    ok 5 - disconnect
+      ---
+      duration_ms: 0.453
+      type: 'suite'
+      ...
+    # Subtest: getStatus
+        # Subtest: should return current status
+        ok 1 - should return current status
+          ---
+          duration_ms: 0.1632
+          type: 'test'
+          ...
+        1..1
+    ok 6 - getStatus
+      ---
+      duration_ms: 0.2098
+      type: 'suite'
+      ...
+    1..6
+ok 27 - ObdOrchestrator
+  ---
+  duration_ms: 40978.1772
+  type: 'suite'
+  ...
+# {"timestamp":"2025-10-08T09:19:38.909Z","level":"info","message":"State transition","service":"kiosk-agent","component":"ObdOrchestrator","environment":"DEV","from":"DISCONNECTED","to":"DISCONNECTED"}

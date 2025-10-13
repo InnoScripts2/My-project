@@ -1,0 +1,44 @@
+# Docker Compose для Activepieces
+# Используется для workflow automation в kiosk-agent
+
+version: '3.8'
+
+services:
+  activepieces-postgres:
+    image: postgres:15-alpine
+    container_name: activepieces-postgres
+    environment:
+      POSTGRES_DB: activepieces
+      POSTGRES_USER: activepieces
+      POSTGRES_PASSWORD: activepieces-password
+    volumes:
+      - activepieces-postgres-data:/var/lib/postgresql/data
+    networks:
+      - activepieces-network
+    restart: unless-stopped
+
+  activepieces:
+    image: activepieces/activepieces:latest
+    container_name: activepieces
+    ports:
+      - "3000:3000"
+    environment:
+      AP_POSTGRES_HOST: activepieces-postgres
+      AP_POSTGRES_PORT: 5432
+      AP_POSTGRES_DATABASE: activepieces
+      AP_POSTGRES_USERNAME: activepieces
+      AP_POSTGRES_PASSWORD: activepieces-password
+      AP_API_URL: http://localhost:3000
+      AP_ENVIRONMENT: prod
+    depends_on:
+      - activepieces-postgres
+    networks:
+      - activepieces-network
+    restart: unless-stopped
+
+volumes:
+  activepieces-postgres-data:
+
+networks:
+  activepieces-network:
+    driver: bridge

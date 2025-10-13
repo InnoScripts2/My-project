@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Диагностика автомобиля</title>
+  <link rel="stylesheet" href="../../styles/obd/diagnostics.css">
+  <link rel="stylesheet" href="../../styles/obd/gauges.css">
+  <link rel="stylesheet" href="../../styles/obd/charts.css">
+</head>
+<body>
+  <div class="diagnostics-container">
+    <header class="diagnostics-header">
+      <h1>Диагностика автомобиля</h1>
+      <div id="scan-status" class="scan-status">Инициализация...</div>
+    </header>
+
+    <div class="progress-section">
+      <div class="progress-bar-container">
+        <div id="progress-bar" class="progress-bar" style="width: 0%"></div>
+      </div>
+      <div id="progress-text" class="progress-text">0%</div>
+    </div>
+
+    <div class="live-data-section">
+      <div class="gauges-row">
+        <div class="gauge-container">
+          <canvas id="rpm-gauge" width="300" height="300"></canvas>
+        </div>
+        <div class="gauge-container">
+          <canvas id="speed-gauge" width="300" height="300"></canvas>
+        </div>
+      </div>
+
+      <div class="gauges-row">
+        <div class="bar-container">
+          <canvas id="coolant-bar" width="150" height="250"></canvas>
+        </div>
+        <div class="bar-container">
+          <canvas id="oil-bar" width="150" height="250"></canvas>
+        </div>
+        <div class="bar-container">
+          <canvas id="battery-bar" width="200" height="100"></canvas>
+        </div>
+      </div>
+
+      <div class="chart-row">
+        <div class="chart-container">
+          <canvas id="realtime-chart" width="800" height="400"></canvas>
+        </div>
+      </div>
+
+      <div id="hybrid-panel-container" class="hybrid-panel-container" style="display: none;"></div>
+    </div>
+
+    <div id="scan-error" class="error-message" style="display: none;"></div>
+  </div>
+
+  <script type="module">
+    import { ObdWebSocket } from '../../api/obd-websocket.js';
+    import { RpmGauge, SpeedGauge, TemperatureBar, BatteryVoltageIndicator } from '../../components/obd/gauges.js';
+    import { RealtimeChart } from '../../components/obd/charts.js';
+    import { HybridPanel } from '../../components/obd/hybrid-panel.js';
+
+    const rpmCanvas = document.getElementById('rpm-gauge');
+    const speedCanvas = document.getElementById('speed-gauge');
+    const coolantCanvas = document.getElementById('coolant-bar');
+    const oilCanvas = document.getElementById('oil-bar');
+    const batteryCanvas = document.getElementById('battery-bar');
+    const chartCanvas = document.getElementById('realtime-chart');
+    const hybridPanelContainer = document.getElementById('hybrid-panel-container');
+    const progressBar = document.getElementById('progress-bar');
+    const progressText = document.getElementById('progress-text');
+    const scanStatus = document.getElementById('scan-status');
+    const scanError = document.getElementById('scan-error');
+
+    const rpmGauge = new RpmGauge(rpmCanvas, { max: 8000, redZone: 6000 });
+    const speedGauge = new SpeedGauge(speedCanvas, { max: 200, redZone: 160 });
+    const coolantBar = new TemperatureBar(coolantCanvas, { 
+      min: -40, 
+      max: 150, 
+      criticalThreshold: 100, 
+      label: 'Охлаждающая жидкость' 
+    });
+    const oilBar = new TemperatureBar(oilCanvas, { 
+      min: -40, 
+      max: 150, 
+      criticalThreshold: 120, 
+      label: 'Масло' 
+    });
+    const batteryIndicator = new BatteryVoltageIndicator(batteryCanvas);
+    const realtimeChart = new RealtimeChart(chartCanvas, { maxDataPoints: 60 });
+    const hybridPanel = new HybridPanel(hybridPanelContainer);
+
+    const urlParams = new URLSearchParams(window.location.search);
+    const vehicleMake = sessionStorage.getItem('vehicleMake') || 'Toyota';
+
+    if (vehicleMake === 'Toyota' || vehicleMake === 'Lexus') {
+      hybridPanelContainer.style.display = 'block';
+    }
+
+    let progress = 0;
+    let currentValues = {
+      rpm: 0,
+      speed: 0,
+      coolant: 0,
+      throttle: 0,
+    };
+
+    function updateProgress(percent, status) {
+      progress = Math.min(100, Math.max(0, percent));
+      progressBar.style.width = `${progress}%`;
+      progressText.textContent = `${Math.round(progress)}%`;
+      if (status) {
+        scanStatus.textContent = status;
+      }
+
+      if (progress >= 100) {
+        setTimeout(() => {
+          window.location.href = './results.html';
+        }, 2000);
+      }
+    }
+
+    const progressStages = [
+      { percent: 30, status: 'Считывание параметров двигателя...', duration: 5000 },
+      { percent: 60, status: 'Проверка систем...', duration: 5000 },
+      { percent: 90, status: 'Сканирование кодов ошибок...', duration: 5000 },
+      { percent: 100, status: 'Диагностика завершена', duration: 1000 },
+    ];
+
+    let stageIndex = 0;
+
+    function runProgressSimulation() {
+      if (stageIndex >= progressStages.length) {
+        return;
+      }
+
+      const stage = progressStages[stageIndex];
+      const startProgress = progress;
+      const endProgress = stage.percent;
+      const duration = stage.duration;
+      const startTime = Date.now();
+
+      const interval = setInterval(() => {
+        const elapsed = Date.now() - startTime;
+        const ratio = Math.min(1, elapsed / duration);
+        const currentProgress = startProgress + (endProgress - startProgress) * ratio;
+
+        updateProgress(currentProgress, stage.status);
+
+        if (ratio >= 1) {
+          clearInterval(interval);
+          stageIndex++;
+          runProgressSimulation();
+        }
+      }, 100);
+    }
+
+    const ws = new ObdWebSocket();
+
+    ws.on('connected', () => {
+      console.log('WebSocket connected');
+      runProgressSimulation();
+    });
+
+    ws.on('pid_update', (data) => {
+      if (data.name === 'Engine RPM') {
+        rpmGauge.draw(data.value);
+        currentValues.rpm = data.value;
+      } else if (data.name === 'Vehicle Speed') {
+        speedGauge.draw(data.value);
+        currentValues.speed = data.value;
+      } else if (data.name === 'Coolant Temperature') {
+        coolantBar.draw(data.value);
+        currentValues.coolant = data.value;
+      } else if (data.name === 'Engine Load') {
+        oilBar.draw(data.value);
+      } else if (data.name === 'Throttle Position') {
+        currentValues.throttle = data.value;
+      } else if (data.name === 'Battery Voltage') {
+        batteryIndicator.draw(data.value);
+      }
+
+      realtimeChart.addDataPoint(data.timestamp, currentValues);
+    });
+
+    ws.on('error', (error) => {
+      console.error('WebSocket error:', error);
+      scanError.textContent = 'Ошибка подключения к потоку данных';
+      scanError.style.display = 'block';
+    });
+
+    ws.on('disconnected', () => {
+      console.log('WebSocket disconnected');
+    });
+
+    ws.connect().catch((error) => {
+      console.error('Failed to connect WebSocket:', error);
+      scanError.textContent = 'Не удалось подключиться к адаптеру. Проверьте подключение.';
+      scanError.style.display = 'block';
+    });
+
+    rpmGauge.draw(0);
+    speedGauge.draw(0);
+    coolantBar.draw(90);
+    oilBar.draw(85);
+    batteryIndicator.draw(12.5);
+  </script>
+</body>
+</html>

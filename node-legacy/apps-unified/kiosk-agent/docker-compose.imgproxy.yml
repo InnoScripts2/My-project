@@ -1,0 +1,81 @@
+version: '3.8'
+
+services:
+  imgproxy:
+    image: darthsim/imgproxy:latest
+    container_name: imgproxy
+    environment:
+      # Security: Use these keys in production (generate with: xxd -g 2 -l 64 -p /dev/random | tr -d '\n')
+      IMGPROXY_KEY: ${IMGPROXY_KEY:-}
+      IMGPROXY_SALT: ${IMGPROXY_SALT:-}
+      
+      # Allow local filesystem access for source images
+      IMGPROXY_LOCAL_FILESYSTEM_ROOT: /images
+      
+      # Performance settings
+      IMGPROXY_MAX_SRC_RESOLUTION: 50.0
+      IMGPROXY_MAX_SRC_FILE_SIZE: 10485760
+      IMGPROXY_WORKERS: 4
+      
+      # Format support
+      IMGPROXY_ENABLE_WEBP_DETECTION: "true"
+      IMGPROXY_ENFORCE_WEBP: "false"
+      IMGPROXY_ENABLE_AVIF_DETECTION: "true"
+      
+      # Quality defaults
+      IMGPROXY_JPEG_PROGRESSIVE: "true"
+      IMGPROXY_PNG_INTERLACED: "true"
+      IMGPROXY_QUALITY: 80
+      
+      # Caching
+      IMGPROXY_TTL: 86400
+      
+      # Logging
+      IMGPROXY_LOG_LEVEL: info
+      IMGPROXY_ENABLE_DEBUG_HEADERS: "false"
+      
+    volumes:
+      # Mount directory with source images (read-only)
+      - ./images:/images:ro
+      # Mount cache directory for temporary files
+      - imgproxy-cache:/tmp
+      
+    ports:
+      - "8080:8080"
+      
+    restart: unless-stopped
+    
+    healthcheck:
+      test: ["CMD", "wget", "--spider", "-q", "http://localhost:8080/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 10s
+    
+    networks:
+      - kiosk-network
+
+  redis:
+    image: redis:7-alpine
+    container_name: redis-cache
+    command: redis-server --maxmemory 256mb --maxmemory-policy allkeys-lru
+    volumes:
+      - redis-data:/data
+    ports:
+      - "6379:6379"
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+    networks:
+      - kiosk-network
+
+volumes:
+  imgproxy-cache:
+  redis-data:
+
+networks:
+  kiosk-network:
+    driver: bridge

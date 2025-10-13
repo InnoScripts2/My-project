@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Автосервис самообслуживания</title>
+  <meta name="description" content="Киоск самообслуживания для толщинометрии и диагностики OBD-II" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+  <link rel="manifest" href="./manifest.webmanifest" />
+  <meta name="theme-color" content="#0b1020" />
+</head>
+<body>
+  <!-- Skip to main content for accessibility -->
+  <a href="#main-content" class="skip-to-main">Перейти к основному содержимому</a>
+
+  <div id="app" class="app" role="main" id="main-content">
+    <!-- Screen: Attract -->
+    <section id="screen-attract" class="screen active" tabindex="0" aria-label="Экран привлечения">
+      <div class="center">
+        <h1 class="brand">
+          <span class="brand-line brand-top">Автосервис</span>
+          <span class="brand-line brand-bottom">самообслуживания</span>
+        </h1>
+        <div class="cta subtle">Нажмите в любом месте</div>
+      </div>
+    </section>
+
+    <!-- Screen: Welcome & Terms -->
+    <section id="screen-welcome" class="screen" aria-labelledby="welcome-title">
+      <div class="center narrow">
+        <div class="eyebrow">Самообслуживание</div>
+        <h2 id="welcome-title">Быстро проверьте авто без очередей и ожиданий</h2>
+        <p class="lead">Представляем киоск, который помогает проверить автомобиль за считанные минуты. Никаких очередей, звонков и лишних формальностей.</p>
+        <div class="consent">
+          <label class="checkbox">
+            <input id="welcome-agree" type="checkbox" aria-describedby="terms-desc" />
+            <span id="terms-desc">Я принимаю <button type="button" id="open-terms-link" class="link" aria-label="Открыть условия обслуживания">условия обслуживания</button></span>
+          </label>
+        </div>
+        <div class="actions column">
+          <button class="primary" id="welcome-continue" disabled aria-label="Продолжить к выбору услуги">Продолжить</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Screen: Services -->
+    <section id="screen-services" class="screen" aria-labelledby="services-title">
+      <div class="center narrow">
+        <h2 id="services-title">Выберите услугу</h2>
+        <p class="lead">Терминал подскажет каждый шаг и сразу подготовит отчёт.</p>
+        <div class="cards two" id="service-options" role="group" aria-label="Доступные услуги">
+          <div class="card selectable service-card" data-service="thickness" role="button" tabindex="0" aria-pressed="false" aria-label="Толщинометрия ЛКП, от 350 рублей">
+            <div class="card-title">Толщинометрия ЛКП</div>
+            <div class="card-desc">40–60 точек измерений по кузову</div>
+            <div class="card-price">от 350 ₽</div>
+          </div>
+          <div class="card selectable service-card" data-service="diagnostics" role="button" tabindex="0" aria-pressed="false" aria-label="Диагностика OBD-II, 480 рублей">
+            <div class="card-title">Диагностика OBD‑II</div>
+            <div class="card-desc">Чтение DTC и статусов систем</div>
+            <div class="card-price">480 ₽</div>
+          </div>
+        </div>
+        <div class="actions row">
+          <button class="secondary" data-back aria-label="Назад">Назад</button>
+          <button class="primary" id="service-continue" disabled aria-label="Продолжить с выбранной услугой">Продолжить</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Additional screens would be included here -->
+    <!-- For now, this is a minimal structure to demonstrate the modular approach -->
+
+  </div>
+
+  <!-- Modal: Terms -->
+  <div id="terms-modal" class="modal-backdrop hidden" role="dialog" aria-modal="true" aria-labelledby="terms-title">
+    <div class="modal" role="document">
+      <div class="modal-header">
+        <div class="modal-title" id="terms-title">Условия обслуживания</div>
+        <button type="button" id="terms-close" class="close" aria-label="Закрыть">Закрыть</button>
+      </div>
+      <div class="modal-body">
+        <div id="terms-content" class="terms-content" aria-live="polite">Загрузка…</div>
+      </div>
+      <div class="modal-actions">
+        <button type="button" id="terms-ok" class="primary">Понятно</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Load main module -->
+  <script type="module" src="/src/main.js"></script>
+</body>
+</html>

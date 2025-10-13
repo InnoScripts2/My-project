@@ -1,0 +1,1916 @@
+[
+  {
+    "code": "U0001",
+    "description_ru": "",
+    "description_en": "High Speed CAN Communication Bus",
+    "severity": ""
+  },
+  {
+    "code": "U0002",
+    "description_ru": "",
+    "description_en": "High Speed CAN Communication Bus (Performance)",
+    "severity": ""
+  },
+  {
+    "code": "U0003",
+    "description_ru": "",
+    "description_en": "High Speed CAN Communication Bus (Open)",
+    "severity": ""
+  },
+  {
+    "code": "U0004",
+    "description_ru": "",
+    "description_en": "High Speed CAN Communication Bus (Low)",
+    "severity": ""
+  },
+  {
+    "code": "U0005",
+    "description_ru": "",
+    "description_en": "High Speed CAN Communication Bus (High)",
+    "severity": ""
+  },
+  {
+    "code": "U0006",
+    "description_ru": "",
+    "description_en": "High Speed CAN Communication Bus (Open)",
+    "severity": ""
+  },
+  {
+    "code": "U0007",
+    "description_ru": "",
+    "description_en": "High Speed CAN Communication Bus (Low)",
+    "severity": ""
+  },
+  {
+    "code": "U0008",
+    "description_ru": "",
+    "description_en": "High Speed CAN Communication Bus (High)",
+    "severity": ""
+  },
+  {
+    "code": "U0009",
+    "description_ru": "",
+    "description_en": "High Speed CAN Communication Bus (shorted to Bus)",
+    "severity": ""
+  },
+  {
+    "code": "U0010",
+    "description_ru": "",
+    "description_en": "Medium Speed CAN Communication Bus",
+    "severity": ""
+  },
+  {
+    "code": "U0011",
+    "description_ru": "",
+    "description_en": "Medium Speed CAN Communication Bus (Performance)",
+    "severity": ""
+  },
+  {
+    "code": "U0012",
+    "description_ru": "",
+    "description_en": "Medium Speed CAN Communication Bus (Open)",
+    "severity": ""
+  },
+  {
+    "code": "U0013",
+    "description_ru": "",
+    "description_en": "Medium Speed CAN Communication Bus (Low)",
+    "severity": ""
+  },
+  {
+    "code": "U0014",
+    "description_ru": "",
+    "description_en": "Medium Speed CAN Communication Bus (High)",
+    "severity": ""
+  },
+  {
+    "code": "U0015",
+    "description_ru": "",
+    "description_en": "Medium Speed CAN Communication Bus (Open)",
+    "severity": ""
+  },
+  {
+    "code": "U0016",
+    "description_ru": "",
+    "description_en": "Medium Speed CAN Communication Bus (Low)",
+    "severity": ""
+  },
+  {
+    "code": "U0017",
+    "description_ru": "",
+    "description_en": "Medium Speed CAN Communication Bus (High)",
+    "severity": ""
+  },
+  {
+    "code": "U0018",
+    "description_ru": "",
+    "description_en": "Medium Speed CAN Communication Bus (shorted to Bus)",
+    "severity": ""
+  },
+  {
+    "code": "U0019",
+    "description_ru": "",
+    "description_en": "Low Speed CAN Communication Bus",
+    "severity": ""
+  },
+  {
+    "code": "U0020",
+    "description_ru": "",
+    "description_en": "Low Speed CAN Communication Bus (Performance)",
+    "severity": ""
+  },
+  {
+    "code": "U0021",
+    "description_ru": "",
+    "description_en": "Low Speed CAN Communication Bus (Open)",
+    "severity": ""
+  },
+  {
+    "code": "U0022",
+    "description_ru": "",
+    "description_en": "Low Speed CAN Communication Bus (Low)",
+    "severity": ""
+  },
+  {
+    "code": "U0023",
+    "description_ru": "",
+    "description_en": "Low Speed CAN Communication Bus (High)",
+    "severity": ""
+  },
+  {
+    "code": "U0024",
+    "description_ru": "",
+    "description_en": "Low Speed CAN Communication Bus (Open)",
+    "severity": ""
+  },
+  {
+    "code": "U0025",
+    "description_ru": "",
+    "description_en": "Low Speed CAN Communication Bus (Low)",
+    "severity": ""
+  },
+  {
+    "code": "U0026",
+    "description_ru": "",
+    "description_en": "Low Speed CAN Communication Bus (High)",
+    "severity": ""
+  },
+  {
+    "code": "U0027",
+    "description_ru": "",
+    "description_en": "Low Speed CAN Communication Bus (shorted to Bus)",
+    "severity": ""
+  },
+  {
+    "code": "U0028",
+    "description_ru": "",
+    "description_en": "Vehicle Communication Bus A",
+    "severity": ""
+  },
+  {
+    "code": "U0029",
+    "description_ru": "",
+    "description_en": "Vehicle Communication Bus A (Performance)",
+    "severity": ""
+  },
+  {
+    "code": "U0030",
+    "description_ru": "",
+    "description_en": "Vehicle Communication Bus A (Open)",
+    "severity": ""
+  },
+  {
+    "code": "U0031",
+    "description_ru": "",
+    "description_en": "Vehicle Communication Bus A (Low)",
+    "severity": ""
+  },
+  {
+    "code": "U0032",
+    "description_ru": "",
+    "description_en": "Vehicle Communication Bus A (High)",
+    "severity": ""
+  },
+  {
+    "code": "U0033",
+    "description_ru": "",
+    "description_en": "Vehicle Communication Bus A (Open)",
+    "severity": ""
+  },
+  {
+    "code": "U0034",
+    "description_ru": "",
+    "description_en": "Vehicle Communication Bus A (Low)",
+    "severity": ""
+  },
+  {
+    "code": "U0035",
+    "description_ru": "",
+    "description_en": "Vehicle Communication Bus A (High)",
+    "severity": ""
+  },
+  {
+    "code": "U0036",
+    "description_ru": "",
+    "description_en": "Vehicle Communication Bus A (shorted to Bus A)",
+    "severity": ""
+  },
+  {
+    "code": "U0037",
+    "description_ru": "",
+    "description_en": "Vehicle Communication Bus B",
+    "severity": ""
+  },
+  {
+    "code": "U0038",
+    "description_ru": "",
+    "description_en": "Vehicle Communication Bus B (Performance)",
+    "severity": ""
+  },
+  {
+    "code": "U0039",
+    "description_ru": "",
+    "description_en": "Vehicle Communication Bus B (Open)",
+    "severity": ""
+  },
+  {
+    "code": "U0040",
+    "description_ru": "",
+    "description_en": "Vehicle Communication Bus B (Low)",
+    "severity": ""
+  },
+  {
+    "code": "U0041",
+    "description_ru": "",
+    "description_en": "Vehicle Communication Bus B (High)",
+    "severity": ""
+  },
+  {
+    "code": "U0042",
+    "description_ru": "",
+    "description_en": "Vehicle Communication Bus B (Open)",
+    "severity": ""
+  },
+  {
+    "code": "U0043",
+    "description_ru": "",
+    "description_en": "Vehicle Communication Bus B (Low)",
+    "severity": ""
+  },
+  {
+    "code": "U0044",
+    "description_ru": "",
+    "description_en": "Vehicle Communication Bus B (High)",
+    "severity": ""
+  },
+  {
+    "code": "U0045",
+    "description_ru": "",
+    "description_en": "Vehicle Communication Bus B (shorted to Bus B)",
+    "severity": ""
+  },
+  {
+    "code": "U0046",
+    "description_ru": "",
+    "description_en": "Vehicle Communication Bus C",
+    "severity": ""
+  },
+  {
+    "code": "U0047",
+    "description_ru": "",
+    "description_en": "Vehicle Communication Bus C (Performance)",
+    "severity": ""
+  },
+  {
+    "code": "U0048",
+    "description_ru": "",
+    "description_en": "Vehicle Communication Bus C (Open)",
+    "severity": ""
+  },
+  {
+    "code": "U0049",
+    "description_ru": "",
+    "description_en": "Vehicle Communication Bus C (Low)",
+    "severity": ""
+  },
+  {
+    "code": "U0050",
+    "description_ru": "",
+    "description_en": "Vehicle Communication Bus C (High)",
+    "severity": ""
+  },
+  {
+    "code": "U0051",
+    "description_ru": "",
+    "description_en": "Vehicle Communication Bus C (Open)",
+    "severity": ""
+  },
+  {
+    "code": "U0052",
+    "description_ru": "",
+    "description_en": "Vehicle Communication Bus C (Low)",
+    "severity": ""
+  },
+  {
+    "code": "U0053",
+    "description_ru": "",
+    "description_en": "Vehicle Communication Bus C (High)",
+    "severity": ""
+  },
+  {
+    "code": "U0054",
+    "description_ru": "",
+    "description_en": "Vehicle Communication Bus C (shorted to Bus C)",
+    "severity": ""
+  },
+  {
+    "code": "U0055",
+    "description_ru": "",
+    "description_en": "Vehicle Communication Bus D",
+    "severity": ""
+  },
+  {
+    "code": "U0056",
+    "description_ru": "",
+    "description_en": "Vehicle Communication Bus D (Performance)",
+    "severity": ""
+  },
+  {
+    "code": "U0057",
+    "description_ru": "",
+    "description_en": "Vehicle Communication Bus D (Open)",
+    "severity": ""
+  },
+  {
+    "code": "U0058",
+    "description_ru": "",
+    "description_en": "Vehicle Communication Bus D (Low)",
+    "severity": ""
+  },
+  {
+    "code": "U0059",
+    "description_ru": "",
+    "description_en": "Vehicle Communication Bus D (High)",
+    "severity": ""
+  },
+  {
+    "code": "U0060",
+    "description_ru": "",
+    "description_en": "Vehicle Communication Bus D (Open)",
+    "severity": ""
+  },
+  {
+    "code": "U0061",
+    "description_ru": "",
+    "description_en": "Vehicle Communication Bus D (Low)",
+    "severity": ""
+  },
+  {
+    "code": "U0062",
+    "description_ru": "",
+    "description_en": "Vehicle Communication Bus D (High)",
+    "severity": ""
+  },
+  {
+    "code": "U0063",
+    "description_ru": "",
+    "description_en": "Vehicle Communication Bus D (shorted to Bus D)",
+    "severity": ""
+  },
+  {
+    "code": "U0064",
+    "description_ru": "",
+    "description_en": "Vehicle Communication Bus E",
+    "severity": ""
+  },
+  {
+    "code": "U0065",
+    "description_ru": "",
+    "description_en": "Vehicle Communication Bus E (Performance)",
+    "severity": ""
+  },
+  {
+    "code": "U0066",
+    "description_ru": "",
+    "description_en": "Vehicle Communication Bus E (Open)",
+    "severity": ""
+  },
+  {
+    "code": "U0067",
+    "description_ru": "",
+    "description_en": "Vehicle Communication Bus E (Low)",
+    "severity": ""
+  },
+  {
+    "code": "U0068",
+    "description_ru": "",
+    "description_en": "Vehicle Communication Bus E (High)",
+    "severity": ""
+  },
+  {
+    "code": "U0069",
+    "description_ru": "",
+    "description_en": "Vehicle Communication Bus E (Open)",
+    "severity": ""
+  },
+  {
+    "code": "U0070",
+    "description_ru": "",
+    "description_en": "Vehicle Communication Bus E (Low)",
+    "severity": ""
+  },
+  {
+    "code": "U0071",
+    "description_ru": "",
+    "description_en": "Vehicle Communication Bus E (High)",
+    "severity": ""
+  },
+  {
+    "code": "U0072",
+    "description_ru": "",
+    "description_en": "Vehicle Communication Bus E (shorted to Bus E)",
+    "severity": ""
+  },
+  {
+    "code": "U0073",
+    "description_ru": "",
+    "description_en": "Control Module Communication Bus Off",
+    "severity": ""
+  },
+  {
+    "code": "U0074",
+    "description_ru": "",
+    "description_en": "Reserved by J2012",
+    "severity": ""
+  },
+  {
+    "code": "U0075",
+    "description_ru": "",
+    "description_en": "Reserved by J2012",
+    "severity": ""
+  },
+  {
+    "code": "U0076",
+    "description_ru": "",
+    "description_en": "Reserved by J2012",
+    "severity": ""
+  },
+  {
+    "code": "U0077",
+    "description_ru": "",
+    "description_en": "Reserved by J2012",
+    "severity": ""
+  },
+  {
+    "code": "U0078",
+    "description_ru": "",
+    "description_en": "Reserved by J2012",
+    "severity": ""
+  },
+  {
+    "code": "U0079",
+    "description_ru": "",
+    "description_en": "Reserved by J2012",
+    "severity": ""
+  },
+  {
+    "code": "U0080",
+    "description_ru": "",
+    "description_en": "Reserved by J2012",
+    "severity": ""
+  },
+  {
+    "code": "U0081",
+    "description_ru": "",
+    "description_en": "Reserved by J2012",
+    "severity": ""
+  },
+  {
+    "code": "U0082",
+    "description_ru": "",
+    "description_en": "Reserved by J2012",
+    "severity": ""
+  },
+  {
+    "code": "U0083",
+    "description_ru": "",
+    "description_en": "Reserved by J2012",
+    "severity": ""
+  },
+  {
+    "code": "U0084",
+    "description_ru": "",
+    "description_en": "Reserved by J2012",
+    "severity": ""
+  },
+  {
+    "code": "U0085",
+    "description_ru": "",
+    "description_en": "Reserved by J2012",
+    "severity": ""
+  },
+  {
+    "code": "U0086",
+    "description_ru": "",
+    "description_en": "Reserved by J2012",
+    "severity": ""
+  },
+  {
+    "code": "U0087",
+    "description_ru": "",
+    "description_en": "Reserved by J2012",
+    "severity": ""
+  },
+  {
+    "code": "U0088",
+    "description_ru": "",
+    "description_en": "Reserved by J2012",
+    "severity": ""
+  },
+  {
+    "code": "U0089",
+    "description_ru": "",
+    "description_en": "Reserved by J2012",
+    "severity": ""
+  },
+  {
+    "code": "U0090",
+    "description_ru": "",
+    "description_en": "Reserved by J2012",
+    "severity": ""
+  },
+  {
+    "code": "U0091",
+    "description_ru": "",
+    "description_en": "Reserved by J2012",
+    "severity": ""
+  },
+  {
+    "code": "U0092",
+    "description_ru": "",
+    "description_en": "Reserved by J2012",
+    "severity": ""
+  },
+  {
+    "code": "U0093",
+    "description_ru": "",
+    "description_en": "Reserved by J2012",
+    "severity": ""
+  },
+  {
+    "code": "U0094",
+    "description_ru": "",
+    "description_en": "Reserved by J2012",
+    "severity": ""
+  },
+  {
+    "code": "U0095",
+    "description_ru": "",
+    "description_en": "Reserved by J2012",
+    "severity": ""
+  },
+  {
+    "code": "U0096",
+    "description_ru": "",
+    "description_en": "Reserved by J2012",
+    "severity": ""
+  },
+  {
+    "code": "U0097",
+    "description_ru": "",
+    "description_en": "Reserved by J2012",
+    "severity": ""
+  },
+  {
+    "code": "U0098",
+    "description_ru": "",
+    "description_en": "Reserved by J2012",
+    "severity": ""
+  },
+  {
+    "code": "U0099",
+    "description_ru": "",
+    "description_en": "Reserved by J2012",
+    "severity": ""
+  },
+  {
+    "code": "U0100",
+    "description_ru": "",
+    "description_en": "Lost Communication With ECM/PCM",
+    "severity": ""
+  },
+  {
+    "code": "U0101",
+    "description_ru": "",
+    "description_en": "Lost Communication with TCM",
+    "severity": ""
+  },
+  {
+    "code": "U0102",
+    "description_ru": "",
+    "description_en": "Lost Communication with Transfer Case Control Module",
+    "severity": ""
+  },
+  {
+    "code": "U0103",
+    "description_ru": "",
+    "description_en": "Lost Communication With Gear Shift Module",
+    "severity": ""
+  },
+  {
+    "code": "U0104",
+    "description_ru": "",
+    "description_en": "Lost Communication With Cruise Control Module",
+    "severity": ""
+  },
+  {
+    "code": "U0105",
+    "description_ru": "",
+    "description_en": "Lost Communication With Fuel Injector Control Module",
+    "severity": ""
+  },
+  {
+    "code": "U0106",
+    "description_ru": "",
+    "description_en": "Lost Communication With Glow Plug Control Module",
+    "severity": ""
+  },
+  {
+    "code": "U0107",
+    "description_ru": "",
+    "description_en": "Lost Communication With Throttle Actuator Control Module",
+    "severity": ""
+  },
+  {
+    "code": "U0108",
+    "description_ru": "",
+    "description_en": "Lost Communication With Alternative Fuel Control Module",
+    "severity": ""
+  },
+  {
+    "code": "U0109",
+    "description_ru": "",
+    "description_en": "Lost Communication With Fuel Pump Control Module",
+    "severity": ""
+  },
+  {
+    "code": "U0110",
+    "description_ru": "",
+    "description_en": "Lost Communication With Drive Motor Control Module",
+    "severity": ""
+  },
+  {
+    "code": "U0111",
+    "description_ru": "",
+    "description_en": "Lost Communication With Battery Energy Control Module 'A'",
+    "severity": ""
+  },
+  {
+    "code": "U0112",
+    "description_ru": "",
+    "description_en": "Lost Communication With Battery Energy Control Module 'B'",
+    "severity": ""
+  },
+  {
+    "code": "U0113",
+    "description_ru": "",
+    "description_en": "Lost Communication With Emissions Critical Control Information",
+    "severity": ""
+  },
+  {
+    "code": "U0114",
+    "description_ru": "",
+    "description_en": "Lost Communication With Four-Wheel Drive Clutch Control Module",
+    "severity": ""
+  },
+  {
+    "code": "U0115",
+    "description_ru": "",
+    "description_en": "Lost Communication With ECM/PCM B",
+    "severity": ""
+  },
+  {
+    "code": "U0116",
+    "description_ru": "",
+    "description_en": "Reserved by J2012",
+    "severity": ""
+  },
+  {
+    "code": "U0117",
+    "description_ru": "",
+    "description_en": "Reserved by J2012",
+    "severity": ""
+  },
+  {
+    "code": "U0118",
+    "description_ru": "",
+    "description_en": "Reserved by J2012",
+    "severity": ""
+  },
+  {
+    "code": "U0119",
+    "description_ru": "",
+    "description_en": "Reserved by J2012",
+    "severity": ""
+  },
+  {
+    "code": "U0120",
+    "description_ru": "",
+    "description_en": "Reserved by J2012",
+    "severity": ""
+  },
+  {
+    "code": "U0121",
+    "description_ru": "",
+    "description_en": "Lost Communication With Anti-Lock Brake System (ABS) Control Module",
+    "severity": ""
+  },
+  {
+    "code": "U0122",
+    "description_ru": "",
+    "description_en": "Lost Communication With Vehicle Dynamics Control Module",
+    "severity": ""
+  },
+  {
+    "code": "U0123",
+    "description_ru": "",
+    "description_en": "Lost Communication With Yaw Rate Sensor Module",
+    "severity": ""
+  },
+  {
+    "code": "U0124",
+    "description_ru": "",
+    "description_en": "Lost Communication With Lateral Acceleration Sensor Module",
+    "severity": ""
+  },
+  {
+    "code": "U0125",
+    "description_ru": "",
+    "description_en": "Lost Communication With Multi-axis Acceleration Sensor Module",
+    "severity": ""
+  },
+  {
+    "code": "U0126",
+    "description_ru": "",
+    "description_en": "Lost Communication With Steering Angle Sensor",
+    "severity": ""
+  },
+  {
+    "code": "U0127",
+    "description_ru": "",
+    "description_en": "Lost Communication With Tire Pressure Monitor Module",
+    "severity": ""
+  },
+  {
+    "code": "U0128",
+    "description_ru": "",
+    "description_en": "Lost Communication With Park Brake Control Module",
+    "severity": ""
+  },
+  {
+    "code": "U0129",
+    "description_ru": "",
+    "description_en": "Lost Communication With Brake System Control Module",
+    "severity": ""
+  },
+  {
+    "code": "U0130",
+    "description_ru": "",
+    "description_en": "Lost Communication With Steering Effort Control Module",
+    "severity": ""
+  },
+  {
+    "code": "U0131",
+    "description_ru": "",
+    "description_en": "Lost Communication With Power Steering Control Module",
+    "severity": ""
+  },
+  {
+    "code": "U0132",
+    "description_ru": "",
+    "description_en": "Lost Communication With Ride Level Control Module",
+    "severity": ""
+  },
+  {
+    "code": "U0133",
+    "description_ru": "",
+    "description_en": "Reserved by J2012",
+    "severity": ""
+  },
+  {
+    "code": "U0134",
+    "description_ru": "",
+    "description_en": "Reserved by J2012",
+    "severity": ""
+  },
+  {
+    "code": "U0135",
+    "description_ru": "",
+    "description_en": "Reserved by J2012",
+    "severity": ""
+  },
+  {
+    "code": "U0136",
+    "description_ru": "",
+    "description_en": "Reserved by J2012",
+    "severity": ""
+  },
+  {
+    "code": "U0137",
+    "description_ru": "",
+    "description_en": "Reserved by J2012",
+    "severity": ""
+  },
+  {
+    "code": "U0138",
+    "description_ru": "",
+    "description_en": "Reserved by J2012",
+    "severity": ""
+  },
+  {
+    "code": "U0139",
+    "description_ru": "",
+    "description_en": "Reserved by J2012",
+    "severity": ""
+  },
+  {
+    "code": "U0140",
+    "description_ru": "",
+    "description_en": "Lost Communication With Body Control Module",
+    "severity": ""
+  },
+  {
+    "code": "U0141",
+    "description_ru": "",
+    "description_en": "Lost Communication With Body Control Module 'A'",
+    "severity": ""
+  },
+  {
+    "code": "U0142",
+    "description_ru": "",
+    "description_en": "Lost Communication With Body Control Module 'B'",
+    "severity": ""
+  },
+  {
+    "code": "U0143",
+    "description_ru": "",
+    "description_en": "Lost Communication with Multi-Purpose Module",
+    "severity": ""
+  },
+  {
+    "code": "U0144",
+    "description_ru": "",
+    "description_en": "Lost Communication With Body Control Module 'D'",
+    "severity": ""
+  },
+  {
+    "code": "U0145",
+    "description_ru": "",
+    "description_en": "Lost Communication With Body Control Module 'E'",
+    "severity": ""
+  },
+  {
+    "code": "U0146",
+    "description_ru": "",
+    "description_en": "Lost Communication With Gateway 'A'",
+    "severity": ""
+  },
+  {
+    "code": "U0147",
+    "description_ru": "",
+    "description_en": "Lost Communication With Gateway 'B'",
+    "severity": ""
+  },
+  {
+    "code": "U0148",
+    "description_ru": "",
+    "description_en": "Lost Communication With Gateway 'C'",
+    "severity": ""
+  },
+  {
+    "code": "U0149",
+    "description_ru": "",
+    "description_en": "Lost Communication With Gateway 'D'",
+    "severity": ""
+  },
+  {
+    "code": "U0150",
+    "description_ru": "",
+    "description_en": "Lost Communication With Gateway 'E'",
+    "severity": ""
+  },
+  {
+    "code": "U0151",
+    "description_ru": "",
+    "description_en": "Lost Communication with Occupant Restraint Controller (ORC)",
+    "severity": ""
+  },
+  {
+    "code": "U0152",
+    "description_ru": "",
+    "description_en": "Lost Communication With Side Restraints Control Module Left",
+    "severity": ""
+  },
+  {
+    "code": "U0153",
+    "description_ru": "",
+    "description_en": "Lost Communication With Side Restraints Control Module Right",
+    "severity": ""
+  },
+  {
+    "code": "U0154",
+    "description_ru": "",
+    "description_en": "Lost Communication With Restraints Occupant Sensing Control Module",
+    "severity": ""
+  },
+  {
+    "code": "U0155",
+    "description_ru": "",
+    "description_en": "Lost Communication With Instrument Panel Cluster (IPC) Control Module",
+    "severity": ""
+  },
+  {
+    "code": "U0156",
+    "description_ru": "",
+    "description_en": "Lost Communication With Information Center 'A'",
+    "severity": ""
+  },
+  {
+    "code": "U0157",
+    "description_ru": "",
+    "description_en": "Lost Communication With Information Center 'B'",
+    "severity": ""
+  },
+  {
+    "code": "U0158",
+    "description_ru": "",
+    "description_en": "Lost Communication With Head Up Display",
+    "severity": ""
+  },
+  {
+    "code": "U0159",
+    "description_ru": "",
+    "description_en": "Lost Communication With Parking Assist Control Module",
+    "severity": ""
+  },
+  {
+    "code": "U0160",
+    "description_ru": "",
+    "description_en": "Lost Communication With Audible Alert Control Module",
+    "severity": ""
+  },
+  {
+    "code": "U0161",
+    "description_ru": "",
+    "description_en": "Lost Communication With Compass Module",
+    "severity": ""
+  },
+  {
+    "code": "U0162",
+    "description_ru": "",
+    "description_en": "Lost Communication With Navigation Display Module",
+    "severity": ""
+  },
+  {
+    "code": "U0163",
+    "description_ru": "",
+    "description_en": "Lost Communication With Navigation Control Module",
+    "severity": ""
+  },
+  {
+    "code": "U0164",
+    "description_ru": "",
+    "description_en": "Lost Communication With HVAC Control Module",
+    "severity": ""
+  },
+  {
+    "code": "U0165",
+    "description_ru": "",
+    "description_en": "Lost Communication With HVAC Control Module Rear",
+    "severity": ""
+  },
+  {
+    "code": "U0166",
+    "description_ru": "",
+    "description_en": "Lost Communication With Auxiliary Heater Control Module",
+    "severity": ""
+  },
+  {
+    "code": "U0167",
+    "description_ru": "",
+    "description_en": "Lost Communication With Vehicle Immobilizer Control Module",
+    "severity": ""
+  },
+  {
+    "code": "U0168",
+    "description_ru": "",
+    "description_en": "Lost Communication With Vehicle Security Control Module",
+    "severity": ""
+  },
+  {
+    "code": "U0169",
+    "description_ru": "",
+    "description_en": "Lost Communication With Sunroof Control Module",
+    "severity": ""
+  },
+  {
+    "code": "U0170",
+    "description_ru": "",
+    "description_en": "Lost Communication With 'Restraints System Sensor A'",
+    "severity": ""
+  },
+  {
+    "code": "U0171",
+    "description_ru": "",
+    "description_en": "Lost Communication With 'Restraints System Sensor B'",
+    "severity": ""
+  },
+  {
+    "code": "U0172",
+    "description_ru": "",
+    "description_en": "Lost Communication With 'Restraints System Sensor C'",
+    "severity": ""
+  },
+  {
+    "code": "U0173",
+    "description_ru": "",
+    "description_en": "Lost Communication With 'Restraints System Sensor D'",
+    "severity": ""
+  },
+  {
+    "code": "U0174",
+    "description_ru": "",
+    "description_en": "Lost Communication With 'Restraints System Sensor E'",
+    "severity": ""
+  },
+  {
+    "code": "U0175",
+    "description_ru": "",
+    "description_en": "Lost Communication With 'Restraints System Sensor F'",
+    "severity": ""
+  },
+  {
+    "code": "U0176",
+    "description_ru": "",
+    "description_en": "Lost Communication With 'Restraints System Sensor G'",
+    "severity": ""
+  },
+  {
+    "code": "U0177",
+    "description_ru": "",
+    "description_en": "Lost Communication With 'Restraints System Sensor H'",
+    "severity": ""
+  },
+  {
+    "code": "U0178",
+    "description_ru": "",
+    "description_en": "Lost Communication With 'Restraints System Sensor I'",
+    "severity": ""
+  },
+  {
+    "code": "U0179",
+    "description_ru": "",
+    "description_en": "Lost Communication With 'Restraints System Sensor J'",
+    "severity": ""
+  },
+  {
+    "code": "U0180",
+    "description_ru": "",
+    "description_en": "Lost Communication With Automatic Lighting Control Module",
+    "severity": ""
+  },
+  {
+    "code": "U0181",
+    "description_ru": "",
+    "description_en": "Lost Communication With Headlamp Leveling Translator",
+    "severity": ""
+  },
+  {
+    "code": "U0182",
+    "description_ru": "",
+    "description_en": "Lost Communication With Lighting Control Module Front",
+    "severity": ""
+  },
+  {
+    "code": "U0183",
+    "description_ru": "",
+    "description_en": "Lost Communication With Lighting Control Module Rear",
+    "severity": ""
+  },
+  {
+    "code": "U0184",
+    "description_ru": "",
+    "description_en": "Lost Communication With Radio",
+    "severity": ""
+  },
+  {
+    "code": "U0185",
+    "description_ru": "",
+    "description_en": "Lost Communication With Antenna Control Module",
+    "severity": ""
+  },
+  {
+    "code": "U0186",
+    "description_ru": "",
+    "description_en": "Lost Communication With Audio Amplifier",
+    "severity": ""
+  },
+  {
+    "code": "U0187",
+    "description_ru": "",
+    "description_en": "Lost Communication With Digital Disc Player/Changer Module 'A'",
+    "severity": ""
+  },
+  {
+    "code": "U0188",
+    "description_ru": "",
+    "description_en": "Lost Communication With Digital Disc Player/Changer Module 'B'",
+    "severity": ""
+  },
+  {
+    "code": "U0189",
+    "description_ru": "",
+    "description_en": "Lost Communication With Digital Disc Player/Changer Module 'C'",
+    "severity": ""
+  },
+  {
+    "code": "U0190",
+    "description_ru": "",
+    "description_en": "Lost Communication With Digital Disc Player/Changer Module 'D'",
+    "severity": ""
+  },
+  {
+    "code": "U0191",
+    "description_ru": "",
+    "description_en": "Lost Communication With Television",
+    "severity": ""
+  },
+  {
+    "code": "U0192",
+    "description_ru": "",
+    "description_en": "Lost Communication With Personal Computer",
+    "severity": ""
+  },
+  {
+    "code": "U0193",
+    "description_ru": "",
+    "description_en": "Lost Communication With Traffic Information Receiver Module",
+    "severity": ""
+  },
+  {
+    "code": "U0194",
+    "description_ru": "",
+    "description_en": "Lost Communication With 'Digital Audio Control Module B'",
+    "severity": ""
+  },
+  {
+    "code": "U0195",
+    "description_ru": "",
+    "description_en": "Lost Communication With Subscription Entertainment Receiver Module",
+    "severity": ""
+  },
+  {
+    "code": "U0196",
+    "description_ru": "",
+    "description_en": "Lost Communication With Vehicle Entertainment Control Module - First Row",
+    "severity": ""
+  },
+  {
+    "code": "U0197",
+    "description_ru": "",
+    "description_en": "Lost Communication With Telephone Control Module",
+    "severity": ""
+  },
+  {
+    "code": "U0198",
+    "description_ru": "",
+    "description_en": "Lost Communication with PASS",
+    "severity": ""
+  },
+  {
+    "code": "U0199",
+    "description_ru": "",
+    "description_en": "Lost Communication With Driver Door Module",
+    "severity": ""
+  },
+  {
+    "code": "U0200",
+    "description_ru": "",
+    "description_en": "Lost Communication With Passenger Door Module",
+    "severity": ""
+  },
+  {
+    "code": "U0201",
+    "description_ru": "",
+    "description_en": "Lost Communication With Left Rear Door Module",
+    "severity": ""
+  },
+  {
+    "code": "U0202",
+    "description_ru": "",
+    "description_en": "Lost Communication With Right Rear Door Module",
+    "severity": ""
+  },
+  {
+    "code": "U0203",
+    "description_ru": "",
+    "description_en": "Lost Communication With Door Module Front Left",
+    "severity": ""
+  },
+  {
+    "code": "U0204",
+    "description_ru": "",
+    "description_en": "Lost Communication With Door Module Front Right",
+    "severity": ""
+  },
+  {
+    "code": "U0205",
+    "description_ru": "",
+    "description_en": "Lost Communication With 'Door Control Module G'",
+    "severity": ""
+  },
+  {
+    "code": "U0206",
+    "description_ru": "",
+    "description_en": "Lost Communication With Folding Top Control Module",
+    "severity": ""
+  },
+  {
+    "code": "U0207",
+    "description_ru": "",
+    "description_en": "Lost Communication With Moveable Roof Control Module",
+    "severity": ""
+  },
+  {
+    "code": "U0208",
+    "description_ru": "",
+    "description_en": "Lost Communication With Heated Seat Control Module",
+    "severity": ""
+  },
+  {
+    "code": "U0209",
+    "description_ru": "",
+    "description_en": "Lost Communication With Memory Seat Control Module",
+    "severity": ""
+  },
+  {
+    "code": "U0210",
+    "description_ru": "",
+    "description_en": "Lost Communication With 'Seat Control Module C'",
+    "severity": ""
+  },
+  {
+    "code": "U0211",
+    "description_ru": "",
+    "description_en": "Lost Communication With 'Seat Control Module D'",
+    "severity": ""
+  },
+  {
+    "code": "U0212",
+    "description_ru": "",
+    "description_en": "Lost Communication With Steering Column Control Module",
+    "severity": ""
+  },
+  {
+    "code": "U0213",
+    "description_ru": "",
+    "description_en": "Lost Communication With Mirror Control Module",
+    "severity": ""
+  },
+  {
+    "code": "U0214",
+    "description_ru": "",
+    "description_en": "Lost Communication With Remote Function Actuation",
+    "severity": ""
+  },
+  {
+    "code": "U0215",
+    "description_ru": "",
+    "description_en": "Lost Communication With 'Door Switch A'",
+    "severity": ""
+  },
+  {
+    "code": "U0216",
+    "description_ru": "",
+    "description_en": "Lost Communication With 'Door Switch B'",
+    "severity": ""
+  },
+  {
+    "code": "U0217",
+    "description_ru": "",
+    "description_en": "Lost Communication With 'Door Switch C'",
+    "severity": ""
+  },
+  {
+    "code": "U0218",
+    "description_ru": "",
+    "description_en": "Lost Communication With 'Door Switch D'",
+    "severity": ""
+  },
+  {
+    "code": "U0219",
+    "description_ru": "",
+    "description_en": "Lost Communication With 'Door Switch E'",
+    "severity": ""
+  },
+  {
+    "code": "U0220",
+    "description_ru": "",
+    "description_en": "Lost Communication With 'Door Switch F'",
+    "severity": ""
+  },
+  {
+    "code": "U0221",
+    "description_ru": "",
+    "description_en": "Lost Communication With 'Door Switch G'",
+    "severity": ""
+  },
+  {
+    "code": "U0222",
+    "description_ru": "",
+    "description_en": "Lost Communication With 'Door Window Motor A'",
+    "severity": ""
+  },
+  {
+    "code": "U0223",
+    "description_ru": "",
+    "description_en": "Lost Communication With 'Door Window Motor B'",
+    "severity": ""
+  },
+  {
+    "code": "U0224",
+    "description_ru": "",
+    "description_en": "Lost Communication With 'Door Window Motor C'",
+    "severity": ""
+  },
+  {
+    "code": "U0225",
+    "description_ru": "",
+    "description_en": "Lost Communication With 'Door Window Motor D'",
+    "severity": ""
+  },
+  {
+    "code": "U0226",
+    "description_ru": "",
+    "description_en": "Lost Communication With 'Door Window Motor E'",
+    "severity": ""
+  },
+  {
+    "code": "U0227",
+    "description_ru": "",
+    "description_en": "Lost Communication With 'Door Window Motor F'",
+    "severity": ""
+  },
+  {
+    "code": "U0228",
+    "description_ru": "",
+    "description_en": "Lost Communication With 'Door Window Motor G'",
+    "severity": ""
+  },
+  {
+    "code": "U0229",
+    "description_ru": "",
+    "description_en": "Lost Communication With Heated Steering Wheel Module",
+    "severity": ""
+  },
+  {
+    "code": "U0230",
+    "description_ru": "",
+    "description_en": "Lost Communication With Rear Gate Module",
+    "severity": ""
+  },
+  {
+    "code": "U0231",
+    "description_ru": "",
+    "description_en": "Lost Communication With Rain Sensing Module",
+    "severity": ""
+  },
+  {
+    "code": "U0232",
+    "description_ru": "",
+    "description_en": "Lost Communication with Blind Spot Detection Module",
+    "severity": ""
+  },
+  {
+    "code": "U0233",
+    "description_ru": "",
+    "description_en": "Lost Communication With Side Obstacle Detection Control Module Right",
+    "severity": ""
+  },
+  {
+    "code": "U0234",
+    "description_ru": "",
+    "description_en": "Lost Communication With Convenience Recall Module",
+    "severity": ""
+  },
+  {
+    "code": "U0235",
+    "description_ru": "",
+    "description_en": "Lost Communication With Cruise Control Front Distance Range Sensor",
+    "severity": ""
+  },
+  {
+    "code": "U0241",
+    "description_ru": "",
+    "description_en": "Lost Communication With Auto Highbeam Headlamp Control Module",
+    "severity": ""
+  },
+  {
+    "code": "U0246",
+    "description_ru": "",
+    "description_en": "Lost Communication With Power Folding Seat Module",
+    "severity": ""
+  },
+  {
+    "code": "U0249",
+    "description_ru": "",
+    "description_en": "Lost Communication With Vehicle Entertainment Control Module - Last Row",
+    "severity": ""
+  },
+  {
+    "code": "U0250",
+    "description_ru": "",
+    "description_en": "Lost Communication with Electronic Pedestrian Protection Module (EPPM)",
+    "severity": ""
+  },
+  {
+    "code": "U0252",
+    "description_ru": "",
+    "description_en": "Lost Communication With Trailer Lighting Module",
+    "severity": ""
+  },
+  {
+    "code": "U0255",
+    "description_ru": "",
+    "description_en": "Lost Communication With Front Display Interface Module",
+    "severity": ""
+  },
+  {
+    "code": "U0259",
+    "description_ru": "",
+    "description_en": "Lost Communication With Wheel Chair Ramp Module",
+    "severity": ""
+  },
+  {
+    "code": "U0293",
+    "description_ru": "",
+    "description_en": "Lost Communication with Hybrid Control Module",
+    "severity": ""
+  },
+  {
+    "code": "U0300",
+    "description_ru": "",
+    "description_en": "Internal Control Module Software Incompatibility",
+    "severity": ""
+  },
+  {
+    "code": "U0301",
+    "description_ru": "",
+    "description_en": "Software Incompatibility with ECM/PCM",
+    "severity": ""
+  },
+  {
+    "code": "U0302",
+    "description_ru": "",
+    "description_en": "Software Incompatibility with Transmission Control Module",
+    "severity": ""
+  },
+  {
+    "code": "U0303",
+    "description_ru": "",
+    "description_en": "Software Incompatibility with Transfer Case Control Module",
+    "severity": ""
+  },
+  {
+    "code": "U0304",
+    "description_ru": "",
+    "description_en": "Software Incompatibility with Gear Shift Control Module",
+    "severity": ""
+  },
+  {
+    "code": "U0305",
+    "description_ru": "",
+    "description_en": "Software Incompatibility with Cruise Control Module",
+    "severity": ""
+  },
+  {
+    "code": "U0306",
+    "description_ru": "",
+    "description_en": "Software Incompatibility with Fuel Injector Control Module",
+    "severity": ""
+  },
+  {
+    "code": "U0307",
+    "description_ru": "",
+    "description_en": "Software Incompatibility with Glow Plug Control Module",
+    "severity": ""
+  },
+  {
+    "code": "U0308",
+    "description_ru": "",
+    "description_en": "Software Incompatibility with Throttle Actuator Control Module",
+    "severity": ""
+  },
+  {
+    "code": "U0309",
+    "description_ru": "",
+    "description_en": "Software Incompatibility with Alternative Fuel Control Module",
+    "severity": ""
+  },
+  {
+    "code": "U0310",
+    "description_ru": "",
+    "description_en": "Software Incompatibility with Fuel Pump Control Module",
+    "severity": ""
+  },
+  {
+    "code": "U0311",
+    "description_ru": "",
+    "description_en": "Software Incompatibility with Drive Motor Control Module",
+    "severity": ""
+  },
+  {
+    "code": "U0312",
+    "description_ru": "",
+    "description_en": "Software Incompatibility with Battery Energy Control Module A",
+    "severity": ""
+  },
+  {
+    "code": "U0313",
+    "description_ru": "",
+    "description_en": "Software Incompatibility with Battery Energy Control Module B",
+    "severity": ""
+  },
+  {
+    "code": "U0314",
+    "description_ru": "",
+    "description_en": "Software Incompatibility with Four-Wheel Drive Clutch Control Module",
+    "severity": ""
+  },
+  {
+    "code": "U0315",
+    "description_ru": "",
+    "description_en": "Software Incompatibility with Anti-Lock Brake System Control Module",
+    "severity": ""
+  },
+  {
+    "code": "U0316",
+    "description_ru": "",
+    "description_en": "Software Incompatibility with Vehicle Dynamics Control Module",
+    "severity": ""
+  },
+  {
+    "code": "U0317",
+    "description_ru": "",
+    "description_en": "Software Incompatibility with Park Brake Control Module",
+    "severity": ""
+  },
+  {
+    "code": "U0318",
+    "description_ru": "",
+    "description_en": "Software Incompatibility with Brake System Control Module",
+    "severity": ""
+  },
+  {
+    "code": "U0319",
+    "description_ru": "",
+    "description_en": "Software Incompatibility with Steering Effort Control Module",
+    "severity": ""
+  },
+  {
+    "code": "U0320",
+    "description_ru": "",
+    "description_en": "Software Incompatibility with Power Steering Control Module",
+    "severity": ""
+  },
+  {
+    "code": "U0321",
+    "description_ru": "",
+    "description_en": "Software Incompatibility with Ride Level Control Module",
+    "severity": ""
+  },
+  {
+    "code": "U0322",
+    "description_ru": "",
+    "description_en": "Software Incompatibility with Body Control Module",
+    "severity": ""
+  },
+  {
+    "code": "U0323",
+    "description_ru": "",
+    "description_en": "Software Incompatibility with Instrument Panel Control Module",
+    "severity": ""
+  },
+  {
+    "code": "U0324",
+    "description_ru": "",
+    "description_en": "Software Incompatibility with HVAC Control Module",
+    "severity": ""
+  },
+  {
+    "code": "U0325",
+    "description_ru": "",
+    "description_en": "Software Incompatibility with Auxiliary Heater Control Module",
+    "severity": ""
+  },
+  {
+    "code": "U0326",
+    "description_ru": "",
+    "description_en": "Software Incompatibility with Vehicle Immobilizer Control Module",
+    "severity": ""
+  },
+  {
+    "code": "U0327",
+    "description_ru": "",
+    "description_en": "Software Incompatibility with Vehicle Security Control Module",
+    "severity": ""
+  },
+  {
+    "code": "U0328",
+    "description_ru": "",
+    "description_en": "Software Incompatibility with Steering Angle Sensor Module",
+    "severity": ""
+  },
+  {
+    "code": "U0329",
+    "description_ru": "",
+    "description_en": "Software Incompatibility with Steering Column Control Module",
+    "severity": ""
+  },
+  {
+    "code": "U0330",
+    "description_ru": "",
+    "description_en": "Software Incompatibility with Tire Pressure Monitor Module",
+    "severity": ""
+  },
+  {
+    "code": "U0331",
+    "description_ru": "",
+    "description_en": "Software Incompatibility with Body Control Module 'A'",
+    "severity": ""
+  },
+  {
+    "code": "U0400",
+    "description_ru": "",
+    "description_en": "Invalid Data Received",
+    "severity": ""
+  },
+  {
+    "code": "U0401",
+    "description_ru": "",
+    "description_en": "Invalid Data Received From ECM/PCM",
+    "severity": ""
+  },
+  {
+    "code": "U0402",
+    "description_ru": "",
+    "description_en": "Invalid Data Received From Transmission Control Module",
+    "severity": ""
+  },
+  {
+    "code": "U0403",
+    "description_ru": "",
+    "description_en": "Invalid Data Received From Transfer Case Control Module",
+    "severity": ""
+  },
+  {
+    "code": "U0404",
+    "description_ru": "",
+    "description_en": "Invalid Data Received From Gear Shift Control Module",
+    "severity": ""
+  },
+  {
+    "code": "U0405",
+    "description_ru": "",
+    "description_en": "Invalid Data Received From Cruise Control Module",
+    "severity": ""
+  },
+  {
+    "code": "U0406",
+    "description_ru": "",
+    "description_en": "Invalid Data Received From Fuel Injector Control Module",
+    "severity": ""
+  },
+  {
+    "code": "U0407",
+    "description_ru": "",
+    "description_en": "Invalid Data Received From Glow Plug Control Module",
+    "severity": ""
+  },
+  {
+    "code": "U0408",
+    "description_ru": "",
+    "description_en": "Invalid Data Received From Throttle Actuator Control Module",
+    "severity": ""
+  },
+  {
+    "code": "U0409",
+    "description_ru": "",
+    "description_en": "Invalid Data Received From Alternative Fuel Control Module",
+    "severity": ""
+  },
+  {
+    "code": "U0410",
+    "description_ru": "",
+    "description_en": "Invalid Data Received From Fuel Pump Control Module",
+    "severity": ""
+  },
+  {
+    "code": "U0411",
+    "description_ru": "",
+    "description_en": "Invalid Data Received From Drive Motor Control Module",
+    "severity": ""
+  },
+  {
+    "code": "U0412",
+    "description_ru": "",
+    "description_en": "Invalid Data Received From Battery Energy Control Module A",
+    "severity": ""
+  },
+  {
+    "code": "U0413",
+    "description_ru": "",
+    "description_en": "Invalid Data Received From Battery Energy Control Module B",
+    "severity": ""
+  },
+  {
+    "code": "U0414",
+    "description_ru": "",
+    "description_en": "Invalid Data Received From Four-Wheel Drive Clutch Control Module",
+    "severity": ""
+  },
+  {
+    "code": "U0415",
+    "description_ru": "",
+    "description_en": "Invalid Data Received From Anti-Lock Brake System Control Module",
+    "severity": ""
+  },
+  {
+    "code": "U0416",
+    "description_ru": "",
+    "description_en": "Invalid Data Received From Vehicle Dynamics Control Module",
+    "severity": ""
+  },
+  {
+    "code": "U0417",
+    "description_ru": "",
+    "description_en": "Invalid Data Received From Park Brake Control Module",
+    "severity": ""
+  },
+  {
+    "code": "U0418",
+    "description_ru": "",
+    "description_en": "Invalid Data Received From Brake System Control Module",
+    "severity": ""
+  },
+  {
+    "code": "U0419",
+    "description_ru": "",
+    "description_en": "Invalid Data Received From Steering Effort Control Module",
+    "severity": ""
+  },
+  {
+    "code": "U0420",
+    "description_ru": "",
+    "description_en": "Invalid Data Received From Power Steering Control Module",
+    "severity": ""
+  },
+  {
+    "code": "U0421",
+    "description_ru": "",
+    "description_en": "Invalid Data Received From Ride Level Control Module",
+    "severity": ""
+  },
+  {
+    "code": "U0422",
+    "description_ru": "",
+    "description_en": "Invalid Data Received From Body Control Module",
+    "severity": ""
+  },
+  {
+    "code": "U0423",
+    "description_ru": "",
+    "description_en": "Invalid Data Received From Instrument Panel Control Module",
+    "severity": ""
+  },
+  {
+    "code": "U0424",
+    "description_ru": "",
+    "description_en": "Invalid Data Received From HVAC Control Module",
+    "severity": ""
+  },
+  {
+    "code": "U0425",
+    "description_ru": "",
+    "description_en": "Invalid Data Received From Auxiliary Heater Control Module",
+    "severity": ""
+  },
+  {
+    "code": "U0426",
+    "description_ru": "",
+    "description_en": "Invalid Data Received From Vehicle Immobilizer Control Module",
+    "severity": ""
+  },
+  {
+    "code": "U0427",
+    "description_ru": "",
+    "description_en": "Invalid Data Received From Vehicle Security Control Module",
+    "severity": ""
+  },
+  {
+    "code": "U0428",
+    "description_ru": "",
+    "description_en": "Invalid Data Received From Steering Angle Sensor Module",
+    "severity": ""
+  },
+  {
+    "code": "U0429",
+    "description_ru": "",
+    "description_en": "Invalid Data Received From Steering Column Control Module",
+    "severity": ""
+  },
+  {
+    "code": "U0430",
+    "description_ru": "",
+    "description_en": "Invalid Data Received From Tire Pressure Monitor Module",
+    "severity": ""
+  },
+  {
+    "code": "U0431",
+    "description_ru": "",
+    "description_en": "Invalid Data Received From Body Control Module 'A'",
+    "severity": ""
+  },
+  {
+    "code": "U1105",
+    "description_ru": "",
+    "description_en": "CAN B Signal Missing",
+    "severity": ""
+  },
+  {
+    "code": "U1106",
+    "description_ru": "",
+    "description_en": "CAN C Signal Missing",
+    "severity": ""
+  },
+  {
+    "code": "U1107",
+    "description_ru": "",
+    "description_en": "ECU in Single-Wire Mode",
+    "severity": ""
+  },
+  {
+    "code": "U1108",
+    "description_ru": "",
+    "description_en": "Additional CAN B ECU Detected",
+    "severity": ""
+  },
+  {
+    "code": "U110A",
+    "description_ru": "",
+    "description_en": "Lost Communication With SCM - CAN-C",
+    "severity": ""
+  },
+  {
+    "code": "U1143",
+    "description_ru": "",
+    "description_en": "Lost Communication With Power Sliding Door Module - Left",
+    "severity": ""
+  },
+  {
+    "code": "U1144",
+    "description_ru": "",
+    "description_en": "Lost Communication With Power Sliding Door Module - Right",
+    "severity": ""
+  },
+  {
+    "code": "U1145",
+    "description_ru": "",
+    "description_en": "Lost Communication With Keyless Go Security Module",
+    "severity": ""
+  },
+  {
+    "code": "U1147",
+    "description_ru": "",
+    "description_en": "Additional CAN Interior ECU Detected",
+    "severity": ""
+  },
+  {
+    "code": "U1148",
+    "description_ru": "",
+    "description_en": "Additional CAN-C ECU Detected",
+    "severity": ""
+  },
+  {
+    "code": "U1158",
+    "description_ru": "",
+    "description_en": "Lost Communication With Satellite Video Receiver",
+    "severity": ""
+  },
+  {
+    "code": "U1159",
+    "description_ru": "",
+    "description_en": "Lost Communication With Automatic Sway Bar System",
+    "severity": ""
+  }
+]

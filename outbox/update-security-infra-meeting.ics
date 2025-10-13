@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//SelfService Kiosk//Security Rollout//EN
+BEGIN:VEVENT
+UID:20251012T175500Z-update-security-infra@selfservice.local
+DTSTAMP:20251012T175500Z
+DTSTART:20251015T090000Z
+DTEND:20251015T100000Z
+SUMMARY:Security Update Rollout — Infra Coordination
+DESCRIPTION:Review storage hardening, key management, signing log operations.
+LOCATION:Microsoft Teams
+END:VEVENT
+END:VCALENDAR

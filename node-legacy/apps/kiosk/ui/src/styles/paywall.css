@@ -1,0 +1,273 @@
+/**
+ * Paywall Styles
+ * 
+ * Стили для экрана оплаты с QR кодом
+ */
+
+.paywall-screen {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.paywall-header {
+  margin-bottom: 2rem;
+}
+
+.paywall-header h2 {
+  font-size: 1.8rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  color: #1a1a1a;
+}
+
+.paywall-amount {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #2563eb;
+  margin: 0;
+}
+
+.paywall-qr-container {
+  margin: 2rem 0;
+  padding: 2rem;
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.paywall-qr {
+  width: 300px;
+  height: 300px;
+  margin: 0 auto;
+  display: block;
+}
+
+.paywall-instruction {
+  margin-top: 1rem;
+  font-size: 1rem;
+  color: #6b7280;
+}
+
+.paywall-status {
+  margin: 2rem 0;
+}
+
+.status-indicator {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  padding: 1rem;
+  border-radius: 8px;
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+
+.status-dot {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  animation: pulse 2s infinite;
+}
+
+.status-pending {
+  background: #fef3c7;
+  color: #92400e;
+}
+
+.status-pending .status-dot {
+  background: #fbbf24;
+}
+
+.status-success {
+  background: #d1fae5;
+  color: #065f46;
+}
+
+.status-success .status-dot {
+  background: #10b981;
+  animation: none;
+}
+
+.status-failed {
+  background: #fee2e2;
+  color: #991b1b;
+}
+
+.status-failed .status-dot {
+  background: #ef4444;
+  animation: none;
+}
+
+.status-expired {
+  background: #f3f4f6;
+  color: #374151;
+}
+
+.status-expired .status-dot {
+  background: #9ca3af;
+  animation: none;
+}
+
+@keyframes pulse {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+}
+
+.paywall-dev-controls {
+  margin: 1rem 0;
+}
+
+.btn-dev {
+  background: #8b5cf6;
+  color: white;
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.btn-dev:hover {
+  background: #7c3aed;
+}
+
+.btn-dev:disabled {
+  background: #9ca3af;
+  cursor: not-allowed;
+}
+
+.btn-secondary {
+  background: #f3f4f6;
+  color: #374151;
+  padding: 0.75rem 1.5rem;
+  border: 1px solid #d1d5db;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s;
+  margin-top: 1rem;
+}
+
+.btn-secondary:hover {
+  background: #e5e7eb;
+  border-color: #9ca3af;
+}
+
+.paywall-loading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 4rem 2rem;
+}
+
+.spinner {
+  width: 50px;
+  height: 50px;
+  border: 4px solid #f3f4f6;
+  border-top: 4px solid #2563eb;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+  margin-bottom: 1rem;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.paywall-result {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 4rem 2rem;
+}
+
+.result-icon {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 3rem;
+  margin-bottom: 1.5rem;
+}
+
+.paywall-success .result-icon {
+  background: #d1fae5;
+  color: #065f46;
+}
+
+.paywall-failure .result-icon {
+  background: #fee2e2;
+  color: #991b1b;
+}
+
+.paywall-cancelled .result-icon {
+  background: #f3f4f6;
+  color: #6b7280;
+}
+
+.paywall-error .result-icon {
+  background: #fed7aa;
+  color: #9a3412;
+}
+
+.paywall-result h2 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  color: #1a1a1a;
+}
+
+.paywall-result p {
+  font-size: 1rem;
+  color: #6b7280;
+  margin: 0.25rem 0;
+}
+
+.error-help {
+  margin-top: 1rem;
+  font-size: 0.9rem;
+  color: #9ca3af;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .paywall-screen {
+    padding: 1rem;
+  }
+
+  .paywall-header h2 {
+    font-size: 1.5rem;
+  }
+
+  .paywall-amount {
+    font-size: 2rem;
+  }
+
+  .paywall-qr {
+    width: 250px;
+    height: 250px;
+  }
+}

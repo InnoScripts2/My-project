@@ -1,0 +1,135 @@
+{
+  "metadata": {
+    "description": "DTC read responses from various scenarios",
+    "source": "Multiple vehicles and conditions",
+    "date_captured": "2024-01-15T11:00:00Z",
+    "protocol": "ISO 15765-4 CAN",
+    "notes": "Includes no codes, single code, multiple codes, and pending codes"
+  },
+  "frames": [
+    {
+      "command": "03",
+      "response": "43 00\r\r>",
+      "expected": {
+        "success": true,
+        "mode": "43",
+        "dtcCount": 0,
+        "dtcCodes": []
+      },
+      "notes": "No stored DTCs"
+    },
+    {
+      "command": "03",
+      "response": "43 01 01 71\r\r>",
+      "expected": {
+        "success": true,
+        "mode": "43",
+        "dtcCount": 1,
+        "dtcCodes": [
+          {
+            "code": "P0171",
+            "description": "System Too Lean (Bank 1)"
+          }
+        ]
+      },
+      "notes": "Single DTC: P0171 - Lean condition"
+    },
+    {
+      "command": "03",
+      "response": "43 03 01 71 01 74 03 00\r\r>",
+      "expected": {
+        "success": true,
+        "mode": "43",
+        "dtcCount": 3,
+        "dtcCodes": [
+          {
+            "code": "P0171",
+            "description": "System Too Lean (Bank 1)"
+          },
+          {
+            "code": "P0174",
+            "description": "System Too Lean (Bank 2)"
+          },
+          {
+            "code": "P0300",
+            "description": "Random/Multiple Cylinder Misfire Detected"
+          }
+        ]
+      },
+      "notes": "Multiple DTCs: lean conditions and misfire"
+    },
+    {
+      "command": "03",
+      "response": "43 02 03 01 03 02\r\r>",
+      "expected": {
+        "success": true,
+        "mode": "43",
+        "dtcCount": 2,
+        "dtcCodes": [
+          {
+            "code": "P0301",
+            "description": "Cylinder 1 Misfire Detected"
+          },
+          {
+            "code": "P0302",
+            "description": "Cylinder 2 Misfire Detected"
+          }
+        ]
+      },
+      "notes": "Multiple cylinder misfires"
+    },
+    {
+      "command": "07",
+      "response": "47 00\r\r>",
+      "expected": {
+        "success": true,
+        "mode": "47",
+        "dtcCount": 0,
+        "dtcCodes": []
+      },
+      "notes": "No pending DTCs"
+    },
+    {
+      "command": "07",
+      "response": "47 01 04 20\r\r>",
+      "expected": {
+        "success": true,
+        "mode": "47",
+        "dtcCount": 1,
+        "dtcCodes": [
+          {
+            "code": "P0420",
+            "description": "Catalyst System Efficiency Below Threshold (Bank 1)"
+          }
+        ]
+      },
+      "notes": "Pending DTC: catalyst efficiency"
+    },
+    {
+      "command": "0101",
+      "response": "41 01 82 07 61 00\r\r>",
+      "expected": {
+        "success": true,
+        "mode": "41",
+        "pid": "01",
+        "milOn": true,
+        "dtcCount": 2,
+        "data": ["82", "07", "61", "00"]
+      },
+      "notes": "MIL status: on, 2 DTCs present"
+    },
+    {
+      "command": "0101",
+      "response": "41 01 00 07 65 00\r\r>",
+      "expected": {
+        "success": true,
+        "mode": "41",
+        "pid": "01",
+        "milOn": false,
+        "dtcCount": 0,
+        "data": ["00", "07", "65", "00"]
+      },
+      "notes": "MIL status: off, no DTCs"
+    }
+  ]
+}

@@ -1,0 +1,257 @@
+{
+  "dtc_catalogs": [
+    {
+      "brand": "CHRYSLER_TIPM_CGW_DTC_LIST",
+      "source": "CHRYSLER-TIPM_CGW-DTC-LIST",
+      "output": "dtc_CHRYSLER_TIPM_CGW_DTC_LIST.json",
+      "records": 149,
+      "size": 21110,
+      "sha256": "f9666fd8d39dffe5c0b2f36b777bf1961dc267144bcc82df752aae8412ccaf5d"
+    },
+    {
+      "brand": "CHRYSLER_B_BODY_CODES",
+      "source": "Chrysler_B_Body-Codes",
+      "output": "dtc_CHRYSLER_B_BODY_CODES.json",
+      "records": 160,
+      "size": 22157,
+      "sha256": "676b9274c6f9f15806c3a4f72fc05be72e82d8d3f53c9602a8a68556cde75c40"
+    },
+    {
+      "brand": "CHRYSLER_C_CHASSIS_CODES",
+      "source": "Chrysler_C_Chassis-Codes",
+      "output": "dtc_CHRYSLER_C_CHASSIS_CODES.json",
+      "records": 22,
+      "size": 3082,
+      "sha256": "545c360f4f713c2da537b4332f694aea684b15ba8d34cf2cda3ae5609b567fb3"
+    },
+    {
+      "brand": "CHRYSLER_P_ENGINE_CODES",
+      "source": "Chrysler_P_Engine_Codes",
+      "output": "dtc_CHRYSLER_P_ENGINE_CODES.json",
+      "records": 1791,
+      "size": 257147,
+      "sha256": "64515567bb1bb9ee053eeb453cb03d2ba65ba910e1c4f63882bf332db55ee24e"
+    },
+    {
+      "brand": "CHRYSLER_U_BODY_CONTROLS_CODES",
+      "source": "Chrysler_U_Body_Controls_Codes",
+      "output": "dtc_CHRYSLER_U_BODY_CONTROLS_CODES.json",
+      "records": 319,
+      "size": 46078,
+      "sha256": "d4bfd272e1fca71d370ef86285ef191dd230b49753f42e5a290ab159a3a86445"
+    },
+    {
+      "brand": "CODES_ACURA",
+      "source": "codes-Acura.txt",
+      "output": "dtc_CODES_ACURA.json",
+      "records": 53,
+      "size": 6841,
+      "sha256": "2a231263690005d880f1770a3af44e66a1280edec15d126871ece08285028ba6"
+    },
+    {
+      "brand": "CODES_AUDI",
+      "source": "codes-Audi.txt",
+      "output": "dtc_CODES_AUDI.json",
+      "records": 539,
+      "size": 77566,
+      "sha256": "8863c36a49b9bb62c46525794ed180e7a3e40b10fac239fe7bf9c886852e5c29"
+    },
+    {
+      "brand": "CODES_BMW",
+      "source": "codes-Bmw.txt",
+      "output": "dtc_CODES_BMW.json",
+      "records": 250,
+      "size": 37439,
+      "sha256": "c9ff3cda4a58a2d6187b9adc7ec9038fd2178e21d076e69c7d36ee4d035bc163"
+    },
+    {
+      "brand": "CODES_CHRYSLER",
+      "source": "codes-Chrysler.txt",
+      "output": "dtc_CODES_CHRYSLER.json",
+      "records": 278,
+      "size": 37473,
+      "sha256": "ecff7f7b2f3deef9f30aafac9885ac6de1ad7fe99f5631a220eabfeb9cab04a6"
+    },
+    {
+      "brand": "CODES_DODGE",
+      "source": "codes-Dodge.txt",
+      "output": "dtc_CODES_DODGE.json",
+      "records": 89,
+      "size": 12185,
+      "sha256": "bbf588642c13efe2c45e1d59aaa1ef7659a47722327a387dde9a787ad7c4f533"
+    },
+    {
+      "brand": "CODES_FORD",
+      "source": "codes-Ford.txt",
+      "output": "dtc_CODES_FORD.json",
+      "records": 153,
+      "size": 22427,
+      "sha256": "3bf286909422cab82e13193f7d75d84e2996252c1e3710cced1e205f0cce19de"
+    },
+    {
+      "brand": "CODES_GENERIC",
+      "source": "codes-Generic.txt",
+      "output": "dtc_CODES_GENERIC.json",
+      "records": 933,
+      "size": 136079,
+      "sha256": "0285d1cef65b479261550503b1c155707f0912181bfa34fd1042b8707b8f91a3"
+    },
+    {
+      "brand": "CODES_HONDA",
+      "source": "codes-Honda.txt",
+      "output": "dtc_CODES_HONDA.json",
+      "records": 74,
+      "size": 10017,
+      "sha256": "0230e237eeb987ab78f606e3630a464a9a0f044118d544f82cb3ca4360483c6d"
+    },
+    {
+      "brand": "CODES_HYUNDAI",
+      "source": "codes-Hyundai.txt",
+      "output": "dtc_CODES_HYUNDAI.json",
+      "records": 19,
+      "size": 2713,
+      "sha256": "695f9204c0c4cd0160f04c3bdac5b034ef9977fe975f284f05b430c558999922"
+    },
+    {
+      "brand": "CODES_INFINITI",
+      "source": "codes-Infiniti.txt",
+      "output": "dtc_CODES_INFINITI.json",
+      "records": 36,
+      "size": 4862,
+      "sha256": "e3f565dd169d887e88d19efcf3abd78c58172a49b1b6166e4ed01be87daf81e1"
+    },
+    {
+      "brand": "CODES_ISUZU",
+      "source": "codes-Isuzu.txt",
+      "output": "dtc_CODES_ISUZU.json",
+      "records": 53,
+      "size": 7202,
+      "sha256": "50165d5a366b3d70fa65285fa0f78851cf42ca68bf887845d73dc22a4a9363a7"
+    },
+    {
+      "brand": "CODES_JAGUAR",
+      "source": "codes-Jaguar.txt",
+      "output": "dtc_CODES_JAGUAR.json",
+      "records": 671,
+      "size": 95573,
+      "sha256": "3502457ea8a0705288883f846374389d5857f747bbfb00afff9f76ef79a97918"
+    },
+    {
+      "brand": "CODES_KIA",
+      "source": "codes-Kia.txt",
+      "output": "dtc_CODES_KIA.json",
+      "records": 45,
+      "size": 6360,
+      "sha256": "c629d54eb4e2e8dc25ebac8137d6f63e0740844c9888d42dbf2b334dc8c5bea3"
+    },
+    {
+      "brand": "CODES_LANDROVER",
+      "source": "codes-Landrover.txt",
+      "output": "dtc_CODES_LANDROVER.json",
+      "records": 151,
+      "size": 21915,
+      "sha256": "d7f08c2f4ad54d1d70e3b63c502ddd4d31791267ab055df837036dca51e64105"
+    },
+    {
+      "brand": "CODES_LEXUS",
+      "source": "codes-Lexus.txt",
+      "output": "dtc_CODES_LEXUS.json",
+      "records": 52,
+      "size": 7479,
+      "sha256": "ac5efa88af583d1fbc6676c6658a31382836472ca806accb3aa3f992c69fc13d"
+    },
+    {
+      "brand": "CODES_MAZDA",
+      "source": "codes-Mazda.txt",
+      "output": "dtc_CODES_MAZDA.json",
+      "records": 169,
+      "size": 24145,
+      "sha256": "e05a3ccb01f6043edba46e8fd23b67706e5be92650160a0adc0bdc59366374a6"
+    },
+    {
+      "brand": "CODES_MITSUBISHI",
+      "source": "codes-Mitsubishi.txt",
+      "output": "dtc_CODES_MITSUBISHI.json",
+      "records": 12,
+      "size": 1574,
+      "sha256": "b635804cea3bcf013305d50db3442536e70ad221cb650a5c14e5e95bf3098e44"
+    },
+    {
+      "brand": "CODES_NISSAN",
+      "source": "codes-Nissan.txt",
+      "output": "dtc_CODES_NISSAN.json",
+      "records": 32,
+      "size": 4275,
+      "sha256": "295f3e1fbeb3b34aec8a6988634a04d923bfd888f1f6902b8b292c1adf1cc74c"
+    },
+    {
+      "brand": "CODES_SUBARU",
+      "source": "codes-Subaru.txt",
+      "output": "dtc_CODES_SUBARU.json",
+      "records": 90,
+      "size": 13346,
+      "sha256": "d753132044d9ade7d83c554d80b068aaf6dc565d90615bc1b4a3a46094af2ded"
+    },
+    {
+      "brand": "CODES_TOYOTA",
+      "source": "codes-Toyota.txt",
+      "output": "dtc_CODES_TOYOTA.json",
+      "records": 41,
+      "size": 5547,
+      "sha256": "f0e15cda7aa42d1d36f90ecfa2296160fc26509170360d044703dfc877b75e46"
+    },
+    {
+      "brand": "CODES_VOLKSWAGEN",
+      "source": "codes-Volkswagen.txt",
+      "output": "dtc_CODES_VOLKSWAGEN.json",
+      "records": 191,
+      "size": 27489,
+      "sha256": "4fb88491ce882346bb10f52841ace55c366a2dacbb856593c554f6e3df81dc6f"
+    },
+    {
+      "brand": "GENERIC_CODES",
+      "source": "Generic_Codes.csv",
+      "output": "dtc_GENERIC_CODES.json",
+      "records": 474,
+      "size": 69002,
+      "sha256": "d029cf920c6a76ed5fdad70335f6c93dabd811cefaecac41e1851a3bbd3a1b31"
+    },
+    {
+      "brand": "GENERIC_DTC",
+      "source": "Generic_DTC.txt",
+      "output": "dtc_GENERIC_DTC.json",
+      "records": 3206,
+      "size": 465904,
+      "sha256": "3d6ee95d22bd6b22d9320b7bdca3d63032911d8b0689aeedfb1e5d5dfc9c0556"
+    },
+    {
+      "brand": "HONDA_ENGINE_CODE_DEFINITIONS",
+      "source": "Honda-Engine Code Definitions",
+      "output": "dtc_HONDA_ENGINE_CODE_DEFINITIONS.json",
+      "records": 1444,
+      "size": 208102,
+      "sha256": "c0b49eae318909563fc4e4f0c169db8f9c32e9c07919fef9c4f7b165474b0200"
+    },
+    {
+      "brand": "LANDROVERDTC",
+      "source": "LandRoverDTC.md",
+      "output": "dtc_LANDROVERDTC.json",
+      "records": 4462,
+      "size": 636072,
+      "sha256": "d16c43e8314c497af15cd679e36c47e51b8c061850af2f9948df2c463a832ea4"
+    },
+    {
+      "brand": "LANDROVERDTCSUBCODES",
+      "source": "LandRoverDTCSubcodes.md",
+      "output": "dtc_LANDROVERDTCSUBCODES.json",
+      "records": 256,
+      "size": 33373,
+      "sha256": "be38ae08ad8cf5ad9134e957aa37ce340aa8276626bfbd6346fb3f08a8889d8e"
+    }
+  ],
+  "vin_manifest": {
+    "path": "vin_manifest.json",
+    "size": 385,
+    "sha256": "a26325a41506726b069b213e77ce9232776b099e5efc03ca3cea9a5d4114322b"
+  }
+}

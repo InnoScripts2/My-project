@@ -1,0 +1,10 @@
+{
+  "appMinVersion": "1.0.0",
+  "checksum": "fcf4b533b3ee9f21ed1583499002f243a148579dbace03d9952a798b91b5ef3a",
+  "createdAtUtc": "2025-10-12T00:00:00Z",
+  "keyId": "primary",
+  "notes": "Land Rover catalogs (primary + subcodes + legacy mapping)",
+  "packageId": "dtc.landrover.2025.q4-dev",
+  "records": 4869,
+  "version": "2025.10.1"
+}

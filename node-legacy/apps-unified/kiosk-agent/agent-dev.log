@@ -1,0 +1,12 @@
+=== agent start 2025-10-11 12:42:54 (port=7081) ===
+Starting Kiosk Agent...
+Module URL: file:///c:/Users/Alexsey/Desktop/My%20project/apps-unified/kiosk-agent/dist/main.js
+Process argv[1]: c:\Users\Alexsey\Desktop\My project\apps-unified\kiosk-agent\dist\main.js
+Environment: DEV
+Calling agent.start()...
+[security] AGENT_API_KEY not set; using DEV default key: dev-local-key
+[2025-10-11T03:42:54.901Z] [INFO] [locks] ╨Ш╨╜╨╕╤Ж╨╕╨░╨╗╨╕╨╖╨╕╤А╨╛╨▓╨░╨╜ ╨╖╨░╨╝╨╛╨║ ╨┤╨╗╤П obd { driverType: 'mock' }
+[payments] Using InMemory provider (environment: DEV)
+[io] socket.io not installed; WS channel disabled
+Kiosk Agent listening on http://127.0.0.1:7081
+

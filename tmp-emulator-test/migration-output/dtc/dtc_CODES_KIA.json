@@ -1,0 +1,272 @@
+[
+  {
+    "code": "P1115",
+    "description_ru": "",
+    "description_en": "Engine Coolant Temperature Signal from ECM to TCM",
+    "severity": ""
+  },
+  {
+    "code": "P1121",
+    "description_ru": "",
+    "description_en": "Throttle Position Sensor Signal Malfunction from ECM to TCM",
+    "severity": ""
+  },
+  {
+    "code": "P1170",
+    "description_ru": "",
+    "description_en": "Front Heated Oxygen Sensor Stuck",
+    "severity": ""
+  },
+  {
+    "code": "P1195",
+    "description_ru": "",
+    "description_en": "EGR Pressure Sensor (1.6L) or Boost Sensor (1.8L) Open or Short",
+    "severity": ""
+  },
+  {
+    "code": "P1196",
+    "description_ru": "",
+    "description_en": "Ignition Switch \"Start\" Open or Short (1.6L)",
+    "severity": ""
+  },
+  {
+    "code": "P1250",
+    "description_ru": "",
+    "description_en": "Pressure Regulator Control Solenoid Valve Open or Short",
+    "severity": ""
+  },
+  {
+    "code": "P1252",
+    "description_ru": "",
+    "description_en": "Pressure Regulator Control Solenoid Valve No. 2 Circuit Malfunction",
+    "severity": ""
+  },
+  {
+    "code": "P1307",
+    "description_ru": "",
+    "description_en": "Chassis Acceleration Sensor Signal Malfunction",
+    "severity": ""
+  },
+  {
+    "code": "P1308",
+    "description_ru": "",
+    "description_en": "Chassis Acceleration Sensor Signal Low",
+    "severity": ""
+  },
+  {
+    "code": "P1309",
+    "description_ru": "",
+    "description_en": "Chassis Acceleration Sensor Signal High",
+    "severity": ""
+  },
+  {
+    "code": "P1345",
+    "description_ru": "",
+    "description_en": "No SGC Signal (1.6L)",
+    "severity": ""
+  },
+  {
+    "code": "P1386",
+    "description_ru": "",
+    "description_en": "Knock Sensor Control Zero Test",
+    "severity": ""
+  },
+  {
+    "code": "P1402",
+    "description_ru": "",
+    "description_en": "EGR Valve Position Sensor Open or Short",
+    "severity": ""
+  },
+  {
+    "code": "P1449",
+    "description_ru": "",
+    "description_en": "Canister Drain Cut Valve Open or Short (1.8L)",
+    "severity": ""
+  },
+  {
+    "code": "P1450",
+    "description_ru": "",
+    "description_en": "Excessive Vacuum Leak",
+    "severity": ""
+  },
+  {
+    "code": "P1455",
+    "description_ru": "",
+    "description_en": "Fuel Tank Sending Unit Open or Short (1.8L)",
+    "severity": ""
+  },
+  {
+    "code": "P1457",
+    "description_ru": "",
+    "description_en": "Purge Solenoid Valve Low System Malfunction",
+    "severity": ""
+  },
+  {
+    "code": "P1458",
+    "description_ru": "",
+    "description_en": "A/C Compressor Control Signal Malfunction",
+    "severity": ""
+  },
+  {
+    "code": "P1485",
+    "description_ru": "",
+    "description_en": "EGR Solenoid Valve Vacuum Open or Short",
+    "severity": ""
+  },
+  {
+    "code": "P1486",
+    "description_ru": "",
+    "description_en": "EGR Solenoid Valve Vent Open or Short",
+    "severity": ""
+  },
+  {
+    "code": "P1487",
+    "description_ru": "",
+    "description_en": "EGR Boost Sensor Solenoid Valve Open or Short",
+    "severity": ""
+  },
+  {
+    "code": "P1496",
+    "description_ru": "",
+    "description_en": "EGR Stepper Motor Malfunction - Circuit 1 (1.8L)",
+    "severity": ""
+  },
+  {
+    "code": "P1497",
+    "description_ru": "",
+    "description_en": "EGR Stepper Motor Malfunction - Circuit 2 (1.8L)",
+    "severity": ""
+  },
+  {
+    "code": "P1498",
+    "description_ru": "",
+    "description_en": "EGR Stepper Motor Malfunction - Circuit 3 (1.8L)",
+    "severity": ""
+  },
+  {
+    "code": "P1499",
+    "description_ru": "",
+    "description_en": "EGR Stepper Motor Malfunction - Circuit 4 (1.8L)",
+    "severity": ""
+  },
+  {
+    "code": "P1500",
+    "description_ru": "",
+    "description_en": "No Vehicle Speed Signal to TCM",
+    "severity": ""
+  },
+  {
+    "code": "P1505",
+    "description_ru": "",
+    "description_en": "Idle Air Control Valve Opening Coil Voltage Low",
+    "severity": ""
+  },
+  {
+    "code": "P1506",
+    "description_ru": "",
+    "description_en": "Idle Air Control Valve Opening Coil Voltage High",
+    "severity": ""
+  },
+  {
+    "code": "P1507",
+    "description_ru": "",
+    "description_en": "Idle Air Control Valve Closing Coil Voltage Low",
+    "severity": ""
+  },
+  {
+    "code": "P1508",
+    "description_ru": "",
+    "description_en": "Idle Air Control Valve Closing Coil Voltage High",
+    "severity": ""
+  },
+  {
+    "code": "P1523",
+    "description_ru": "",
+    "description_en": "VICS Solenoid Valve",
+    "severity": ""
+  },
+  {
+    "code": "P1586",
+    "description_ru": "",
+    "description_en": "A/T-M/T Codification",
+    "severity": ""
+  },
+  {
+    "code": "P1608",
+    "description_ru": "",
+    "description_en": "PCM Malfunction",
+    "severity": ""
+  },
+  {
+    "code": "P1611",
+    "description_ru": "",
+    "description_en": "MIL Request Circuit Voltage Low",
+    "severity": ""
+  },
+  {
+    "code": "P1614",
+    "description_ru": "",
+    "description_en": "MIL Request Circuit Voltage High",
+    "severity": ""
+  },
+  {
+    "code": "P1624",
+    "description_ru": "",
+    "description_en": "MIL Request Signal from TCM to ECM",
+    "severity": ""
+  },
+  {
+    "code": "P1631",
+    "description_ru": "",
+    "description_en": "Alternator \"T\" Open or No Power Output (1.8L)",
+    "severity": ""
+  },
+  {
+    "code": "P1632",
+    "description_ru": "",
+    "description_en": "Battery Voltage Detection Circuit for Alternator Regulator (1.8L)",
+    "severity": ""
+  },
+  {
+    "code": "P1633",
+    "description_ru": "",
+    "description_en": "Battery Overcharge",
+    "severity": ""
+  },
+  {
+    "code": "P1634",
+    "description_ru": "",
+    "description_en": "Alternator \"B\" Open (1.8L)",
+    "severity": ""
+  },
+  {
+    "code": "P1693",
+    "description_ru": "",
+    "description_en": "MIL Circuit Malfunction",
+    "severity": ""
+  },
+  {
+    "code": "P1743",
+    "description_ru": "",
+    "description_en": "Torque Converter Clutch Solenoid Valve Open or Short",
+    "severity": ""
+  },
+  {
+    "code": "P1794",
+    "description_ru": "",
+    "description_en": "Battery or Circuit Failure",
+    "severity": ""
+  },
+  {
+    "code": "P1795",
+    "description_ru": "",
+    "description_en": "4WD Switch Signal Malfunction",
+    "severity": ""
+  },
+  {
+    "code": "P1797",
+    "description_ru": "",
+    "description_en": "P or N Range Signal or Clutch Pedal Position Switch Open or Short",
+    "severity": ""
+  }
+]

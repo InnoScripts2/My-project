@@ -1,0 +1,3 @@
+{"timestamp":"2025-10-12T17:58:00Z","actor":"copilot","event":"artifact_created","artifact":"outbox/update-security-infra-meeting.ics","notes":"Scheduled infra coordination meeting invite"}
+{"timestamp":"2025-10-12T18:05:00Z","actor":"copilot","event":"backlog_export","artifact":"outbox/security-backlog-tasks.{json,csv}","notes":"Regenerated security backlog exports with Azure CSV"}
+{"timestamp":"2025-10-12T18:05:30Z","actor":"copilot","event":"backlog_export","artifact":"outbox/stage1-pass-thru-backlog.{json,csv}","notes":"Regenerated Stage 1 backlog exports with Azure CSV"}

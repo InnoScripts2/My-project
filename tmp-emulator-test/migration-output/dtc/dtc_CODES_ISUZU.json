@@ -1,0 +1,320 @@
+[
+  {
+    "code": "P1106",
+    "description_ru": "",
+    "description_en": "MAP Circuit Intermittent Voltage High",
+    "severity": ""
+  },
+  {
+    "code": "P1107",
+    "description_ru": "",
+    "description_en": "MAP Circuit Intermittent Voltage Low",
+    "severity": ""
+  },
+  {
+    "code": "P1108",
+    "description_ru": "",
+    "description_en": "Barometric Pressure Circuit Input High",
+    "severity": ""
+  },
+  {
+    "code": "P1111",
+    "description_ru": "",
+    "description_en": "IAT Sensor Circuit Intermittent Voltage High",
+    "severity": ""
+  },
+  {
+    "code": "P1112",
+    "description_ru": "",
+    "description_en": "IAT Sensor Circuit Intermittent Voltage Low",
+    "severity": ""
+  },
+  {
+    "code": "P1114",
+    "description_ru": "",
+    "description_en": "ECT Sensor Circuit Intermittent Voltage Low",
+    "severity": ""
+  },
+  {
+    "code": "P1115",
+    "description_ru": "",
+    "description_en": "ECT Sensor Circuit Intermittent Voltage High",
+    "severity": ""
+  },
+  {
+    "code": "P1121",
+    "description_ru": "",
+    "description_en": "TP Sensor Circuit Intermittent Voltage High",
+    "severity": ""
+  },
+  {
+    "code": "P1122",
+    "description_ru": "",
+    "description_en": "TP Sensor Circuit Intermittent Voltage Low",
+    "severity": ""
+  },
+  {
+    "code": "P1133",
+    "description_ru": "",
+    "description_en": "H02S Insufficient Switching Bank 1 Sensor 1",
+    "severity": ""
+  },
+  {
+    "code": "P1134",
+    "description_ru": "",
+    "description_en": "H02S Transition Time Ratio Bank 1 Sensor 1",
+    "severity": ""
+  },
+  {
+    "code": "P1153",
+    "description_ru": "",
+    "description_en": "H02S Insufficient Switching Bank 2 Sensor 1",
+    "severity": ""
+  },
+  {
+    "code": "P1154",
+    "description_ru": "",
+    "description_en": "H02S Transition Time Ratio Bank 2 Sensor 1",
+    "severity": ""
+  },
+  {
+    "code": "P1171",
+    "description_ru": "",
+    "description_en": "Fuel System Lean During Acceleration",
+    "severity": ""
+  },
+  {
+    "code": "P1297",
+    "description_ru": "",
+    "description_en": "Electrical Load Detector Circuit Input Low",
+    "severity": ""
+  },
+  {
+    "code": "P1298",
+    "description_ru": "",
+    "description_en": "Electrical Load Detector Circuit Input High",
+    "severity": ""
+  },
+  {
+    "code": "P1300",
+    "description_ru": "",
+    "description_en": "Random Misfire",
+    "severity": ""
+  },
+  {
+    "code": "P1336",
+    "description_ru": "",
+    "description_en": "CKP System Variation Not Learned",
+    "severity": ""
+  },
+  {
+    "code": "P1359",
+    "description_ru": "",
+    "description_en": "CKP/TDC Sensor Disconnected",
+    "severity": ""
+  },
+  {
+    "code": "P1361",
+    "description_ru": "",
+    "description_en": "TDC Sensor Intermittent Interruption",
+    "severity": ""
+  },
+  {
+    "code": "P1362",
+    "description_ru": "",
+    "description_en": "TDC Sensor No Signal",
+    "severity": ""
+  },
+  {
+    "code": "P1380",
+    "description_ru": "",
+    "description_en": "ABS Rough Road System Fault",
+    "severity": ""
+  },
+  {
+    "code": "P1381",
+    "description_ru": "",
+    "description_en": "ABS Rough Road Class 2 Serial Data Fault Or Link Error (1998 Rodeo)",
+    "severity": ""
+  },
+  {
+    "code": "P1382",
+    "description_ru": "",
+    "description_en": "Cylinder Position Sensor No Signal",
+    "severity": ""
+  },
+  {
+    "code": "P1390",
+    "description_ru": "",
+    "description_en": "G Sensor Circuit Intermittent Voltage Low",
+    "severity": ""
+  },
+  {
+    "code": "P1391",
+    "description_ru": "",
+    "description_en": "G Sensor Performance",
+    "severity": ""
+  },
+  {
+    "code": "P1392",
+    "description_ru": "",
+    "description_en": "G Sensor Voltage Low",
+    "severity": ""
+  },
+  {
+    "code": "P1393",
+    "description_ru": "",
+    "description_en": "G Sensor Voltage High",
+    "severity": ""
+  },
+  {
+    "code": "P1394",
+    "description_ru": "",
+    "description_en": "G Sensor Intermittent Voltage High",
+    "severity": ""
+  },
+  {
+    "code": "P1404",
+    "description_ru": "",
+    "description_en": "EGR Valve Stuck Closed",
+    "severity": ""
+  },
+  {
+    "code": "P1406",
+    "description_ru": "",
+    "description_en": "EGR Valve Pintle Position Circuit",
+    "severity": ""
+  },
+  {
+    "code": "P1441",
+    "description_ru": "",
+    "description_en": "EVAP System Flow During Non-Purge",
+    "severity": ""
+  },
+  {
+    "code": "P1442",
+    "description_ru": "",
+    "description_en": "EVAP Vacuum Switch Voltage High During Ignition On",
+    "severity": ""
+  },
+  {
+    "code": "P1459",
+    "description_ru": "",
+    "description_en": "EVAP Emission Purge Flow Switch Malfunction",
+    "severity": ""
+  },
+  {
+    "code": "P1491",
+    "description_ru": "",
+    "description_en": "EGR Valve Lift Insufficient Detected",
+    "severity": ""
+  },
+  {
+    "code": "P1498",
+    "description_ru": "",
+    "description_en": "EGR Valve Lift Sensor Voltage High",
+    "severity": ""
+  },
+  {
+    "code": "P1508",
+    "description_ru": "",
+    "description_en": "IAC System RPM Low",
+    "severity": ""
+  },
+  {
+    "code": "P1509",
+    "description_ru": "",
+    "description_en": "IAC System RPM High",
+    "severity": ""
+  },
+  {
+    "code": "P1546",
+    "description_ru": "",
+    "description_en": "A/C Compressor Clutch Output Circuit Malfunction",
+    "severity": ""
+  },
+  {
+    "code": "P1548",
+    "description_ru": "",
+    "description_en": "A/C Compressor Clutch Output Circuit Malfunction",
+    "severity": ""
+  },
+  {
+    "code": "P1607",
+    "description_ru": "",
+    "description_en": "PCM Internal Circuit Failure \"A\"",
+    "severity": ""
+  },
+  {
+    "code": "P1618",
+    "description_ru": "",
+    "description_en": "SPI Communications Error",
+    "severity": ""
+  },
+  {
+    "code": "P1625",
+    "description_ru": "",
+    "description_en": "PCM Unexpected Reset",
+    "severity": ""
+  },
+  {
+    "code": "P1627",
+    "description_ru": "",
+    "description_en": "PCM A/D Conversion Malfunction",
+    "severity": ""
+  },
+  {
+    "code": "P1635",
+    "description_ru": "",
+    "description_en": "5 Volt Reference Voltage Circuit Malfunction",
+    "severity": ""
+  },
+  {
+    "code": "P1640",
+    "description_ru": "",
+    "description_en": "ODM Output \"A\" Circuit Fault (1998 Rodeo)",
+    "severity": ""
+  },
+  {
+    "code": "P1650",
+    "description_ru": "",
+    "description_en": "Quad Driver Module \"A\" Fault",
+    "severity": ""
+  },
+  {
+    "code": "P1790",
+    "description_ru": "",
+    "description_en": "Trans ROM Checksum Error",
+    "severity": ""
+  },
+  {
+    "code": "P1792",
+    "description_ru": "",
+    "description_en": "Trans EEPROM Checksum Error",
+    "severity": ""
+  },
+  {
+    "code": "P1835",
+    "description_ru": "",
+    "description_en": "Trans Kickdown Switch Malfunction",
+    "severity": ""
+  },
+  {
+    "code": "P1850",
+    "description_ru": "",
+    "description_en": "Brake Band Apply Solenoid Malfunction",
+    "severity": ""
+  },
+  {
+    "code": "P1860",
+    "description_ru": "",
+    "description_en": "TCC PWM Solenoid Circuit Failure",
+    "severity": ""
+  },
+  {
+    "code": "P1870",
+    "description_ru": "",
+    "description_en": "Transmission Component Slipping",
+    "severity": ""
+  }
+]

@@ -1,0 +1,159 @@
+.gauge-container,
+.bar-container {
+  position: relative;
+  display: inline-block;
+}
+
+.gauge-container canvas,
+.bar-container canvas {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.gauge-label,
+.bar-label {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+}
+
+.gauge-value {
+  font-size: 48px;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.gauge-unit {
+  font-size: 18px;
+  color: #b0b0b0;
+  margin-top: 4px;
+}
+
+.zone-normal {
+  color: #00cc66;
+}
+
+.zone-warning {
+  color: #ffaa00;
+}
+
+.zone-critical {
+  color: #ff4444;
+}
+
+.dtc-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+  gap: 24px;
+  margin-top: 24px;
+}
+
+.dtc-card {
+  background: #1a1a1a;
+  border-radius: 12px;
+  padding: 24px;
+  border-left: 4px solid;
+}
+
+.dtc-card.dtc-powertrain {
+  border-left-color: #ff4444;
+}
+
+.dtc-card.dtc-chassis {
+  border-left-color: #ffaa00;
+}
+
+.dtc-card.dtc-body {
+  border-left-color: #00aaff;
+}
+
+.dtc-card.dtc-network {
+  border-left-color: #9b59b6;
+}
+
+.dtc-card.dtc-unknown {
+  border-left-color: #666666;
+}
+
+.dtc-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.dtc-code {
+  font-size: 28px;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.dtc-status {
+  font-size: 24px;
+}
+
+.status-icon {
+  display: inline-block;
+}
+
+.status-pending {
+  color: #ffaa00;
+}
+
+.status-confirmed {
+  color: #ff4444;
+}
+
+.dtc-type {
+  font-size: 16px;
+  color: #b0b0b0;
+  margin-bottom: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.dtc-description {
+  font-size: 18px;
+  color: #e0e0e0;
+  line-height: 1.4;
+}
+
+.dtc-empty {
+  text-align: center;
+  padding: 80px 32px;
+}
+
+.dtc-empty-icon {
+  font-size: 80px;
+  color: #00cc66;
+  margin-bottom: 24px;
+}
+
+.dtc-empty-title {
+  font-size: 32px;
+  font-weight: bold;
+  color: #ffffff;
+  margin-bottom: 16px;
+}
+
+.dtc-empty-message {
+  font-size: 20px;
+  color: #b0b0b0;
+}
+
+@media (max-width: 1280px) {
+  .dtc-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .gauge-value {
+    font-size: 36px;
+  }
+
+  .dtc-code {
+    font-size: 24px;
+  }
+}

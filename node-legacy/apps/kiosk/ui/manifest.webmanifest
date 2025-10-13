@@ -1,0 +1,13 @@
+{
+  "name": "Автосервис самообслуживания",
+  "short_name": "Автосервис",
+  "start_url": "/?source=pwa",
+  "display": "standalone",
+  "background_color": "#0b1020",
+  "theme_color": "#0b1020",
+  "lang": "ru",
+  "scope": "/",
+  "icons": [
+    { "src": "/assets/images/thk-sedan.png", "sizes": "512x512", "type": "image/png", "purpose": "any" }
+  ]
+}

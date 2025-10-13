@@ -1,0 +1,908 @@
+[
+  {
+    "code": "P0101",
+    "description_ru": "",
+    "description_en": "Mass Air Flow Sensor Signal Error Fault",
+    "severity": ""
+  },
+  {
+    "code": "P0102",
+    "description_ru": "",
+    "description_en": "Mass Air Flow Sensor Low Out of Range Fault",
+    "severity": ""
+  },
+  {
+    "code": "P0103",
+    "description_ru": "",
+    "description_en": "Mass Air Flow Sensor High Out of Range Fault",
+    "severity": ""
+  },
+  {
+    "code": "P0111",
+    "description_ru": "",
+    "description_en": "Air Temperature Sensor Signal Error Fault",
+    "severity": ""
+  },
+  {
+    "code": "P0112",
+    "description_ru": "",
+    "description_en": "Air Temperature Sensor Low Out of Range Fault",
+    "severity": ""
+  },
+  {
+    "code": "P0113",
+    "description_ru": "",
+    "description_en": "Air Temperature Sensor High Out of Range Fault",
+    "severity": ""
+  },
+  {
+    "code": "P0116",
+    "description_ru": "",
+    "description_en": "Engine Coolant Temperature Sensor Falling Temp Fault",
+    "severity": ""
+  },
+  {
+    "code": "P0117",
+    "description_ru": "",
+    "description_en": "Engine Coolant Temperature Sensor Low Out of Range Fault",
+    "severity": ""
+  },
+  {
+    "code": "P0118",
+    "description_ru": "",
+    "description_en": "Engine Coolant Temperature Sensor High Out of Range Fault",
+    "severity": ""
+  },
+  {
+    "code": "P0121",
+    "description_ru": "",
+    "description_en": "Throttle Position Sensor Output Signal Error Fault",
+    "severity": ""
+  },
+  {
+    "code": "P0122",
+    "description_ru": "",
+    "description_en": "Throttle Position Sensor Low Out of Range Fault",
+    "severity": ""
+  },
+  {
+    "code": "P0123",
+    "description_ru": "",
+    "description_en": "Throttle Position Sensor High Out of Range Fault",
+    "severity": ""
+  },
+  {
+    "code": "P0125",
+    "description_ru": "",
+    "description_en": "Engine Coolant Temp Sensor Warm Up Fault",
+    "severity": ""
+  },
+  {
+    "code": "P0130",
+    "description_ru": "",
+    "description_en": "Oxygen Sensor Cycle Fault, Engine Back A, Upstream of Catalytic Converter",
+    "severity": ""
+  },
+  {
+    "code": "P0131",
+    "description_ru": "",
+    "description_en": "Oxygen Sensor Low Voltage, Engine Back A, Upstream of Catalytic Converter",
+    "severity": ""
+  },
+  {
+    "code": "P0132",
+    "description_ru": "",
+    "description_en": "Oxygen Sensor High Voltage, Engine Back A, Upstream of Catalytic Converter",
+    "severity": ""
+  },
+  {
+    "code": "P0133",
+    "description_ru": "",
+    "description_en": "Oxygen Sensor Slow Response, Engine Back A, Upstream of Catalytic Converter",
+    "severity": ""
+  },
+  {
+    "code": "P0136",
+    "description_ru": "",
+    "description_en": "Oxygen Sensor Cycle Fault, Engine Back A, Downstream of Catalytic Converter",
+    "severity": ""
+  },
+  {
+    "code": "P0137",
+    "description_ru": "",
+    "description_en": "Oxygen Sensor Low Voltage, Engine Back A, Downstream of Catalytic Converter",
+    "severity": ""
+  },
+  {
+    "code": "P0138",
+    "description_ru": "",
+    "description_en": "Oxygen Sensor High Voltage, Engine Back A, Downstream of Catalytic Converter",
+    "severity": ""
+  },
+  {
+    "code": "P0139",
+    "description_ru": "",
+    "description_en": "Oxygen Sensor Slow Response, Engine Back A, Downstream of Catalytic Converter",
+    "severity": ""
+  },
+  {
+    "code": "P0150",
+    "description_ru": "",
+    "description_en": "Oxygen Sensor Cycle Fault, Engine Bank B, Upstream of Catalytic Converter",
+    "severity": ""
+  },
+  {
+    "code": "P0151",
+    "description_ru": "",
+    "description_en": "Oxygen Sensor Low Voltage, Engine Bank B, Upstream of Catalytic Converter",
+    "severity": ""
+  },
+  {
+    "code": "P0152",
+    "description_ru": "",
+    "description_en": "Oxygen Sensor High Voltage, Engine Bank B, Upstream of Catalytic Converter",
+    "severity": ""
+  },
+  {
+    "code": "P0153",
+    "description_ru": "",
+    "description_en": "Oxygen Sensor Slow Response, Engine Bank B, Upstream of Catalytic Converter",
+    "severity": ""
+  },
+  {
+    "code": "P0156",
+    "description_ru": "",
+    "description_en": "Oxygen Sensor Cycle Fault, Engine Bank B, Downstream of Catalytic Converter",
+    "severity": ""
+  },
+  {
+    "code": "P0157",
+    "description_ru": "",
+    "description_en": "Oxygen Sensor Low Voltage, Engine Bank B, Downstream of Catalytic Converter",
+    "severity": ""
+  },
+  {
+    "code": "P0158",
+    "description_ru": "",
+    "description_en": "Oxygen Sensor High Voltage, Engine Bank B, Downstream of Catalytic Converter",
+    "severity": ""
+  },
+  {
+    "code": "P0159",
+    "description_ru": "",
+    "description_en": "Oxygen Sensor Slow Response, Engine Bank B, Downstream of Catalytic Converter",
+    "severity": ""
+  },
+  {
+    "code": "P0171",
+    "description_ru": "",
+    "description_en": "Oxygen Sensor System Too Lean Fault Bank A",
+    "severity": ""
+  },
+  {
+    "code": "P0172",
+    "description_ru": "",
+    "description_en": "Oxygen Sensor System Too Rich Fault Bank A",
+    "severity": ""
+  },
+  {
+    "code": "P0174",
+    "description_ru": "",
+    "description_en": "Oxygen Sensor System Too Lean Fault Bank B",
+    "severity": ""
+  },
+  {
+    "code": "P0175",
+    "description_ru": "",
+    "description_en": "Oxygen Sensor System Too Rich Fault Bank B",
+    "severity": ""
+  },
+  {
+    "code": "P0181",
+    "description_ru": "",
+    "description_en": "Fuel Temperature Sensor Signal Error Fault",
+    "severity": ""
+  },
+  {
+    "code": "P0182",
+    "description_ru": "",
+    "description_en": "Fuel Temperature Sensor Low Out of Range Fault",
+    "severity": ""
+  },
+  {
+    "code": "P0183",
+    "description_ru": "",
+    "description_en": "Fuel Temperature Sensor High Out of Range Fault",
+    "severity": ""
+  },
+  {
+    "code": "P0201",
+    "description_ru": "",
+    "description_en": "Injector 1 Circuit Fault",
+    "severity": ""
+  },
+  {
+    "code": "P0202",
+    "description_ru": "",
+    "description_en": "Injector 2 Circuit Fault",
+    "severity": ""
+  },
+  {
+    "code": "P0203",
+    "description_ru": "",
+    "description_en": "Injector 3 Circuit Fault",
+    "severity": ""
+  },
+  {
+    "code": "P0204",
+    "description_ru": "",
+    "description_en": "Injector 4 Circuit Fault",
+    "severity": ""
+  },
+  {
+    "code": "P0205",
+    "description_ru": "",
+    "description_en": "Injector 5 Circuit Fault",
+    "severity": ""
+  },
+  {
+    "code": "P0206",
+    "description_ru": "",
+    "description_en": "Injector 6 Circuit Fault",
+    "severity": ""
+  },
+  {
+    "code": "P0207",
+    "description_ru": "",
+    "description_en": "Injector 7 Circuit Fault",
+    "severity": ""
+  },
+  {
+    "code": "P0208",
+    "description_ru": "",
+    "description_en": "Injector 8 Circuit Fault",
+    "severity": ""
+  },
+  {
+    "code": "P0300",
+    "description_ru": "",
+    "description_en": "Misfire On Multiple Cylinder",
+    "severity": ""
+  },
+  {
+    "code": "P0301",
+    "description_ru": "",
+    "description_en": "Misfire Cylinder 1",
+    "severity": ""
+  },
+  {
+    "code": "P0304",
+    "description_ru": "",
+    "description_en": "Misfire Cylinder 4",
+    "severity": ""
+  },
+  {
+    "code": "P0305",
+    "description_ru": "",
+    "description_en": "Misfire Cylinder 5",
+    "severity": ""
+  },
+  {
+    "code": "P0306",
+    "description_ru": "",
+    "description_en": "Misfire Cylinder 6",
+    "severity": ""
+  },
+  {
+    "code": "P0307",
+    "description_ru": "",
+    "description_en": "Misfire Cylinder 7",
+    "severity": ""
+  },
+  {
+    "code": "P0308",
+    "description_ru": "",
+    "description_en": "Misfire Cylinder 8",
+    "severity": ""
+  },
+  {
+    "code": "P0326",
+    "description_ru": "",
+    "description_en": "Continuous Knock Fault Bank A",
+    "severity": ""
+  },
+  {
+    "code": "P0327",
+    "description_ru": "",
+    "description_en": "Background Noise Low Fault Bank A",
+    "severity": ""
+  },
+  {
+    "code": "P0328",
+    "description_ru": "",
+    "description_en": "Background Noise High Fault Bank A",
+    "severity": ""
+  },
+  {
+    "code": "P0331",
+    "description_ru": "",
+    "description_en": "Continuous Knock Fault Bank B",
+    "severity": ""
+  },
+  {
+    "code": "P0332",
+    "description_ru": "",
+    "description_en": "Background Noise Low Fault Bank B",
+    "severity": ""
+  },
+  {
+    "code": "P0333",
+    "description_ru": "",
+    "description_en": "Background Noise High Fault Bank B",
+    "severity": ""
+  },
+  {
+    "code": "P0335",
+    "description_ru": "",
+    "description_en": "Crankshaft Position Sensor Signal Error Fault",
+    "severity": ""
+  },
+  {
+    "code": "P0336",
+    "description_ru": "",
+    "description_en": "Crankshaft Position Sensor Out of Range Fault",
+    "severity": ""
+  },
+  {
+    "code": "P0340",
+    "description_ru": "",
+    "description_en": "Camshaft Position Sensor Signal Error Fault",
+    "severity": ""
+  },
+  {
+    "code": "P03O2",
+    "description_ru": "",
+    "description_en": "Misfire Cylinder 2",
+    "severity": ""
+  },
+  {
+    "code": "P03O3",
+    "description_ru": "",
+    "description_en": "Misfire Cylinder 3",
+    "severity": ""
+  },
+  {
+    "code": "P0420",
+    "description_ru": "",
+    "description_en": "Catalyst Efficiency Low Fault Bank A",
+    "severity": ""
+  },
+  {
+    "code": "P0430",
+    "description_ru": "",
+    "description_en": "Catalyst Efficiency Low Fault Bank B",
+    "severity": ""
+  },
+  {
+    "code": "P0441",
+    "description_ru": "",
+    "description_en": "Evap Purge Valve Incorrect Flow Fault",
+    "severity": ""
+  },
+  {
+    "code": "P0442",
+    "description_ru": "",
+    "description_en": "Evap System Small Leak Detected Fault",
+    "severity": ""
+  },
+  {
+    "code": "P0443",
+    "description_ru": "",
+    "description_en": "Evap Purge Valve Open or Short Circuit Fault",
+    "severity": ""
+  },
+  {
+    "code": "P0451",
+    "description_ru": "",
+    "description_en": "Fuel Tank Pressure Sensor Signal Error Fault",
+    "severity": ""
+  },
+  {
+    "code": "P0452",
+    "description_ru": "",
+    "description_en": "Fuel Tank Pressure Sensor Low out of Range Fault",
+    "severity": ""
+  },
+  {
+    "code": "P0453",
+    "description_ru": "",
+    "description_en": "Fuel Tank Pressure Sensor High Out of Range Fault",
+    "severity": ""
+  },
+  {
+    "code": "P0461",
+    "description_ru": "",
+    "description_en": "Fuel Tank Level Measurement Not Valid Fault",
+    "severity": ""
+  },
+  {
+    "code": "P0500",
+    "description_ru": "",
+    "description_en": "Vehicle Speed Sensor Signal Error Fault",
+    "severity": ""
+  },
+  {
+    "code": "P0506",
+    "description_ru": "",
+    "description_en": "Idle Speed Control Engine Speed Low Fault",
+    "severity": ""
+  },
+  {
+    "code": "P0507",
+    "description_ru": "",
+    "description_en": "Idle Speed Control Engine Speed High Fault",
+    "severity": ""
+  },
+  {
+    "code": "P0560",
+    "description_ru": "",
+    "description_en": "Battery Voltage Below Minimum Fault",
+    "severity": ""
+  },
+  {
+    "code": "P0562",
+    "description_ru": "",
+    "description_en": "Measurement Circuit OK Battery Voltage Low Fault",
+    "severity": ""
+  },
+  {
+    "code": "P0563",
+    "description_ru": "",
+    "description_en": "Battery Voltage Above Maximum Fault",
+    "severity": ""
+  },
+  {
+    "code": "P0605",
+    "description_ru": "",
+    "description_en": "ECM Self Test Fault",
+    "severity": ""
+  },
+  {
+    "code": "P1130",
+    "description_ru": "",
+    "description_en": "Oxygen Sensor Fuel Trim at Limit, Engine Back A, Upstream of Catalytic Converter",
+    "severity": ""
+  },
+  {
+    "code": "P1131",
+    "description_ru": "",
+    "description_en": "Oxygen Sensor Engine Lean, Engine Back A, Upstream of Catalytic Converter",
+    "severity": ""
+  },
+  {
+    "code": "P1132",
+    "description_ru": "",
+    "description_en": "Oxygen Sensor Engine Rich, Engine Back A, Upstream of Catalytic Converter",
+    "severity": ""
+  },
+  {
+    "code": "P1137",
+    "description_ru": "",
+    "description_en": "Oxygen Sensor Engine Lean, Engine Back A, Downstream of Catalytic Converter",
+    "severity": ""
+  },
+  {
+    "code": "P1138",
+    "description_ru": "",
+    "description_en": "Oxygen Sensor Engine Rich, Engine Back A, Downstream of Catalytic Converter",
+    "severity": ""
+  },
+  {
+    "code": "P1150",
+    "description_ru": "",
+    "description_en": "Oxygen Sensor Fuel Trim at Limit, Engine Bank B, Upstream of Catalytic Converter",
+    "severity": ""
+  },
+  {
+    "code": "P1151",
+    "description_ru": "",
+    "description_en": "Oxygen Sensor Engine Lean, Engine Bank B, Upstream of Catalytic Converter",
+    "severity": ""
+  },
+  {
+    "code": "P1152",
+    "description_ru": "",
+    "description_en": "Oxygen Sensor Engine Rich, Engine Bank B, Upstream of Catalytic Converter",
+    "severity": ""
+  },
+  {
+    "code": "P1157",
+    "description_ru": "",
+    "description_en": "Oxygen Sensor Engine Lean, Engine Bank B, Downstream of Catalytic Converter",
+    "severity": ""
+  },
+  {
+    "code": "P1158",
+    "description_ru": "",
+    "description_en": "Oxygen Sensor Engine Rich, Engine Bank B, Downstream of Catalytic Converter",
+    "severity": ""
+  },
+  {
+    "code": "P1171",
+    "description_ru": "",
+    "description_en": "Oxygen Sensor System Too Lean Fault Banks A & B",
+    "severity": ""
+  },
+  {
+    "code": "P1172",
+    "description_ru": "",
+    "description_en": "Oxygen Sensor System Too Rich Fault Banks A & B",
+    "severity": ""
+  },
+  {
+    "code": "P1176",
+    "description_ru": "",
+    "description_en": "Maximum Positive FMFR Correction Fault",
+    "severity": ""
+  },
+  {
+    "code": "P1177",
+    "description_ru": "",
+    "description_en": "Maximum Negative FMFR Correction Fault",
+    "severity": ""
+  },
+  {
+    "code": "P1178",
+    "description_ru": "",
+    "description_en": "Maximum Positive AMFR Correction Fault",
+    "severity": ""
+  },
+  {
+    "code": "P1179",
+    "description_ru": "",
+    "description_en": "Maximum Negative AMFR Correction Fault",
+    "severity": ""
+  },
+  {
+    "code": "P1185",
+    "description_ru": "",
+    "description_en": "Oxygen Sensor Heater Circuit Open Upstream",
+    "severity": ""
+  },
+  {
+    "code": "P1186",
+    "description_ru": "",
+    "description_en": "Oxygen Sensor Heater Circuit Short Upstream",
+    "severity": ""
+  },
+  {
+    "code": "P1187",
+    "description_ru": "",
+    "description_en": "Oxygen Sensor Heater Circuit Short Upstream",
+    "severity": ""
+  },
+  {
+    "code": "P1188",
+    "description_ru": "",
+    "description_en": "Oxygen Sensor Heater High Resistance Upstream",
+    "severity": ""
+  },
+  {
+    "code": "P1189",
+    "description_ru": "",
+    "description_en": "Oxygen Sensor Heater Type 1 Low Resistance Upstream",
+    "severity": ""
+  },
+  {
+    "code": "P1190",
+    "description_ru": "",
+    "description_en": "Oxygen Sensor Heater Type 2 Low Resistance Upstream",
+    "severity": ""
+  },
+  {
+    "code": "P1191",
+    "description_ru": "",
+    "description_en": "Oxygen Sensor Heater Circuit Open Downstream",
+    "severity": ""
+  },
+  {
+    "code": "P1192",
+    "description_ru": "",
+    "description_en": "Oxygen Sensor Heater Circuit Short Downstream",
+    "severity": ""
+  },
+  {
+    "code": "P1193",
+    "description_ru": "",
+    "description_en": "Oxygen Sensor Heater Circuit Open Downstream",
+    "severity": ""
+  },
+  {
+    "code": "P1194",
+    "description_ru": "",
+    "description_en": "Oxygen Sensor Heater High Resistance Downstream",
+    "severity": ""
+  },
+  {
+    "code": "P1195",
+    "description_ru": "",
+    "description_en": "Oxygen Sensor Heater Type 1 Low Resistance Downstream",
+    "severity": ""
+  },
+  {
+    "code": "P1196",
+    "description_ru": "",
+    "description_en": "Oxygen Sensor Heater Type 2 Low Resistance Downstream",
+    "severity": ""
+  },
+  {
+    "code": "P1199",
+    "description_ru": "",
+    "description_en": "Fuel Level Sensor Circuit Fault",
+    "severity": ""
+  },
+  {
+    "code": "P1201",
+    "description_ru": "",
+    "description_en": "Injector 1 Open Circuit or Ground Short Fault",
+    "severity": ""
+  },
+  {
+    "code": "P1202",
+    "description_ru": "",
+    "description_en": "Injector 2 Open Circuit or Ground Short Fault",
+    "severity": ""
+  },
+  {
+    "code": "P1203",
+    "description_ru": "",
+    "description_en": "Injector 3 Open Circuit or Ground Short Fault",
+    "severity": ""
+  },
+  {
+    "code": "P1204",
+    "description_ru": "",
+    "description_en": "Injector 4 Open Circuit or Ground Short Fault",
+    "severity": ""
+  },
+  {
+    "code": "P1205",
+    "description_ru": "",
+    "description_en": "Injector 5 Open Circuit or Ground Short Fault",
+    "severity": ""
+  },
+  {
+    "code": "P1206",
+    "description_ru": "",
+    "description_en": "Injector 6 Open Circuit or Ground Short Fault",
+    "severity": ""
+  },
+  {
+    "code": "P1207",
+    "description_ru": "",
+    "description_en": "Injector 7 Open Circuit or Ground Short Fault",
+    "severity": ""
+  },
+  {
+    "code": "P1208",
+    "description_ru": "",
+    "description_en": "Injector 8 Open Circuit or Ground Short Fault",
+    "severity": ""
+  },
+  {
+    "code": "P1313",
+    "description_ru": "",
+    "description_en": "Misfire Catalyst Damage Fault Bank A",
+    "severity": ""
+  },
+  {
+    "code": "P1314",
+    "description_ru": "",
+    "description_en": "Misfire Catalyst Damage Fault Bank B",
+    "severity": ""
+  },
+  {
+    "code": "P1315",
+    "description_ru": "",
+    "description_en": "Misfire Persistent Fault",
+    "severity": ""
+  },
+  {
+    "code": "P1316",
+    "description_ru": "",
+    "description_en": "Misfire Excessive Emissions Fault",
+    "severity": ""
+  },
+  {
+    "code": "P1317",
+    "description_ru": "",
+    "description_en": "ABS Rough Road Line Low Fault",
+    "severity": ""
+  },
+  {
+    "code": "P1318",
+    "description_ru": "",
+    "description_en": "ABS Rough Road Line High Fault",
+    "severity": ""
+  },
+  {
+    "code": "P1361",
+    "description_ru": "",
+    "description_en": "No Ignition Coil Activation Fault Coil 1",
+    "severity": ""
+  },
+  {
+    "code": "P1362",
+    "description_ru": "",
+    "description_en": "No Ignition Coil Activation Fault Coil 2",
+    "severity": ""
+  },
+  {
+    "code": "P1363",
+    "description_ru": "",
+    "description_en": "No Ignition Coil Activation Fault Coil 3",
+    "severity": ""
+  },
+  {
+    "code": "P1364",
+    "description_ru": "",
+    "description_en": "No Ignition Coil Activation Fault Coil 4",
+    "severity": ""
+  },
+  {
+    "code": "P1371",
+    "description_ru": "",
+    "description_en": "Early Ignition Coil Activation Fault Coil 1",
+    "severity": ""
+  },
+  {
+    "code": "P1372",
+    "description_ru": "",
+    "description_en": "Early Ignition Coil Activation Fault Coil 2",
+    "severity": ""
+  },
+  {
+    "code": "P1373",
+    "description_ru": "",
+    "description_en": "Early Ignition Coil Activation Fault Coil 3",
+    "severity": ""
+  },
+  {
+    "code": "P1374",
+    "description_ru": "",
+    "description_en": "Early Ignition Coil Activation Fault Coil 4",
+    "severity": ""
+  },
+  {
+    "code": "P1440",
+    "description_ru": "",
+    "description_en": "Evap System Purge Valve Stuck Open Fault",
+    "severity": ""
+  },
+  {
+    "code": "P1441",
+    "description_ru": "",
+    "description_en": "Evap System Purge Valve Flow 1 Fault",
+    "severity": ""
+  },
+  {
+    "code": "P1442",
+    "description_ru": "",
+    "description_en": "Evap System Purge Valve Blocked Fault",
+    "severity": ""
+  },
+  {
+    "code": "P1447",
+    "description_ru": "",
+    "description_en": "Evap System Purge Valve Open or Short Circuit Fault",
+    "severity": ""
+  },
+  {
+    "code": "P1448",
+    "description_ru": "",
+    "description_en": "Evap System Purge Valve Flow 2 Fault",
+    "severity": ""
+  },
+  {
+    "code": "P1508",
+    "description_ru": "",
+    "description_en": "Idle Speed Control Open Circuit Fault",
+    "severity": ""
+  },
+  {
+    "code": "P1514",
+    "description_ru": "",
+    "description_en": "Neutral Drive Load Fault",
+    "severity": ""
+  },
+  {
+    "code": "P1516",
+    "description_ru": "",
+    "description_en": "Neutral Drive Gear Change Fault",
+    "severity": ""
+  },
+  {
+    "code": "P1517",
+    "description_ru": "",
+    "description_en": "Neutral Drive Cranking Fault",
+    "severity": ""
+  },
+  {
+    "code": "P15O9",
+    "description_ru": "",
+    "description_en": "Idle Speed Control Short Circuit Fault",
+    "severity": ""
+  },
+  {
+    "code": "P1607",
+    "description_ru": "",
+    "description_en": "Malfunction Indicator Lamp Short Circuit Fault",
+    "severity": ""
+  },
+  {
+    "code": "P1608",
+    "description_ru": "",
+    "description_en": "Malfunction Indicator Lamp Open Circuit Fault",
+    "severity": ""
+  },
+  {
+    "code": "P1620",
+    "description_ru": "",
+    "description_en": "Reprogramming Code Learn Fault",
+    "severity": ""
+  },
+  {
+    "code": "P1621",
+    "description_ru": "",
+    "description_en": "Serial Data Link Dead Fault",
+    "severity": ""
+  },
+  {
+    "code": "P1622",
+    "description_ru": "",
+    "description_en": "Repeated Wrong ECM Security Code Fault",
+    "severity": ""
+  },
+  {
+    "code": "P1623",
+    "description_ru": "",
+    "description_en": "ECM Security Code Fault",
+    "severity": ""
+  },
+  {
+    "code": "P1701",
+    "description_ru": "",
+    "description_en": "Transfer Box Line Fault",
+    "severity": ""
+  },
+  {
+    "code": "P1703",
+    "description_ru": "",
+    "description_en": "Transfer Box Line Open Circuit Fault",
+    "severity": ""
+  },
+  {
+    "code": "P1708",
+    "description_ru": "",
+    "description_en": "Transfer Box Line Short Circuit Fault",
+    "severity": ""
+  },
+  {
+    "code": "P1775",
+    "description_ru": "",
+    "description_en": "Gearbox Fault",
+    "severity": ""
+  },
+  {
+    "code": "P1776",
+    "description_ru": "",
+    "description_en": "Gearbox Ignition Retard Request Timeout Fault",
+    "severity": ""
+  },
+  {
+    "code": "P1777",
+    "description_ru": "",
+    "description_en": "Gearbox Ignition Retard Request Line Fault",
+    "severity": ""
+  }
+]

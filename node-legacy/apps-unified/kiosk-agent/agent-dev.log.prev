@@ -1,0 +1,13 @@
+=== agent start 2025-10-11 12:06:09 (port=7081) ===
+file:///c:/Users/Alexsey/Desktop/My%20project/apps-unified/kiosk-agent/dist/integrations/obd/report-generator.js:255
+export const obdReportGenerator = new ObdReportGenerator(process.env.TEMPLATES_PATH || path.join(__dirname, '../../templates/obd'));
+                                                                                                 ^
+
+ReferenceError: __dirname is not defined in ES module scope
+This file is being treated as an ES module because it has a '.js' file extension and 'c:\Users\Alexsey\Desktop\My project\apps-unified\kiosk-agent\package.json' contains "type": "module". To treat it as a CommonJS script, rename it to use the '.cjs' file extension.
+    at file:///c:/Users/Alexsey/Desktop/My%20project/apps-unified/kiosk-agent/dist/integrations/obd/report-generator.js:255:98
+    at ModuleJob.run (node:internal/modules/esm/module_job:345:25)
+    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:651:26)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:117:5)
+
+Node.js v22.19.0

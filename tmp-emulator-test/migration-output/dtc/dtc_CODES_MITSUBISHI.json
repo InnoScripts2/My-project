@@ -1,0 +1,74 @@
+[
+  {
+    "code": "P1103",
+    "description_ru": "",
+    "description_en": "Turbocharger Wastegate Actuator",
+    "severity": ""
+  },
+  {
+    "code": "P1104",
+    "description_ru": "",
+    "description_en": "Turbocharger Wastegate Solenoid",
+    "severity": ""
+  },
+  {
+    "code": "P1105",
+    "description_ru": "",
+    "description_en": "Fuel Pressure Solenoid",
+    "severity": ""
+  },
+  {
+    "code": "P1300",
+    "description_ru": "",
+    "description_en": "Ignition Timing Adjustment circuit",
+    "severity": ""
+  },
+  {
+    "code": "P1400",
+    "description_ru": "",
+    "description_en": "Manifold Differential Pressure Sensor circuit",
+    "severity": ""
+  },
+  {
+    "code": "P1500",
+    "description_ru": "",
+    "description_en": "Alternator FR Terminal circuit",
+    "severity": ""
+  },
+  {
+    "code": "P1600",
+    "description_ru": "",
+    "description_en": "Serial Communication Link",
+    "severity": ""
+  },
+  {
+    "code": "P1715",
+    "description_ru": "",
+    "description_en": "Pulse Generator Assembly",
+    "severity": ""
+  },
+  {
+    "code": "P1750",
+    "description_ru": "",
+    "description_en": "Solenoid Assembly",
+    "severity": ""
+  },
+  {
+    "code": "P1751",
+    "description_ru": "",
+    "description_en": "A/T Control Relay",
+    "severity": ""
+  },
+  {
+    "code": "P1791",
+    "description_ru": "",
+    "description_en": "Engine Coolant Temperature Level Input circuit",
+    "severity": ""
+  },
+  {
+    "code": "P1795",
+    "description_ru": "",
+    "description_en": "Throttle Position Input circuit to TCM",
+    "severity": ""
+  }
+]

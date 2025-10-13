@@ -1,0 +1,46 @@
+{
+  "environment": "DEV",
+  "payments": {
+    "provider": "dev",
+    "dev": {
+      "autoConfirmDelayMs": 2000,
+      "manualMode": false
+    },
+    "yookassa": {
+      "shopId": "",
+      "secretKey": "",
+      "webhookUrl": "https://your-domain.com/api/payments/webhook"
+    }
+  },
+  "email": {
+    "provider": "dev",
+    "from": "noreply@autoservice.local",
+    "smtp": {
+      "host": "smtp.example.com",
+      "port": 587,
+      "secure": false,
+      "auth": {
+        "user": "",
+        "pass": ""
+      }
+    },
+    "sendgrid": {
+      "apiKey": ""
+    }
+  },
+  "sms": {
+    "provider": "dev",
+    "from": "+79000000000",
+    "twilio": {
+      "accountSid": "",
+      "authToken": ""
+    }
+  },
+  "sessions": {
+    "defaultTtlMs": 3600000,
+    "autoResetOnTimeout": true
+  },
+  "storage": {
+    "reportsPath": "./storage/reports"
+  }
+}

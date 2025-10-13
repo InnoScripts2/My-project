@@ -1,0 +1,7 @@
+Model gemini-1.0-pro failed: Invoke-RestMethod: C:\Users\Alexsey\Desktop\My project\infra-unified\scripts\ai-runner.ps1:50:17
+Line |
+  50 |  …     $resp = Invoke-RestMethod -Method Post -Uri $uri -ContentType 'ap …
+     |                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | Response status code does not indicate success: 404 (Not Found).
+
+

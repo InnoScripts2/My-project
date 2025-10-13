@@ -1,0 +1,52 @@
+# Daily cleanup workflow
+# Ежедневная очистка старых файлов
+
+name: daily_cleanup
+description: Cleanup old files older than 7 days
+
+trigger:
+  type: schedule
+  config:
+    cronExpression: 0 3 * * *  # Ежедневно в 3 AM
+
+steps:
+  - name: find_old_files
+    type: script
+    config:
+      language: nodejs
+      code: |
+        const fs = require('fs');
+        const path = require('path');
+        const now = Date.now();
+        const maxAge = 7 * 24 * 60 * 60 * 1000;
+        const dirs = ['exports/', 'logs/'];
+        let deletedCount = 0;
+        dirs.forEach(dir => {
+          if (fs.existsSync(dir)) {
+            const files = fs.readdirSync(dir);
+            files.forEach(file => {
+              const filePath = path.join(dir, file);
+              const stat = fs.statSync(filePath);
+              if (now - stat.mtime.getTime() > maxAge) {
+                fs.unlinkSync(filePath);
+                deletedCount++;
+              }
+            });
+          }
+        });
+        return { deletedCount };
+
+  - name: cleanup_reports
+    type: http
+    config:
+      method: DELETE
+      url: http://localhost:8080/api/reports/cleanup?olderThan=7
+
+  - name: notify_summary
+    type: email
+    config:
+      to: admin@example.com
+      subject: Daily cleanup completed
+      body: Deleted {{steps.find_old_files.output.deletedCount}} files
+
+enabled: true

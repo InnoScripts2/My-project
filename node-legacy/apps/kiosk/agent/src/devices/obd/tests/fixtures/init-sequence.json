@@ -1,0 +1,81 @@
+{
+  "metadata": {
+    "description": "Complete ELM327 initialization sequence",
+    "source": "ELM327 v1.5 adapter via serial USB",
+    "date_captured": "2024-01-15T10:30:00Z",
+    "protocol": "ISO 15765-4 CAN (11 bit ID, 500 kbaud)",
+    "notes": "Captured from 2015 Toyota Camry, engine running"
+  },
+  "frames": [
+    {
+      "command": "ATZ",
+      "response": "ELM327 v1.5\r\r>",
+      "expected": {
+        "success": true,
+        "version": "1.5"
+      },
+      "notes": "Reset command, returns version"
+    },
+    {
+      "command": "ATE0",
+      "response": "OK\r\r>",
+      "expected": {
+        "success": true
+      },
+      "notes": "Echo off"
+    },
+    {
+      "command": "ATL0",
+      "response": "OK\r\r>",
+      "expected": {
+        "success": true
+      },
+      "notes": "Linefeeds off"
+    },
+    {
+      "command": "ATS0",
+      "response": "OK\r\r>",
+      "expected": {
+        "success": true
+      },
+      "notes": "Spaces off"
+    },
+    {
+      "command": "ATH0",
+      "response": "OK\r\r>",
+      "expected": {
+        "success": true
+      },
+      "notes": "Headers off"
+    },
+    {
+      "command": "ATSP0",
+      "response": "OK\r\r>",
+      "expected": {
+        "success": true
+      },
+      "notes": "Set protocol to auto"
+    },
+    {
+      "command": "0100",
+      "response": "SEARCHING...\r7E8 06 41 00 BE 3F B8 13\r\r>",
+      "expected": {
+        "success": true,
+        "mode": "41",
+        "pid": "00",
+        "data": ["BE", "3F", "B8", "13"],
+        "supportedPids": ["01", "03", "04", "05", "06", "07", "0C", "0D", "0F", "10", "11", "13", "15", "1C", "1F", "20"]
+      },
+      "notes": "First command after init shows protocol search, then supported PIDs"
+    },
+    {
+      "command": "ATDPN",
+      "response": "6\r\r>",
+      "expected": {
+        "success": true,
+        "protocol": "ISO 15765-4 CAN (11 bit ID, 500 kbaud)"
+      },
+      "notes": "Confirm protocol detected"
+    }
+  ]
+}

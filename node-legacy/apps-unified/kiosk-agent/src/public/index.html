@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>OBD-II тест | kiosk-agent</title>
+  <style>
+    body{font-family:system-ui,Segoe UI,Arial,sans-serif;margin:0;padding:24px;background:#fafafa;color:#111}
+    .card{background:#fff;border:1px solid #e5e5e5;border-radius:12px;padding:16px;max-width:720px;box-shadow:0 1px 3px rgba(0,0,0,.06)}
+    label{display:block;margin:8px 0 4px}
+    input,button{font-size:16px;padding:10px 12px;border-radius:8px;border:1px solid #cfcfcf}
+    button{background:#111;color:#fff;border-color:#111;cursor:pointer}
+    button:disabled{opacity:.5;cursor:not-allowed}
+  pre{background:#0b1020;color:#e1e8ff;padding:12px;border-radius:8px;overflow:auto}
+  .pill{display:inline-block;padding:2px 8px;border-radius:999px;font-size:12px;margin-left:8px}
+  .pill.critical{background:#ffebee;color:#c62828}
+  .pill.warning{background:#fff8e1;color:#ef6c00}
+  .pill.info{background:#e3f2fd;color:#1565c0}
+  </style>
+</head>
+<body>
+  <h1>Мини‑UI для OBD‑II (DEV)</h1>
+  <div class="card">
+  <label>COM‑порт</label>
+  <select id="port"></select>
+    <div style="margin-top:8px">
+      <button id="open">Открыть</button>
+      <button id="read" disabled>Прочитать DTC</button>
+      <button id="clear" disabled>Сбросить DTC</button>
+      <button id="close" disabled>Закрыть</button>
+    </div>
+  </div>
+
+  <h3>Ответ</h3>
+  <div id="list"></div>
+  <pre id="out"></pre>
+
+  <script>
+  const out = document.getElementById('out');
+  const list = document.getElementById('list');
+  const port = document.getElementById('port');
+    const btnOpen = document.getElementById('open');
+    const btnRead = document.getElementById('read');
+    const btnClear = document.getElementById('clear');
+    const btnClose = document.getElementById('close');
+
+    function log(obj){ out.textContent = JSON.stringify(obj, null, 2); }
+
+    async function loadPorts(){
+      const r = await fetch('/api/serialports');
+      const list = await r.json();
+      port.innerHTML = '';
+      for(const p of list){
+        const opt = document.createElement('option');
+        opt.value = p.path; opt.textContent = p.path + (p.friendlyName? ' — ' + p.friendlyName : '');
+        port.appendChild(opt);
+      }
+    }
+
+    loadPorts();
+
+    btnOpen.onclick = async () => {
+      const r = await fetch('/api/obd/open', { method:'POST', headers:{'Content-Type':'application/json'}, body: JSON.stringify({ portPath: port.value }) });
+      const j = await r.json();
+      log(j);
+      const ok = j && j.ok;
+      btnRead.disabled = !ok; btnClear.disabled = !ok; btnClose.disabled = !ok;
+    };
+
+    btnRead.onclick = async () => {
+      const r = await fetch('/api/obd/read-dtc', { method:'POST' });
+      const j = await r.json();
+      log(j);
+      if(j && j.ok && Array.isArray(j.data)){
+        list.innerHTML = '';
+        for(const item of j.data){
+          const div = document.createElement('div');
+          const sevClass = (item.severity || 'info');
+          div.style.padding = '8px 0';
+          div.innerHTML = `<strong>${item.code}</strong> <span class="pill ${sevClass}">${sevClass}</span><br><span>${item.description || ''}</span>`;
+          list.appendChild(div);
+        }
+      }
+    };
+
+    btnClear.onclick = async () => {
+      if(!confirm('Точно выполнить Clear DTC?')) return;
+      const r = await fetch('/api/obd/clear-dtc', { method:'POST' });
+      log(await r.json());
+    };
+
+    btnClose.onclick = async () => {
+      const r = await fetch('/api/obd/close', { method:'POST' });
+      log(await r.json());
+      btnRead.disabled = true; btnClear.disabled = true; btnClose.disabled = true;
+    };
+  </script>
+</body>
+</html>

@@ -1,0 +1,33 @@
+{
+  "transport": "serial",
+  "port": "COM3",
+  "baudRate": 38400,
+  "timeout": 5000,
+  "retries": 3,
+  "reconnectDelay": 5000,
+  "reconnectAttempts": 3,
+  "pidPollRate": 1000,
+  "supportedPids": [
+    "0C",
+    "0D",
+    "05",
+    "0F",
+    "11",
+    "42",
+    "04",
+    "0A",
+    "0B",
+    "10"
+  ],
+  "description": "Default OBD-II adapter configuration for ELM327",
+  "notes": [
+    "COM3 is default for Windows. Use /dev/ttyUSB0 or /dev/rfcomm0 for Linux.",
+    "baudRate: ELM327 typically uses 38400 or 9600",
+    "timeout: Per-command timeout in milliseconds",
+    "retries: Number of retry attempts for failed commands",
+    "reconnectDelay: Initial delay before reconnection attempt in milliseconds",
+    "reconnectAttempts: Maximum number of reconnection attempts",
+    "pidPollRate: Minimum interval between PID reads in milliseconds",
+    "supportedPids: List of PIDs to poll during diagnostics"
+  ]
+}

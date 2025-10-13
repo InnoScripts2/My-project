@@ -1,0 +1,507 @@
+[
+  {
+    "code": "P0001",
+    "category": "P",
+    "description": "Fuel Volume Regulator Control Circuit/Open"
+  },
+  {
+    "code": "P0010",
+    "category": "P",
+    "description": "Intake Camshaft Position Actuator Circuit/Open (Bank 1)"
+  },
+  {
+    "code": "P0011",
+    "category": "P",
+    "description": "Intake Camshaft Position Timing - Over-Advanced (Bank 1)"
+  },
+  {
+    "code": "P0012",
+    "category": "P",
+    "description": "Intake Camshaft Position Timing - Over-Retarded (Bank 1)"
+  },
+  {
+    "code": "P0013",
+    "category": "P",
+    "description": "Exhaust Camshaft Position Actuator Circuit/Open (Bank 1)"
+  },
+  {
+    "code": "P0014",
+    "category": "P",
+    "description": "Exhaust Camshaft Position Timing - Over-Advanced (Bank 1)"
+  },
+  {
+    "code": "P0015",
+    "category": "P",
+    "description": "Exhaust Camshaft Position Timing - Over-Retarded (Bank 1)"
+  },
+  {
+    "code": "P0016",
+    "category": "P",
+    "description": "Crankshaft Position - Camshaft Position Correlation (Bank 1 Sensor A)"
+  },
+  {
+    "code": "P0017",
+    "category": "P",
+    "description": "Crankshaft Position - Camshaft Position Correlation (Bank 1 Sensor B)"
+  },
+  {
+    "code": "P0018",
+    "category": "P",
+    "description": "Crankshaft Position - Camshaft Position Correlation (Bank 2 Sensor A)"
+  },
+  {
+    "code": "P0019",
+    "category": "P",
+    "description": "Crankshaft Position - Camshaft Position Correlation (Bank 2 Sensor B)"
+  },
+  {
+    "code": "P0020",
+    "category": "P",
+    "description": "Intake Camshaft Position Actuator Circuit/Open (Bank 2)"
+  },
+  {
+    "code": "P0030",
+    "category": "P",
+    "description": "HO2S Heater Control Circuit (Bank 1 Sensor 1)"
+  },
+  {
+    "code": "P0031",
+    "category": "P",
+    "description": "HO2S Heater Control Circuit Low (Bank 1 Sensor 1)"
+  },
+  {
+    "code": "P0032",
+    "category": "P",
+    "description": "HO2S Heater Control Circuit High (Bank 1 Sensor 1)"
+  },
+  {
+    "code": "P0100",
+    "category": "P",
+    "description": "Mass or Volume Air Flow Circuit Malfunction"
+  },
+  {
+    "code": "P0101",
+    "category": "P",
+    "description": "Mass or Volume Air Flow Circuit Range/Performance Problem"
+  },
+  {
+    "code": "P0102",
+    "category": "P",
+    "description": "Mass or Volume Air Flow Circuit Low Input"
+  },
+  {
+    "code": "P0103",
+    "category": "P",
+    "description": "Mass or Volume Air Flow Circuit High Input"
+  },
+  {
+    "code": "P0104",
+    "category": "P",
+    "description": "Mass or Volume Air Flow Circuit Intermittent"
+  },
+  {
+    "code": "P0105",
+    "category": "P",
+    "description": "Manifold Absolute Pressure/Barometric Pressure Circuit Malfunction"
+  },
+  {
+    "code": "P0106",
+    "category": "P",
+    "description": "Manifold Absolute Pressure/Barometric Pressure Circuit Range/Performance Problem"
+  },
+  {
+    "code": "P0107",
+    "category": "P",
+    "description": "Manifold Absolute Pressure/Barometric Pressure Circuit Low Input"
+  },
+  {
+    "code": "P0108",
+    "category": "P",
+    "description": "Manifold Absolute Pressure/Barometric Pressure Circuit High Input"
+  },
+  {
+    "code": "P0110",
+    "category": "P",
+    "description": "Intake Air Temperature Circuit Malfunction"
+  },
+  {
+    "code": "P0111",
+    "category": "P",
+    "description": "Intake Air Temperature Circuit Range/Performance Problem"
+  },
+  {
+    "code": "P0112",
+    "category": "P",
+    "description": "Intake Air Temperature Circuit Low Input"
+  },
+  {
+    "code": "P0113",
+    "category": "P",
+    "description": "Intake Air Temperature Circuit High Input"
+  },
+  {
+    "code": "P0115",
+    "category": "P",
+    "description": "Engine Coolant Temperature Circuit Malfunction"
+  },
+  {
+    "code": "P0116",
+    "category": "P",
+    "description": "Engine Coolant Temperature Circuit Range/Performance Problem"
+  },
+  {
+    "code": "P0117",
+    "category": "P",
+    "description": "Engine Coolant Temperature Circuit Low Input"
+  },
+  {
+    "code": "P0118",
+    "category": "P",
+    "description": "Engine Coolant Temperature Circuit High Input"
+  },
+  {
+    "code": "P0120",
+    "category": "P",
+    "description": "Throttle Position Sensor/Switch Circuit Malfunction"
+  },
+  {
+    "code": "P0121",
+    "category": "P",
+    "description": "Throttle Position Sensor/Switch Circuit Range/Performance Problem"
+  },
+  {
+    "code": "P0122",
+    "category": "P",
+    "description": "Throttle Position Sensor/Switch Circuit Low Input"
+  },
+  {
+    "code": "P0123",
+    "category": "P",
+    "description": "Throttle Position Sensor/Switch Circuit High Input"
+  },
+  {
+    "code": "P0125",
+    "category": "P",
+    "description": "Insufficient Coolant Temperature for Closed Loop Fuel Control"
+  },
+  {
+    "code": "P0130",
+    "category": "P",
+    "description": "O2 Sensor Circuit Malfunction (Bank 1 Sensor 1)"
+  },
+  {
+    "code": "P0131",
+    "category": "P",
+    "description": "O2 Sensor Circuit Low Voltage (Bank 1 Sensor 1)"
+  },
+  {
+    "code": "P0132",
+    "category": "P",
+    "description": "O2 Sensor Circuit High Voltage (Bank 1 Sensor 1)"
+  },
+  {
+    "code": "P0133",
+    "category": "P",
+    "description": "O2 Sensor Circuit Slow Response (Bank 1 Sensor 1)"
+  },
+  {
+    "code": "P0134",
+    "category": "P",
+    "description": "O2 Sensor Circuit No Activity Detected (Bank 1 Sensor 1)"
+  },
+  {
+    "code": "P0135",
+    "category": "P",
+    "description": "O2 Sensor Heater Circuit Malfunction (Bank 1 Sensor 1)"
+  },
+  {
+    "code": "P0136",
+    "category": "P",
+    "description": "O2 Sensor Circuit Malfunction (Bank 1 Sensor 2)"
+  },
+  {
+    "code": "P0137",
+    "category": "P",
+    "description": "O2 Sensor Circuit Low Voltage (Bank 1 Sensor 2)"
+  },
+  {
+    "code": "P0138",
+    "category": "P",
+    "description": "O2 Sensor Circuit High Voltage (Bank 1 Sensor 2)"
+  },
+  {
+    "code": "P0140",
+    "category": "P",
+    "description": "O2 Sensor Circuit No Activity Detected (Bank 1 Sensor 2)"
+  },
+  {
+    "code": "P0141",
+    "category": "P",
+    "description": "O2 Sensor Heater Circuit Malfunction (Bank 1 Sensor 2)"
+  },
+  {
+    "code": "P0171",
+    "category": "P",
+    "description": "System Too Lean (Bank 1)"
+  },
+  {
+    "code": "P0172",
+    "category": "P",
+    "description": "System Too Rich (Bank 1)"
+  },
+  {
+    "code": "P0174",
+    "category": "P",
+    "description": "System Too Lean (Bank 2)"
+  },
+  {
+    "code": "P0175",
+    "category": "P",
+    "description": "System Too Rich (Bank 2)"
+  },
+  {
+    "code": "P0200",
+    "category": "P",
+    "description": "Injector Circuit Malfunction"
+  },
+  {
+    "code": "P0201",
+    "category": "P",
+    "description": "Injector Circuit Malfunction - Cylinder 1"
+  },
+  {
+    "code": "P0202",
+    "category": "P",
+    "description": "Injector Circuit Malfunction - Cylinder 2"
+  },
+  {
+    "code": "P0203",
+    "category": "P",
+    "description": "Injector Circuit Malfunction - Cylinder 3"
+  },
+  {
+    "code": "P0204",
+    "category": "P",
+    "description": "Injector Circuit Malfunction - Cylinder 4"
+  },
+  {
+    "code": "P0205",
+    "category": "P",
+    "description": "Injector Circuit Malfunction - Cylinder 5"
+  },
+  {
+    "code": "P0206",
+    "category": "P",
+    "description": "Injector Circuit Malfunction - Cylinder 6"
+  },
+  {
+    "code": "P0300",
+    "category": "P",
+    "description": "Random/Multiple Cylinder Misfire Detected"
+  },
+  {
+    "code": "P0301",
+    "category": "P",
+    "description": "Cylinder 1 Misfire Detected"
+  },
+  {
+    "code": "P0302",
+    "category": "P",
+    "description": "Cylinder 2 Misfire Detected"
+  },
+  {
+    "code": "P0303",
+    "category": "P",
+    "description": "Cylinder 3 Misfire Detected"
+  },
+  {
+    "code": "P0304",
+    "category": "P",
+    "description": "Cylinder 4 Misfire Detected"
+  },
+  {
+    "code": "P0305",
+    "category": "P",
+    "description": "Cylinder 5 Misfire Detected"
+  },
+  {
+    "code": "P0306",
+    "category": "P",
+    "description": "Cylinder 6 Misfire Detected"
+  },
+  {
+    "code": "P0325",
+    "category": "P",
+    "description": "Knock Sensor 1 Circuit Malfunction (Bank 1 or Single Sensor)"
+  },
+  {
+    "code": "P0335",
+    "category": "P",
+    "description": "Crankshaft Position Sensor Circuit Malfunction"
+  },
+  {
+    "code": "P0340",
+    "category": "P",
+    "description": "Camshaft Position Sensor Circuit Malfunction"
+  },
+  {
+    "code": "P0400",
+    "category": "P",
+    "description": "Exhaust Gas Recirculation Flow Malfunction"
+  },
+  {
+    "code": "P0401",
+    "category": "P",
+    "description": "Exhaust Gas Recirculation Flow Insufficient Detected"
+  },
+  {
+    "code": "P0402",
+    "category": "P",
+    "description": "Exhaust Gas Recirculation Flow Excessive Detected"
+  },
+  {
+    "code": "P0420",
+    "category": "P",
+    "description": "Catalyst System Efficiency Below Threshold (Bank 1)"
+  },
+  {
+    "code": "P0430",
+    "category": "P",
+    "description": "Catalyst System Efficiency Below Threshold (Bank 2)"
+  },
+  {
+    "code": "P0440",
+    "category": "P",
+    "description": "Evaporative Emission Control System Malfunction"
+  },
+  {
+    "code": "P0441",
+    "category": "P",
+    "description": "Evaporative Emission Control System Incorrect Purge Flow"
+  },
+  {
+    "code": "P0442",
+    "category": "P",
+    "description": "Evaporative Emission Control System Leak Detected (small leak)"
+  },
+  {
+    "code": "P0443",
+    "category": "P",
+    "description": "Evaporative Emission Control System Purge Control Valve Circuit Malfunction"
+  },
+  {
+    "code": "P0455",
+    "category": "P",
+    "description": "Evaporative Emission Control System Leak Detected (gross leak)"
+  },
+  {
+    "code": "P0500",
+    "category": "P",
+    "description": "Vehicle Speed Sensor Malfunction"
+  },
+  {
+    "code": "P0505",
+    "category": "P",
+    "description": "Idle Control System Malfunction"
+  },
+  {
+    "code": "P0506",
+    "category": "P",
+    "description": "Idle Control System RPM Lower Than Expected"
+  },
+  {
+    "code": "P0507",
+    "category": "P",
+    "description": "Idle Control System RPM Higher Than Expected"
+  },
+  {
+    "code": "P0600",
+    "category": "P",
+    "description": "Serial Communication Link Malfunction"
+  },
+  {
+    "code": "P0700",
+    "category": "P",
+    "description": "Transmission Control System Malfunction"
+  },
+  {
+    "code": "P0705",
+    "category": "P",
+    "description": "Transmission Range Sensor Circuit Malfunction (PRNDL Input)"
+  },
+  {
+    "code": "P0720",
+    "category": "P",
+    "description": "Output Speed Sensor Circuit Malfunction"
+  },
+  {
+    "code": "P0725",
+    "category": "P",
+    "description": "Engine Speed Input Circuit Malfunction"
+  },
+  {
+    "code": "C0040",
+    "category": "C",
+    "description": "Right Front Wheel Speed Circuit Malfunction"
+  },
+  {
+    "code": "C0041",
+    "category": "C",
+    "description": "Right Front Wheel Speed Sensor Range/Performance"
+  },
+  {
+    "code": "C0045",
+    "category": "C",
+    "description": "Left Front Wheel Speed Circuit Malfunction"
+  },
+  {
+    "code": "C0050",
+    "category": "C",
+    "description": "Right Rear Wheel Speed Circuit Malfunction"
+  },
+  {
+    "code": "C0055",
+    "category": "C",
+    "description": "Left Rear Wheel Speed Circuit Malfunction"
+  },
+  {
+    "code": "B0001",
+    "category": "B",
+    "description": "Driver Airbag Circuit Short to Ground"
+  },
+  {
+    "code": "B0002",
+    "category": "B",
+    "description": "Driver Airbag Circuit Short to Battery"
+  },
+  {
+    "code": "B0010",
+    "category": "B",
+    "description": "Passenger Airbag Circuit Short to Ground"
+  },
+  {
+    "code": "U0001",
+    "category": "U",
+    "description": "High Speed CAN Communication Bus"
+  },
+  {
+    "code": "U0100",
+    "category": "U",
+    "description": "Lost Communication with ECM/PCM"
+  },
+  {
+    "code": "U0101",
+    "category": "U",
+    "description": "Lost Communication with TCM"
+  },
+  {
+    "code": "U0121",
+    "category": "U",
+    "description": "Lost Communication with ABS Control Module"
+  },
+  {
+    "code": "U0140",
+    "category": "U",
+    "description": "Lost Communication with Body Control Module"
+  }
+]

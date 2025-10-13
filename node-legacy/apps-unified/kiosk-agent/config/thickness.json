@@ -1,0 +1,11 @@
+{
+  "scanTimeout": 15000,
+  "connectionTimeout": 10000,
+  "measurementTimeout": 300000,
+  "targetDeviceName": "TH_Sensor",
+  "totalZones": 60,
+  "normMin": 80,
+  "normMax": 150,
+  "autoReconnect": true,
+  "maxReconnectAttempts": 3
+}

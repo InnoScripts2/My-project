@@ -1,0 +1,5 @@
+package-lock.json
+storage/*.sqlite
+storage/*.sqlite-*
+storage/reports/*.pdf
+dist/

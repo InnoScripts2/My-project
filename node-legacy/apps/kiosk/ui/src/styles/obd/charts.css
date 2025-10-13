@@ -1,0 +1,146 @@
+.chart-container {
+  position: relative;
+  background: #2a2a2a;
+  border-radius: 16px;
+  padding: 16px;
+  width: 100%;
+  max-width: 1200px;
+}
+
+.chart-container canvas {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.chart-legend {
+  position: absolute;
+  top: 24px;
+  right: 24px;
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 12px;
+  border-radius: 8px;
+}
+
+.legend-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.legend-color {
+  width: 16px;
+  height: 16px;
+  border-radius: 2px;
+}
+
+.legend-label {
+  font-size: 14px;
+  color: #ffffff;
+}
+
+.legend-value {
+  font-size: 14px;
+  font-weight: 600;
+  color: #ffffff;
+  margin-left: 4px;
+}
+
+.hybrid-panel {
+  background: #2a2a2a;
+  border-radius: 16px;
+  padding: 32px;
+}
+
+.hybrid-panel-title {
+  font-size: 32px;
+  font-weight: bold;
+  color: #ffffff;
+  margin-bottom: 32px;
+}
+
+.hybrid-section {
+  margin-bottom: 32px;
+}
+
+.hybrid-section:last-child {
+  margin-bottom: 0;
+}
+
+.hybrid-section-header {
+  font-size: 24px;
+  font-weight: 600;
+  color: #00aaff;
+  margin-bottom: 16px;
+  border-bottom: 2px solid #00aaff;
+  padding-bottom: 8px;
+}
+
+.hybrid-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 24px;
+}
+
+.hybrid-item {
+  background: #1a1a1a;
+  border-radius: 12px;
+  padding: 20px;
+}
+
+.hybrid-label {
+  font-size: 16px;
+  color: #b0b0b0;
+  margin-bottom: 8px;
+}
+
+.hybrid-value {
+  font-size: 32px;
+  font-weight: bold;
+  color: #ffffff;
+  margin-bottom: 4px;
+}
+
+.hybrid-subvalue {
+  font-size: 18px;
+  color: #00cc66;
+}
+
+.hybrid-bar {
+  width: 100%;
+  height: 12px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 6px;
+  margin-top: 12px;
+  overflow: hidden;
+}
+
+.hybrid-bar-fill {
+  height: 100%;
+  background: linear-gradient(90deg, #00aaff, #00cc66);
+  border-radius: 6px;
+  transition: width 300ms ease;
+}
+
+@media (max-width: 1280px) {
+  .chart-container {
+    padding: 12px;
+  }
+
+  .chart-legend {
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  .hybrid-grid {
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 16px;
+  }
+
+  .hybrid-value {
+    font-size: 24px;
+  }
+}

@@ -1,0 +1,52 @@
+# Sync orchestration workflow
+# Оркестрация ежедневной синхронизации Seafile
+
+name: sync_orchestration
+description: Orchestrate daily Seafile sync
+
+trigger:
+  type: schedule
+  config:
+    cronExpression: 0 4 * * *  # Ежедневно в 4 AM
+
+steps:
+  - name: start_sync
+    type: http
+    config:
+      method: POST
+      url: http://localhost:8080/api/reports/sync
+
+  - name: poll_sync_status
+    type: loop
+    config:
+      maxIterations: 30
+      delaySeconds: 10
+      condition: steps.check_sync.output.status !== 'completed'
+      steps:
+        - name: check_sync
+          type: http
+          config:
+            method: GET
+            url: http://localhost:8080/api/reports/sync/{{steps.start_sync.output.syncId}}
+
+  - name: check_result
+    type: condition
+    config:
+      condition: steps.check_sync.output.status === 'completed'
+      onTrue: notify_success
+      onFalse: notify_failure
+
+  - name: notify_success
+    type: email
+    config:
+      to: admin@example.com
+      subject: Seafile sync completed
+      body: Synced {{steps.check_sync.output.filesSynced}} files
+
+  - name: notify_failure
+    type: slack
+    config:
+      webhookUrl: https://hooks.slack.com/services/YOUR_WEBHOOK
+      message: Seafile sync failed. Please check logs.
+
+enabled: true

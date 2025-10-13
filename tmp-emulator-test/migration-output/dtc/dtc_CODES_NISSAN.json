@@ -1,0 +1,194 @@
+[
+  {
+    "code": "P1105",
+    "description_ru": "",
+    "description_en": "MAP/BARO Pressure Switch Solenoid Valve",
+    "severity": ""
+  },
+  {
+    "code": "P1126",
+    "description_ru": "",
+    "description_en": "Thermostat Function",
+    "severity": ""
+  },
+  {
+    "code": "P1130",
+    "description_ru": "",
+    "description_en": "Swirl Control Valve Control Solenoid Valve",
+    "severity": ""
+  },
+  {
+    "code": "P1148",
+    "description_ru": "",
+    "description_en": "Closed Loop Control (Bank 1)",
+    "severity": ""
+  },
+  {
+    "code": "P1165",
+    "description_ru": "",
+    "description_en": "Swirl Control Valve Control Vacuum Switch",
+    "severity": ""
+  },
+  {
+    "code": "P1168",
+    "description_ru": "",
+    "description_en": "Closed Loop Control (Bank 2)",
+    "severity": ""
+  },
+  {
+    "code": "P1211",
+    "description_ru": "",
+    "description_en": "ABS/TCS Control Unit",
+    "severity": ""
+  },
+  {
+    "code": "P1212",
+    "description_ru": "",
+    "description_en": "ABS/TCS Communication Line",
+    "severity": ""
+  },
+  {
+    "code": "P1217",
+    "description_ru": "",
+    "description_en": "Engine Over Temperature (Overheat)",
+    "severity": ""
+  },
+  {
+    "code": "P1320",
+    "description_ru": "",
+    "description_en": "Ignition Signal",
+    "severity": ""
+  },
+  {
+    "code": "P1335",
+    "description_ru": "",
+    "description_en": "Crankshaft Position Sensor (REF)",
+    "severity": ""
+  },
+  {
+    "code": "P1336",
+    "description_ru": "",
+    "description_en": "Crankshaft Position Sensor (CKPS)",
+    "severity": ""
+  },
+  {
+    "code": "P1400",
+    "description_ru": "",
+    "description_en": "EGRC Solenoid Valve",
+    "severity": ""
+  },
+  {
+    "code": "P1401",
+    "description_ru": "",
+    "description_en": "EGR Temperature Sensor",
+    "severity": ""
+  },
+  {
+    "code": "P1402",
+    "description_ru": "",
+    "description_en": "EGR System",
+    "severity": ""
+  },
+  {
+    "code": "P1440",
+    "description_ru": "",
+    "description_en": "EVAP Control System Small Leak",
+    "severity": ""
+  },
+  {
+    "code": "P1441",
+    "description_ru": "",
+    "description_en": "Vacuum Cut Valve Bypass Valve",
+    "severity": ""
+  },
+  {
+    "code": "P1444",
+    "description_ru": "",
+    "description_en": "Canister Purge Volume Control Solenoid Valve",
+    "severity": ""
+  },
+  {
+    "code": "P1445",
+    "description_ru": "",
+    "description_en": "EVAP Canister Purge Volume Control Valve",
+    "severity": ""
+  },
+  {
+    "code": "P1446",
+    "description_ru": "",
+    "description_en": "EVAP Canister Vent Control Valve (Closed)",
+    "severity": ""
+  },
+  {
+    "code": "P1447",
+    "description_ru": "",
+    "description_en": "EVAP Control System Purge Flow Monitoring",
+    "severity": ""
+  },
+  {
+    "code": "P1448",
+    "description_ru": "",
+    "description_en": "EVAP Canister Vent Control Valve (Open)",
+    "severity": ""
+  },
+  {
+    "code": "P1464",
+    "description_ru": "",
+    "description_en": "Fuel Level Sensor Circuit (Ground Signal)",
+    "severity": ""
+  },
+  {
+    "code": "P1490",
+    "description_ru": "",
+    "description_en": "Vacuum Cut Valve Bypass Valve (Circuit)",
+    "severity": ""
+  },
+  {
+    "code": "P1491",
+    "description_ru": "",
+    "description_en": "Vacuum Cut Valve Bypass Valve",
+    "severity": ""
+  },
+  {
+    "code": "P1492",
+    "description_ru": "",
+    "description_en": "EVAP Canister Purge Control/Solenoid Valve (Circuit)",
+    "severity": ""
+  },
+  {
+    "code": "P1493",
+    "description_ru": "",
+    "description_en": "EVAP Canister Purge Control Valve/Solenoid Valve",
+    "severity": ""
+  },
+  {
+    "code": "P1550",
+    "description_ru": "",
+    "description_en": "TCC Solenoid Valve",
+    "severity": ""
+  },
+  {
+    "code": "P1605",
+    "description_ru": "",
+    "description_en": "A/T Diagnostic Communication Line",
+    "severity": ""
+  },
+  {
+    "code": "P1705",
+    "description_ru": "",
+    "description_en": "Throttle Position Sensor Circuit A/T",
+    "severity": ""
+  },
+  {
+    "code": "P1706",
+    "description_ru": "",
+    "description_en": "Park/Neutral Position (PNP) Switch",
+    "severity": ""
+  },
+  {
+    "code": "P1760",
+    "description_ru": "",
+    "description_en": "Overrun Clutch Solenoid Valve (Circuit)",
+    "severity": ""
+  }
+]

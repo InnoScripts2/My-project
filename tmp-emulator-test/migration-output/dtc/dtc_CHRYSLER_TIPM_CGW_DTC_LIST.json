@@ -1,0 +1,896 @@
+[
+  {
+    "code": "B10B4",
+    "description_ru": "",
+    "description_en": "Cabin Heater 1 Control Circuit Low",
+    "severity": ""
+  },
+  {
+    "code": "B10B5",
+    "description_ru": "",
+    "description_en": "Cabin Heater 1 Control Circuit High",
+    "severity": ""
+  },
+  {
+    "code": "B10B8",
+    "description_ru": "",
+    "description_en": "Cabin Heater 2 Control Circuit Low",
+    "severity": ""
+  },
+  {
+    "code": "B10B9",
+    "description_ru": "",
+    "description_en": "Cabin Heater 2 Control Circuit High",
+    "severity": ""
+  },
+  {
+    "code": "B10EC",
+    "description_ru": "",
+    "description_en": "Blower Motor Control Circuit Overcurrent",
+    "severity": ""
+  },
+  {
+    "code": "B1138",
+    "description_ru": "",
+    "description_en": "Cabin Heater 3 Control Circuit Low",
+    "severity": ""
+  },
+  {
+    "code": "B1139",
+    "description_ru": "",
+    "description_en": "Cabin Heater 3 Control Circuit High",
+    "severity": ""
+  },
+  {
+    "code": "B162B",
+    "description_ru": "",
+    "description_en": "Left Low Beam Control Circuit Low",
+    "severity": ""
+  },
+  {
+    "code": "B162C",
+    "description_ru": "",
+    "description_en": "Left Low Beam Control Circuit High",
+    "severity": ""
+  },
+  {
+    "code": "B162F",
+    "description_ru": "",
+    "description_en": "Right Low Beam Control Circuit Low",
+    "severity": ""
+  },
+  {
+    "code": "B1630",
+    "description_ru": "",
+    "description_en": "Right Low Beam Control Circuit High",
+    "severity": ""
+  },
+  {
+    "code": "B1633",
+    "description_ru": "",
+    "description_en": "Left Hi Beam Control Circuit Low",
+    "severity": ""
+  },
+  {
+    "code": "B1634",
+    "description_ru": "",
+    "description_en": "Left Hi Beam Control Circuit High",
+    "severity": ""
+  },
+  {
+    "code": "B1637",
+    "description_ru": "",
+    "description_en": "Right Hi Beam Control Circuit Low",
+    "severity": ""
+  },
+  {
+    "code": "B1638",
+    "description_ru": "",
+    "description_en": "Right Hi Beam Control Circuit High",
+    "severity": ""
+  },
+  {
+    "code": "B163B",
+    "description_ru": "",
+    "description_en": "Front Left Turn Lamp Control Circuit Low",
+    "severity": ""
+  },
+  {
+    "code": "B163C",
+    "description_ru": "",
+    "description_en": "Front Left Turn Lamp Control Circuit High",
+    "severity": ""
+  },
+  {
+    "code": "B163F",
+    "description_ru": "",
+    "description_en": "Front Right Turn Lamp Control Circuit Low",
+    "severity": ""
+  },
+  {
+    "code": "B1640",
+    "description_ru": "",
+    "description_en": "Front Right Turn Lamp Control Circuit High",
+    "severity": ""
+  },
+  {
+    "code": "B1643",
+    "description_ru": "",
+    "description_en": "Rear Left Turn Lamp Control Circuit Low",
+    "severity": ""
+  },
+  {
+    "code": "B1644",
+    "description_ru": "",
+    "description_en": "Rear Left Turn Control Circuit High",
+    "severity": ""
+  },
+  {
+    "code": "B1647",
+    "description_ru": "",
+    "description_en": "Rear Right Turn Lamp Control Circuit Low",
+    "severity": ""
+  },
+  {
+    "code": "B1648",
+    "description_ru": "",
+    "description_en": "Rear Right Turn Lamp Control Circuit High",
+    "severity": ""
+  },
+  {
+    "code": "B1659",
+    "description_ru": "",
+    "description_en": "Front Fog Lamp Control Circuit Low",
+    "severity": ""
+  },
+  {
+    "code": "B1663",
+    "description_ru": "",
+    "description_en": "Rear Fog Lamp Control Circuit Low",
+    "severity": ""
+  },
+  {
+    "code": "B1664",
+    "description_ru": "",
+    "description_en": "Rear Fog Lamp Control Circuit High",
+    "severity": ""
+  },
+  {
+    "code": "B166C",
+    "description_ru": "",
+    "description_en": "Left Trailer Tow Lamp Control Circuit High",
+    "severity": ""
+  },
+  {
+    "code": "B1670",
+    "description_ru": "",
+    "description_en": "Right Trailer Tow Lamp Control Circuit High",
+    "severity": ""
+  },
+  {
+    "code": "B16B1",
+    "description_ru": "",
+    "description_en": "Left Stop Lamp Control Circuit High",
+    "severity": ""
+  },
+  {
+    "code": "B16B5",
+    "description_ru": "",
+    "description_en": "Right Stop Lamp Control Circuit High",
+    "severity": ""
+  },
+  {
+    "code": "B16F8",
+    "description_ru": "",
+    "description_en": "Front Left Fog Lamp Control Circuit Low",
+    "severity": ""
+  },
+  {
+    "code": "B16F9",
+    "description_ru": "",
+    "description_en": "Front Left Fog Lamp Control Circuit High",
+    "severity": ""
+  },
+  {
+    "code": "B16FC",
+    "description_ru": "",
+    "description_en": "Front Right Fog Lamp Control Circuit Low",
+    "severity": ""
+  },
+  {
+    "code": "B16FD",
+    "description_ru": "",
+    "description_en": "Front Right Fog Lamp Control Circuit High",
+    "severity": ""
+  },
+  {
+    "code": "B17AE",
+    "description_ru": "",
+    "description_en": "Rear Left Trailer Turn Lamp Control Circuit Low",
+    "severity": ""
+  },
+  {
+    "code": "B17B2",
+    "description_ru": "",
+    "description_en": "Rear Right Trailer Turn Lamp Control Circuit Low",
+    "severity": ""
+  },
+  {
+    "code": "B17B8",
+    "description_ru": "",
+    "description_en": "Left Stop Lamp Control Circuit Overcurrent",
+    "severity": ""
+  },
+  {
+    "code": "B17B9",
+    "description_ru": "",
+    "description_en": "Right Stop Lamp Control Circuit Overcurrent",
+    "severity": ""
+  },
+  {
+    "code": "B17BF",
+    "description_ru": "",
+    "description_en": "Left Sidemarker Lamp Control Circuit Overcurrent",
+    "severity": ""
+  },
+  {
+    "code": "B17C4",
+    "description_ru": "",
+    "description_en": "Right Sidemarker Lamp Control Circuit Overcurrent",
+    "severity": ""
+  },
+  {
+    "code": "B1801",
+    "description_ru": "",
+    "description_en": "Driver Door Lock/Unlock Switch Circuit Low",
+    "severity": ""
+  },
+  {
+    "code": "B1806",
+    "description_ru": "",
+    "description_en": "Passenger Door Lock/Unlock Switch Circuit Low",
+    "severity": ""
+  },
+  {
+    "code": "B1820",
+    "description_ru": "",
+    "description_en": "Hood Ajar Input Circuit High",
+    "severity": ""
+  },
+  {
+    "code": "B184E",
+    "description_ru": "",
+    "description_en": "Flipper Glass Control Circuit Low",
+    "severity": ""
+  },
+  {
+    "code": "B184F",
+    "description_ru": "",
+    "description_en": "Flipper Glass Control Circuit High",
+    "severity": ""
+  },
+  {
+    "code": "B1851",
+    "description_ru": "",
+    "description_en": "Flipper Glass Switch Stuck",
+    "severity": ""
+  },
+  {
+    "code": "B186F",
+    "description_ru": "",
+    "description_en": "All Door Secondary Lock Control Circuit Low",
+    "severity": ""
+  },
+  {
+    "code": "B1870",
+    "description_ru": "",
+    "description_en": "All Door Secondary Lock Control Circuit High",
+    "severity": ""
+  },
+  {
+    "code": "B1934",
+    "description_ru": "",
+    "description_en": "Driver Door Lock/Unlock Switch Circuit Stuck",
+    "severity": ""
+  },
+  {
+    "code": "B1935",
+    "description_ru": "",
+    "description_en": "Passenger Door Lock/Unlock Switch Circuit Stuck",
+    "severity": ""
+  },
+  {
+    "code": "B193B",
+    "description_ru": "",
+    "description_en": "Left Power Sliding Door Switch Circuit Low",
+    "severity": ""
+  },
+  {
+    "code": "B193C",
+    "description_ru": "",
+    "description_en": "Left Power Sliding Door Switch Circuit High",
+    "severity": ""
+  },
+  {
+    "code": "B193F",
+    "description_ru": "",
+    "description_en": "Right Power Sliding Door Switch Circuit Low",
+    "severity": ""
+  },
+  {
+    "code": "B1940",
+    "description_ru": "",
+    "description_en": "Right Power Sliding Door Switch Circuit High",
+    "severity": ""
+  },
+  {
+    "code": "B1987",
+    "description_ru": "",
+    "description_en": "Left Power Sliding Door Switch Stuck",
+    "severity": ""
+  },
+  {
+    "code": "B1988",
+    "description_ru": "",
+    "description_en": "Right Power Sliding Door Switch Stuck",
+    "severity": ""
+  },
+  {
+    "code": "B198A",
+    "description_ru": "",
+    "description_en": "All Door Secondary Unlock Control Circuit Low",
+    "severity": ""
+  },
+  {
+    "code": "B198B",
+    "description_ru": "",
+    "description_en": "All Door Secondary Unlock Control Circuit High",
+    "severity": ""
+  },
+  {
+    "code": "B1D4F",
+    "description_ru": "",
+    "description_en": "Adjustable Pedal Inhibit Circuit Low",
+    "severity": ""
+  },
+  {
+    "code": "B2101",
+    "description_ru": "",
+    "description_en": "Ignition Run/Start Input Circuit Low",
+    "severity": ""
+  },
+  {
+    "code": "B2102",
+    "description_ru": "",
+    "description_en": "Ignition Run/Start Input Circuit High",
+    "severity": ""
+  },
+  {
+    "code": "B210D",
+    "description_ru": "",
+    "description_en": "Battery Voltage Low",
+    "severity": ""
+  },
+  {
+    "code": "B210E",
+    "description_ru": "",
+    "description_en": "Battery Voltage High",
+    "severity": ""
+  },
+  {
+    "code": "B2142",
+    "description_ru": "",
+    "description_en": "Ignition Off Draw (IOD) Fuse Not Present",
+    "severity": ""
+  },
+  {
+    "code": "B219A",
+    "description_ru": "",
+    "description_en": "Ignition Unlock Run/Start Control Circuit Overcurrent",
+    "severity": ""
+  },
+  {
+    "code": "B219F",
+    "description_ru": "",
+    "description_en": "Ignition Off Draw (IOD) Fuse Blown",
+    "severity": ""
+  },
+  {
+    "code": "B2206",
+    "description_ru": "",
+    "description_en": "Current VIN Missing / Mismatch",
+    "severity": ""
+  },
+  {
+    "code": "B2215",
+    "description_ru": "",
+    "description_en": "FCM Internal",
+    "severity": ""
+  },
+  {
+    "code": "B222C",
+    "description_ru": "",
+    "description_en": "Vehicle Configuration Not Programmed",
+    "severity": ""
+  },
+  {
+    "code": "B2304",
+    "description_ru": "",
+    "description_en": "Wiper Park Switch Input Circuit Low (Stuck Low)",
+    "severity": ""
+  },
+  {
+    "code": "B2305",
+    "description_ru": "",
+    "description_en": "Wiper Park Switch Input Circuit High (Stuck High)",
+    "severity": ""
+  },
+  {
+    "code": "B230D",
+    "description_ru": "",
+    "description_en": "Rear Wiper Park Switch Input Circuit Low (Stuck Low)",
+    "severity": ""
+  },
+  {
+    "code": "B230E",
+    "description_ru": "",
+    "description_en": "Rear Wiper Park Switch Input Circuit High (Stuck High)",
+    "severity": ""
+  },
+  {
+    "code": "B2323",
+    "description_ru": "",
+    "description_en": "Headlamp Washer Motor Control Circuit Low",
+    "severity": ""
+  },
+  {
+    "code": "B2324",
+    "description_ru": "",
+    "description_en": "Headlamp Washer Motor Control Circuit High",
+    "severity": ""
+  },
+  {
+    "code": "C1008",
+    "description_ru": "",
+    "description_en": "Brake Fluid Level Circuit High",
+    "severity": ""
+  },
+  {
+    "code": "C102C",
+    "description_ru": "",
+    "description_en": "Right Rear Wheel Speed Sensor Circuit Performance",
+    "severity": ""
+  },
+  {
+    "code": "C1404",
+    "description_ru": "",
+    "description_en": "Transfer Case Range Position Sensor Circuit Low",
+    "severity": ""
+  },
+  {
+    "code": "C1405",
+    "description_ru": "",
+    "description_en": "Transfer Case Range Position Sensor Circuit High",
+    "severity": ""
+  },
+  {
+    "code": "C1408",
+    "description_ru": "",
+    "description_en": "Transfer Case Brake Control Circuit High",
+    "severity": ""
+  },
+  {
+    "code": "C1417",
+    "description_ru": "",
+    "description_en": "Front Differential Control Circuit Low",
+    "severity": ""
+  },
+  {
+    "code": "C1418",
+    "description_ru": "",
+    "description_en": "Front Differential Control Circuit High",
+    "severity": ""
+  },
+  {
+    "code": "C141D",
+    "description_ru": "",
+    "description_en": "Rear Differential Control Circuit Low",
+    "severity": ""
+  },
+  {
+    "code": "C141E",
+    "description_ru": "",
+    "description_en": "Rear Differential Control Circuit High",
+    "severity": ""
+  },
+  {
+    "code": "C146F",
+    "description_ru": "",
+    "description_en": "Transfer Case Motor Unable to Reach 2WD",
+    "severity": ""
+  },
+  {
+    "code": "C1470",
+    "description_ru": "",
+    "description_en": "Transfer Case Motor Unable to Reach 4WD",
+    "severity": ""
+  },
+  {
+    "code": "P0072",
+    "description_ru": "",
+    "description_en": "Ambient Air Temperature Sensor Circuit Low",
+    "severity": ""
+  },
+  {
+    "code": "P0073",
+    "description_ru": "",
+    "description_en": "Ambient Air Temperature Sensor Circuit High",
+    "severity": ""
+  },
+  {
+    "code": "P0462",
+    "description_ru": "",
+    "description_en": "Fuel Level Sensor 1 Circuit Low",
+    "severity": ""
+  },
+  {
+    "code": "P0463",
+    "description_ru": "",
+    "description_en": "Fuel Level Sensor 1 Circuit High",
+    "severity": ""
+  },
+  {
+    "code": "P0691",
+    "description_ru": "",
+    "description_en": "Cooling Fan 1 Control Circuit Low",
+    "severity": ""
+  },
+  {
+    "code": "P0692",
+    "description_ru": "",
+    "description_en": "Cooling Fan 1 Control Circuit High",
+    "severity": ""
+  },
+  {
+    "code": "P0693",
+    "description_ru": "",
+    "description_en": "Cooling Fan 2 Control  Circuit Low",
+    "severity": ""
+  },
+  {
+    "code": "P0694",
+    "description_ru": "",
+    "description_en": "Cooling Fan 2 Control Circuit High",
+    "severity": ""
+  },
+  {
+    "code": "P1273",
+    "description_ru": "",
+    "description_en": "A/C Control Circuit 2 High",
+    "severity": ""
+  },
+  {
+    "code": "P1275",
+    "description_ru": "",
+    "description_en": "A/C Control Circuit 2 Overcurrent",
+    "severity": ""
+  },
+  {
+    "code": "P129C",
+    "description_ru": "",
+    "description_en": "Inverter Control Circuit High",
+    "severity": ""
+  },
+  {
+    "code": "P129E",
+    "description_ru": "",
+    "description_en": "Inverter Control Circuit Overcurrent",
+    "severity": ""
+  },
+  {
+    "code": "P2067",
+    "description_ru": "",
+    "description_en": "Fuel Level Sensor 2 Circuit Low",
+    "severity": ""
+  },
+  {
+    "code": "P2068",
+    "description_ru": "",
+    "description_en": "Fuel Level Sensor 2 Circuit High",
+    "severity": ""
+  },
+  {
+    "code": "U0001",
+    "description_ru": "",
+    "description_en": "CAN C Bus",
+    "severity": ""
+  },
+  {
+    "code": "U0010",
+    "description_ru": "",
+    "description_en": "CAN Interior Bus",
+    "severity": ""
+  },
+  {
+    "code": "U0100",
+    "description_ru": "",
+    "description_en": "Lost Communication With ECM/PCM",
+    "severity": ""
+  },
+  {
+    "code": "U0101",
+    "description_ru": "",
+    "description_en": "Lost Communication with TCM",
+    "severity": ""
+  },
+  {
+    "code": "U0103",
+    "description_ru": "",
+    "description_en": "Lost Communication With Electric Gear Shift Module",
+    "severity": ""
+  },
+  {
+    "code": "U0114",
+    "description_ru": "",
+    "description_en": "Lost Communication With Final Drive Control Module",
+    "severity": ""
+  },
+  {
+    "code": "U0121",
+    "description_ru": "",
+    "description_en": "Lost Communication With Anti-Lock Brake Module",
+    "severity": ""
+  },
+  {
+    "code": "U0127",
+    "description_ru": "",
+    "description_en": "Lost Communication With Tire Pressure Monitor Module",
+    "severity": ""
+  },
+  {
+    "code": "U0136",
+    "description_ru": "",
+    "description_en": "Lost Communication with ELSD",
+    "severity": ""
+  },
+  {
+    "code": "U0143",
+    "description_ru": "",
+    "description_en": "Lost Communication with Multi-Purpose Module",
+    "severity": ""
+  },
+  {
+    "code": "U0151",
+    "description_ru": "",
+    "description_en": "Lost Communication with Occupant Restraint Controller (ORC)",
+    "severity": ""
+  },
+  {
+    "code": "U0154",
+    "description_ru": "",
+    "description_en": "Lost Communication With Occupant Classification Module",
+    "severity": ""
+  },
+  {
+    "code": "U0155",
+    "description_ru": "",
+    "description_en": "Lost Communication With Cluster/CCN",
+    "severity": ""
+  },
+  {
+    "code": "U0159",
+    "description_ru": "",
+    "description_en": "Lost Communication With Parking Assist Control Module",
+    "severity": ""
+  },
+  {
+    "code": "U0163",
+    "description_ru": "",
+    "description_en": "Lost Communication With Navigation Control Module",
+    "severity": ""
+  },
+  {
+    "code": "U0164",
+    "description_ru": "",
+    "description_en": "Lost Communication With HVAC Control Module",
+    "severity": ""
+  },
+  {
+    "code": "U0167",
+    "description_ru": "",
+    "description_en": "Lost Communication With Intrusion Transceiver Control Module",
+    "severity": ""
+  },
+  {
+    "code": "U0168",
+    "description_ru": "",
+    "description_en": "Lost Communication With Vehicle Security Control Module",
+    "severity": ""
+  },
+  {
+    "code": "U0169",
+    "description_ru": "",
+    "description_en": "Lost Communication With Sunroof Control Module",
+    "severity": ""
+  },
+  {
+    "code": "U0181",
+    "description_ru": "",
+    "description_en": "Lost Communication With Headlamp Leveling Translator",
+    "severity": ""
+  },
+  {
+    "code": "U0184",
+    "description_ru": "",
+    "description_en": "Lost Communication With Radio",
+    "severity": ""
+  },
+  {
+    "code": "U0186",
+    "description_ru": "",
+    "description_en": "Lost Communication With Audio Amplifier",
+    "severity": ""
+  },
+  {
+    "code": "U0187",
+    "description_ru": "",
+    "description_en": "Lost Communication With DVD Player",
+    "severity": ""
+  },
+  {
+    "code": "U0196",
+    "description_ru": "",
+    "description_en": "Lost Communication With Vehicle Entertainment Control Module - First Row",
+    "severity": ""
+  },
+  {
+    "code": "U0197",
+    "description_ru": "",
+    "description_en": "Lost Communication With Hands Free Phone Module",
+    "severity": ""
+  },
+  {
+    "code": "U0198",
+    "description_ru": "",
+    "description_en": "Lost Communication with PASS",
+    "severity": ""
+  },
+  {
+    "code": "U0201",
+    "description_ru": "",
+    "description_en": "Lost Communication With Left Rear Door Module",
+    "severity": ""
+  },
+  {
+    "code": "U0202",
+    "description_ru": "",
+    "description_en": "Lost Communication With Right Rear Door Module",
+    "severity": ""
+  },
+  {
+    "code": "U0203",
+    "description_ru": "",
+    "description_en": "Lost Communication With Door Module Front Left",
+    "severity": ""
+  },
+  {
+    "code": "U0204",
+    "description_ru": "",
+    "description_en": "Lost Communication With Door Module Front Right",
+    "severity": ""
+  },
+  {
+    "code": "U0208",
+    "description_ru": "",
+    "description_en": "Lost Communication With Heated Seat Control Module",
+    "severity": ""
+  },
+  {
+    "code": "U0209",
+    "description_ru": "",
+    "description_en": "Lost Communication With Memory Seat Control Module",
+    "severity": ""
+  },
+  {
+    "code": "U0230",
+    "description_ru": "",
+    "description_en": "Lost Communication With Power Liftgate Module",
+    "severity": ""
+  },
+  {
+    "code": "U0232",
+    "description_ru": "",
+    "description_en": "Lost Communication with Blind Spot Detection Module",
+    "severity": ""
+  },
+  {
+    "code": "U0241",
+    "description_ru": "",
+    "description_en": "Lost Communication With Auto Highbeam Headlamp Control Module",
+    "severity": ""
+  },
+  {
+    "code": "U0246",
+    "description_ru": "",
+    "description_en": "Lost Communication With Power Folding Seat Module",
+    "severity": ""
+  },
+  {
+    "code": "U0249",
+    "description_ru": "",
+    "description_en": "Lost Communication With Vehicle Entertainment Control Module - Last Row",
+    "severity": ""
+  },
+  {
+    "code": "U0250",
+    "description_ru": "",
+    "description_en": "Lost Communication with Electronic Pedestrian Protection Module (EPPM)",
+    "severity": ""
+  },
+  {
+    "code": "U0252",
+    "description_ru": "",
+    "description_en": "Lost Communication With Trailer Lighting Module",
+    "severity": ""
+  },
+  {
+    "code": "U0255",
+    "description_ru": "",
+    "description_en": "Lost Communication With Front Display Interface Module",
+    "severity": ""
+  },
+  {
+    "code": "U0259",
+    "description_ru": "",
+    "description_en": "Lost Communication With Wheel Chair Ramp Module",
+    "severity": ""
+  },
+  {
+    "code": "U0293",
+    "description_ru": "",
+    "description_en": "Lost Communication with Hybrid Control Module",
+    "severity": ""
+  },
+  {
+    "code": "U1143",
+    "description_ru": "",
+    "description_en": "Lost Communication With Power Sliding Door Module - Left",
+    "severity": ""
+  },
+  {
+    "code": "U1144",
+    "description_ru": "",
+    "description_en": "Lost Communication With Power Sliding Door Module - Right",
+    "severity": ""
+  },
+  {
+    "code": "U1145",
+    "description_ru": "",
+    "description_en": "Lost Communication With Keyless Go Security Module",
+    "severity": ""
+  },
+  {
+    "code": "U1147",
+    "description_ru": "",
+    "description_en": "Additional CAN Interior ECU Detected",
+    "severity": ""
+  },
+  {
+    "code": "U1148",
+    "description_ru": "",
+    "description_en": "Additional CAN-C ECU Detected",
+    "severity": ""
+  },
+  {
+    "code": "U1158",
+    "description_ru": "",
+    "description_en": "Lost Communication With Satellite Video Receiver",
+    "severity": ""
+  },
+  {
+    "code": "U1159",
+    "description_ru": "",
+    "description_en": "Lost Communication With Automatic Sway Bar System",
+    "severity": ""
+  }
+]

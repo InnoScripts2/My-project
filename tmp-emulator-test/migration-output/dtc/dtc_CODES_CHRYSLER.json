@@ -1,0 +1,1670 @@
+[
+  {
+    "code": ";Chevrolet",
+    "description_ru": "",
+    "description_en": "Corvette U Codes",
+    "severity": ""
+  },
+  {
+    "code": ";Chevy",
+    "description_ru": "",
+    "description_en": "Corvette OBD2 Powertrain Codes",
+    "severity": ""
+  },
+  {
+    "code": ";See",
+    "description_ru": "",
+    "description_en": "also: Generic OBD-II Powertrain Codes",
+    "severity": ""
+  },
+  {
+    "code": "B0016",
+    "description_ru": "",
+    "description_en": "Right Front/Passenger Frontal Deployment Loop (Stage 1) Circuit",
+    "severity": ""
+  },
+  {
+    "code": "B0017",
+    "description_ru": "",
+    "description_en": "Right Front/Passenger Frontal Deployment Loop (Stage 1) Circuit",
+    "severity": ""
+  },
+  {
+    "code": "B0018",
+    "description_ru": "",
+    "description_en": "Right Front/Passenger Frontal Deployment Loop (Stage 1) Circuit",
+    "severity": ""
+  },
+  {
+    "code": "B0022",
+    "description_ru": "",
+    "description_en": "Left Front/Driver Frontal Deployment Loop (Stage 1) Circuit",
+    "severity": ""
+  },
+  {
+    "code": "B0024",
+    "description_ru": "",
+    "description_en": "Left Front/Driver Frontal Deployment Loop (Stage 1) Circuit",
+    "severity": ""
+  },
+  {
+    "code": "B0026",
+    "description_ru": "",
+    "description_en": "Left Front/Driver Frontal Deployment Loop (Stage 1) Circuit",
+    "severity": ""
+  },
+  {
+    "code": "B0051",
+    "description_ru": "",
+    "description_en": "Deployment Commanded",
+    "severity": ""
+  },
+  {
+    "code": "B0053",
+    "description_ru": "",
+    "description_en": "Deployment Commanded with Loop Malfunctions Present",
+    "severity": ""
+  },
+  {
+    "code": "B0090",
+    "description_ru": "",
+    "description_en": "Active Switch Voltage Out of Range",
+    "severity": ""
+  },
+  {
+    "code": "B0091",
+    "description_ru": "",
+    "description_en": "Active Switch: Wrong State",
+    "severity": ""
+  },
+  {
+    "code": "B0332",
+    "description_ru": "",
+    "description_en": "Outside Air Temp Sensor Short to Ground",
+    "severity": ""
+  },
+  {
+    "code": "B0333",
+    "description_ru": "",
+    "description_en": "Outside Air Temperature Sensor Open",
+    "severity": ""
+  },
+  {
+    "code": "B0337",
+    "description_ru": "",
+    "description_en": "Inside Air Temp Sensor Short to GND",
+    "severity": ""
+  },
+  {
+    "code": "B0338",
+    "description_ru": "",
+    "description_en": "Inside Air Temperature Sensor Open",
+    "severity": ""
+  },
+  {
+    "code": "B0348",
+    "description_ru": "",
+    "description_en": "Sunload Temperature Sensor Open",
+    "severity": ""
+  },
+  {
+    "code": "B0361",
+    "description_ru": "",
+    "description_en": "Left Actuator Feedback Short to GND",
+    "severity": ""
+  },
+  {
+    "code": "B0363",
+    "description_ru": "",
+    "description_en": "Left Actuator Feedback Open",
+    "severity": ""
+  },
+  {
+    "code": "B0365",
+    "description_ru": "",
+    "description_en": "Right Actuator Feedback Short to GND",
+    "severity": ""
+  },
+  {
+    "code": "B0367",
+    "description_ru": "",
+    "description_en": "Right Actuator Feedback Open",
+    "severity": ""
+  },
+  {
+    "code": "B0432",
+    "description_ru": "",
+    "description_en": "Rear Defogger Relay Circuit",
+    "severity": ""
+  },
+  {
+    "code": "B0433",
+    "description_ru": "",
+    "description_en": "Rear Defogger Relay Circuit",
+    "severity": ""
+  },
+  {
+    "code": "B0441",
+    "description_ru": "",
+    "description_en": "Left Actuator Out of Range",
+    "severity": ""
+  },
+  {
+    "code": "B0446",
+    "description_ru": "",
+    "description_en": "Right Actuator Out of Range",
+    "severity": ""
+  },
+  {
+    "code": "B0502",
+    "description_ru": "",
+    "description_en": "RH DRL Relay Circuit",
+    "severity": ""
+  },
+  {
+    "code": "B0503",
+    "description_ru": "",
+    "description_en": "RH DRL Relay Circuit",
+    "severity": ""
+  },
+  {
+    "code": "B0507",
+    "description_ru": "",
+    "description_en": "LH DRL Relay Circuit",
+    "severity": ""
+  },
+  {
+    "code": "B0508",
+    "description_ru": "",
+    "description_en": "LH DRL Relay Circuit",
+    "severity": ""
+  },
+  {
+    "code": "B0516",
+    "description_ru": "",
+    "description_en": "Speedometer Signal Circuit Malfunction",
+    "severity": ""
+  },
+  {
+    "code": "B0521",
+    "description_ru": "",
+    "description_en": "Tachometer Signal Circuit Malfunction",
+    "severity": ""
+  },
+  {
+    "code": "B0605",
+    "description_ru": "",
+    "description_en": "BCM Internal Memory Malfunction",
+    "severity": ""
+  },
+  {
+    "code": "B0846",
+    "description_ru": "",
+    "description_en": "Battery Out of Range",
+    "severity": ""
+  },
+  {
+    "code": "B0851",
+    "description_ru": "",
+    "description_en": "Battery 1 Out of Range",
+    "severity": ""
+  },
+  {
+    "code": "B0856",
+    "description_ru": "",
+    "description_en": "+5 Volt Reference Out of Range",
+    "severity": ""
+  },
+  {
+    "code": "B1000",
+    "description_ru": "",
+    "description_en": "ECU Malfunction",
+    "severity": ""
+  },
+  {
+    "code": "B1001",
+    "description_ru": "",
+    "description_en": "Option Configuration Error",
+    "severity": ""
+  },
+  {
+    "code": "B1512",
+    "description_ru": "",
+    "description_en": "Driver Information Center (DIC) Switch Circuit",
+    "severity": ""
+  },
+  {
+    "code": "B1513",
+    "description_ru": "",
+    "description_en": "Driver Information Center (DIC) Switch Circuit",
+    "severity": ""
+  },
+  {
+    "code": "B1514",
+    "description_ru": "",
+    "description_en": "Driver Information Center (DIC) Switch Circuit",
+    "severity": ""
+  },
+  {
+    "code": "B1515",
+    "description_ru": "",
+    "description_en": "Driver Information Center (DIC) Switch Circuit",
+    "severity": ""
+  },
+  {
+    "code": "B1516",
+    "description_ru": "",
+    "description_en": "Driver Information Center (DIC) Switch Circuit",
+    "severity": ""
+  },
+  {
+    "code": "B1517",
+    "description_ru": "",
+    "description_en": "Driver Information Center (DIC) Switch Circuit",
+    "severity": ""
+  },
+  {
+    "code": "B1518",
+    "description_ru": "",
+    "description_en": "Driver Information Center (DIC) Switch Circuit",
+    "severity": ""
+  },
+  {
+    "code": "B1519",
+    "description_ru": "",
+    "description_en": "Driver Information Center (DIC) Switch Circuit",
+    "severity": ""
+  },
+  {
+    "code": "B1520",
+    "description_ru": "",
+    "description_en": "Driver Information Center (DIC) Switch Circuit",
+    "severity": ""
+  },
+  {
+    "code": "B1521",
+    "description_ru": "",
+    "description_en": "Driver Information Center (DIC) Switch Circuit",
+    "severity": ""
+  },
+  {
+    "code": "B1522",
+    "description_ru": "",
+    "description_en": "Driver Information Center (DIC) Switch Circuit",
+    "severity": ""
+  },
+  {
+    "code": "B1523",
+    "description_ru": "",
+    "description_en": "Driver Information Center (DIC) Switch Circuit",
+    "severity": ""
+  },
+  {
+    "code": "B1524",
+    "description_ru": "",
+    "description_en": "Driver Information Center (DIC) Switch Circuit",
+    "severity": ""
+  },
+  {
+    "code": "B1525",
+    "description_ru": "",
+    "description_en": "Driver Information Center (DIC) Switch Circuit",
+    "severity": ""
+  },
+  {
+    "code": "B1526",
+    "description_ru": "",
+    "description_en": "Driver Information Center (DIC) Switch Circuit",
+    "severity": ""
+  },
+  {
+    "code": "B1527",
+    "description_ru": "",
+    "description_en": "Driver Information Center (DIC) Switch Circuit",
+    "severity": ""
+  },
+  {
+    "code": "B1528",
+    "description_ru": "",
+    "description_en": "Driver Information Center (DIC) Switch Circuit",
+    "severity": ""
+  },
+  {
+    "code": "B1529",
+    "description_ru": "",
+    "description_en": "Driver Information Center (DIC) Switch Circuit",
+    "severity": ""
+  },
+  {
+    "code": "B1530",
+    "description_ru": "",
+    "description_en": "Driver Information Center (DIC) Switch Circuit",
+    "severity": ""
+  },
+  {
+    "code": "B1531",
+    "description_ru": "",
+    "description_en": "Driver Information Center (DIC) Switch Circuit",
+    "severity": ""
+  },
+  {
+    "code": "B1532",
+    "description_ru": "",
+    "description_en": "Driver Information Center (DIC) Switch Circuit",
+    "severity": ""
+  },
+  {
+    "code": "B1533",
+    "description_ru": "",
+    "description_en": "Driver Information Center (DIC) Switch Circuit",
+    "severity": ""
+  },
+  {
+    "code": "B1534",
+    "description_ru": "",
+    "description_en": "Driver Information Center (DIC) Switch Circuit",
+    "severity": ""
+  },
+  {
+    "code": "B1535",
+    "description_ru": "",
+    "description_en": "Driver Information Center (DIC) Switch Circuit",
+    "severity": ""
+  },
+  {
+    "code": "B1536",
+    "description_ru": "",
+    "description_en": "Driver Information Center (DIC) Switch Circuit",
+    "severity": ""
+  },
+  {
+    "code": "B1537",
+    "description_ru": "",
+    "description_en": "Driver Information Center (DIC) Switch Circuit",
+    "severity": ""
+  },
+  {
+    "code": "B1542",
+    "description_ru": "",
+    "description_en": "Oil Temperature Circuit Short to Ground",
+    "severity": ""
+  },
+  {
+    "code": "B1543",
+    "description_ru": "",
+    "description_en": "Oil Temperature Circuit Open",
+    "severity": ""
+  },
+  {
+    "code": "B2172",
+    "description_ru": "",
+    "description_en": "Power Seat Switch Circuit",
+    "severity": ""
+  },
+  {
+    "code": "B2177",
+    "description_ru": "",
+    "description_en": "Power Seat Switch Circuit",
+    "severity": ""
+  },
+  {
+    "code": "B2182",
+    "description_ru": "",
+    "description_en": "Power Seat Switch Circuit",
+    "severity": ""
+  },
+  {
+    "code": "B2187",
+    "description_ru": "",
+    "description_en": "Power Seat Switch Circuit",
+    "severity": ""
+  },
+  {
+    "code": "B2192",
+    "description_ru": "",
+    "description_en": "Power Seat Switch Circuit",
+    "severity": ""
+  },
+  {
+    "code": "B2197",
+    "description_ru": "",
+    "description_en": "Power Seat Switch Circuit",
+    "severity": ""
+  },
+  {
+    "code": "B2202",
+    "description_ru": "",
+    "description_en": "Window Switch Circuit",
+    "severity": ""
+  },
+  {
+    "code": "B2203",
+    "description_ru": "",
+    "description_en": "Window Switch Circuit",
+    "severity": ""
+  },
+  {
+    "code": "B2204",
+    "description_ru": "",
+    "description_en": "Window Switch Circuit",
+    "severity": ""
+  },
+  {
+    "code": "B2205",
+    "description_ru": "",
+    "description_en": "Window Switch Circuit",
+    "severity": ""
+  },
+  {
+    "code": "B2206",
+    "description_ru": "",
+    "description_en": "Window Switch Circuit",
+    "severity": ""
+  },
+  {
+    "code": "B2207",
+    "description_ru": "",
+    "description_en": "Window Switch Circuit",
+    "severity": ""
+  },
+  {
+    "code": "B2208",
+    "description_ru": "",
+    "description_en": "Window Switch Circuit",
+    "severity": ""
+  },
+  {
+    "code": "B2222",
+    "description_ru": "",
+    "description_en": "Mirror Select Switch Circuit",
+    "severity": ""
+  },
+  {
+    "code": "B2223",
+    "description_ru": "",
+    "description_en": "Mirror Select Switch Circuit",
+    "severity": ""
+  },
+  {
+    "code": "B2224",
+    "description_ru": "",
+    "description_en": "Mirror Select Switch Circuit",
+    "severity": ""
+  },
+  {
+    "code": "B2226",
+    "description_ru": "",
+    "description_en": "Mirror Switch Circuit",
+    "severity": ""
+  },
+  {
+    "code": "B2227",
+    "description_ru": "",
+    "description_en": "Mirror Switch Circuit",
+    "severity": ""
+  },
+  {
+    "code": "B2228",
+    "description_ru": "",
+    "description_en": "Mirror Switch Circuit",
+    "severity": ""
+  },
+  {
+    "code": "B2229",
+    "description_ru": "",
+    "description_en": "Mirror Switch Circuit",
+    "severity": ""
+  },
+  {
+    "code": "B2230",
+    "description_ru": "",
+    "description_en": "Mirror Switch Circuit",
+    "severity": ""
+  },
+  {
+    "code": "B2231",
+    "description_ru": "",
+    "description_en": "Mirror Switch Circuit",
+    "severity": ""
+  },
+  {
+    "code": "B2232",
+    "description_ru": "",
+    "description_en": "Mirror Switch Circuit",
+    "severity": ""
+  },
+  {
+    "code": "B2233",
+    "description_ru": "",
+    "description_en": "Mirror Switch Circuit",
+    "severity": ""
+  },
+  {
+    "code": "B2234",
+    "description_ru": "",
+    "description_en": "Mirror Switch Circuit",
+    "severity": ""
+  },
+  {
+    "code": "B2236",
+    "description_ru": "",
+    "description_en": "Door Lock Switch Circuit",
+    "severity": ""
+  },
+  {
+    "code": "B2237",
+    "description_ru": "",
+    "description_en": "Door Lock Switch Circuit",
+    "severity": ""
+  },
+  {
+    "code": "B2238",
+    "description_ru": "",
+    "description_en": "Door Lock Switch Circuit",
+    "severity": ""
+  },
+  {
+    "code": "B2239",
+    "description_ru": "",
+    "description_en": "Door Lock Switch Circuit",
+    "severity": ""
+  },
+  {
+    "code": "B2242",
+    "description_ru": "",
+    "description_en": "Memory Switch Circuit",
+    "severity": ""
+  },
+  {
+    "code": "B2243",
+    "description_ru": "",
+    "description_en": "Memory Switch Circuit",
+    "severity": ""
+  },
+  {
+    "code": "B2244",
+    "description_ru": "",
+    "description_en": "Memory Switch Circuit",
+    "severity": ""
+  },
+  {
+    "code": "B2252",
+    "description_ru": "",
+    "description_en": "Door Key Cylinder Circuit",
+    "severity": ""
+  },
+  {
+    "code": "B2253",
+    "description_ru": "",
+    "description_en": "Door Key Cylinder Circuit",
+    "severity": ""
+  },
+  {
+    "code": "B2262",
+    "description_ru": "",
+    "description_en": "Mirror Position Sensor Signal Circuit",
+    "severity": ""
+  },
+  {
+    "code": "B2263",
+    "description_ru": "",
+    "description_en": "Mirror Position Sensor Signal Circuit",
+    "severity": ""
+  },
+  {
+    "code": "B2264",
+    "description_ru": "",
+    "description_en": "Mirror Position Sensor Signal Circuit",
+    "severity": ""
+  },
+  {
+    "code": "B2265",
+    "description_ru": "",
+    "description_en": "Mirror Position Sensor Signal Circuit",
+    "severity": ""
+  },
+  {
+    "code": "B2272",
+    "description_ru": "",
+    "description_en": "Mirror Motor Control Circuit",
+    "severity": ""
+  },
+  {
+    "code": "B2273",
+    "description_ru": "",
+    "description_en": "Mirror Motor Control Circuit",
+    "severity": ""
+  },
+  {
+    "code": "B2274",
+    "description_ru": "",
+    "description_en": "Window Motor Control Circuit",
+    "severity": ""
+  },
+  {
+    "code": "B2275",
+    "description_ru": "",
+    "description_en": "Window Motor Control Circuit",
+    "severity": ""
+  },
+  {
+    "code": "B2276",
+    "description_ru": "",
+    "description_en": "Door Lock Control Circuit",
+    "severity": ""
+  },
+  {
+    "code": "B2277",
+    "description_ru": "",
+    "description_en": "Door Lock Control Circuit",
+    "severity": ""
+  },
+  {
+    "code": "B2282",
+    "description_ru": "",
+    "description_en": "Battery #1 Circuit",
+    "severity": ""
+  },
+  {
+    "code": "B2283",
+    "description_ru": "",
+    "description_en": "Battery #1 Circuit",
+    "severity": ""
+  },
+  {
+    "code": "B2284",
+    "description_ru": "",
+    "description_en": "Battery #2 Circuit",
+    "severity": ""
+  },
+  {
+    "code": "B2285",
+    "description_ru": "",
+    "description_en": "Battery #2 Circuit",
+    "severity": ""
+  },
+  {
+    "code": "B2286",
+    "description_ru": "",
+    "description_en": "Mirror Position Sensor Circuit",
+    "severity": ""
+  },
+  {
+    "code": "B2287",
+    "description_ru": "",
+    "description_en": "Mirror Position Sensor Circuit",
+    "severity": ""
+  },
+  {
+    "code": "B2403",
+    "description_ru": "",
+    "description_en": "Front Fog Lamp Switch Circuit",
+    "severity": ""
+  },
+  {
+    "code": "B2408",
+    "description_ru": "",
+    "description_en": "Rear Fog Lamp Switch Circuit",
+    "severity": ""
+  },
+  {
+    "code": "B2482",
+    "description_ru": "",
+    "description_en": "Backup Lamp Relay Circuit",
+    "severity": ""
+  },
+  {
+    "code": "B2483",
+    "description_ru": "",
+    "description_en": "Backup Lamp Relay Circuit",
+    "severity": ""
+  },
+  {
+    "code": "B2527",
+    "description_ru": "",
+    "description_en": "Horn Relay Circuit",
+    "severity": ""
+  },
+  {
+    "code": "B2528",
+    "description_ru": "",
+    "description_en": "Horn Relay Circuit",
+    "severity": ""
+  },
+  {
+    "code": "B2567",
+    "description_ru": "",
+    "description_en": "Folding Top Release Switch Circuit",
+    "severity": ""
+  },
+  {
+    "code": "B2573",
+    "description_ru": "",
+    "description_en": "Hatch Release Switch Circuit",
+    "severity": ""
+  },
+  {
+    "code": "B2578",
+    "description_ru": "",
+    "description_en": "Right Front Turn Signal Monitor Circuit",
+    "severity": ""
+  },
+  {
+    "code": "B2583",
+    "description_ru": "",
+    "description_en": "Left Front Turn Signal Monitor Circuit",
+    "severity": ""
+  },
+  {
+    "code": "B2587",
+    "description_ru": "",
+    "description_en": "Column Lock/Unlock Drive A",
+    "severity": ""
+  },
+  {
+    "code": "B2588",
+    "description_ru": "",
+    "description_en": "Column Lock/Unlock Drive A",
+    "severity": ""
+  },
+  {
+    "code": "B2592",
+    "description_ru": "",
+    "description_en": "Column Lock/Unlock Drive B",
+    "severity": ""
+  },
+  {
+    "code": "B2593",
+    "description_ru": "",
+    "description_en": "Column Lock/Unlock Drive B",
+    "severity": ""
+  },
+  {
+    "code": "B2597",
+    "description_ru": "",
+    "description_en": "Traction Control System Switch Circuit",
+    "severity": ""
+  },
+  {
+    "code": "B2600",
+    "description_ru": "",
+    "description_en": "Seat Motor to Battery Voltage",
+    "severity": ""
+  },
+  {
+    "code": "B2605",
+    "description_ru": "",
+    "description_en": "Seat Position Sensor Circuit",
+    "severity": ""
+  },
+  {
+    "code": "B2606",
+    "description_ru": "",
+    "description_en": "Seat Position Sensor Circuit",
+    "severity": ""
+  },
+  {
+    "code": "B2607",
+    "description_ru": "",
+    "description_en": "Seat Position Sensor Circuit",
+    "severity": ""
+  },
+  {
+    "code": "B2647",
+    "description_ru": "",
+    "description_en": "Ambient Light Sensor Circuit Low",
+    "severity": ""
+  },
+  {
+    "code": "B2648",
+    "description_ru": "",
+    "description_en": "Ambient Light Sensor Circuit High",
+    "severity": ""
+  },
+  {
+    "code": "B2721",
+    "description_ru": "",
+    "description_en": "PASS-Key Detection Circuit",
+    "severity": ""
+  },
+  {
+    "code": "B2722",
+    "description_ru": "",
+    "description_en": "PASS-Key Detection Circuit",
+    "severity": ""
+  },
+  {
+    "code": "B2723",
+    "description_ru": "",
+    "description_en": "PASS-Key Detection Circuit",
+    "severity": ""
+  },
+  {
+    "code": "B2735",
+    "description_ru": "",
+    "description_en": "PASS-Key Programming Mode Active",
+    "severity": ""
+  },
+  {
+    "code": "B2795",
+    "description_ru": "",
+    "description_en": "Suspension Control Select Switch Circuit Malfunction",
+    "severity": ""
+  },
+  {
+    "code": "B2852",
+    "description_ru": "",
+    "description_en": "Telescoping Column In Switch Shorted to Ground",
+    "severity": ""
+  },
+  {
+    "code": "B2857",
+    "description_ru": "",
+    "description_en": "Telescoping Column Out Switch Shorted to Ground",
+    "severity": ""
+  },
+  {
+    "code": "B2860",
+    "description_ru": "",
+    "description_en": "Telescoping Column Position Sensor Failure",
+    "severity": ""
+  },
+  {
+    "code": "B3109",
+    "description_ru": "",
+    "description_en": "Keyless Entry Transmitter Low Battery",
+    "severity": ""
+  },
+  {
+    "code": "B3577",
+    "description_ru": "",
+    "description_en": "Suspension Control Select Switch Contact Malfunction",
+    "severity": ""
+  },
+  {
+    "code": "C0550",
+    "description_ru": "",
+    "description_en": "ECU Malfunction",
+    "severity": ""
+  },
+  {
+    "code": "C0563",
+    "description_ru": "",
+    "description_en": "Calibration ROM Checksum Error",
+    "severity": ""
+  },
+  {
+    "code": "C0615",
+    "description_ru": "",
+    "description_en": "Suspension Position Sensor Circuit",
+    "severity": ""
+  },
+  {
+    "code": "C0620",
+    "description_ru": "",
+    "description_en": "Suspension Position Sensor Circuit",
+    "severity": ""
+  },
+  {
+    "code": "C0625",
+    "description_ru": "",
+    "description_en": "Suspension Position Sensor Circuit",
+    "severity": ""
+  },
+  {
+    "code": "C0630",
+    "description_ru": "",
+    "description_en": "Suspension Position Sensor Circuit",
+    "severity": ""
+  },
+  {
+    "code": "C0665",
+    "description_ru": "",
+    "description_en": "Chassis Pitch Signal Circuit",
+    "severity": ""
+  },
+  {
+    "code": "C0690",
+    "description_ru": "",
+    "description_en": "Damper Control Relay Circuit Malfunction",
+    "severity": ""
+  },
+  {
+    "code": "C0691",
+    "description_ru": "",
+    "description_en": "Damper Control Relay Circuit Range",
+    "severity": ""
+  },
+  {
+    "code": "C0693",
+    "description_ru": "",
+    "description_en": "Damper Control Relay Circuit High",
+    "severity": ""
+  },
+  {
+    "code": "C0695",
+    "description_ru": "",
+    "description_en": "Position Sensor Overcurrent (8 volt supply)",
+    "severity": ""
+  },
+  {
+    "code": "C0710",
+    "description_ru": "",
+    "description_en": "Steering Position Signal Malfunction",
+    "severity": ""
+  },
+  {
+    "code": "C0750",
+    "description_ru": "",
+    "description_en": "Tire Pressure Sensor Circuit",
+    "severity": ""
+  },
+  {
+    "code": "C0755",
+    "description_ru": "",
+    "description_en": "Tire Pressure Sensor Circuit",
+    "severity": ""
+  },
+  {
+    "code": "C0760",
+    "description_ru": "",
+    "description_en": "Tire Pressure Sensor Circuit",
+    "severity": ""
+  },
+  {
+    "code": "C0765",
+    "description_ru": "",
+    "description_en": "Tire Pressure Sensor Circuit",
+    "severity": ""
+  },
+  {
+    "code": "C1214",
+    "description_ru": "",
+    "description_en": "Solenoid Valve Relay Contact or Coil Circuit Open",
+    "severity": ""
+  },
+  {
+    "code": "C1217",
+    "description_ru": "",
+    "description_en": "Pump Motor Relay Contact Circuit Open",
+    "severity": ""
+  },
+  {
+    "code": "C1218",
+    "description_ru": "",
+    "description_en": "Pump Motor Circuit Shorted to Voltage or Motor Ground Open",
+    "severity": ""
+  },
+  {
+    "code": "C1221",
+    "description_ru": "",
+    "description_en": "Wheel Speed Sensor Circuit",
+    "severity": ""
+  },
+  {
+    "code": "C1222",
+    "description_ru": "",
+    "description_en": "Wheel Speed Sensor Circuit",
+    "severity": ""
+  },
+  {
+    "code": "C1223",
+    "description_ru": "",
+    "description_en": "Wheel Speed Sensor Circuit",
+    "severity": ""
+  },
+  {
+    "code": "C1224",
+    "description_ru": "",
+    "description_en": "Wheel Speed Sensor Circuit",
+    "severity": ""
+  },
+  {
+    "code": "C1225",
+    "description_ru": "",
+    "description_en": "Wheel Speed Sensor Circuit",
+    "severity": ""
+  },
+  {
+    "code": "C1226",
+    "description_ru": "",
+    "description_en": "Wheel Speed Sensor Circuit",
+    "severity": ""
+  },
+  {
+    "code": "C1227",
+    "description_ru": "",
+    "description_en": "Wheel Speed Sensor Circuit",
+    "severity": ""
+  },
+  {
+    "code": "C1228",
+    "description_ru": "",
+    "description_en": "Wheel Speed Sensor Circuit",
+    "severity": ""
+  },
+  {
+    "code": "C1229",
+    "description_ru": "",
+    "description_en": "Wheel Speed Sensor Circuit",
+    "severity": ""
+  },
+  {
+    "code": "C1230",
+    "description_ru": "",
+    "description_en": "Wheel Speed Sensor Circuit",
+    "severity": ""
+  },
+  {
+    "code": "C1231",
+    "description_ru": "",
+    "description_en": "Wheel Speed Sensor Circuit",
+    "severity": ""
+  },
+  {
+    "code": "C1232",
+    "description_ru": "",
+    "description_en": "Wheel Speed Sensor Circuit",
+    "severity": ""
+  },
+  {
+    "code": "C1233",
+    "description_ru": "",
+    "description_en": "Wheel Speed Sensor Circuit",
+    "severity": ""
+  },
+  {
+    "code": "C1234",
+    "description_ru": "",
+    "description_en": "Wheel Speed Sensor Circuit",
+    "severity": ""
+  },
+  {
+    "code": "C1235",
+    "description_ru": "",
+    "description_en": "Wheel Speed Sensor Circuit",
+    "severity": ""
+  },
+  {
+    "code": "C1236",
+    "description_ru": "",
+    "description_en": "Low System Supply Voltage",
+    "severity": ""
+  },
+  {
+    "code": "C1237",
+    "description_ru": "",
+    "description_en": "High System Supply Voltage",
+    "severity": ""
+  },
+  {
+    "code": "C1241",
+    "description_ru": "",
+    "description_en": "MAGNA STEER Circuit Malfunction",
+    "severity": ""
+  },
+  {
+    "code": "C1242",
+    "description_ru": "",
+    "description_en": "Pump Motor Circuit",
+    "severity": ""
+  },
+  {
+    "code": "C1243",
+    "description_ru": "",
+    "description_en": "Pump Motor Circuit",
+    "severity": ""
+  },
+  {
+    "code": "C1247",
+    "description_ru": "",
+    "description_en": "Brake Pressure Differential Switch Activated",
+    "severity": ""
+  },
+  {
+    "code": "C1248",
+    "description_ru": "",
+    "description_en": "DRP Disabled",
+    "severity": ""
+  },
+  {
+    "code": "C1254",
+    "description_ru": "",
+    "description_en": "Abnormal Shutdown Detected",
+    "severity": ""
+  },
+  {
+    "code": "C1255",
+    "description_ru": "",
+    "description_en": "ECU Malfunction",
+    "severity": ""
+  },
+  {
+    "code": "C1256",
+    "description_ru": "",
+    "description_en": "ECU Malfunction",
+    "severity": ""
+  },
+  {
+    "code": "C1261",
+    "description_ru": "",
+    "description_en": "EBCM Internal Solenoid Circuit",
+    "severity": ""
+  },
+  {
+    "code": "C1262",
+    "description_ru": "",
+    "description_en": "EBCM Internal Solenoid Circuit",
+    "severity": ""
+  },
+  {
+    "code": "C1263",
+    "description_ru": "",
+    "description_en": "EBCM Internal Solenoid Circuit",
+    "severity": ""
+  },
+  {
+    "code": "C1264",
+    "description_ru": "",
+    "description_en": "EBCM Internal Solenoid Circuit",
+    "severity": ""
+  },
+  {
+    "code": "C1265",
+    "description_ru": "",
+    "description_en": "EBCM Internal Solenoid Circuit",
+    "severity": ""
+  },
+  {
+    "code": "C1266",
+    "description_ru": "",
+    "description_en": "EBCM Internal Solenoid Circuit",
+    "severity": ""
+  },
+  {
+    "code": "C1267",
+    "description_ru": "",
+    "description_en": "EBCM Internal Solenoid Circuit",
+    "severity": ""
+  },
+  {
+    "code": "C1268",
+    "description_ru": "",
+    "description_en": "EBCM Internal Solenoid Circuit",
+    "severity": ""
+  },
+  {
+    "code": "C1269",
+    "description_ru": "",
+    "description_en": "EBCM Internal Solenoid Circuit",
+    "severity": ""
+  },
+  {
+    "code": "C1270",
+    "description_ru": "",
+    "description_en": "EBCM Internal Solenoid Circuit",
+    "severity": ""
+  },
+  {
+    "code": "C1271",
+    "description_ru": "",
+    "description_en": "EBCM Internal Solenoid Circuit",
+    "severity": ""
+  },
+  {
+    "code": "C1272",
+    "description_ru": "",
+    "description_en": "EBCM Internal Solenoid Circuit",
+    "severity": ""
+  },
+  {
+    "code": "C1273",
+    "description_ru": "",
+    "description_en": "EBCM Internal Solenoid Circuit",
+    "severity": ""
+  },
+  {
+    "code": "C1274",
+    "description_ru": "",
+    "description_en": "EBCM Internal Solenoid Circuit",
+    "severity": ""
+  },
+  {
+    "code": "C1276",
+    "description_ru": "",
+    "description_en": "Delivered Torque Circuit",
+    "severity": ""
+  },
+  {
+    "code": "C1277",
+    "description_ru": "",
+    "description_en": "Powertrain Indicated Traction Control Malfunction",
+    "severity": ""
+  },
+  {
+    "code": "C1278",
+    "description_ru": "",
+    "description_en": "TCS Temporarily Inhibited By PCM",
+    "severity": ""
+  },
+  {
+    "code": "C1281",
+    "description_ru": "",
+    "description_en": "VSES Sensors Uncorrected",
+    "severity": ""
+  },
+  {
+    "code": "C1282",
+    "description_ru": "",
+    "description_en": "Yaw Rate Sensor Bias Circuit Malfunction",
+    "severity": ""
+  },
+  {
+    "code": "C1283",
+    "description_ru": "",
+    "description_en": "VSES Sensors Uncorrected",
+    "severity": ""
+  },
+  {
+    "code": "C1284",
+    "description_ru": "",
+    "description_en": "Lateral Accelerometer Circuit",
+    "severity": ""
+  },
+  {
+    "code": "C1285",
+    "description_ru": "",
+    "description_en": "Lateral Accelerometer Circuit",
+    "severity": ""
+  },
+  {
+    "code": "C1286",
+    "description_ru": "",
+    "description_en": "VSES Sensors Uncorrected",
+    "severity": ""
+  },
+  {
+    "code": "C1287",
+    "description_ru": "",
+    "description_en": "Steering Position Sensor Circuit",
+    "severity": ""
+  },
+  {
+    "code": "C1288",
+    "description_ru": "",
+    "description_en": "Steering Position Sensor Circuit",
+    "severity": ""
+  },
+  {
+    "code": "C1291",
+    "description_ru": "",
+    "description_en": "Open Brake Lamp Switch Contacts During Deceleration",
+    "severity": ""
+  },
+  {
+    "code": "C1292",
+    "description_ru": "",
+    "description_en": "Master Cylinder Pressure Sensor Circuit",
+    "severity": ""
+  },
+  {
+    "code": "C1293",
+    "description_ru": "",
+    "description_en": "Master Cylinder Pressure Sensor Circuit",
+    "severity": ""
+  },
+  {
+    "code": "C1294",
+    "description_ru": "",
+    "description_en": "Brake Lamp Switch Circuit Always Active",
+    "severity": ""
+  },
+  {
+    "code": "C1295",
+    "description_ru": "",
+    "description_en": "Brake Lamp Switch Circuit Open",
+    "severity": ""
+  },
+  {
+    "code": "C1296",
+    "description_ru": "",
+    "description_en": "Master Cylinder Pressure Sensor Circuit",
+    "severity": ""
+  },
+  {
+    "code": "P1111",
+    "description_ru": "",
+    "description_en": "Intake Air Temperature (IAT) Sensor Circuit Intermittent High Voltage",
+    "severity": ""
+  },
+  {
+    "code": "P1112",
+    "description_ru": "",
+    "description_en": "Intake Air Temperature (IAT) Sensor Circuit Intermittent Low Voltage",
+    "severity": ""
+  },
+  {
+    "code": "P1114",
+    "description_ru": "",
+    "description_en": "Engine Coolant Temperature (ECT) Sensor Circuit Intermittent Low Voltage",
+    "severity": ""
+  },
+  {
+    "code": "P1115",
+    "description_ru": "",
+    "description_en": "Engine Coolant Temperature (ECT) Sensor Circuit Intermittent High Voltage",
+    "severity": ""
+  },
+  {
+    "code": "P1120",
+    "description_ru": "",
+    "description_en": "Throttle Position (TP) Sensor 1 Circuit",
+    "severity": ""
+  },
+  {
+    "code": "P1125",
+    "description_ru": "",
+    "description_en": "Accelerator Pedal Position (APP) System",
+    "severity": ""
+  },
+  {
+    "code": "P1133",
+    "description_ru": "",
+    "description_en": "HO2S Insufficient Switching",
+    "severity": ""
+  },
+  {
+    "code": "P1134",
+    "description_ru": "",
+    "description_en": "HO2S Transition Time Ratio",
+    "severity": ""
+  },
+  {
+    "code": "P1153",
+    "description_ru": "",
+    "description_en": "HO2S Insufficient Switching",
+    "severity": ""
+  },
+  {
+    "code": "P1154",
+    "description_ru": "",
+    "description_en": "HO2S Transition Time Ratio",
+    "severity": ""
+  },
+  {
+    "code": "P1220",
+    "description_ru": "",
+    "description_en": "Throttle Position (TP) Sensor 2 Circuit",
+    "severity": ""
+  },
+  {
+    "code": "P1221",
+    "description_ru": "",
+    "description_en": "Throttle Position (TP) Sensor 1- 2 Correlation",
+    "severity": ""
+  },
+  {
+    "code": "P1258",
+    "description_ru": "",
+    "description_en": "Engine Coolant Overtemperature - Protection Mode Active",
+    "severity": ""
+  },
+  {
+    "code": "P1275",
+    "description_ru": "",
+    "description_en": "Accelerator Pedal Position (APP) Sensor 1 Circuit",
+    "severity": ""
+  },
+  {
+    "code": "P1276",
+    "description_ru": "",
+    "description_en": "Accelerator Pedal Position (APP) Sensor 1 Performance",
+    "severity": ""
+  },
+  {
+    "code": "P1280",
+    "description_ru": "",
+    "description_en": "Accelerator Pedal Position (APP) Sensor 2 Circuit",
+    "severity": ""
+  },
+  {
+    "code": "P1281",
+    "description_ru": "",
+    "description_en": "Accelerator Pedal Position (APP) Sensor 2 Performance",
+    "severity": ""
+  },
+  {
+    "code": "P1285",
+    "description_ru": "",
+    "description_en": "Accelerator Pedal Position (APP) Sensor 3 Circuit",
+    "severity": ""
+  },
+  {
+    "code": "P1286",
+    "description_ru": "",
+    "description_en": "Accelerator Pedal Position (APP) Sensor 3 Performance",
+    "severity": ""
+  },
+  {
+    "code": "P1336",
+    "description_ru": "",
+    "description_en": "Crankshaft Position (CKP) System Variation Not Learned",
+    "severity": ""
+  },
+  {
+    "code": "P1380",
+    "description_ru": "",
+    "description_en": "Misfire Detected - Rough Road Data Not Available",
+    "severity": ""
+  },
+  {
+    "code": "P1381",
+    "description_ru": "",
+    "description_en": "Misfire Detected - No Communication with Brake Control Module",
+    "severity": ""
+  },
+  {
+    "code": "P1415",
+    "description_ru": "",
+    "description_en": "Secondary Air Injection (AIR) System",
+    "severity": ""
+  },
+  {
+    "code": "P1416",
+    "description_ru": "",
+    "description_en": "Secondary Air Injection (AIR) System",
+    "severity": ""
+  },
+  {
+    "code": "P1431",
+    "description_ru": "",
+    "description_en": "Fuel Level Sensor 2 Performance",
+    "severity": ""
+  },
+  {
+    "code": "P1432",
+    "description_ru": "",
+    "description_en": "Fuel Level Sensor 2 Circuit Low Voltage",
+    "severity": ""
+  },
+  {
+    "code": "P1433",
+    "description_ru": "",
+    "description_en": "Fuel Level Sensor 2 Circuit High Voltage",
+    "severity": ""
+  },
+  {
+    "code": "P1441",
+    "description_ru": "",
+    "description_en": "Evaporative Emission (EVAP) System Flow During Non-Purge",
+    "severity": ""
+  },
+  {
+    "code": "P1514",
+    "description_ru": "",
+    "description_en": "Throttle Body Performance",
+    "severity": ""
+  },
+  {
+    "code": "P1515",
+    "description_ru": "",
+    "description_en": "Control Module Throttle Actuator Position Performance",
+    "severity": ""
+  },
+  {
+    "code": "P1516",
+    "description_ru": "",
+    "description_en": "Throttle Actuator Control (TAC) Module Throttle Actuator Position Performance",
+    "severity": ""
+  },
+  {
+    "code": "P1517",
+    "description_ru": "",
+    "description_en": "Throttle Actuator Control (TAC) Module Performance",
+    "severity": ""
+  },
+  {
+    "code": "P1518",
+    "description_ru": "",
+    "description_en": "Throttle Actuator Control (TAC) Module Serial Data Circuit",
+    "severity": ""
+  },
+  {
+    "code": "P1539",
+    "description_ru": "",
+    "description_en": "Air Conditioning (A/C) Clutch Feedback Circuit High Voltage",
+    "severity": ""
+  },
+  {
+    "code": "P1546",
+    "description_ru": "",
+    "description_en": "Air Conditioning (A/C) Clutch Feedback Circuit Low Voltage",
+    "severity": ""
+  },
+  {
+    "code": "P1571",
+    "description_ru": "",
+    "description_en": "Powertrain Indicated Traction Control Malfunction",
+    "severity": ""
+  },
+  {
+    "code": "P1574",
+    "description_ru": "",
+    "description_en": "Stoplamp Switch Circuit",
+    "severity": ""
+  },
+  {
+    "code": "P1575",
+    "description_ru": "",
+    "description_en": "Extended Travel Brake Switch Circuit",
+    "severity": ""
+  },
+  {
+    "code": "P1626",
+    "description_ru": "",
+    "description_en": "Theft Deterrent Fuel Enable Signal Lost",
+    "severity": ""
+  },
+  {
+    "code": "P1630",
+    "description_ru": "",
+    "description_en": "Theft Deterrent Learn Mode Active",
+    "severity": ""
+  },
+  {
+    "code": "P1631",
+    "description_ru": "",
+    "description_en": "Theft Deterrent Start Enable Signal Not Correct",
+    "severity": ""
+  },
+  {
+    "code": "P1635",
+    "description_ru": "",
+    "description_en": "5 Volt Reference 1 Circuit",
+    "severity": ""
+  },
+  {
+    "code": "P1637",
+    "description_ru": "",
+    "description_en": "Generator L-Terminal Circuit",
+    "severity": ""
+  },
+  {
+    "code": "P1638",
+    "description_ru": "",
+    "description_en": "Generator F-Terminal Circuit",
+    "severity": ""
+  },
+  {
+    "code": "P1639",
+    "description_ru": "",
+    "description_en": "5 Volt Reference 2 Circuit",
+    "severity": ""
+  },
+  {
+    "code": "P1644",
+    "description_ru": "",
+    "description_en": "Delivered Torque Circuit",
+    "severity": ""
+  },
+  {
+    "code": "P1652",
+    "description_ru": "",
+    "description_en": "Powertrain Induced Chassis Pitch Output Circuit",
+    "severity": ""
+  },
+  {
+    "code": "P1689",
+    "description_ru": "",
+    "description_en": "Delivered Torque Circuit",
+    "severity": ""
+  },
+  {
+    "code": "P1810",
+    "description_ru": "",
+    "description_en": "TFP Valve Position Switch Circuit",
+    "severity": ""
+  },
+  {
+    "code": "P1860",
+    "description_ru": "",
+    "description_en": "TCC PWM Solenoid Circuit Electrical",
+    "severity": ""
+  },
+  {
+    "code": "P1870",
+    "description_ru": "",
+    "description_en": "Transmission Component Slipping",
+    "severity": ""
+  },
+  {
+    "code": "U1000",
+    "description_ru": "",
+    "description_en": "Class 2 Communication Malfunction",
+    "severity": ""
+  },
+  {
+    "code": "U1255",
+    "description_ru": "",
+    "description_en": "Class 2 Communication Malfunction",
+    "severity": ""
+  },
+  {
+    "code": "U1300",
+    "description_ru": "",
+    "description_en": "Class 2 Data Link Shorted",
+    "severity": ""
+  },
+  {
+    "code": "U1301",
+    "description_ru": "",
+    "description_en": "Class 2 Data Link Shorted",
+    "severity": ""
+  },
+  {
+    "code": "U1305",
+    "description_ru": "",
+    "description_en": "Class 2 Data Link Shorted",
+    "severity": ""
+  }
+]

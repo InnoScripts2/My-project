@@ -1,0 +1,20 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "outDir": "./dist",
+    "rootDir": "./src",
+    "sourceMap": false,
+    "removeComments": true,
+    "declaration": false,
+    "declarationMap": false
+  },
+  "exclude": [
+    "node_modules",
+    "dist",
+    "**/*.test.ts",
+    "**/*.test.js",
+    "**/__tests__/**",
+    "src/devices/obd/tests/**",
+    "src/devices/obd/emulator/**"
+  ]
+}

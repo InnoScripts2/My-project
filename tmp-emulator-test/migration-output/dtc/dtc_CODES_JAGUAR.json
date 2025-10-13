@@ -1,0 +1,4028 @@
+[
+  {
+    "code": ";P1178",
+    "description_ru": "",
+    "description_en": "( open )",
+    "severity": ""
+  },
+  {
+    "code": "P1100",
+    "description_ru": "",
+    "description_en": "MAF Sensor Intermittent/ Check of all OBDII Systems Not Complete",
+    "severity": ""
+  },
+  {
+    "code": "P1101",
+    "description_ru": "",
+    "description_en": "MAF Sensor Out Of Self Test Range./KOER Not Able To Complete KOER Aborted",
+    "severity": ""
+  },
+  {
+    "code": "P1102",
+    "description_ru": "",
+    "description_en": "MAF Sensor In Range But Lower Than Expected",
+    "severity": ""
+  },
+  {
+    "code": "P1103",
+    "description_ru": "",
+    "description_en": "MAF Sensor In Range But Higher Than Expected",
+    "severity": ""
+  },
+  {
+    "code": "P1104",
+    "description_ru": "",
+    "description_en": "MAF Ground Malfunction",
+    "severity": ""
+  },
+  {
+    "code": "P1105",
+    "description_ru": "",
+    "description_en": "Dual Alternator Upper Fault",
+    "severity": ""
+  },
+  {
+    "code": "P1106",
+    "description_ru": "",
+    "description_en": "Dual Alternator Lower Fault/ Manifold Absolute Pressure (MAP) Sensor Circuit Intermittent High Voltage",
+    "severity": ""
+  },
+  {
+    "code": "P1107",
+    "description_ru": "",
+    "description_en": "Dual Alternator Lower Circuit Malfunction/ Manifold Absolute Pressure (MAP) Sensor Circuit Intermittent Low Voltage",
+    "severity": ""
+  },
+  {
+    "code": "P1108",
+    "description_ru": "",
+    "description_en": "Dual Alternator Battery Lamp Circuit Malfunction",
+    "severity": ""
+  },
+  {
+    "code": "P1109",
+    "description_ru": "",
+    "description_en": "IAT - B Sensor Intermittent",
+    "severity": ""
+  },
+  {
+    "code": "P1110",
+    "description_ru": "",
+    "description_en": "IAT Sensor (D/C) Open/Short",
+    "severity": ""
+  },
+  {
+    "code": "P1111",
+    "description_ru": "",
+    "description_en": "Intake Air Temperature (IAT) Sensor Circuit Intermittent High Voltage",
+    "severity": ""
+  },
+  {
+    "code": "P1112",
+    "description_ru": "",
+    "description_en": "Intake Air Temperature (IAT) Sensor Circuit Intermittent Low Voltage",
+    "severity": ""
+  },
+  {
+    "code": "P1113",
+    "description_ru": "",
+    "description_en": "IAT Sensor Open/Short",
+    "severity": ""
+  },
+  {
+    "code": "P1114",
+    "description_ru": "",
+    "description_en": "Engine Coolant Temperature (ECT) Sensor Circuit Intermittent Low Voltage/IAT - B Circuit Low Input",
+    "severity": ""
+  },
+  {
+    "code": "P1115",
+    "description_ru": "",
+    "description_en": "Engine Coolant Temperature (ECT) Sensor Circuit Intermittent High Voltage/IAT - B Circuit High Input",
+    "severity": ""
+  },
+  {
+    "code": "P1116",
+    "description_ru": "",
+    "description_en": "Engine Coolant sensor out of range/ECT Sensor Out Of Self Test Range",
+    "severity": ""
+  },
+  {
+    "code": "P1117",
+    "description_ru": "",
+    "description_en": "Engine Coolant Sensor intermittent/ECT Sensor Intermittent",
+    "severity": ""
+  },
+  {
+    "code": "P1118",
+    "description_ru": "",
+    "description_en": "Manifold Absolute Temperature Circuit Low Input",
+    "severity": ""
+  },
+  {
+    "code": "P1119",
+    "description_ru": "",
+    "description_en": "Manifold Absolute Temperature Circuit High Input",
+    "severity": ""
+  },
+  {
+    "code": "P1120",
+    "description_ru": "",
+    "description_en": "Throttle position sensor out of range",
+    "severity": ""
+  },
+  {
+    "code": "P1121",
+    "description_ru": "",
+    "description_en": "Throttle Position (TP) Sensor Circuit Intermittent High Voltage",
+    "severity": ""
+  },
+  {
+    "code": "P1122",
+    "description_ru": "",
+    "description_en": "Throttle Position (TP) Sensor Circuit Intermittent Low Voltage",
+    "severity": ""
+  },
+  {
+    "code": "P1123",
+    "description_ru": "",
+    "description_en": "Throttle Position Sensor In Range But Higher Than Expected",
+    "severity": ""
+  },
+  {
+    "code": "P1124",
+    "description_ru": "",
+    "description_en": "Throttle Position Sensor Out Of Self Test Range",
+    "severity": ""
+  },
+  {
+    "code": "P1125",
+    "description_ru": "",
+    "description_en": "Throttle position sensor intermittent",
+    "severity": ""
+  },
+  {
+    "code": "P1126",
+    "description_ru": "",
+    "description_en": "Throttle Position (Narrow Range) Sensor Circuit Malfunction",
+    "severity": ""
+  },
+  {
+    "code": "P1127",
+    "description_ru": "",
+    "description_en": "Exhaust Not Warm, Downstream O2 Sensor",
+    "severity": ""
+  },
+  {
+    "code": "P1128",
+    "description_ru": "",
+    "description_en": "Upstream Heated O2 Sensors Swapped",
+    "severity": ""
+  },
+  {
+    "code": "P1129",
+    "description_ru": "",
+    "description_en": "Downstream Heated O2 Sensors Swapped",
+    "severity": ""
+  },
+  {
+    "code": "P1130",
+    "description_ru": "",
+    "description_en": "Lack Of HO2S Switch - Adaptive Fuel At Limit",
+    "severity": ""
+  },
+  {
+    "code": "P1131",
+    "description_ru": "",
+    "description_en": "Lack Of HO2S Switch - Sensor Indicates Lean",
+    "severity": ""
+  },
+  {
+    "code": "P1132",
+    "description_ru": "",
+    "description_en": "Lack Of HO2S Switch - Sensor Indicates Rich",
+    "severity": ""
+  },
+  {
+    "code": "P1133",
+    "description_ru": "",
+    "description_en": "HO2S Insufficient Switching Sensor 1",
+    "severity": ""
+  },
+  {
+    "code": "P1134",
+    "description_ru": "",
+    "description_en": "HO2S Transition Time Ratio Sensor 1",
+    "severity": ""
+  },
+  {
+    "code": "P1135",
+    "description_ru": "",
+    "description_en": "Pedal Position Sensor A Circuit Intermittent",
+    "severity": ""
+  },
+  {
+    "code": "P1136",
+    "description_ru": "",
+    "description_en": "Fan Control Circuit Malfunction",
+    "severity": ""
+  },
+  {
+    "code": "P1137",
+    "description_ru": "",
+    "description_en": "Lack Of HO2S Switch - Sensor Indicates Lean",
+    "severity": ""
+  },
+  {
+    "code": "P1138",
+    "description_ru": "",
+    "description_en": "Lack Of HO2S12 Switch - Sensor Indicates Rich",
+    "severity": ""
+  },
+  {
+    "code": "P1139",
+    "description_ru": "",
+    "description_en": "Water In Fuel Indicator Circuit Malfunction",
+    "severity": ""
+  },
+  {
+    "code": "P1140",
+    "description_ru": "",
+    "description_en": "Water In Fuel Condition",
+    "severity": ""
+  },
+  {
+    "code": "P1141",
+    "description_ru": "",
+    "description_en": "Fuel Restriction Indicator Circuit Malfunction",
+    "severity": ""
+  },
+  {
+    "code": "P1142",
+    "description_ru": "",
+    "description_en": "Fuel Restriction Condition",
+    "severity": ""
+  },
+  {
+    "code": "P1143",
+    "description_ru": "",
+    "description_en": "Air Assist Control Valve Range/Performance",
+    "severity": ""
+  },
+  {
+    "code": "P1144",
+    "description_ru": "",
+    "description_en": "Air Assist Control Valve Circuit Malfunction",
+    "severity": ""
+  },
+  {
+    "code": "P1150",
+    "description_ru": "",
+    "description_en": "Lack Of HO2S21 Switch - Adaptive Fuel At Limit",
+    "severity": ""
+  },
+  {
+    "code": "P1151",
+    "description_ru": "",
+    "description_en": "Lack Of HO2S21 Switch - Sensor Indicates Lean",
+    "severity": ""
+  },
+  {
+    "code": "P1152",
+    "description_ru": "",
+    "description_en": "Lack Of HO2S21 Switch - Sensor Indicates Rich",
+    "severity": ""
+  },
+  {
+    "code": "P1153",
+    "description_ru": "",
+    "description_en": "Bank 2 Fuel Control Shifted Lean",
+    "severity": ""
+  },
+  {
+    "code": "P1154",
+    "description_ru": "",
+    "description_en": "Bank 2 Fuel Control Shifted Rich",
+    "severity": ""
+  },
+  {
+    "code": "P1155",
+    "description_ru": "",
+    "description_en": "Alternative Fuel Controller",
+    "severity": ""
+  },
+  {
+    "code": "P1156",
+    "description_ru": "",
+    "description_en": "Fuel Select Switch Malfunction",
+    "severity": ""
+  },
+  {
+    "code": "P1157",
+    "description_ru": "",
+    "description_en": "Lack Of HO2S22 Switch - Sensor Indicates Lean",
+    "severity": ""
+  },
+  {
+    "code": "P1158",
+    "description_ru": "",
+    "description_en": "Lack Of HO2S22 Switch - Sensor Indicates Rich",
+    "severity": ""
+  },
+  {
+    "code": "P1159",
+    "description_ru": "",
+    "description_en": "Fuel Stepper Motor Malfunction",
+    "severity": ""
+  },
+  {
+    "code": "P1167",
+    "description_ru": "",
+    "description_en": "Invalid Test,throttle not depressed",
+    "severity": ""
+  },
+  {
+    "code": "P1168",
+    "description_ru": "",
+    "description_en": "Fuel Rail Sensor In-Range Low Failure",
+    "severity": ""
+  },
+  {
+    "code": "P1169",
+    "description_ru": "",
+    "description_en": "Fuel Rail Sensor In-Range High Failure",
+    "severity": ""
+  },
+  {
+    "code": "P1170",
+    "description_ru": "",
+    "description_en": "ESO - Engine Shut Off Solenoid Fault",
+    "severity": ""
+  },
+  {
+    "code": "P1171",
+    "description_ru": "",
+    "description_en": "Rotor Sensor Fault",
+    "severity": ""
+  },
+  {
+    "code": "P1172",
+    "description_ru": "",
+    "description_en": "Rotor Control Fault",
+    "severity": ""
+  },
+  {
+    "code": "P1173",
+    "description_ru": "",
+    "description_en": "Rotor Calibration Fault",
+    "severity": ""
+  },
+  {
+    "code": "P1174",
+    "description_ru": "",
+    "description_en": "Cam Sensor Fault",
+    "severity": ""
+  },
+  {
+    "code": "P1175",
+    "description_ru": "",
+    "description_en": "Cam Control Fault",
+    "severity": ""
+  },
+  {
+    "code": "P1176",
+    "description_ru": "",
+    "description_en": "Cam Calibration Fault",
+    "severity": ""
+  },
+  {
+    "code": "P1177",
+    "description_ru": "",
+    "description_en": "Synchronization Fault",
+    "severity": ""
+  },
+  {
+    "code": "P1180",
+    "description_ru": "",
+    "description_en": "Fuel Delivery System Malfunction - Low",
+    "severity": ""
+  },
+  {
+    "code": "P1181",
+    "description_ru": "",
+    "description_en": "Fuel Delivery System Malfunction - High",
+    "severity": ""
+  },
+  {
+    "code": "P1182",
+    "description_ru": "",
+    "description_en": "Fuel Shut Off Solenoid Malfunction",
+    "severity": ""
+  },
+  {
+    "code": "P1183",
+    "description_ru": "",
+    "description_en": "Engine Oil Temperature Circuit Malfunction",
+    "severity": ""
+  },
+  {
+    "code": "P1184",
+    "description_ru": "",
+    "description_en": "Engine Oil Temperature Out Of Self Test Range",
+    "severity": ""
+  },
+  {
+    "code": "P1185",
+    "description_ru": "",
+    "description_en": "FTS High - Fuel Pump Temperature Sensor High",
+    "severity": ""
+  },
+  {
+    "code": "P1186",
+    "description_ru": "",
+    "description_en": "FTS Low - Fuel Pump Temperature Sensor Low",
+    "severity": ""
+  },
+  {
+    "code": "P1187",
+    "description_ru": "",
+    "description_en": "Variant Selection",
+    "severity": ""
+  },
+  {
+    "code": "P1188",
+    "description_ru": "",
+    "description_en": "Calibration Memory Fault",
+    "severity": ""
+  },
+  {
+    "code": "P1189",
+    "description_ru": "",
+    "description_en": "Pump Speed Signal Fault",
+    "severity": ""
+  },
+  {
+    "code": "P1190",
+    "description_ru": "",
+    "description_en": "Calibration Resistor Out Of Range",
+    "severity": ""
+  },
+  {
+    "code": "P1191",
+    "description_ru": "",
+    "description_en": "Key Line Voltage",
+    "severity": ""
+  },
+  {
+    "code": "P1192",
+    "description_ru": "",
+    "description_en": "Voltage External",
+    "severity": ""
+  },
+  {
+    "code": "P1193",
+    "description_ru": "",
+    "description_en": "EGR Drive Overcurrent",
+    "severity": ""
+  },
+  {
+    "code": "P1194",
+    "description_ru": "",
+    "description_en": "ECU A/D Converter",
+    "severity": ""
+  },
+  {
+    "code": "P1195",
+    "description_ru": "",
+    "description_en": "SCP HBCC Failed To Initialize",
+    "severity": ""
+  },
+  {
+    "code": "P1196",
+    "description_ru": "",
+    "description_en": "Key Off Voltage High",
+    "severity": ""
+  },
+  {
+    "code": "P1197",
+    "description_ru": "",
+    "description_en": "Key Off Voltage Low",
+    "severity": ""
+  },
+  {
+    "code": "P1198",
+    "description_ru": "",
+    "description_en": "Pump Rotor Control Underfueling",
+    "severity": ""
+  },
+  {
+    "code": "P1199",
+    "description_ru": "",
+    "description_en": "Fuel Level Input Circuit Low",
+    "severity": ""
+  },
+  {
+    "code": "P1200",
+    "description_ru": "",
+    "description_en": "Injector Control Circuit",
+    "severity": ""
+  },
+  {
+    "code": "P1201",
+    "description_ru": "",
+    "description_en": "Injector Circuit Open / Shorted - Cylinder #1",
+    "severity": ""
+  },
+  {
+    "code": "P1202",
+    "description_ru": "",
+    "description_en": "Injector Circuit Open / Shorted - Cylinder #2",
+    "severity": ""
+  },
+  {
+    "code": "P1203",
+    "description_ru": "",
+    "description_en": "Injector Circuit Open / Shorted - Cylinder #3",
+    "severity": ""
+  },
+  {
+    "code": "P1204",
+    "description_ru": "",
+    "description_en": "Injector Circuit Open / Shorted - Cylinder #4",
+    "severity": ""
+  },
+  {
+    "code": "P1205",
+    "description_ru": "",
+    "description_en": "Injector Circuit Open / Shorted - Cylinder #5",
+    "severity": ""
+  },
+  {
+    "code": "P1206",
+    "description_ru": "",
+    "description_en": "Injector Circuit Open / Shorted - Cylinder #6",
+    "severity": ""
+  },
+  {
+    "code": "P1209",
+    "description_ru": "",
+    "description_en": "Injector Control Pressure System Fault",
+    "severity": ""
+  },
+  {
+    "code": "P1210",
+    "description_ru": "",
+    "description_en": "Injector Control Pressure Above Expected Level",
+    "severity": ""
+  },
+  {
+    "code": "P1211",
+    "description_ru": "",
+    "description_en": "Injector Control Pressure Sensor Above / Below Desired",
+    "severity": ""
+  },
+  {
+    "code": "P1212",
+    "description_ru": "",
+    "description_en": "Injector Control Pressure Not Detected During Crank",
+    "severity": ""
+  },
+  {
+    "code": "P1213",
+    "description_ru": "",
+    "description_en": "Start Injector Circuit Malfunction",
+    "severity": ""
+  },
+  {
+    "code": "P1214",
+    "description_ru": "",
+    "description_en": "Pedal Position Sensor B Circuit Intermittent",
+    "severity": ""
+  },
+  {
+    "code": "P1215",
+    "description_ru": "",
+    "description_en": "Pedal Position Sensor C Circuit Low Input",
+    "severity": ""
+  },
+  {
+    "code": "P1216",
+    "description_ru": "",
+    "description_en": "Pedal Position Sensor C Circuit High Input",
+    "severity": ""
+  },
+  {
+    "code": "P1217",
+    "description_ru": "",
+    "description_en": "Pedal Position Sensor C Circuit Intermittent",
+    "severity": ""
+  },
+  {
+    "code": "P1218",
+    "description_ru": "",
+    "description_en": "CID High",
+    "severity": ""
+  },
+  {
+    "code": "P1219",
+    "description_ru": "",
+    "description_en": "CID Low",
+    "severity": ""
+  },
+  {
+    "code": "P1220",
+    "description_ru": "",
+    "description_en": "Series Throttle Control System Malfunction",
+    "severity": ""
+  },
+  {
+    "code": "P1221",
+    "description_ru": "",
+    "description_en": "Traction Control System Malfunction",
+    "severity": ""
+  },
+  {
+    "code": "P1222",
+    "description_ru": "",
+    "description_en": "Traction Control Output Circuit Malfunction",
+    "severity": ""
+  },
+  {
+    "code": "P1223",
+    "description_ru": "",
+    "description_en": "Pedal Demand Sensor B Circuit High Input",
+    "severity": ""
+  },
+  {
+    "code": "P1224",
+    "description_ru": "",
+    "description_en": "Throttle Position Sensor B Out Of Self Test Range",
+    "severity": ""
+  },
+  {
+    "code": "P1225",
+    "description_ru": "",
+    "description_en": "Needle Lift Sensor Malfunction",
+    "severity": ""
+  },
+  {
+    "code": "P1226",
+    "description_ru": "",
+    "description_en": "Control Sleeve Sensor Malfunction",
+    "severity": ""
+  },
+  {
+    "code": "P1227",
+    "description_ru": "",
+    "description_en": "Wastegate Failed Closed (Over Pressure)",
+    "severity": ""
+  },
+  {
+    "code": "P1228",
+    "description_ru": "",
+    "description_en": "Wastegate Failed Open (Under Pressure)",
+    "severity": ""
+  },
+  {
+    "code": "P1229",
+    "description_ru": "",
+    "description_en": "Intercooler Pump Driver Fault",
+    "severity": ""
+  },
+  {
+    "code": "P1230",
+    "description_ru": "",
+    "description_en": "Fuel Pump Low Speed Malfunction",
+    "severity": ""
+  },
+  {
+    "code": "P1231",
+    "description_ru": "",
+    "description_en": "Fuel Pump Secondary Circuit Low, High Speed",
+    "severity": ""
+  },
+  {
+    "code": "P1232",
+    "description_ru": "",
+    "description_en": "Fuel Pump Speed Primary Circuit Malfunction",
+    "severity": ""
+  },
+  {
+    "code": "P1233",
+    "description_ru": "",
+    "description_en": "Fuel Pump Driver Module Off Line",
+    "severity": ""
+  },
+  {
+    "code": "P1234",
+    "description_ru": "",
+    "description_en": "Fuel Pump Driver Module Off Line",
+    "severity": ""
+  },
+  {
+    "code": "P1235",
+    "description_ru": "",
+    "description_en": "Fuel Pump Control Out Of Range",
+    "severity": ""
+  },
+  {
+    "code": "P1236",
+    "description_ru": "",
+    "description_en": "Fuel Pump Control Out Of Range",
+    "severity": ""
+  },
+  {
+    "code": "P1237",
+    "description_ru": "",
+    "description_en": "Fuel Pump Secondary Circuit Malfunction",
+    "severity": ""
+  },
+  {
+    "code": "P1238",
+    "description_ru": "",
+    "description_en": "Fuel Pump Secondary Circuit Malfunction",
+    "severity": ""
+  },
+  {
+    "code": "P1239",
+    "description_ru": "",
+    "description_en": "Speed Fuel Pump Positive Feed Fault",
+    "severity": ""
+  },
+  {
+    "code": "P1240",
+    "description_ru": "",
+    "description_en": "Sensor Power Supply Malfunction",
+    "severity": ""
+  },
+  {
+    "code": "P1241",
+    "description_ru": "",
+    "description_en": "Sensor Power Supply Low Input",
+    "severity": ""
+  },
+  {
+    "code": "P1242",
+    "description_ru": "",
+    "description_en": "Sensor Power Supply High Input",
+    "severity": ""
+  },
+  {
+    "code": "P1243",
+    "description_ru": "",
+    "description_en": "Second Fuel Pump Faulty or Ground Fault",
+    "severity": ""
+  },
+  {
+    "code": "P1244",
+    "description_ru": "",
+    "description_en": "Alternator Load Input Failed High",
+    "severity": ""
+  },
+  {
+    "code": "P1245",
+    "description_ru": "",
+    "description_en": "Alternator Load Input Failed Low",
+    "severity": ""
+  },
+  {
+    "code": "P1246",
+    "description_ru": "",
+    "description_en": "Alternator Load Input Failed",
+    "severity": ""
+  },
+  {
+    "code": "P1247",
+    "description_ru": "",
+    "description_en": "Turbo Boost Pressure Low",
+    "severity": ""
+  },
+  {
+    "code": "P1248",
+    "description_ru": "",
+    "description_en": "Turbo Boost Pressure Not Detected",
+    "severity": ""
+  },
+  {
+    "code": "P1249",
+    "description_ru": "",
+    "description_en": "Wastegate Control Valve Performance",
+    "severity": ""
+  },
+  {
+    "code": "P1250",
+    "description_ru": "",
+    "description_en": "PRC Solenoid Circuit Malfunction",
+    "severity": ""
+  },
+  {
+    "code": "P1251",
+    "description_ru": "",
+    "description_en": "Air Mixture Solenoid Circuit Malfunction",
+    "severity": ""
+  },
+  {
+    "code": "P1252",
+    "description_ru": "",
+    "description_en": "Pedal Correlation PDS1 and LPDS High",
+    "severity": ""
+  },
+  {
+    "code": "P1253",
+    "description_ru": "",
+    "description_en": "Pedal Correlation PDS1 and LPDS Low",
+    "severity": ""
+  },
+  {
+    "code": "P1254",
+    "description_ru": "",
+    "description_en": "Pedal Correlation PDS2 and LPDS High",
+    "severity": ""
+  },
+  {
+    "code": "P1255",
+    "description_ru": "",
+    "description_en": "Pedal Correlation PDS2 and LPDS Low",
+    "severity": ""
+  },
+  {
+    "code": "P1256",
+    "description_ru": "",
+    "description_en": "Pedal Correlation PDS1 and HPDS",
+    "severity": ""
+  },
+  {
+    "code": "P1257",
+    "description_ru": "",
+    "description_en": "Pedal Correlation PDS2 and HPDS",
+    "severity": ""
+  },
+  {
+    "code": "P1258",
+    "description_ru": "",
+    "description_en": "Pedal Correlation PDS1 and PDS2",
+    "severity": ""
+  },
+  {
+    "code": "P1259",
+    "description_ru": "",
+    "description_en": "Immobilizer to PCM Signal Error",
+    "severity": ""
+  },
+  {
+    "code": "P1260",
+    "description_ru": "",
+    "description_en": "THEFT Detected, Vehicle Immobilzed",
+    "severity": ""
+  },
+  {
+    "code": "P1261",
+    "description_ru": "",
+    "description_en": "Cylinder #1 High To Low Side Short",
+    "severity": ""
+  },
+  {
+    "code": "P1262",
+    "description_ru": "",
+    "description_en": "Cylinder #2 High To Low Side Short",
+    "severity": ""
+  },
+  {
+    "code": "P1263",
+    "description_ru": "",
+    "description_en": "Cylinder #3 High To Low Side Short",
+    "severity": ""
+  },
+  {
+    "code": "P1264",
+    "description_ru": "",
+    "description_en": "Cylinder #4 High To Low Side Short",
+    "severity": ""
+  },
+  {
+    "code": "P1265",
+    "description_ru": "",
+    "description_en": "Cylinder #5 High To Low Side Short",
+    "severity": ""
+  },
+  {
+    "code": "P1266",
+    "description_ru": "",
+    "description_en": "Cylinder #6 High To Low Side Short",
+    "severity": ""
+  },
+  {
+    "code": "P1267",
+    "description_ru": "",
+    "description_en": "Cylinder #7 High To Low Side Short",
+    "severity": ""
+  },
+  {
+    "code": "P1268",
+    "description_ru": "",
+    "description_en": "Cylinder #8 High To Low Side Short",
+    "severity": ""
+  },
+  {
+    "code": "P1269",
+    "description_ru": "",
+    "description_en": "Immobilizer Code Not Programmed",
+    "severity": ""
+  },
+  {
+    "code": "P1270",
+    "description_ru": "",
+    "description_en": "Engine RPM Or Speed Limiter Reached",
+    "severity": ""
+  },
+  {
+    "code": "P1271",
+    "description_ru": "",
+    "description_en": "Cylinder #1 High To Low Side Open",
+    "severity": ""
+  },
+  {
+    "code": "P1272",
+    "description_ru": "",
+    "description_en": "Cylinder #2 High To Low Side Open",
+    "severity": ""
+  },
+  {
+    "code": "P1273",
+    "description_ru": "",
+    "description_en": "Cylinder #3 High To Low Side Open",
+    "severity": ""
+  },
+  {
+    "code": "P1274",
+    "description_ru": "",
+    "description_en": "Cylinder #4 High To Low Side Open",
+    "severity": ""
+  },
+  {
+    "code": "P1275",
+    "description_ru": "",
+    "description_en": "Cylinder #5 High To Low Side Open",
+    "severity": ""
+  },
+  {
+    "code": "P1276",
+    "description_ru": "",
+    "description_en": "Cylinder #6 High To Low Side Open",
+    "severity": ""
+  },
+  {
+    "code": "P1277",
+    "description_ru": "",
+    "description_en": "Cylinder #7 High To Low Side Open",
+    "severity": ""
+  },
+  {
+    "code": "P1278",
+    "description_ru": "",
+    "description_en": "Cylinder #8 High To Low Side Open",
+    "severity": ""
+  },
+  {
+    "code": "P1280",
+    "description_ru": "",
+    "description_en": "Injection Control Pressure Out Of Range Low",
+    "severity": ""
+  },
+  {
+    "code": "P1281",
+    "description_ru": "",
+    "description_en": "Injection Control Pressure Out Of Range High",
+    "severity": ""
+  },
+  {
+    "code": "P1282",
+    "description_ru": "",
+    "description_en": "Excessive Injection Control Pressure",
+    "severity": ""
+  },
+  {
+    "code": "P1283",
+    "description_ru": "",
+    "description_en": "IPR Circuit Failure",
+    "severity": ""
+  },
+  {
+    "code": "P1284",
+    "description_ru": "",
+    "description_en": "Aborted KOER - ICP Failure",
+    "severity": ""
+  },
+  {
+    "code": "P1285",
+    "description_ru": "",
+    "description_en": "Cylinder head over temp sensed",
+    "severity": ""
+  },
+  {
+    "code": "P1286",
+    "description_ru": "",
+    "description_en": "Fuel Pulse In Range But Lower Than Expected",
+    "severity": ""
+  },
+  {
+    "code": "P1287",
+    "description_ru": "",
+    "description_en": "Fuel Pulse In Range But Higher Than Expected",
+    "severity": ""
+  },
+  {
+    "code": "P1288",
+    "description_ru": "",
+    "description_en": "Cylinder Head Temp Sensor Out Of Self Test Range",
+    "severity": ""
+  },
+  {
+    "code": "P1289",
+    "description_ru": "",
+    "description_en": "Cylinder Head Temp Sensor High Input",
+    "severity": ""
+  },
+  {
+    "code": "P1290",
+    "description_ru": "",
+    "description_en": "Cylinder Head Temp Sensor Low Input",
+    "severity": ""
+  },
+  {
+    "code": "P1291",
+    "description_ru": "",
+    "description_en": "Injector High Side Short To GND Or VBATT - Bank 1",
+    "severity": ""
+  },
+  {
+    "code": "P1292",
+    "description_ru": "",
+    "description_en": "Injector High Side Short To GND Or VBATT - Bank 2",
+    "severity": ""
+  },
+  {
+    "code": "P1293",
+    "description_ru": "",
+    "description_en": "Injector High Side Open - Bank 1",
+    "severity": ""
+  },
+  {
+    "code": "P1294",
+    "description_ru": "",
+    "description_en": "Injector High Side Open - Bank 2/Target idle not reached",
+    "severity": ""
+  },
+  {
+    "code": "P1295",
+    "description_ru": "",
+    "description_en": "Multi-faults - Bank 1 - With Low Side Shorts",
+    "severity": ""
+  },
+  {
+    "code": "P1296",
+    "description_ru": "",
+    "description_en": "Multi-faults - Bank 2 - With Low Side Shorts",
+    "severity": ""
+  },
+  {
+    "code": "P1297",
+    "description_ru": "",
+    "description_en": "Injector High Sides Shorted Together",
+    "severity": ""
+  },
+  {
+    "code": "P1298",
+    "description_ru": "",
+    "description_en": "IDM Failure",
+    "severity": ""
+  },
+  {
+    "code": "P1299",
+    "description_ru": "",
+    "description_en": "Cylinder Head Overtemperature Protection Active",
+    "severity": ""
+  },
+  {
+    "code": "P1300",
+    "description_ru": "",
+    "description_en": "Boost Calibration Fault",
+    "severity": ""
+  },
+  {
+    "code": "P1301",
+    "description_ru": "",
+    "description_en": "Boost Calibration High",
+    "severity": ""
+  },
+  {
+    "code": "P1302",
+    "description_ru": "",
+    "description_en": "Boost Calibration Low",
+    "severity": ""
+  },
+  {
+    "code": "P1303",
+    "description_ru": "",
+    "description_en": "EGR Calibration Fault",
+    "severity": ""
+  },
+  {
+    "code": "P1304",
+    "description_ru": "",
+    "description_en": "EGR Calibration High",
+    "severity": ""
+  },
+  {
+    "code": "P1305",
+    "description_ru": "",
+    "description_en": "EGR Calibration Low",
+    "severity": ""
+  },
+  {
+    "code": "P1306",
+    "description_ru": "",
+    "description_en": "Kickdown Relay Pull - In Circuit Fault",
+    "severity": ""
+  },
+  {
+    "code": "P1307",
+    "description_ru": "",
+    "description_en": "Kickdown Relay Hold Circuit Fault",
+    "severity": ""
+  },
+  {
+    "code": "P1308",
+    "description_ru": "",
+    "description_en": "A/C Clutch Circuit Fault",
+    "severity": ""
+  },
+  {
+    "code": "P1309",
+    "description_ru": "",
+    "description_en": "Misfire Monitor AICE Chip Fault",
+    "severity": ""
+  },
+  {
+    "code": "P1313",
+    "description_ru": "",
+    "description_en": "Misfire Rate Catalyst Damage Fault - Bank 1",
+    "severity": ""
+  },
+  {
+    "code": "P1314",
+    "description_ru": "",
+    "description_en": "Misfire Rate Catalyst Damage Fault - Bank 2",
+    "severity": ""
+  },
+  {
+    "code": "P1315",
+    "description_ru": "",
+    "description_en": "Persistent Misfire",
+    "severity": ""
+  },
+  {
+    "code": "P1316",
+    "description_ru": "",
+    "description_en": "Injector Circuit / IDM Codes Detected",
+    "severity": ""
+  },
+  {
+    "code": "P1317",
+    "description_ru": "",
+    "description_en": "Injector Circuit / IDM Codes Not Updated",
+    "severity": ""
+  },
+  {
+    "code": "P1336",
+    "description_ru": "",
+    "description_en": "Crank / Cam Sensor Range / Performance",
+    "severity": ""
+  },
+  {
+    "code": "P1340",
+    "description_ru": "",
+    "description_en": "Camshaft Position Sensor B Circuit Malfunction",
+    "severity": ""
+  },
+  {
+    "code": "P1341",
+    "description_ru": "",
+    "description_en": "Camshaft Position Sensor B Range / Performance",
+    "severity": ""
+  },
+  {
+    "code": "P1345",
+    "description_ru": "",
+    "description_en": "SGC (Cam Position) Sensor Circuit Malfunction/ Crankshaft Position - Camshaft Position Correlation",
+    "severity": ""
+  },
+  {
+    "code": "P1346",
+    "description_ru": "",
+    "description_en": "Fuel Level Sensor B Circuit Malfunction",
+    "severity": ""
+  },
+  {
+    "code": "P1347",
+    "description_ru": "",
+    "description_en": "Fuel Level Sensor B Range / Performance",
+    "severity": ""
+  },
+  {
+    "code": "P1348",
+    "description_ru": "",
+    "description_en": "Fuel Level Sensor B Circuit Low",
+    "severity": ""
+  },
+  {
+    "code": "P1349",
+    "description_ru": "",
+    "description_en": "Fuel Level Sensor B Circuit High",
+    "severity": ""
+  },
+  {
+    "code": "P1350",
+    "description_ru": "",
+    "description_en": "Fuel Level Sensor B Intermittent/Bypass Line Monitor",
+    "severity": ""
+  },
+  {
+    "code": "P1351",
+    "description_ru": "",
+    "description_en": "IDM Input Circuit Malfunction/ Ignition Coil Control Circuit High Voltage",
+    "severity": ""
+  },
+  {
+    "code": "P1352",
+    "description_ru": "",
+    "description_en": "Ignition Coil A Primary Circuit Malfunction",
+    "severity": ""
+  },
+  {
+    "code": "P1353",
+    "description_ru": "",
+    "description_en": "Ignition Coil B Primary Circuit Malfunction",
+    "severity": ""
+  },
+  {
+    "code": "P1354",
+    "description_ru": "",
+    "description_en": "Ignition Coil C Primary Circuit Malfunction",
+    "severity": ""
+  },
+  {
+    "code": "P1355",
+    "description_ru": "",
+    "description_en": "Ignition Coil D Primary Circuit Malfunction",
+    "severity": ""
+  },
+  {
+    "code": "P1360",
+    "description_ru": "",
+    "description_en": "Ignition Coil A Secondary Circuit Malfunction",
+    "severity": ""
+  },
+  {
+    "code": "P1361",
+    "description_ru": "",
+    "description_en": "Ignition Control (IC) Circuit Low Voltage",
+    "severity": ""
+  },
+  {
+    "code": "P1362",
+    "description_ru": "",
+    "description_en": "Ignition Coil C Secondary Circuit Malfunction",
+    "severity": ""
+  },
+  {
+    "code": "P1363",
+    "description_ru": "",
+    "description_en": "Ignition Coil D Secondary Circuit Malfunction",
+    "severity": ""
+  },
+  {
+    "code": "P1364",
+    "description_ru": "",
+    "description_en": "Ignition Coil Primary Circuit Failure",
+    "severity": ""
+  },
+  {
+    "code": "P1365",
+    "description_ru": "",
+    "description_en": "Ignition Coil Secondary Circuit Failure",
+    "severity": ""
+  },
+  {
+    "code": "P1366",
+    "description_ru": "",
+    "description_en": "Ignition Spare",
+    "severity": ""
+  },
+  {
+    "code": "P1367",
+    "description_ru": "",
+    "description_en": "Ignition Spare",
+    "severity": ""
+  },
+  {
+    "code": "P1368",
+    "description_ru": "",
+    "description_en": "Ignition Spare",
+    "severity": ""
+  },
+  {
+    "code": "P1369",
+    "description_ru": "",
+    "description_en": "Engine Temperature Light Monitor Failure",
+    "severity": ""
+  },
+  {
+    "code": "P1370",
+    "description_ru": "",
+    "description_en": "Insufficient RMP Increase During Spark Test",
+    "severity": ""
+  },
+  {
+    "code": "P1371",
+    "description_ru": "",
+    "description_en": "Ignition Coil - Cylinder 1 - Early Activation Fault",
+    "severity": ""
+  },
+  {
+    "code": "P1372",
+    "description_ru": "",
+    "description_en": "Ignition Coil - Cylinder 2 - Early Activation Fault",
+    "severity": ""
+  },
+  {
+    "code": "P1373",
+    "description_ru": "",
+    "description_en": "Ignition Coil - Cylinder 3 - Early Activation Fault",
+    "severity": ""
+  },
+  {
+    "code": "P1374",
+    "description_ru": "",
+    "description_en": "Crankshaft Position (CKP)/Ignition Coil - Cylinder 4 - Early Activation Fault",
+    "severity": ""
+  },
+  {
+    "code": "P1375",
+    "description_ru": "",
+    "description_en": "Ignition Coil - Cylinder 5 - Early Activation Fault",
+    "severity": ""
+  },
+  {
+    "code": "P1376",
+    "description_ru": "",
+    "description_en": "Ignition Coil - Cylinder 6 - Early Activation Fault",
+    "severity": ""
+  },
+  {
+    "code": "P1380",
+    "description_ru": "",
+    "description_en": "Misfire Detected - Rough Road Data Not Available",
+    "severity": ""
+  },
+  {
+    "code": "P1381",
+    "description_ru": "",
+    "description_en": "Variable Cam Timing Overadvanced (Bank #1)/ Misfire Detected - No Communication with BCM",
+    "severity": ""
+  },
+  {
+    "code": "P1382",
+    "description_ru": "",
+    "description_en": "Variable Cam Timing Solenoid #1 Circuit Malfunction",
+    "severity": ""
+  },
+  {
+    "code": "P1383",
+    "description_ru": "",
+    "description_en": "Variable Cam Timing Overretarded (Bank #1)",
+    "severity": ""
+  },
+  {
+    "code": "P1384",
+    "description_ru": "",
+    "description_en": "VVT Solenoid A Malfunction",
+    "severity": ""
+  },
+  {
+    "code": "P1385",
+    "description_ru": "",
+    "description_en": "Variable Cam Timing Solenoid B Malfunction",
+    "severity": ""
+  },
+  {
+    "code": "P1386",
+    "description_ru": "",
+    "description_en": "Variable Cam Timing Overadvanced (Bank #2)",
+    "severity": ""
+  },
+  {
+    "code": "P1387",
+    "description_ru": "",
+    "description_en": "Variable Cam Timing Solenoid #2 Circuit Malfunction",
+    "severity": ""
+  },
+  {
+    "code": "P1388",
+    "description_ru": "",
+    "description_en": "Variable Cam Timing Overretarded (Bank #2)",
+    "severity": ""
+  },
+  {
+    "code": "P1389",
+    "description_ru": "",
+    "description_en": "Glow Plug Circuit High Side Low Input",
+    "severity": ""
+  },
+  {
+    "code": "P1390",
+    "description_ru": "",
+    "description_en": "Octane Adjust Pin Out Of Self Test Range",
+    "severity": ""
+  },
+  {
+    "code": "P1391",
+    "description_ru": "",
+    "description_en": "Glow Plug Circuit Low Input (Bank #1)",
+    "severity": ""
+  },
+  {
+    "code": "P1392",
+    "description_ru": "",
+    "description_en": "Glow Plug Circuit High Input (Bank #1)",
+    "severity": ""
+  },
+  {
+    "code": "P1393",
+    "description_ru": "",
+    "description_en": "Glow Plug Circuit Low Input (Bank #2)",
+    "severity": ""
+  },
+  {
+    "code": "P1394",
+    "description_ru": "",
+    "description_en": "Glow Plug Circuit High Input (Bank #2)",
+    "severity": ""
+  },
+  {
+    "code": "P1395",
+    "description_ru": "",
+    "description_en": "Glow Plug Monitor Fault (Bank #1)",
+    "severity": ""
+  },
+  {
+    "code": "P1396",
+    "description_ru": "",
+    "description_en": "Glow Plug Monitor Fault (Bank #2)",
+    "severity": ""
+  },
+  {
+    "code": "P1397",
+    "description_ru": "",
+    "description_en": "System Voltage Out Of Self Test Range",
+    "severity": ""
+  },
+  {
+    "code": "P1398",
+    "description_ru": "",
+    "description_en": "VVT Solenoid B Circuit High Input",
+    "severity": ""
+  },
+  {
+    "code": "P1399",
+    "description_ru": "",
+    "description_en": "Glow Plug Circuit High Side, High Input",
+    "severity": ""
+  },
+  {
+    "code": "P1400",
+    "description_ru": "",
+    "description_en": "DPFE Circuit Low Input",
+    "severity": ""
+  },
+  {
+    "code": "P1401",
+    "description_ru": "",
+    "description_en": "DPFE Circuit High Input",
+    "severity": ""
+  },
+  {
+    "code": "P1402",
+    "description_ru": "",
+    "description_en": "EGR Metering Orifice Restricted",
+    "severity": ""
+  },
+  {
+    "code": "P1403",
+    "description_ru": "",
+    "description_en": "DPFE Sensor Hoses Reversed",
+    "severity": ""
+  },
+  {
+    "code": "P1404",
+    "description_ru": "",
+    "description_en": "IAT - B Circuit Malfunction/ Exhaust Gas Recirculation Closed Position Performance",
+    "severity": ""
+  },
+  {
+    "code": "P1405",
+    "description_ru": "",
+    "description_en": "DPFE Sensor Upstream Hose Off Or Plugged",
+    "severity": ""
+  },
+  {
+    "code": "P1406",
+    "description_ru": "",
+    "description_en": "Exhaust Gas Recirculation (EGR) Position Sensor Performance",
+    "severity": ""
+  },
+  {
+    "code": "P1407",
+    "description_ru": "",
+    "description_en": "EGR No Flow Detected",
+    "severity": ""
+  },
+  {
+    "code": "P1408",
+    "description_ru": "",
+    "description_en": "EGR Flow Out Of Self Test Range",
+    "severity": ""
+  },
+  {
+    "code": "P1409",
+    "description_ru": "",
+    "description_en": "EVR Control Circuit Malfunction",
+    "severity": ""
+  },
+  {
+    "code": "P1411",
+    "description_ru": "",
+    "description_en": "SAI System Incorrect Downstream Flow Detected",
+    "severity": ""
+  },
+  {
+    "code": "P1413",
+    "description_ru": "",
+    "description_en": "SAI System Monitor Circuit Low Input",
+    "severity": ""
+  },
+  {
+    "code": "P1414",
+    "description_ru": "",
+    "description_en": "SAI System Monitor Circuit High Input",
+    "severity": ""
+  },
+  {
+    "code": "P1415",
+    "description_ru": "",
+    "description_en": "Air Pump Circuit Malfunction/ (AIR) System Bank 1",
+    "severity": ""
+  },
+  {
+    "code": "P1416",
+    "description_ru": "",
+    "description_en": "Port Air Circuit Malfunction/ (AIR) System Bank 2",
+    "severity": ""
+  },
+  {
+    "code": "P1417",
+    "description_ru": "",
+    "description_en": "Port Air Relief Circuit Malfunction",
+    "severity": ""
+  },
+  {
+    "code": "P1418",
+    "description_ru": "",
+    "description_en": "Split Air #1 Circuit Malfunction",
+    "severity": ""
+  },
+  {
+    "code": "P1419",
+    "description_ru": "",
+    "description_en": "Split Air #2 Circuit Malfunction",
+    "severity": ""
+  },
+  {
+    "code": "P1420",
+    "description_ru": "",
+    "description_en": "Catalyst Temperature Sensor Failure",
+    "severity": ""
+  },
+  {
+    "code": "P1421",
+    "description_ru": "",
+    "description_en": "Catalyst Damage",
+    "severity": ""
+  },
+  {
+    "code": "P1422",
+    "description_ru": "",
+    "description_en": "EGI Temperature Sensor Failure",
+    "severity": ""
+  },
+  {
+    "code": "P1423",
+    "description_ru": "",
+    "description_en": "EGI Functionality Test Failed",
+    "severity": ""
+  },
+  {
+    "code": "P1424",
+    "description_ru": "",
+    "description_en": "EGI Glow Plug Primary Failure",
+    "severity": ""
+  },
+  {
+    "code": "P1425",
+    "description_ru": "",
+    "description_en": "EGI Glow Plug Secondary Failure",
+    "severity": ""
+  },
+  {
+    "code": "P1426",
+    "description_ru": "",
+    "description_en": "EGI Mini - MAF Failed Out Of Range",
+    "severity": ""
+  },
+  {
+    "code": "P1427",
+    "description_ru": "",
+    "description_en": "EGI Mini - MAF Failed Short Circuit",
+    "severity": ""
+  },
+  {
+    "code": "P1428",
+    "description_ru": "",
+    "description_en": "EGI Mini - MAF Failed Open Circuit",
+    "severity": ""
+  },
+  {
+    "code": "P1429",
+    "description_ru": "",
+    "description_en": "Electric Air Pump Primary Failure",
+    "severity": ""
+  },
+  {
+    "code": "P1430",
+    "description_ru": "",
+    "description_en": "Electric Air Pump Secondary Failure",
+    "severity": ""
+  },
+  {
+    "code": "P1433",
+    "description_ru": "",
+    "description_en": "A/C Refrigerant Temperature Circuit Low",
+    "severity": ""
+  },
+  {
+    "code": "P1434",
+    "description_ru": "",
+    "description_en": "A/C Refrigerant Temperature Circuit High",
+    "severity": ""
+  },
+  {
+    "code": "P1435",
+    "description_ru": "",
+    "description_en": "A/C Refrigerant Temperature Circuit Range/Performance",
+    "severity": ""
+  },
+  {
+    "code": "P1436",
+    "description_ru": "",
+    "description_en": "A/C Evaporator Air Temperature Circuit Low",
+    "severity": ""
+  },
+  {
+    "code": "P1437",
+    "description_ru": "",
+    "description_en": "A/C Evaporator Air Temperature Circuit High",
+    "severity": ""
+  },
+  {
+    "code": "P1438",
+    "description_ru": "",
+    "description_en": "A/C Evaporator Air Temperature Circuit Range/Performance",
+    "severity": ""
+  },
+  {
+    "code": "P1439",
+    "description_ru": "",
+    "description_en": "Floor Temperature Switch Circuit Malfunction",
+    "severity": ""
+  },
+  {
+    "code": "P1440",
+    "description_ru": "",
+    "description_en": "Purge Valve Stuck Open",
+    "severity": ""
+  },
+  {
+    "code": "P1441",
+    "description_ru": "",
+    "description_en": "Evaporative Emission (EVAP) System Flow During Non-Purge Oldsmobile Only",
+    "severity": ""
+  },
+  {
+    "code": "P1442",
+    "description_ru": "",
+    "description_en": "Evaporative Emission Control System Leak Detected",
+    "severity": ""
+  },
+  {
+    "code": "P1443",
+    "description_ru": "",
+    "description_en": "Evaporative Emission Control System Control Valve",
+    "severity": ""
+  },
+  {
+    "code": "P1444",
+    "description_ru": "",
+    "description_en": "Purge Flow Sensor Circuit Low Input",
+    "severity": ""
+  },
+  {
+    "code": "P1445",
+    "description_ru": "",
+    "description_en": "Purge Flow Sensor Circuit High Input",
+    "severity": ""
+  },
+  {
+    "code": "P1446",
+    "description_ru": "",
+    "description_en": "Evaporative Vac Solenoid Circuit Malfunction",
+    "severity": ""
+  },
+  {
+    "code": "P1447",
+    "description_ru": "",
+    "description_en": "ELC System Closure Valve Flow Fault",
+    "severity": ""
+  },
+  {
+    "code": "P1448",
+    "description_ru": "",
+    "description_en": "ELC System 2 Fault",
+    "severity": ""
+  },
+  {
+    "code": "P1449",
+    "description_ru": "",
+    "description_en": "Evaporative Check Solenoid Circuit Malfunction",
+    "severity": ""
+  },
+  {
+    "code": "P1450",
+    "description_ru": "",
+    "description_en": "Unable To Bleed Up Fuel Tank Vacuum",
+    "severity": ""
+  },
+  {
+    "code": "P1451",
+    "description_ru": "",
+    "description_en": "Evap Emission Control Sys Vent Control Valve Circuit",
+    "severity": ""
+  },
+  {
+    "code": "P1452",
+    "description_ru": "",
+    "description_en": "Unable To Bleed - Up Vacuum in Tank",
+    "severity": ""
+  },
+  {
+    "code": "P1453",
+    "description_ru": "",
+    "description_en": "Fuel Tank Pressure Relief Valve Malfunction",
+    "severity": ""
+  },
+  {
+    "code": "P1454",
+    "description_ru": "",
+    "description_en": "Evaporative System Vacuum Test Malfunction",
+    "severity": ""
+  },
+  {
+    "code": "P1455",
+    "description_ru": "",
+    "description_en": "Evap Emission Control Sys Leak Detected (Gross Leak/No Flow)",
+    "severity": ""
+  },
+  {
+    "code": "P1456",
+    "description_ru": "",
+    "description_en": "Fuel Tank Temperature Sensor Circuit Malfunction",
+    "severity": ""
+  },
+  {
+    "code": "P1457",
+    "description_ru": "",
+    "description_en": "Unable To Pull Vacuum In Tank",
+    "severity": ""
+  },
+  {
+    "code": "P1460",
+    "description_ru": "",
+    "description_en": "Wide open throttle A/C cutoff relay circuit",
+    "severity": ""
+  },
+  {
+    "code": "P1461",
+    "description_ru": "",
+    "description_en": "A/C pressure sensor circuit voltage low",
+    "severity": ""
+  },
+  {
+    "code": "P1462",
+    "description_ru": "",
+    "description_en": "A/C pressure sensor circuit voltage high",
+    "severity": ""
+  },
+  {
+    "code": "P1463",
+    "description_ru": "",
+    "description_en": "A/C Pressure Sensor Insufficient Pressure Change",
+    "severity": ""
+  },
+  {
+    "code": "P1464",
+    "description_ru": "",
+    "description_en": "A/C Demand Out of Self Test Range",
+    "severity": ""
+  },
+  {
+    "code": "P1465",
+    "description_ru": "",
+    "description_en": "A/C Relay Circuit Malfunction",
+    "severity": ""
+  },
+  {
+    "code": "P1466",
+    "description_ru": "",
+    "description_en": "A/C Refrigerant Temperature Sensor/Circuit Malfunction",
+    "severity": ""
+  },
+  {
+    "code": "P1467",
+    "description_ru": "",
+    "description_en": "A/C Compressor Temperature Sensor Malfunction",
+    "severity": ""
+  },
+  {
+    "code": "P1468",
+    "description_ru": "",
+    "description_en": "SSPOD Open Circuit or Closed Circuit Fault",
+    "severity": ""
+  },
+  {
+    "code": "P1469",
+    "description_ru": "",
+    "description_en": "Low A/C Cycling Period",
+    "severity": ""
+  },
+  {
+    "code": "P1470",
+    "description_ru": "",
+    "description_en": "A/C Cycling Period Too Short",
+    "severity": ""
+  },
+  {
+    "code": "P1471",
+    "description_ru": "",
+    "description_en": "Electrodrive Fan 1 Operational Failure (Driver Side)",
+    "severity": ""
+  },
+  {
+    "code": "P1472",
+    "description_ru": "",
+    "description_en": "Electrodrive Fan 2 Operational Failure (Passenger Side)",
+    "severity": ""
+  },
+  {
+    "code": "P1473",
+    "description_ru": "",
+    "description_en": "Fan Secondary High With Fan(s) Off",
+    "severity": ""
+  },
+  {
+    "code": "P1474",
+    "description_ru": "",
+    "description_en": "Low Fan Control Primary Circuit Malfunction",
+    "severity": ""
+  },
+  {
+    "code": "P1475",
+    "description_ru": "",
+    "description_en": "Fan Relay (Low) Circuit Malfunction",
+    "severity": ""
+  },
+  {
+    "code": "P1476",
+    "description_ru": "",
+    "description_en": "Fan Relay (High) Circuit Malfunction",
+    "severity": ""
+  },
+  {
+    "code": "P1477",
+    "description_ru": "",
+    "description_en": "Additional Fan Relay Circuit Malfunction",
+    "severity": ""
+  },
+  {
+    "code": "P1478",
+    "description_ru": "",
+    "description_en": "Cooling Fan Driver Fault",
+    "severity": ""
+  },
+  {
+    "code": "P1479",
+    "description_ru": "",
+    "description_en": "High Fan Control Primary Circuit Malfunction",
+    "severity": ""
+  },
+  {
+    "code": "P1480",
+    "description_ru": "",
+    "description_en": "Fan Secondary Low with Low Fan On",
+    "severity": ""
+  },
+  {
+    "code": "P1481",
+    "description_ru": "",
+    "description_en": "Fan Secondary Low With High Fan On",
+    "severity": ""
+  },
+  {
+    "code": "P1482",
+    "description_ru": "",
+    "description_en": "SCP",
+    "severity": ""
+  },
+  {
+    "code": "P1483",
+    "description_ru": "",
+    "description_en": "Power To Fan Circuit Overcurrent",
+    "severity": ""
+  },
+  {
+    "code": "P1484",
+    "description_ru": "",
+    "description_en": "Open Power To Ground VCRM",
+    "severity": ""
+  },
+  {
+    "code": "P1485",
+    "description_ru": "",
+    "description_en": "EGRV Circuit Malfunction",
+    "severity": ""
+  },
+  {
+    "code": "P1486",
+    "description_ru": "",
+    "description_en": "EGRA Circuit Malfunction",
+    "severity": ""
+  },
+  {
+    "code": "P1487",
+    "description_ru": "",
+    "description_en": "EGRCHK Solenoid Circuit Malfunction",
+    "severity": ""
+  },
+  {
+    "code": "P1490",
+    "description_ru": "",
+    "description_en": "Secondary Air Relief Solenoid Circuit Malfunction",
+    "severity": ""
+  },
+  {
+    "code": "P1491",
+    "description_ru": "",
+    "description_en": "Secondary Switch Solenoid Circuit Malfunction",
+    "severity": ""
+  },
+  {
+    "code": "P1492",
+    "description_ru": "",
+    "description_en": "APLSOL Solenoid Circuit Malfunction",
+    "severity": ""
+  },
+  {
+    "code": "P1493",
+    "description_ru": "",
+    "description_en": "RCNT Solenoid Circuit Malfunction",
+    "severity": ""
+  },
+  {
+    "code": "P1494",
+    "description_ru": "",
+    "description_en": "SPCUT Solenoid Circuit Malfunction",
+    "severity": ""
+  },
+  {
+    "code": "P1495",
+    "description_ru": "",
+    "description_en": "TCSPL Solenoid Circuit Malfunction",
+    "severity": ""
+  },
+  {
+    "code": "P1500",
+    "description_ru": "",
+    "description_en": "Vehicle Speed Sensor Intermittent",
+    "severity": ""
+  },
+  {
+    "code": "P1501",
+    "description_ru": "",
+    "description_en": "Vehicle Speed Sensor Out Of Self Test Range",
+    "severity": ""
+  },
+  {
+    "code": "P1502",
+    "description_ru": "",
+    "description_en": "Vehicle Speed Sensor Intermittent Malfunction",
+    "severity": ""
+  },
+  {
+    "code": "P1503",
+    "description_ru": "",
+    "description_en": "Auxillary Speed Sensor Fault",
+    "severity": ""
+  },
+  {
+    "code": "P1504",
+    "description_ru": "",
+    "description_en": "Idle Air Control Circuit Malfunction",
+    "severity": ""
+  },
+  {
+    "code": "P1505",
+    "description_ru": "",
+    "description_en": "Idle Air Control System At Adaptive Clip",
+    "severity": ""
+  },
+  {
+    "code": "P1506",
+    "description_ru": "",
+    "description_en": "Idle Air Control Overspeed Error",
+    "severity": ""
+  },
+  {
+    "code": "P1507",
+    "description_ru": "",
+    "description_en": "Idle Air Control Underspeed Error",
+    "severity": ""
+  },
+  {
+    "code": "P1508",
+    "description_ru": "",
+    "description_en": "Idle Control System Circuit Open",
+    "severity": ""
+  },
+  {
+    "code": "P1509",
+    "description_ru": "",
+    "description_en": "Idle Control System Circuit Shorted",
+    "severity": ""
+  },
+  {
+    "code": "P1510",
+    "description_ru": "",
+    "description_en": "Idle Signal Circuit Malfunction",
+    "severity": ""
+  },
+  {
+    "code": "P1511",
+    "description_ru": "",
+    "description_en": "Idle Switch (Electric Control Throttle) Circuit Malfunction",
+    "severity": ""
+  },
+  {
+    "code": "P1512",
+    "description_ru": "",
+    "description_en": "Intake Manifold Runner Control (Bank 1) Stuck Closed",
+    "severity": ""
+  },
+  {
+    "code": "P1513",
+    "description_ru": "",
+    "description_en": "Intake Manifold Runner Control (Bank 2) Stuck Closed",
+    "severity": ""
+  },
+  {
+    "code": "P1514",
+    "description_ru": "",
+    "description_en": "High Load Neutral/Drive Fault",
+    "severity": ""
+  },
+  {
+    "code": "P1515",
+    "description_ru": "",
+    "description_en": "Electric Current Circuit Malfunction",
+    "severity": ""
+  },
+  {
+    "code": "P1516",
+    "description_ru": "",
+    "description_en": "IMRC Input Error (Bank 1)",
+    "severity": ""
+  },
+  {
+    "code": "P1517",
+    "description_ru": "",
+    "description_en": "IMRC Input Error (Bank 2)",
+    "severity": ""
+  },
+  {
+    "code": "P1518",
+    "description_ru": "",
+    "description_en": "Intake Manifold Runner Control (Stuck Open)",
+    "severity": ""
+  },
+  {
+    "code": "P1519",
+    "description_ru": "",
+    "description_en": "Intake Manifold Runner Control (Stuck Closed)",
+    "severity": ""
+  },
+  {
+    "code": "P1520",
+    "description_ru": "",
+    "description_en": "Intake Manifold Runner Control Circuit Malfunction",
+    "severity": ""
+  },
+  {
+    "code": "P1521",
+    "description_ru": "",
+    "description_en": "Variable Intake Solenoid #1 Circuit Malfunction",
+    "severity": ""
+  },
+  {
+    "code": "P1522",
+    "description_ru": "",
+    "description_en": "Variable Intake Solenoid #2 Circuit Malfunction",
+    "severity": ""
+  },
+  {
+    "code": "P1523",
+    "description_ru": "",
+    "description_en": "IVC Solenoid Circuit Malfunction",
+    "severity": ""
+  },
+  {
+    "code": "P1524",
+    "description_ru": "",
+    "description_en": "Variable Intake Solenoid System",
+    "severity": ""
+  },
+  {
+    "code": "P1525",
+    "description_ru": "",
+    "description_en": "Air Bypass Valve System",
+    "severity": ""
+  },
+  {
+    "code": "P1526",
+    "description_ru": "",
+    "description_en": "Air Bypass System",
+    "severity": ""
+  },
+  {
+    "code": "P1527",
+    "description_ru": "",
+    "description_en": "Accelerate Warmup Solenoid Circuit Malfunction",
+    "severity": ""
+  },
+  {
+    "code": "P1528",
+    "description_ru": "",
+    "description_en": "Subsidiary Throttle Valve Solenoid Circuit Malfunction",
+    "severity": ""
+  },
+  {
+    "code": "P1529",
+    "description_ru": "",
+    "description_en": "SCAIR Solenoid Circuit Malfunction",
+    "severity": ""
+  },
+  {
+    "code": "P1530",
+    "description_ru": "",
+    "description_en": "A/C Clutch Circuit Malfunction",
+    "severity": ""
+  },
+  {
+    "code": "P1531",
+    "description_ru": "",
+    "description_en": "Invalid Test - Accelerator Pedal Movement",
+    "severity": ""
+  },
+  {
+    "code": "P1532",
+    "description_ru": "",
+    "description_en": "IMCC Circuit Malfunction, Bank B",
+    "severity": ""
+  },
+  {
+    "code": "P1533",
+    "description_ru": "",
+    "description_en": "AAI Circuit Malfunction",
+    "severity": ""
+  },
+  {
+    "code": "P1534",
+    "description_ru": "",
+    "description_en": "Inertia Switch Activated",
+    "severity": ""
+  },
+  {
+    "code": "P1535",
+    "description_ru": "",
+    "description_en": "Blower Fan Speed Circuit Range/Performance",
+    "severity": ""
+  },
+  {
+    "code": "P1536",
+    "description_ru": "",
+    "description_en": "Parking Brake Switch Circuit Failure",
+    "severity": ""
+  },
+  {
+    "code": "P1537",
+    "description_ru": "",
+    "description_en": "Intake Manifold Runner Control (Bank 1) Stuck Open",
+    "severity": ""
+  },
+  {
+    "code": "P1538",
+    "description_ru": "",
+    "description_en": "Intake Manifold Runner Control (Bank 2) Stuck Open",
+    "severity": ""
+  },
+  {
+    "code": "P1539",
+    "description_ru": "",
+    "description_en": "Power To A/C Clutch Circuit Overcurrent",
+    "severity": ""
+  },
+  {
+    "code": "P1540",
+    "description_ru": "",
+    "description_en": "Air Bypass Valve Circuit Malfunction",
+    "severity": ""
+  },
+  {
+    "code": "P1549",
+    "description_ru": "",
+    "description_en": "IMCC Circuit Malfunction, Bank B",
+    "severity": ""
+  },
+  {
+    "code": "P1550",
+    "description_ru": "",
+    "description_en": "PSPS Out Of Self Test Range",
+    "severity": ""
+  },
+  {
+    "code": "P1565",
+    "description_ru": "",
+    "description_en": "Speed Control Command Switch Out of Range High",
+    "severity": ""
+  },
+  {
+    "code": "P1566",
+    "description_ru": "",
+    "description_en": "Speed Control Command Switch Out of Range Low",
+    "severity": ""
+  },
+  {
+    "code": "P1567",
+    "description_ru": "",
+    "description_en": "Speed Control Output Circuit Continuity",
+    "severity": ""
+  },
+  {
+    "code": "P1568",
+    "description_ru": "",
+    "description_en": "Speed Control Unable to Hold Speed",
+    "severity": ""
+  },
+  {
+    "code": "P1571",
+    "description_ru": "",
+    "description_en": "Brake Switch Malfunction",
+    "severity": ""
+  },
+  {
+    "code": "P1572",
+    "description_ru": "",
+    "description_en": "Brake Pedal Switch Circuit Malfunction",
+    "severity": ""
+  },
+  {
+    "code": "P1573",
+    "description_ru": "",
+    "description_en": "Throttle Position Not Available",
+    "severity": ""
+  },
+  {
+    "code": "P1574",
+    "description_ru": "",
+    "description_en": "Throttle Position Sensor Disagreement btwn Sensors",
+    "severity": ""
+  },
+  {
+    "code": "P1575",
+    "description_ru": "",
+    "description_en": "Pedal Position Out of Self Test Range",
+    "severity": ""
+  },
+  {
+    "code": "P1576",
+    "description_ru": "",
+    "description_en": "Pedal Position Not Available",
+    "severity": ""
+  },
+  {
+    "code": "P1577",
+    "description_ru": "",
+    "description_en": "Pedal Position Sensor Disagreement btwn Sensors",
+    "severity": ""
+  },
+  {
+    "code": "P1578",
+    "description_ru": "",
+    "description_en": "ETC Power Less Than Demand",
+    "severity": ""
+  },
+  {
+    "code": "P1579",
+    "description_ru": "",
+    "description_en": "ETC In Power Limiting Mode",
+    "severity": ""
+  },
+  {
+    "code": "P1580",
+    "description_ru": "",
+    "description_en": "Electronic Throttle Monitor PCM Override",
+    "severity": ""
+  },
+  {
+    "code": "P1581",
+    "description_ru": "",
+    "description_en": "Electronic Throttle Monitor Malfunction",
+    "severity": ""
+  },
+  {
+    "code": "P1582",
+    "description_ru": "",
+    "description_en": "Electronic Throttle Monitor Data Available",
+    "severity": ""
+  },
+  {
+    "code": "P1583",
+    "description_ru": "",
+    "description_en": "Electronic Throttle Monitor Cruise Disable",
+    "severity": ""
+  },
+  {
+    "code": "P1584",
+    "description_ru": "",
+    "description_en": "TCU Detected IPE Circuit Malfunction",
+    "severity": ""
+  },
+  {
+    "code": "P1585",
+    "description_ru": "",
+    "description_en": "Throttle Control Unit Malfunction",
+    "severity": ""
+  },
+  {
+    "code": "P1586",
+    "description_ru": "",
+    "description_en": "Throttle Control Unit Throttle Position Malfunction",
+    "severity": ""
+  },
+  {
+    "code": "P1587",
+    "description_ru": "",
+    "description_en": "Throttle Control Unit Modulated Command Malfunction",
+    "severity": ""
+  },
+  {
+    "code": "P1588",
+    "description_ru": "",
+    "description_en": "Throttle Control Unit Detected Loss of Return Spring",
+    "severity": ""
+  },
+  {
+    "code": "P1589",
+    "description_ru": "",
+    "description_en": "TCU Unable To Control Desired Throttle Angle",
+    "severity": ""
+  },
+  {
+    "code": "P1600",
+    "description_ru": "",
+    "description_en": "Loss of KAM Power; Open Circuit",
+    "severity": ""
+  },
+  {
+    "code": "P1601",
+    "description_ru": "",
+    "description_en": "ECM/TCM Serial Communication Error",
+    "severity": ""
+  },
+  {
+    "code": "P1602",
+    "description_ru": "",
+    "description_en": "Immobilizer/ECM Communication Error",
+    "severity": ""
+  },
+  {
+    "code": "P1603",
+    "description_ru": "",
+    "description_en": "EEPROM Malfunction",
+    "severity": ""
+  },
+  {
+    "code": "P1604",
+    "description_ru": "",
+    "description_en": "Code Word Unregestered",
+    "severity": ""
+  },
+  {
+    "code": "P1605",
+    "description_ru": "",
+    "description_en": "Keep Alive Memory Test Failure",
+    "severity": ""
+  },
+  {
+    "code": "P1606",
+    "description_ru": "",
+    "description_en": "ECM Control Relay O/P Circuit Malfunction",
+    "severity": ""
+  },
+  {
+    "code": "P1607",
+    "description_ru": "",
+    "description_en": "MIL O/P Circuit Malfunction",
+    "severity": ""
+  },
+  {
+    "code": "P1608",
+    "description_ru": "",
+    "description_en": "Internal ECM Malfunction",
+    "severity": ""
+  },
+  {
+    "code": "P1609",
+    "description_ru": "",
+    "description_en": "Diagnostic Lamp Driver Fault",
+    "severity": ""
+  },
+  {
+    "code": "P1610",
+    "description_ru": "",
+    "description_en": "SBDS Interactive Codes",
+    "severity": ""
+  },
+  {
+    "code": "P1611",
+    "description_ru": "",
+    "description_en": "SBDS Interactive Codes",
+    "severity": ""
+  },
+  {
+    "code": "P1612",
+    "description_ru": "",
+    "description_en": "SBDS Interactive Codes",
+    "severity": ""
+  },
+  {
+    "code": "P1613",
+    "description_ru": "",
+    "description_en": "SBDS Interactive Codes",
+    "severity": ""
+  },
+  {
+    "code": "P1614",
+    "description_ru": "",
+    "description_en": "SBDS Interactive Codes",
+    "severity": ""
+  },
+  {
+    "code": "P1615",
+    "description_ru": "",
+    "description_en": "SBDS Interactive Codes",
+    "severity": ""
+  },
+  {
+    "code": "P1616",
+    "description_ru": "",
+    "description_en": "SBDS Interactive Codes",
+    "severity": ""
+  },
+  {
+    "code": "P1617",
+    "description_ru": "",
+    "description_en": "SBDS Interactive Codes",
+    "severity": ""
+  },
+  {
+    "code": "P1618",
+    "description_ru": "",
+    "description_en": "SBDS Interactive Codes",
+    "severity": ""
+  },
+  {
+    "code": "P1619",
+    "description_ru": "",
+    "description_en": "SBDS Interactive Codes",
+    "severity": ""
+  },
+  {
+    "code": "P1620",
+    "description_ru": "",
+    "description_en": "SBDS Interactive Codes",
+    "severity": ""
+  },
+  {
+    "code": "P1621",
+    "description_ru": "",
+    "description_en": "Control Module Long Term Memory Performance/ Immobilizer Code Words Do Not Match",
+    "severity": ""
+  },
+  {
+    "code": "P1622",
+    "description_ru": "",
+    "description_en": "Immobilizer ID Does Not Match",
+    "severity": ""
+  },
+  {
+    "code": "P1623",
+    "description_ru": "",
+    "description_en": "Immobilizer Code Word/ID Number Write Failure",
+    "severity": ""
+  },
+  {
+    "code": "P1624",
+    "description_ru": "",
+    "description_en": "Anti Theft System",
+    "severity": ""
+  },
+  {
+    "code": "P1625",
+    "description_ru": "",
+    "description_en": "B+ Supply To VCRM Fan Circuit Malfunction",
+    "severity": ""
+  },
+  {
+    "code": "P1626",
+    "description_ru": "",
+    "description_en": "Theft Deterrent Fuel Enable Signal Not Received/ B+ Supply To VCRM A/C Circuit Malfunction",
+    "severity": ""
+  },
+  {
+    "code": "P1627",
+    "description_ru": "",
+    "description_en": "Module Supply Voltage Out Of Range",
+    "severity": ""
+  },
+  {
+    "code": "P1628",
+    "description_ru": "",
+    "description_en": "Module Ignition Supply Input Malfunction",
+    "severity": ""
+  },
+  {
+    "code": "P1629",
+    "description_ru": "",
+    "description_en": "Internal Voltage Regulator Malfunction",
+    "severity": ""
+  },
+  {
+    "code": "P1630",
+    "description_ru": "",
+    "description_en": "Internal Vref Malfunction",
+    "severity": ""
+  },
+  {
+    "code": "P1631",
+    "description_ru": "",
+    "description_en": "Theft Deterrent Start Enable Signal Not Correct/ Main Relay Malfunction (Power Hold)",
+    "severity": ""
+  },
+  {
+    "code": "P1632",
+    "description_ru": "",
+    "description_en": "Smart Alternator Faults Sensor/Circuit Malfunction",
+    "severity": ""
+  },
+  {
+    "code": "P1633",
+    "description_ru": "",
+    "description_en": "KAM Voltage Too Low",
+    "severity": ""
+  },
+  {
+    "code": "P1634",
+    "description_ru": "",
+    "description_en": "Data Output Link Circuit Failure",
+    "severity": ""
+  },
+  {
+    "code": "P1635",
+    "description_ru": "",
+    "description_en": "Tire / Axle Ratio Out of Acceptable Range",
+    "severity": ""
+  },
+  {
+    "code": "P1636",
+    "description_ru": "",
+    "description_en": "Inductive Signature Chip Communication Error",
+    "severity": ""
+  },
+  {
+    "code": "P1637",
+    "description_ru": "",
+    "description_en": "Can Link ECM/ABSCM Circuit / Network Malfunction",
+    "severity": ""
+  },
+  {
+    "code": "P1638",
+    "description_ru": "",
+    "description_en": "Can Link ECM/INSTM Circuit / Network Malfunction",
+    "severity": ""
+  },
+  {
+    "code": "P1639",
+    "description_ru": "",
+    "description_en": "Vehicle ID Block Corrupted or Not Programmed",
+    "severity": ""
+  },
+  {
+    "code": "P1640",
+    "description_ru": "",
+    "description_en": "Powertrain DTCs Available in Another Module",
+    "severity": ""
+  },
+  {
+    "code": "P1641",
+    "description_ru": "",
+    "description_en": "Fuel Pump Primary Circuit Failure",
+    "severity": ""
+  },
+  {
+    "code": "P1642",
+    "description_ru": "",
+    "description_en": "Fuel Pump Monitor Circuit High Input",
+    "severity": ""
+  },
+  {
+    "code": "P1643",
+    "description_ru": "",
+    "description_en": "Fuel Pump Monitor Circuit Low Input",
+    "severity": ""
+  },
+  {
+    "code": "P1644",
+    "description_ru": "",
+    "description_en": "Fuel Pump Speed Control Circuit Malfunction",
+    "severity": ""
+  },
+  {
+    "code": "P1645",
+    "description_ru": "",
+    "description_en": "Fuel Pump Resistor Switch Circuit Malfunction",
+    "severity": ""
+  },
+  {
+    "code": "P1650",
+    "description_ru": "",
+    "description_en": "PSP Switch Out of Self Test Range",
+    "severity": ""
+  },
+  {
+    "code": "P1651",
+    "description_ru": "",
+    "description_en": "PSP Switch Input Malfunction",
+    "severity": ""
+  },
+  {
+    "code": "P1652",
+    "description_ru": "",
+    "description_en": "IAC Monitor Disabled by PSP Switch Failed On",
+    "severity": ""
+  },
+  {
+    "code": "P1653",
+    "description_ru": "",
+    "description_en": "Power Steering Output Circuit Malfunction",
+    "severity": ""
+  },
+  {
+    "code": "P1654",
+    "description_ru": "",
+    "description_en": "Recirculation Override Circuit Malfunction",
+    "severity": ""
+  },
+  {
+    "code": "P1655",
+    "description_ru": "",
+    "description_en": "Starter Disable Circuit Malfunction",
+    "severity": ""
+  },
+  {
+    "code": "P1660",
+    "description_ru": "",
+    "description_en": "Output Circuit Check Signal High",
+    "severity": ""
+  },
+  {
+    "code": "P1661",
+    "description_ru": "",
+    "description_en": "Output Circuit Check Signal Low",
+    "severity": ""
+  },
+  {
+    "code": "P1662",
+    "description_ru": "",
+    "description_en": "IDM_EN Circuit Failure",
+    "severity": ""
+  },
+  {
+    "code": "P1663",
+    "description_ru": "",
+    "description_en": "Fuel Demand Command Signal Circuit Malfunction",
+    "severity": ""
+  },
+  {
+    "code": "P1667",
+    "description_ru": "",
+    "description_en": "CI Circuit Malfunction",
+    "severity": ""
+  },
+  {
+    "code": "P1668",
+    "description_ru": "",
+    "description_en": "PCM - IDM Communications Error",
+    "severity": ""
+  },
+  {
+    "code": "P1670",
+    "description_ru": "",
+    "description_en": "Electronic Feedback Signal Not Detected",
+    "severity": ""
+  },
+  {
+    "code": "P1680",
+    "description_ru": "",
+    "description_en": "Metering Oil Pump Malfunction",
+    "severity": ""
+  },
+  {
+    "code": "P1681",
+    "description_ru": "",
+    "description_en": "Metering Oil Pump Malfunction",
+    "severity": ""
+  },
+  {
+    "code": "P1682",
+    "description_ru": "",
+    "description_en": "Metering Oil Pump Malfunction",
+    "severity": ""
+  },
+  {
+    "code": "P1683",
+    "description_ru": "",
+    "description_en": "Metering Oil Pump Temperature Sensor Circuit Malfunction",
+    "severity": ""
+  },
+  {
+    "code": "P1684",
+    "description_ru": "",
+    "description_en": "Metering Oil Pump Position Sensor Circuit Malfunction",
+    "severity": ""
+  },
+  {
+    "code": "P1685",
+    "description_ru": "",
+    "description_en": "Metering Oil Pump Stepping Motor Circuit Malfunction",
+    "severity": ""
+  },
+  {
+    "code": "P1686",
+    "description_ru": "",
+    "description_en": "Metering Oil Pump Stepping Motor Circuit Malfunction",
+    "severity": ""
+  },
+  {
+    "code": "P1687",
+    "description_ru": "",
+    "description_en": "Metering Oil Pump Stepping Motor Circuit Malfunction",
+    "severity": ""
+  },
+  {
+    "code": "P1688",
+    "description_ru": "",
+    "description_en": "Metering Oil Pump Stepping Motor Circuit Malfunction",
+    "severity": ""
+  },
+  {
+    "code": "P1689",
+    "description_ru": "",
+    "description_en": "Oil Pressure Control Solenoid Circuit Malfunction",
+    "severity": ""
+  },
+  {
+    "code": "P1690",
+    "description_ru": "",
+    "description_en": "Wastegate Solenoid Circuit Malfunction",
+    "severity": ""
+  },
+  {
+    "code": "P1691",
+    "description_ru": "",
+    "description_en": "Turbo Pressure Control Solenoid Circuit Malfunction",
+    "severity": ""
+  },
+  {
+    "code": "P1692",
+    "description_ru": "",
+    "description_en": "Turbo Control Solenoid Circuit Malfunction",
+    "severity": ""
+  },
+  {
+    "code": "P1693",
+    "description_ru": "",
+    "description_en": "Turbo Charge Control Circuit Malfunction",
+    "severity": ""
+  },
+  {
+    "code": "P1694",
+    "description_ru": "",
+    "description_en": "Turbo Charge Relief Circuit Malfunction",
+    "severity": ""
+  },
+  {
+    "code": "P1700",
+    "description_ru": "",
+    "description_en": "Transmission Indeterminate Failure (Failed to Neutral)",
+    "severity": ""
+  },
+  {
+    "code": "P1701",
+    "description_ru": "",
+    "description_en": "Reverse Engagement Error",
+    "severity": ""
+  },
+  {
+    "code": "P1702",
+    "description_ru": "",
+    "description_en": "TRS Circuit Intermittent Malfunction",
+    "severity": ""
+  },
+  {
+    "code": "P1703",
+    "description_ru": "",
+    "description_en": "Brake Switch Out Of Self Test Range",
+    "severity": ""
+  },
+  {
+    "code": "P1704",
+    "description_ru": "",
+    "description_en": "Digital TRS Failed to Transition States in KOEO / KOER",
+    "severity": ""
+  },
+  {
+    "code": "P1705",
+    "description_ru": "",
+    "description_en": "Not in P or N During KOEO / KOER",
+    "severity": ""
+  },
+  {
+    "code": "P1706",
+    "description_ru": "",
+    "description_en": "High Vehicle Speed Observed in Park",
+    "severity": ""
+  },
+  {
+    "code": "P1707",
+    "description_ru": "",
+    "description_en": "Transfer Case Neutral Indicator Hard Fault Present",
+    "severity": ""
+  },
+  {
+    "code": "P1708",
+    "description_ru": "",
+    "description_en": "Clutch Switch Circuit Malfunction",
+    "severity": ""
+  },
+  {
+    "code": "P1709",
+    "description_ru": "",
+    "description_en": "PNP Switch Out Of Self Test Range",
+    "severity": ""
+  },
+  {
+    "code": "P1711",
+    "description_ru": "",
+    "description_en": "TFT Sensor Out Of Self Test Range",
+    "severity": ""
+  },
+  {
+    "code": "P1712",
+    "description_ru": "",
+    "description_en": "Trans Torque Reduction Request Signal Malfunction",
+    "severity": ""
+  },
+  {
+    "code": "P1713",
+    "description_ru": "",
+    "description_en": "TFT Sensor In Range Failure Low Value",
+    "severity": ""
+  },
+  {
+    "code": "P1714",
+    "description_ru": "",
+    "description_en": "SSA Inductive Signature Malfunction",
+    "severity": ""
+  },
+  {
+    "code": "P1715",
+    "description_ru": "",
+    "description_en": "SSB Inductive Signature Malfunction",
+    "severity": ""
+  },
+  {
+    "code": "P1716",
+    "description_ru": "",
+    "description_en": "SSC Inductive Signature Malfunction",
+    "severity": ""
+  },
+  {
+    "code": "P1717",
+    "description_ru": "",
+    "description_en": "SSD Inductive Signature Malfunction",
+    "severity": ""
+  },
+  {
+    "code": "P1718",
+    "description_ru": "",
+    "description_en": "TFT Sensor In Range Failure High",
+    "severity": ""
+  },
+  {
+    "code": "P1720",
+    "description_ru": "",
+    "description_en": "Vehicle Speed (Meter) Circuit Malfunction",
+    "severity": ""
+  },
+  {
+    "code": "P1721",
+    "description_ru": "",
+    "description_en": "Gear 1 Incorrect Ratio",
+    "severity": ""
+  },
+  {
+    "code": "P1722",
+    "description_ru": "",
+    "description_en": "Gear 2 Incorrect Ratio",
+    "severity": ""
+  },
+  {
+    "code": "P1723",
+    "description_ru": "",
+    "description_en": "Gear 3 incorrect Ratio",
+    "severity": ""
+  },
+  {
+    "code": "P1724",
+    "description_ru": "",
+    "description_en": "Gear 4 Incorrect Ratio",
+    "severity": ""
+  },
+  {
+    "code": "P1725",
+    "description_ru": "",
+    "description_en": "Insufficient Engine Speed Increase During Self Test",
+    "severity": ""
+  },
+  {
+    "code": "P1726",
+    "description_ru": "",
+    "description_en": "Insufficient Engine Speed Decrease During Self Test",
+    "severity": ""
+  },
+  {
+    "code": "P1727",
+    "description_ru": "",
+    "description_en": "Coast Clutch Solenoid Inductive Signature Malfunction",
+    "severity": ""
+  },
+  {
+    "code": "P1728",
+    "description_ru": "",
+    "description_en": "Transmission Slip Error",
+    "severity": ""
+  },
+  {
+    "code": "P1729",
+    "description_ru": "",
+    "description_en": "4x4 Low Switch Error",
+    "severity": ""
+  },
+  {
+    "code": "P1730",
+    "description_ru": "",
+    "description_en": "Gear Control Malfunction 2,3,5",
+    "severity": ""
+  },
+  {
+    "code": "P1731",
+    "description_ru": "",
+    "description_en": "1-2 Shift Malfunction",
+    "severity": ""
+  },
+  {
+    "code": "P1732",
+    "description_ru": "",
+    "description_en": "2-3 Shift Malfunction",
+    "severity": ""
+  },
+  {
+    "code": "P1733",
+    "description_ru": "",
+    "description_en": "3-4 Shift Malfunction",
+    "severity": ""
+  },
+  {
+    "code": "P1734",
+    "description_ru": "",
+    "description_en": "Gear Control Malfunction",
+    "severity": ""
+  },
+  {
+    "code": "P1735",
+    "description_ru": "",
+    "description_en": "First Gear Switch Circuit Malfunction",
+    "severity": ""
+  },
+  {
+    "code": "P1736",
+    "description_ru": "",
+    "description_en": "Second Gear Switch Circuit Malfunction",
+    "severity": ""
+  },
+  {
+    "code": "P1737",
+    "description_ru": "",
+    "description_en": "Lockup Solenoid System",
+    "severity": ""
+  },
+  {
+    "code": "P1738",
+    "description_ru": "",
+    "description_en": "Shift Time Error",
+    "severity": ""
+  },
+  {
+    "code": "P1739",
+    "description_ru": "",
+    "description_en": "Slip Solenoid System",
+    "severity": ""
+  },
+  {
+    "code": "P1740",
+    "description_ru": "",
+    "description_en": "Torque Converter Clutch Inductive Signature Malfunction",
+    "severity": ""
+  },
+  {
+    "code": "P1741",
+    "description_ru": "",
+    "description_en": "Torque Converter Clutch Control Error",
+    "severity": ""
+  },
+  {
+    "code": "P1742",
+    "description_ru": "",
+    "description_en": "Torque Converter Clutch Solenoid Failed On",
+    "severity": ""
+  },
+  {
+    "code": "P1743",
+    "description_ru": "",
+    "description_en": "Torque Converter Clutch Solenoid Failied On",
+    "severity": ""
+  },
+  {
+    "code": "P1744",
+    "description_ru": "",
+    "description_en": "Torque Converter Clutch System Performance",
+    "severity": ""
+  },
+  {
+    "code": "P1745",
+    "description_ru": "",
+    "description_en": "Line Pressure Solenoid System",
+    "severity": ""
+  },
+  {
+    "code": "P1746",
+    "description_ru": "",
+    "description_en": "Pressure Control Solenoid \"A\" Open Circuit",
+    "severity": ""
+  },
+  {
+    "code": "P1747",
+    "description_ru": "",
+    "description_en": "Pressure Control Solenoid \"A\" Short Circuit",
+    "severity": ""
+  },
+  {
+    "code": "P1748",
+    "description_ru": "",
+    "description_en": "EPC Malfunction",
+    "severity": ""
+  },
+  {
+    "code": "P1749",
+    "description_ru": "",
+    "description_en": "Pressure Control Solenoid Failed Low",
+    "severity": ""
+  },
+  {
+    "code": "P1751",
+    "description_ru": "",
+    "description_en": "Shift Solenoid A Performance",
+    "severity": ""
+  },
+  {
+    "code": "P1754",
+    "description_ru": "",
+    "description_en": "Coast Clutch Solenoid Circuit Malfunction",
+    "severity": ""
+  },
+  {
+    "code": "P1755",
+    "description_ru": "",
+    "description_en": "Intermediate Speed Sensor (ISS) Malfunction",
+    "severity": ""
+  },
+  {
+    "code": "P1756",
+    "description_ru": "",
+    "description_en": "Shift Solenoid B Performance",
+    "severity": ""
+  },
+  {
+    "code": "P1760",
+    "description_ru": "",
+    "description_en": "Pressure Control Solenoid \"A\" Short Circuit",
+    "severity": ""
+  },
+  {
+    "code": "P1761",
+    "description_ru": "",
+    "description_en": "Shift Solenoid C Performance",
+    "severity": ""
+  },
+  {
+    "code": "P1762",
+    "description_ru": "",
+    "description_en": "Overdrive Band Failed Off",
+    "severity": ""
+  },
+  {
+    "code": "P1765",
+    "description_ru": "",
+    "description_en": "Timing Solenoid Circuit Malfunction",
+    "severity": ""
+  },
+  {
+    "code": "P1767",
+    "description_ru": "",
+    "description_en": "Torque Converter Clutch Circuit Malfunction",
+    "severity": ""
+  },
+  {
+    "code": "P1768",
+    "description_ru": "",
+    "description_en": "Performance / Normal / Winter Mode Input Malfunction",
+    "severity": ""
+  },
+  {
+    "code": "P1769",
+    "description_ru": "",
+    "description_en": "AG4 Transmission Torque Modulation Fault",
+    "severity": ""
+  },
+  {
+    "code": "P1770",
+    "description_ru": "",
+    "description_en": "Clutch Solenoid Circuit Malfunction",
+    "severity": ""
+  },
+  {
+    "code": "P1775",
+    "description_ru": "",
+    "description_en": "Transmission System MIL Fault",
+    "severity": ""
+  },
+  {
+    "code": "P1776",
+    "description_ru": "",
+    "description_en": "Ignition Retard Request Duration Fault",
+    "severity": ""
+  },
+  {
+    "code": "P1777",
+    "description_ru": "",
+    "description_en": "Ignition Retard Request Circuit Fault",
+    "severity": ""
+  },
+  {
+    "code": "P1778",
+    "description_ru": "",
+    "description_en": "Transmission Reverse I/P Circuit Malfunction",
+    "severity": ""
+  },
+  {
+    "code": "P1779",
+    "description_ru": "",
+    "description_en": "TCIL Circuit Malfunction",
+    "severity": ""
+  },
+  {
+    "code": "P1780",
+    "description_ru": "",
+    "description_en": "Trans Control Switch (O/D Cancel) Out of Self Test Range",
+    "severity": ""
+  },
+  {
+    "code": "P1781",
+    "description_ru": "",
+    "description_en": "4X4 Switch Out of Self Test Range",
+    "severity": ""
+  },
+  {
+    "code": "P1782",
+    "description_ru": "",
+    "description_en": "P/ES Circuit Out Of Self Test Range",
+    "severity": ""
+  },
+  {
+    "code": "P1783",
+    "description_ru": "",
+    "description_en": "Transmission Overtemperature Condition",
+    "severity": ""
+  },
+  {
+    "code": "P1784",
+    "description_ru": "",
+    "description_en": "Transmission Mechanical Failure - First And Reverse",
+    "severity": ""
+  },
+  {
+    "code": "P1785",
+    "description_ru": "",
+    "description_en": "Transmission Mechanical Failure - First And Second",
+    "severity": ""
+  },
+  {
+    "code": "P1786",
+    "description_ru": "",
+    "description_en": "3-2 Downshift Error",
+    "severity": ""
+  },
+  {
+    "code": "P1787",
+    "description_ru": "",
+    "description_en": "2-1 Downshift Error",
+    "severity": ""
+  },
+  {
+    "code": "P1788",
+    "description_ru": "",
+    "description_en": "Pressure Control Solenoid \"B\" Open Circuit",
+    "severity": ""
+  },
+  {
+    "code": "P1789",
+    "description_ru": "",
+    "description_en": "Pressure Control Solenoid \"B\" Short Circuit",
+    "severity": ""
+  },
+  {
+    "code": "P1790",
+    "description_ru": "",
+    "description_en": "TP (Mechanical) Circuit Malfunction",
+    "severity": ""
+  },
+  {
+    "code": "P1791",
+    "description_ru": "",
+    "description_en": "TP (Electric) Circuit Malfunction",
+    "severity": ""
+  },
+  {
+    "code": "P1792",
+    "description_ru": "",
+    "description_en": "Barometer Pressure Circuit Malfunction",
+    "severity": ""
+  },
+  {
+    "code": "P1793",
+    "description_ru": "",
+    "description_en": "Intake Air Volume Circuit Malfunction",
+    "severity": ""
+  },
+  {
+    "code": "P1794",
+    "description_ru": "",
+    "description_en": "Battery Voltage Circuit Malfunction",
+    "severity": ""
+  },
+  {
+    "code": "P1795",
+    "description_ru": "",
+    "description_en": "Idle Switch Circuit Malfunction",
+    "severity": ""
+  },
+  {
+    "code": "P1796",
+    "description_ru": "",
+    "description_en": "Kick Down Switch Circuit Malfunction",
+    "severity": ""
+  },
+  {
+    "code": "P1797",
+    "description_ru": "",
+    "description_en": "Neutral Switch Circuit Malfunction",
+    "severity": ""
+  },
+  {
+    "code": "P1798",
+    "description_ru": "",
+    "description_en": "Coolant Temperature Circuit Malfunction",
+    "severity": ""
+  },
+  {
+    "code": "P1799",
+    "description_ru": "",
+    "description_en": "Hold Switch Circuit Malfunction",
+    "severity": ""
+  },
+  {
+    "code": "P1800",
+    "description_ru": "",
+    "description_en": "Transmission Clutch Interlock Safety Switch Circuit Failure",
+    "severity": ""
+  },
+  {
+    "code": "P1801",
+    "description_ru": "",
+    "description_en": "Transmission Clutch Interlock Safety Switch Open Circuit",
+    "severity": ""
+  },
+  {
+    "code": "P1802",
+    "description_ru": "",
+    "description_en": "Transmission Clutch Interlock Safety Switch Short Circuit To Battery",
+    "severity": ""
+  },
+  {
+    "code": "P1803",
+    "description_ru": "",
+    "description_en": "Transmission Clutch Interlock Safety Switch Short Circuit To Ground",
+    "severity": ""
+  },
+  {
+    "code": "P1804",
+    "description_ru": "",
+    "description_en": "Transmission 4-Wheel Drive High Indicator Circuit Failure",
+    "severity": ""
+  },
+  {
+    "code": "P1805",
+    "description_ru": "",
+    "description_en": "Transmission 4-Wheel Drive High Indicator Open Circuit",
+    "severity": ""
+  },
+  {
+    "code": "P1806",
+    "description_ru": "",
+    "description_en": "Transmission 4-Wheel Drive High Indicator Short Circuit To Battery",
+    "severity": ""
+  },
+  {
+    "code": "P1807",
+    "description_ru": "",
+    "description_en": "Transmission 4-Wheel Drive High Indicator Short Circuit To Ground",
+    "severity": ""
+  },
+  {
+    "code": "P1808",
+    "description_ru": "",
+    "description_en": "Transmission 4-Wheel Drive Low Indicator Circuit Failure",
+    "severity": ""
+  },
+  {
+    "code": "P1809",
+    "description_ru": "",
+    "description_en": "Transmission 4-Wheel Drive Low Indicator Open Circuit",
+    "severity": ""
+  },
+  {
+    "code": "P1810",
+    "description_ru": "",
+    "description_en": "TFP Valve Position Switch Circuit/ Transmission 4-Wheel Drive Low Indicator Short Circuit To Battery",
+    "severity": ""
+  },
+  {
+    "code": "P1811",
+    "description_ru": "",
+    "description_en": "Transmission 4-Wheel Drive Low Indicator Short Circuit To Ground",
+    "severity": ""
+  },
+  {
+    "code": "P1812",
+    "description_ru": "",
+    "description_en": "Transmission 4-Wheel Drive Mode Select Circuit Failure",
+    "severity": ""
+  },
+  {
+    "code": "P1813",
+    "description_ru": "",
+    "description_en": "Transmission 4-Wheel Drive Mode Select Open Circuit",
+    "severity": ""
+  },
+  {
+    "code": "P1814",
+    "description_ru": "",
+    "description_en": "Transmission 4-Wheel Drive Mode Select Short Circuit To Battery",
+    "severity": ""
+  },
+  {
+    "code": "P1815",
+    "description_ru": "",
+    "description_en": "Transmission 4-Wheel Drive Mode Select Short Circuit To Ground",
+    "severity": ""
+  },
+  {
+    "code": "P1816",
+    "description_ru": "",
+    "description_en": "Transmission Neutral Safety Switch Circuit Failure",
+    "severity": ""
+  },
+  {
+    "code": "P1817",
+    "description_ru": "",
+    "description_en": "Transmission Neutral Safety Switch Open Circuit",
+    "severity": ""
+  },
+  {
+    "code": "P1818",
+    "description_ru": "",
+    "description_en": "Transmission Neutral Safety Switch Short Circuit To Battery",
+    "severity": ""
+  },
+  {
+    "code": "P1819",
+    "description_ru": "",
+    "description_en": "Transmission Neutral Safety Switch Short Circuit To Ground",
+    "severity": ""
+  },
+  {
+    "code": "P1820",
+    "description_ru": "",
+    "description_en": "Transmission Transfer Case Clockwise Shift Relay Coil Circuit Failure",
+    "severity": ""
+  },
+  {
+    "code": "P1821",
+    "description_ru": "",
+    "description_en": "Transmission Transfer Case Clockwise Shift Relay Coil Open Circuit",
+    "severity": ""
+  },
+  {
+    "code": "P1822",
+    "description_ru": "",
+    "description_en": "Transmission Transfer Case Clockwise Shift Relay Coil Short Circuit To Battery",
+    "severity": ""
+  },
+  {
+    "code": "P1823",
+    "description_ru": "",
+    "description_en": "Transmission Transfer Case Clockwise Shift Relay Coil Short Circuit To Ground",
+    "severity": ""
+  },
+  {
+    "code": "P1824",
+    "description_ru": "",
+    "description_en": "Transmission 4-Wheel Drive Clutch Relay Circuit Failure",
+    "severity": ""
+  },
+  {
+    "code": "P1825",
+    "description_ru": "",
+    "description_en": "Transmission 4-Wheel Drive Clutch Relay Open Circuit",
+    "severity": ""
+  },
+  {
+    "code": "P1826",
+    "description_ru": "",
+    "description_en": "Transmission 4-Wheel Drive Low Clutch Relay Circuit To Battery",
+    "severity": ""
+  },
+  {
+    "code": "P1827",
+    "description_ru": "",
+    "description_en": "Transmission 4-Wheel Drive Low Clutch Relay Circuit To Ground",
+    "severity": ""
+  },
+  {
+    "code": "P1828",
+    "description_ru": "",
+    "description_en": "Transmission Transfer Case Counter Clockwise Shift Relay Coil Circuit Failure",
+    "severity": ""
+  },
+  {
+    "code": "P1829",
+    "description_ru": "",
+    "description_en": "Transmission Transfer Case Counter Clockwise Shift Relay Coil Open Circuit",
+    "severity": ""
+  },
+  {
+    "code": "P1830",
+    "description_ru": "",
+    "description_en": "Transmission Transfer Case Counter Clockwise Shift Relay Coil Short Circuit To Battery",
+    "severity": ""
+  },
+  {
+    "code": "P1831",
+    "description_ru": "",
+    "description_en": "Transmission Transfer Case Counter Clockwise Shift Relay Coil Short Circuit To Ground",
+    "severity": ""
+  },
+  {
+    "code": "P1832",
+    "description_ru": "",
+    "description_en": "Transmission Transfer Case Differential Lock-Up Solenoid Circuit Failure",
+    "severity": ""
+  },
+  {
+    "code": "P1833",
+    "description_ru": "",
+    "description_en": "Transmission Transfer Case Differential Lock-Up Solenoid Open Circuit",
+    "severity": ""
+  },
+  {
+    "code": "P1834",
+    "description_ru": "",
+    "description_en": "Transmission Transfer Case Differential Lock-Up Solenoid Short Circuit To Battery",
+    "severity": ""
+  },
+  {
+    "code": "P1835",
+    "description_ru": "",
+    "description_en": "Transmission Transfer Case Differential Lock-Up Solenoid Short Circuit To Ground",
+    "severity": ""
+  },
+  {
+    "code": "P1836",
+    "description_ru": "",
+    "description_en": "Transmission Transfer Case Front Shaft Speed Sensor Circuit Failure",
+    "severity": ""
+  },
+  {
+    "code": "P1837",
+    "description_ru": "",
+    "description_en": "Transmission Transfer Case Rear Shaft Speed Sensor Circuit Failure",
+    "severity": ""
+  },
+  {
+    "code": "P1838",
+    "description_ru": "",
+    "description_en": "Transmission Transfer Case Shift Motor Circuit Failure",
+    "severity": ""
+  },
+  {
+    "code": "P1839",
+    "description_ru": "",
+    "description_en": "Transmission Transfer Case Shift Motor Open Circuit",
+    "severity": ""
+  },
+  {
+    "code": "P1840",
+    "description_ru": "",
+    "description_en": "Transmission Transfer Case Shift Motor Short Circuit To Battery",
+    "severity": ""
+  },
+  {
+    "code": "P1841",
+    "description_ru": "",
+    "description_en": "Transmission Transfer Case Shift Motor Short Circuit To Ground",
+    "severity": ""
+  },
+  {
+    "code": "P1842",
+    "description_ru": "",
+    "description_en": "Transmission Transfer Case Differential Lock-Up Feedback Switch Circuit Failure",
+    "severity": ""
+  },
+  {
+    "code": "P1843",
+    "description_ru": "",
+    "description_en": "Transmission Transfer Case Differential Lock-Up Feedback Switch Open Circuit",
+    "severity": ""
+  },
+  {
+    "code": "P1844",
+    "description_ru": "",
+    "description_en": "Transmission Transfer Case Differential Lock-Up Feedback Switch Short Circuit To Battery",
+    "severity": ""
+  },
+  {
+    "code": "P1845",
+    "description_ru": "",
+    "description_en": "Transmission Transfer Case Differential Lock-Up Feedback Switch Short Circuit To Ground",
+    "severity": ""
+  },
+  {
+    "code": "P1846",
+    "description_ru": "",
+    "description_en": "Transmission Transfer Case Contact Plate 'A' Circuit Failure",
+    "severity": ""
+  },
+  {
+    "code": "P1847",
+    "description_ru": "",
+    "description_en": "Transmission Transfer Case Contact Plate 'A' Open Circuit",
+    "severity": ""
+  },
+  {
+    "code": "P1848",
+    "description_ru": "",
+    "description_en": "Transmission Transfer Case Contact Plate 'A' Short Circuit To Battery",
+    "severity": ""
+  },
+  {
+    "code": "P1849",
+    "description_ru": "",
+    "description_en": "Transmission Transfer Case Contact Plate 'A' Short Circuit To Ground",
+    "severity": ""
+  },
+  {
+    "code": "P1850",
+    "description_ru": "",
+    "description_en": "Transmission Transfer Case Contact Plate 'B' Circuit Failure",
+    "severity": ""
+  },
+  {
+    "code": "P1851",
+    "description_ru": "",
+    "description_en": "Transmission Transfer Case Contact Plate 'B' Open Circuit",
+    "severity": ""
+  },
+  {
+    "code": "P1852",
+    "description_ru": "",
+    "description_en": "Transmission Transfer Case Contact Plate 'B' Short Circuit To Battery",
+    "severity": ""
+  },
+  {
+    "code": "P1853",
+    "description_ru": "",
+    "description_en": "Transmission Transfer Case Contact Plate 'B' Short Circuit To Ground",
+    "severity": ""
+  },
+  {
+    "code": "P1854",
+    "description_ru": "",
+    "description_en": "Transmission Transfer Case Contact Plate 'C' Circuit Failure",
+    "severity": ""
+  },
+  {
+    "code": "P1855",
+    "description_ru": "",
+    "description_en": "Transmission Transfer Case Contact Plate 'C' Open Circuit",
+    "severity": ""
+  },
+  {
+    "code": "P1856",
+    "description_ru": "",
+    "description_en": "Transmission Transfer Case Contact Plate 'C' Short Circuit To Battery",
+    "severity": ""
+  },
+  {
+    "code": "P1857",
+    "description_ru": "",
+    "description_en": "Transmission Transfer Case Contact Plate 'C' Short Circuit To Ground",
+    "severity": ""
+  },
+  {
+    "code": "P1858",
+    "description_ru": "",
+    "description_en": "Transmission Transfer Case Contact Plate 'D' Circuit Failure",
+    "severity": ""
+  },
+  {
+    "code": "P1859",
+    "description_ru": "",
+    "description_en": "Transmission Transfer Case Contact Plate 'D' Open Circuit",
+    "severity": ""
+  },
+  {
+    "code": "P1860",
+    "description_ru": "",
+    "description_en": "TCC PWM Solenoid Circuit Electrical/ Transmission Transfer Case Contact Plate 'D' Short Circuit To Battery",
+    "severity": ""
+  },
+  {
+    "code": "P1861",
+    "description_ru": "",
+    "description_en": "Transmission Transfer Case Contact Plate 'D' Short Circuit To Ground",
+    "severity": ""
+  },
+  {
+    "code": "P1862",
+    "description_ru": "",
+    "description_en": "Transmission Transfer Case Contact Plate Power Circuit Failure",
+    "severity": ""
+  },
+  {
+    "code": "P1863",
+    "description_ru": "",
+    "description_en": "Transmission Transfer Case Contact Plate Power Open Circuit",
+    "severity": ""
+  },
+  {
+    "code": "P1864",
+    "description_ru": "",
+    "description_en": "Transmission Transfer Case Contact Plate Power Short To Battery",
+    "severity": ""
+  },
+  {
+    "code": "P1865",
+    "description_ru": "",
+    "description_en": "Transmission Transfer Case Contact Plate Power Short To Ground",
+    "severity": ""
+  },
+  {
+    "code": "P1866",
+    "description_ru": "",
+    "description_en": "Transmission Transfer Case System Concern - Servicing Required",
+    "severity": ""
+  },
+  {
+    "code": "P1867",
+    "description_ru": "",
+    "description_en": "Transmission Transfer Case Contact Plate General Circuit Failure",
+    "severity": ""
+  },
+  {
+    "code": "P1868",
+    "description_ru": "",
+    "description_en": "Transmission Automatic 4-Wheel Drive Indicator (Lamp) Circuit Failure",
+    "severity": ""
+  },
+  {
+    "code": "P1869",
+    "description_ru": "",
+    "description_en": "Transmission Automatic 4-Wheel Drive Indicator (Lamp) Circuit Short To Battery",
+    "severity": ""
+  },
+  {
+    "code": "P1870",
+    "description_ru": "",
+    "description_en": "Transmission Component Slipping/ Transmission Mechanical Transfer Case 4x4 Switch Circuit Failure",
+    "severity": ""
+  },
+  {
+    "code": "P1871",
+    "description_ru": "",
+    "description_en": "Transmission Mechanical Transfer Case 4x4 Switch Circuit Short To Battery",
+    "severity": ""
+  },
+  {
+    "code": "P1872",
+    "description_ru": "",
+    "description_en": "Transmission Mechanical 4-Wheel Drive Axle Lock Lamp Circuit Failure",
+    "severity": ""
+  },
+  {
+    "code": "P1873",
+    "description_ru": "",
+    "description_en": "Transmission Mechanical 4-Wheel Drive Axle Lock Lamp Circuit Short To Battery",
+    "severity": ""
+  },
+  {
+    "code": "P1874",
+    "description_ru": "",
+    "description_en": "Transmission Automatic Hall Effect Sensor Power Circuit Failure",
+    "severity": ""
+  },
+  {
+    "code": "P1875",
+    "description_ru": "",
+    "description_en": "Transmission Automatic Hall Effect Sensor Power Circuit Short To Battery / 4WD Low Switch Circuit Electrical",
+    "severity": ""
+  },
+  {
+    "code": "P1876",
+    "description_ru": "",
+    "description_en": "Transmission Transfer Case 2-Wheel Drive Solenoid Circuit Failure",
+    "severity": ""
+  },
+  {
+    "code": "P1877",
+    "description_ru": "",
+    "description_en": "Transmission Transfer Case 2-Wheel Drive Solenoid Circuit Short To Battery",
+    "severity": ""
+  },
+  {
+    "code": "P1878",
+    "description_ru": "",
+    "description_en": "Transmission Transfer Case Disengaged Solenoid Circuit Failure",
+    "severity": ""
+  },
+  {
+    "code": "P1879",
+    "description_ru": "",
+    "description_en": "Transmission Transfer Case Disengaged Solenoid Open Circuit",
+    "severity": ""
+  },
+  {
+    "code": "P1880",
+    "description_ru": "",
+    "description_en": "Transmission Transfer Case Disengaged Solenoid Short to Battery",
+    "severity": ""
+  },
+  {
+    "code": "P1881",
+    "description_ru": "",
+    "description_en": "Engine Coolant Level Switch Circuit Failure, GEM",
+    "severity": ""
+  },
+  {
+    "code": "P1882",
+    "description_ru": "",
+    "description_en": "Engine Coolant Level Switch Circuit Short to Ground",
+    "severity": ""
+  },
+  {
+    "code": "P1883",
+    "description_ru": "",
+    "description_en": "Engine Coolant Level Switch Circuit Failure, GEM",
+    "severity": ""
+  },
+  {
+    "code": "P1884",
+    "description_ru": "",
+    "description_en": "Engine Coolant Level Lamp Circuit Short to Ground",
+    "severity": ""
+  },
+  {
+    "code": "P1885",
+    "description_ru": "",
+    "description_en": "Transmission Transfer Case Disengaged Solenoid Short to Ground",
+    "severity": ""
+  },
+  {
+    "code": "P1886",
+    "description_ru": "",
+    "description_en": "4X4 Initialization Failure",
+    "severity": ""
+  },
+  {
+    "code": "P1890",
+    "description_ru": "",
+    "description_en": "Transmission 4WD Mode Select Return Input Circuit Failure",
+    "severity": ""
+  },
+  {
+    "code": "P1891",
+    "description_ru": "",
+    "description_en": "Transmission Transfer Case Contact Plate Ground Return Open Circuit",
+    "severity": ""
+  },
+  {
+    "code": "P1900",
+    "description_ru": "",
+    "description_en": "OSS Circuit Intermittent Malfunction",
+    "severity": ""
+  },
+  {
+    "code": "P1901",
+    "description_ru": "",
+    "description_en": "TSS Circuit Intermittent Malfunction",
+    "severity": ""
+  },
+  {
+    "code": "P1902",
+    "description_ru": "",
+    "description_en": "Pressure Control Solenoid \"B\" Intermittent Short",
+    "severity": ""
+  },
+  {
+    "code": "P1903",
+    "description_ru": "",
+    "description_en": "Pressure Control Solenoid \"C\" Short Circuit",
+    "severity": ""
+  },
+  {
+    "code": "P1904",
+    "description_ru": "",
+    "description_en": "Pressure Control Solenoid \"C\" Open Circuit",
+    "severity": ""
+  },
+  {
+    "code": "P1905",
+    "description_ru": "",
+    "description_en": "Pressure Control Solenoid \"C\" Intermittent Short",
+    "severity": ""
+  },
+  {
+    "code": "P1906",
+    "description_ru": "",
+    "description_en": "Kickdown Pull Relay Open or Short Circuit to Ground",
+    "severity": ""
+  },
+  {
+    "code": "P1907",
+    "description_ru": "",
+    "description_en": "Kickdown Hold Relay Open or Short Circuit to Ground",
+    "severity": ""
+  },
+  {
+    "code": "P1908",
+    "description_ru": "",
+    "description_en": "Transmission Pressure Circuit Solenoid Open or Short to Ground",
+    "severity": ""
+  },
+  {
+    "code": "P1909",
+    "description_ru": "",
+    "description_en": "Trans Temp Sensor Circuit Open or Shorted to Pwr or Gnd",
+    "severity": ""
+  },
+  {
+    "code": "P1910",
+    "description_ru": "",
+    "description_en": "VFS A Pressure Output Failed Low",
+    "severity": ""
+  },
+  {
+    "code": "P1911",
+    "description_ru": "",
+    "description_en": "VFS B Pressure Output Failed Low",
+    "severity": ""
+  },
+  {
+    "code": "P1912",
+    "description_ru": "",
+    "description_en": "VFS C Pressure Output Failed Low",
+    "severity": ""
+  },
+  {
+    "code": "P1913",
+    "description_ru": "",
+    "description_en": "Pressure Switch A Circuit Malfunction",
+    "severity": ""
+  },
+  {
+    "code": "P1914",
+    "description_ru": "",
+    "description_en": "Manually Shifted Automatic (MSA) Sw Circuit Malf",
+    "severity": ""
+  },
+  {
+    "code": "P1915",
+    "description_ru": "",
+    "description_en": "Reverse Switch Circuit Malfunction",
+    "severity": ""
+  },
+  {
+    "code": "P1916",
+    "description_ru": "",
+    "description_en": "High Clutch Drum Speed Sensor Malfunction",
+    "severity": ""
+  },
+  {
+    "code": "P1917",
+    "description_ru": "",
+    "description_en": "High Clutch Drum Speed Sensor Intermittent",
+    "severity": ""
+  },
+  {
+    "code": "P1918",
+    "description_ru": "",
+    "description_en": "Transmission Range Display Circuit Malfunction",
+    "severity": ""
+  }
+]

@@ -1,0 +1,320 @@
+[
+  {
+    "code": "P1106",
+    "description_ru": "",
+    "description_en": "BARO Sensor Circuit Range/Performance Malfunction",
+    "severity": ""
+  },
+  {
+    "code": "P1107",
+    "description_ru": "",
+    "description_en": "BARO Circuit Low Input",
+    "severity": ""
+  },
+  {
+    "code": "P1108",
+    "description_ru": "",
+    "description_en": "BARO Circuit High Input",
+    "severity": ""
+  },
+  {
+    "code": "P1121",
+    "description_ru": "",
+    "description_en": "Throttle Position Lower Than Expected",
+    "severity": ""
+  },
+  {
+    "code": "P1122",
+    "description_ru": "",
+    "description_en": "Throttle Position Higher Than Expected",
+    "severity": ""
+  },
+  {
+    "code": "P1128",
+    "description_ru": "",
+    "description_en": "MAP Lower Than Expected",
+    "severity": ""
+  },
+  {
+    "code": "P1129",
+    "description_ru": "",
+    "description_en": "MAP Higher Than Expected",
+    "severity": ""
+  },
+  {
+    "code": "P1259",
+    "description_ru": "",
+    "description_en": "VTEC System Malfunction",
+    "severity": ""
+  },
+  {
+    "code": "P1297",
+    "description_ru": "",
+    "description_en": "ELD Circuit Low Input",
+    "severity": ""
+  },
+  {
+    "code": "P1298",
+    "description_ru": "",
+    "description_en": "ELD Circuit High Input",
+    "severity": ""
+  },
+  {
+    "code": "P1300",
+    "description_ru": "",
+    "description_en": "Random Misfire",
+    "severity": ""
+  },
+  {
+    "code": "P1336",
+    "description_ru": "",
+    "description_en": "Crankshaft Speed Fluctuation Sensor Intermittant Interruption",
+    "severity": ""
+  },
+  {
+    "code": "P1337",
+    "description_ru": "",
+    "description_en": "Crankshaft Speed Fluctuation Sensor No Signal",
+    "severity": ""
+  },
+  {
+    "code": "P1359",
+    "description_ru": "",
+    "description_en": "Crankshaft Position/TDC/Cylinder Position Sensor Connector Disconnection",
+    "severity": ""
+  },
+  {
+    "code": "P1361",
+    "description_ru": "",
+    "description_en": "TDC Sensor Intermittent Interruption",
+    "severity": ""
+  },
+  {
+    "code": "P1362",
+    "description_ru": "",
+    "description_en": "TDC 1 Sensor No Signal",
+    "severity": ""
+  },
+  {
+    "code": "P1366",
+    "description_ru": "",
+    "description_en": "TDC 2 Sensor Intermittent",
+    "severity": ""
+  },
+  {
+    "code": "P1367",
+    "description_ru": "",
+    "description_en": "TDC 2 Sensor No Signal",
+    "severity": ""
+  },
+  {
+    "code": "P1381",
+    "description_ru": "",
+    "description_en": "Cylinder Position Sensor Intermittant Inturruption",
+    "severity": ""
+  },
+  {
+    "code": "P1382",
+    "description_ru": "",
+    "description_en": "Cylinder Position Sensor No Signal",
+    "severity": ""
+  },
+  {
+    "code": "P1456",
+    "description_ru": "",
+    "description_en": "EVAP System Leak Detected (Fuel Tank System)",
+    "severity": ""
+  },
+  {
+    "code": "P1457",
+    "description_ru": "",
+    "description_en": "EVAP Control System Leak Detected (Control Canister System)",
+    "severity": ""
+  },
+  {
+    "code": "P1491",
+    "description_ru": "",
+    "description_en": "EGR Valve Lift Insufficient Detected",
+    "severity": ""
+  },
+  {
+    "code": "P1498",
+    "description_ru": "",
+    "description_en": "Voltage Problem In EGR Valve Position Sensor Circuit",
+    "severity": ""
+  },
+  {
+    "code": "P1508",
+    "description_ru": "",
+    "description_en": "Idle Air Control Valve Circuit Failure",
+    "severity": ""
+  },
+  {
+    "code": "P1519",
+    "description_ru": "",
+    "description_en": "IAC Valve Circuit Failure",
+    "severity": ""
+  },
+  {
+    "code": "P1607",
+    "description_ru": "",
+    "description_en": "ECM/PCM Internal Circuit Failure",
+    "severity": ""
+  },
+  {
+    "code": "P1656",
+    "description_ru": "",
+    "description_en": "Automatic Transaxle",
+    "severity": ""
+  },
+  {
+    "code": "P1660",
+    "description_ru": "",
+    "description_en": "A/T FI Data Line Failure",
+    "severity": ""
+  },
+  {
+    "code": "P1676",
+    "description_ru": "",
+    "description_en": "FPTDR Signal Line Failure",
+    "severity": ""
+  },
+  {
+    "code": "P1678",
+    "description_ru": "",
+    "description_en": "FPTDR Signal Line Failure",
+    "severity": ""
+  },
+  {
+    "code": "P1681",
+    "description_ru": "",
+    "description_en": "A/T FI Signal A Low Input",
+    "severity": ""
+  },
+  {
+    "code": "P1682",
+    "description_ru": "",
+    "description_en": "A/T FI Signal A High Input",
+    "severity": ""
+  },
+  {
+    "code": "P1686",
+    "description_ru": "",
+    "description_en": "A/T FI Signal B Low Input",
+    "severity": ""
+  },
+  {
+    "code": "P1687",
+    "description_ru": "",
+    "description_en": "A/T FI Signal B High Input",
+    "severity": ""
+  },
+  {
+    "code": "P1705",
+    "description_ru": "",
+    "description_en": "Automatic Transaxle",
+    "severity": ""
+  },
+  {
+    "code": "P1706",
+    "description_ru": "",
+    "description_en": "Automatic Transaxle",
+    "severity": ""
+  },
+  {
+    "code": "P1709",
+    "description_ru": "",
+    "description_en": "Automatic Transaxle",
+    "severity": ""
+  },
+  {
+    "code": "P1710",
+    "description_ru": "",
+    "description_en": "Automatic Transaxle",
+    "severity": ""
+  },
+  {
+    "code": "P1713",
+    "description_ru": "",
+    "description_en": "Automatic Transaxle",
+    "severity": ""
+  },
+  {
+    "code": "P1738",
+    "description_ru": "",
+    "description_en": "Automatic Transaxle",
+    "severity": ""
+  },
+  {
+    "code": "P1739",
+    "description_ru": "",
+    "description_en": "Automatic Transaxle",
+    "severity": ""
+  },
+  {
+    "code": "P1740",
+    "description_ru": "",
+    "description_en": "Automatic Transaxle",
+    "severity": ""
+  },
+  {
+    "code": "P1753",
+    "description_ru": "",
+    "description_en": "Automatic Transaxle",
+    "severity": ""
+  },
+  {
+    "code": "P1758",
+    "description_ru": "",
+    "description_en": "Automatic Transaxle",
+    "severity": ""
+  },
+  {
+    "code": "P1768",
+    "description_ru": "",
+    "description_en": "Automatic Transaxle",
+    "severity": ""
+  },
+  {
+    "code": "P1773",
+    "description_ru": "",
+    "description_en": "Automatic Transaxle",
+    "severity": ""
+  },
+  {
+    "code": "P1778",
+    "description_ru": "",
+    "description_en": "Automatic Transaxle",
+    "severity": ""
+  },
+  {
+    "code": "P1786",
+    "description_ru": "",
+    "description_en": "Automatic Transaxle",
+    "severity": ""
+  },
+  {
+    "code": "P1790",
+    "description_ru": "",
+    "description_en": "Automatic Transaxle",
+    "severity": ""
+  },
+  {
+    "code": "P1791",
+    "description_ru": "",
+    "description_en": "Automatic Transaxle",
+    "severity": ""
+  },
+  {
+    "code": "P1792",
+    "description_ru": "",
+    "description_en": "Automatic Transaxle",
+    "severity": ""
+  },
+  {
+    "code": "P1794",
+    "description_ru": "",
+    "description_en": "Automatic Transaxle",
+    "severity": ""
+  }
+]

@@ -1,0 +1,314 @@
+[
+  {
+    "code": "B2785",
+    "description_ru": "",
+    "description_en": "Ignition Switch On Malfunction (Immobilizer System)",
+    "severity": ""
+  },
+  {
+    "code": "B2786",
+    "description_ru": "",
+    "description_en": "Ignition Switch Off Malfunction (Immobilizer System)",
+    "severity": ""
+  },
+  {
+    "code": "B2791",
+    "description_ru": "",
+    "description_en": "Key Unlock Warning Switch Malfunction (Immobilizer System)",
+    "severity": ""
+  },
+  {
+    "code": "B2795",
+    "description_ru": "",
+    "description_en": "Unmatch Key Code (Immobilizer System)",
+    "severity": ""
+  },
+  {
+    "code": "B2796",
+    "description_ru": "",
+    "description_en": "No Communication In Immobilizer System",
+    "severity": ""
+  },
+  {
+    "code": "B2797",
+    "description_ru": "",
+    "description_en": "Communication Malfunction No. 1 (Immobilizer System)",
+    "severity": ""
+  },
+  {
+    "code": "B2798",
+    "description_ru": "",
+    "description_en": "Communication Malfunction No. 2 (Immobilizer System)",
+    "severity": ""
+  },
+  {
+    "code": "P1100",
+    "description_ru": "",
+    "description_en": "BARO Sensor Circuit Malfunction",
+    "severity": ""
+  },
+  {
+    "code": "P1120",
+    "description_ru": "",
+    "description_en": "Accelerator Pedal Position Sensor Circuit Malfunction",
+    "severity": ""
+  },
+  {
+    "code": "P1121",
+    "description_ru": "",
+    "description_en": "Accelerator Pedal Position Sensor Range/Performance Problem",
+    "severity": ""
+  },
+  {
+    "code": "P1125",
+    "description_ru": "",
+    "description_en": "Throttle Control Motor Circuit Malfunction",
+    "severity": ""
+  },
+  {
+    "code": "P1126",
+    "description_ru": "",
+    "description_en": "Magnetic Clutch Circuit Malfunction",
+    "severity": ""
+  },
+  {
+    "code": "P1127",
+    "description_ru": "",
+    "description_en": "ECTS Actuator Power Source Circuit Malfunction",
+    "severity": ""
+  },
+  {
+    "code": "P1128",
+    "description_ru": "",
+    "description_en": "Throttle Control Motor Lock Malfunction",
+    "severity": ""
+  },
+  {
+    "code": "P1129",
+    "description_ru": "",
+    "description_en": "Electronic Throttle Control System",
+    "severity": ""
+  },
+  {
+    "code": "P1130",
+    "description_ru": "",
+    "description_en": "Air/Fuel Ratio Sensor Circuit Range/Performance Malfunction (Bank 1 Sensor 1)",
+    "severity": ""
+  },
+  {
+    "code": "P1133",
+    "description_ru": "",
+    "description_en": "Air/Fuel Ratio Sensor Circuit Response Malfunction (Bank 1 Sensor 1)",
+    "severity": ""
+  },
+  {
+    "code": "P1135",
+    "description_ru": "",
+    "description_en": "Air/Fuel Ratio Sensor Heater Circuit Malfunction (Bank 1 Sensor 1)",
+    "severity": ""
+  },
+  {
+    "code": "P1150",
+    "description_ru": "",
+    "description_en": "Air/Fuel Ratio Sensor Circuit Range/Performance Malfunction (Bank 2 Sensor 1)",
+    "severity": ""
+  },
+  {
+    "code": "P1153",
+    "description_ru": "",
+    "description_en": "Air/Fuel Ratio Sensor Circuit Response Malfunction (Bank 2 Sensor 1)",
+    "severity": ""
+  },
+  {
+    "code": "P1155",
+    "description_ru": "",
+    "description_en": "Air/Fuel Ratio Sensor Heater Circuit Malfunction (Bank 1 Sensor 1)",
+    "severity": ""
+  },
+  {
+    "code": "P1200",
+    "description_ru": "",
+    "description_en": "Fuel Pump Relay/ECU Circuit Malfunction",
+    "severity": ""
+  },
+  {
+    "code": "P1300",
+    "description_ru": "",
+    "description_en": "Igniter Circuit Malfunction (Bank 1 Or No. 1)",
+    "severity": ""
+  },
+  {
+    "code": "P1305",
+    "description_ru": "",
+    "description_en": "Igniter Circuit Malfunction, (Bank 2 Or No. 2)",
+    "severity": ""
+  },
+  {
+    "code": "P1310",
+    "description_ru": "",
+    "description_en": "Igniter Circuit Malfunction (No. 3)",
+    "severity": ""
+  },
+  {
+    "code": "P1315",
+    "description_ru": "",
+    "description_en": "Igniter Circuit Malfunction (No. 4)",
+    "severity": ""
+  },
+  {
+    "code": "P1320",
+    "description_ru": "",
+    "description_en": "Igniter Circuit Malfunction (No. 5)",
+    "severity": ""
+  },
+  {
+    "code": "P1325",
+    "description_ru": "",
+    "description_en": "Igniter Circuit Malfunction (No. 6)",
+    "severity": ""
+  },
+  {
+    "code": "P1330",
+    "description_ru": "",
+    "description_en": "Igniter Circuit Malfunction (No. 7)",
+    "severity": ""
+  },
+  {
+    "code": "P1335",
+    "description_ru": "",
+    "description_en": "CKP Sensor Circuit Malfunction During Engine Running",
+    "severity": ""
+  },
+  {
+    "code": "P1340",
+    "description_ru": "",
+    "description_en": "Igniter Circuit Malfunction (No. 8)",
+    "severity": ""
+  },
+  {
+    "code": "P1345",
+    "description_ru": "",
+    "description_en": "VVT Sensor Circuit Malfunction (Bank 1)",
+    "severity": ""
+  },
+  {
+    "code": "P1346",
+    "description_ru": "",
+    "description_en": "VVT Sensor Rang/Performance Problem (Bank 1)",
+    "severity": ""
+  },
+  {
+    "code": "P1349",
+    "description_ru": "",
+    "description_en": "VVT System Malfunction (Bank 1)",
+    "severity": ""
+  },
+  {
+    "code": "P1350",
+    "description_ru": "",
+    "description_en": "VVT Sensor Circuit Malfunction (Bank 2)",
+    "severity": ""
+  },
+  {
+    "code": "P1351",
+    "description_ru": "",
+    "description_en": "VVT Sensor Range/Performance Problem (Bank 2)",
+    "severity": ""
+  },
+  {
+    "code": "P1354",
+    "description_ru": "",
+    "description_en": "VVT System Malfunction (Bank 2)",
+    "severity": ""
+  },
+  {
+    "code": "P1400",
+    "description_ru": "",
+    "description_en": "Sub-TP Sensor Malfunction",
+    "severity": ""
+  },
+  {
+    "code": "P1401",
+    "description_ru": "",
+    "description_en": "Sub-TP Sensor Range/Performance",
+    "severity": ""
+  },
+  {
+    "code": "P1410",
+    "description_ru": "",
+    "description_en": "EGR Valve Position Sensor Circuit Malfunction",
+    "severity": ""
+  },
+  {
+    "code": "P1411",
+    "description_ru": "",
+    "description_en": "EGR Valve Position Sensor Circuit Range/Performance Malfunction",
+    "severity": ""
+  },
+  {
+    "code": "P1500",
+    "description_ru": "",
+    "description_en": "Starter Signal Circuit Malfunction",
+    "severity": ""
+  },
+  {
+    "code": "P1520",
+    "description_ru": "",
+    "description_en": "Stop Lamp Switch Malfunction",
+    "severity": ""
+  },
+  {
+    "code": "P1565",
+    "description_ru": "",
+    "description_en": "Cruise Control Main Switch Circuit Malfunction",
+    "severity": ""
+  },
+  {
+    "code": "P1566",
+    "description_ru": "",
+    "description_en": "Cruise Control Main Switch Circuit Malfunction",
+    "severity": ""
+  },
+  {
+    "code": "P1600",
+    "description_ru": "",
+    "description_en": "ECM BATT Malfunction",
+    "severity": ""
+  },
+  {
+    "code": "P1605",
+    "description_ru": "",
+    "description_en": "Knock Control CPU Malfunction",
+    "severity": ""
+  },
+  {
+    "code": "P1633",
+    "description_ru": "",
+    "description_en": "ECM Malfunction (ETCS Circuit)",
+    "severity": ""
+  },
+  {
+    "code": "P1645",
+    "description_ru": "",
+    "description_en": "Body ECU Malfunction",
+    "severity": ""
+  },
+  {
+    "code": "P1656",
+    "description_ru": "",
+    "description_en": "OCV Circuit Malfunction (Bank 1)",
+    "severity": ""
+  },
+  {
+    "code": "P1663",
+    "description_ru": "",
+    "description_en": "OCV Circuit Malfunction (Bank 2)",
+    "severity": ""
+  },
+  {
+    "code": "P1780",
+    "description_ru": "",
+    "description_en": "PNP Switch Malfunction",
+    "severity": ""
+  }
+]

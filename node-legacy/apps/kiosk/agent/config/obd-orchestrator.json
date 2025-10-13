@@ -1,0 +1,8 @@
+{
+  "scanTimeout": 120000,
+  "pidPollInterval": 500,
+  "pidPollDuration": 10000,
+  "sessionTTL": 3600000,
+  "supportedPids": ["0C", "0D", "05", "0F", "11"],
+  "maxConcurrentSessions": 1
+}

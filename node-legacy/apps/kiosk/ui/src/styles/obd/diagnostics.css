@@ -1,0 +1,417 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  background: #1a1a1a;
+  color: #ffffff;
+  line-height: 1.6;
+  overflow-x: hidden;
+}
+
+.diagnostics-container {
+  max-width: 1920px;
+  margin: 0 auto;
+  padding: 32px;
+  animation: fadeIn 300ms ease;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.diagnostics-header {
+  text-align: center;
+  margin-bottom: 48px;
+}
+
+.diagnostics-header h1 {
+  font-size: 48px;
+  font-weight: bold;
+  line-height: 1.2;
+  margin-bottom: 16px;
+  color: #ffffff;
+}
+
+.diagnostics-header p {
+  font-size: 24px;
+  color: #b0b0b0;
+}
+
+.connection-illustration {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 48px 0;
+}
+
+.obd-port-image {
+  margin-bottom: 24px;
+}
+
+.connection-hint {
+  font-size: 18px;
+  color: #b0b0b0;
+  text-align: center;
+  max-width: 600px;
+}
+
+.status-container {
+  margin: 48px 0;
+}
+
+.connection-status {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  padding: 32px;
+  background: #2a2a2a;
+  border-radius: 16px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.connection-indicator {
+  flex-shrink: 0;
+}
+
+.connection-dot {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+}
+
+.connection-dot.connected {
+  background: #00cc66;
+  box-shadow: 0 0 20px rgba(0, 204, 102, 0.5);
+}
+
+.connection-dot.disconnected {
+  background: #ff4444;
+  box-shadow: 0 0 20px rgba(255, 68, 68, 0.5);
+}
+
+.connection-dot.pulse {
+  animation: pulse 2s ease-in-out infinite;
+}
+
+@keyframes pulse {
+  0%, 100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 0.6;
+    transform: scale(0.9);
+  }
+}
+
+.connection-text {
+  flex: 1;
+}
+
+.connection-main-text {
+  font-size: 28px;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.connection-details {
+  font-size: 18px;
+  color: #b0b0b0;
+}
+
+.connection-instructions {
+  margin: 48px 0;
+  padding: 32px;
+  background: #2a2a2a;
+  border-radius: 16px;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.connection-instructions h3 {
+  font-size: 28px;
+  margin-bottom: 24px;
+  color: #ffffff;
+}
+
+.instruction-list {
+  list-style: none;
+  counter-reset: instruction-counter;
+}
+
+.instruction-list li {
+  counter-increment: instruction-counter;
+  font-size: 20px;
+  padding: 16px 0 16px 56px;
+  position: relative;
+  color: #b0b0b0;
+}
+
+.instruction-list li::before {
+  content: counter(instruction-counter);
+  position: absolute;
+  left: 0;
+  top: 16px;
+  width: 40px;
+  height: 40px;
+  background: #00aaff;
+  color: #ffffff;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.progress-section {
+  margin: 48px 0;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.scan-status {
+  font-size: 24px;
+  color: #00aaff;
+  text-align: center;
+  margin-top: 16px;
+}
+
+.progress-bar-container {
+  width: 100%;
+  height: 48px;
+  background: #2a2a2a;
+  border-radius: 24px;
+  overflow: hidden;
+  margin-bottom: 16px;
+}
+
+.progress-bar {
+  height: 100%;
+  background: linear-gradient(90deg, #00aaff, #00cc66);
+  border-radius: 24px;
+  transition: width 300ms ease;
+}
+
+.progress-text {
+  text-align: center;
+  font-size: 32px;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.live-data-section {
+  margin: 48px 0;
+}
+
+.gauges-row {
+  display: flex;
+  gap: 24px;
+  justify-content: center;
+  margin-bottom: 32px;
+  flex-wrap: wrap;
+}
+
+.gauge-container {
+  flex: 0 0 auto;
+}
+
+.bar-container {
+  flex: 0 0 auto;
+}
+
+.chart-row {
+  margin: 48px 0;
+}
+
+.chart-container {
+  display: flex;
+  justify-content: center;
+}
+
+.hybrid-panel-container {
+  margin: 48px 0;
+}
+
+.error-message {
+  padding: 24px;
+  background: #ff4444;
+  color: #ffffff;
+  border-radius: 12px;
+  font-size: 20px;
+  margin: 32px 0;
+  text-align: center;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.actions {
+  display: flex;
+  gap: 24px;
+  justify-content: center;
+  margin: 48px 0;
+  flex-wrap: wrap;
+}
+
+.btn {
+  min-width: 240px;
+  min-height: 80px;
+  padding: 24px 48px;
+  font-size: 24px;
+  font-weight: 600;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: transform 150ms ease, box-shadow 150ms ease;
+  font-family: inherit;
+}
+
+.btn:active {
+  transform: scale(0.95);
+}
+
+.btn-primary {
+  background: #00aaff;
+  color: #ffffff;
+}
+
+.btn-primary:hover {
+  box-shadow: 0 4px 20px rgba(0, 170, 255, 0.4);
+}
+
+.btn-secondary {
+  background: #555555;
+  color: #ffffff;
+}
+
+.btn-secondary:hover {
+  box-shadow: 0 4px 20px rgba(85, 85, 85, 0.4);
+}
+
+.btn-warning {
+  background: #ffaa00;
+  color: #ffffff;
+}
+
+.btn-warning:hover {
+  box-shadow: 0 4px 20px rgba(255, 170, 0, 0.4);
+}
+
+.btn-dev {
+  background: #9b59b6;
+  color: #ffffff;
+  font-size: 18px;
+}
+
+.results-section {
+  margin: 48px 0;
+  padding: 32px;
+  background: #2a2a2a;
+  border-radius: 16px;
+}
+
+.results-section h2 {
+  font-size: 32px;
+  margin-bottom: 24px;
+  color: #ffffff;
+}
+
+.overall-status {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 48px;
+  margin: 48px 0;
+  background: #2a2a2a;
+  border-radius: 16px;
+}
+
+.status-icon {
+  font-size: 80px;
+  margin-bottom: 24px;
+}
+
+.status-icon.status-ok {
+  color: #00cc66;
+}
+
+.status-icon.status-error {
+  color: #ff4444;
+}
+
+.status-text {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 16px;
+}
+
+.status-details {
+  font-size: 24px;
+  color: #b0b0b0;
+}
+
+.snapshot-table {
+  width: 100%;
+}
+
+.params-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.params-table tr {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.params-table tr:last-child {
+  border-bottom: none;
+}
+
+.params-table td {
+  padding: 16px;
+  font-size: 20px;
+}
+
+.param-name {
+  color: #b0b0b0;
+}
+
+.param-value {
+  font-weight: 600;
+  color: #ffffff;
+  text-align: right;
+}
+
+@media (max-width: 1280px) {
+  .diagnostics-container {
+    padding: 24px;
+  }
+
+  .diagnostics-header h1 {
+    font-size: 36px;
+  }
+
+  .diagnostics-header p {
+    font-size: 20px;
+  }
+
+  .btn {
+    min-width: 200px;
+    min-height: 64px;
+    padding: 18px 36px;
+    font-size: 20px;
+  }
+}

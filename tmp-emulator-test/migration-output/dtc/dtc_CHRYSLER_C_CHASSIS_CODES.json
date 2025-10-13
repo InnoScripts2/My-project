@@ -1,0 +1,134 @@
+[
+  {
+    "code": "C1000",
+    "description_ru": "",
+    "description_en": "Brake Pedal Switch 1 Circuit Performance",
+    "severity": ""
+  },
+  {
+    "code": "C1002",
+    "description_ru": "",
+    "description_en": "Brake Pedal Switch 1 Circuit High",
+    "severity": ""
+  },
+  {
+    "code": "C1007",
+    "description_ru": "",
+    "description_en": "Brake Fluid Level Circuit Low",
+    "severity": ""
+  },
+  {
+    "code": "C1008",
+    "description_ru": "",
+    "description_en": "Brake Fluid Level Circuit High",
+    "severity": ""
+  },
+  {
+    "code": "C102C",
+    "description_ru": "",
+    "description_en": "Right Rear Wheel Speed Sensor Circuit Performance",
+    "severity": ""
+  },
+  {
+    "code": "C1038",
+    "description_ru": "",
+    "description_en": "Rear Wheel Speed Sensor Circuit Low",
+    "severity": ""
+  },
+  {
+    "code": "C1039",
+    "description_ru": "",
+    "description_en": "Rear Wheel Speed Sensor Circuit High",
+    "severity": ""
+  },
+  {
+    "code": "C1404",
+    "description_ru": "",
+    "description_en": "Transfer Case Range Position Sensor Circuit Low",
+    "severity": ""
+  },
+  {
+    "code": "C1405",
+    "description_ru": "",
+    "description_en": "Transfer Case Range Position Sensor Circuit High",
+    "severity": ""
+  },
+  {
+    "code": "C1407",
+    "description_ru": "",
+    "description_en": "Transfer Case Brake Control Circuit Low",
+    "severity": ""
+  },
+  {
+    "code": "C1408",
+    "description_ru": "",
+    "description_en": "Transfer Case Brake Control Circuit High",
+    "severity": ""
+  },
+  {
+    "code": "C140B",
+    "description_ru": "",
+    "description_en": "Transfer Case Motor Control Circuit Low",
+    "severity": ""
+  },
+  {
+    "code": "C140C",
+    "description_ru": "",
+    "description_en": "Transfer Case Motor Control Circuit High",
+    "severity": ""
+  },
+  {
+    "code": "C140D",
+    "description_ru": "",
+    "description_en": "Transfer Case Motor Control Circuit Open",
+    "severity": ""
+  },
+  {
+    "code": "C1417",
+    "description_ru": "",
+    "description_en": "Front Differential Control Circuit Low",
+    "severity": ""
+  },
+  {
+    "code": "C1418",
+    "description_ru": "",
+    "description_en": "Front Differential Control Circuit High",
+    "severity": ""
+  },
+  {
+    "code": "C141D",
+    "description_ru": "",
+    "description_en": "Rear Differential Control Circuit Low",
+    "severity": ""
+  },
+  {
+    "code": "C141E",
+    "description_ru": "",
+    "description_en": "Rear Differential Control Circuit High",
+    "severity": ""
+  },
+  {
+    "code": "C1464",
+    "description_ru": "",
+    "description_en": "Front Axle Disconnect Control Circuit Low",
+    "severity": ""
+  },
+  {
+    "code": "C1465",
+    "description_ru": "",
+    "description_en": "Front Axle Disconnect Control Circuit High",
+    "severity": ""
+  },
+  {
+    "code": "C146F",
+    "description_ru": "",
+    "description_en": "Transfer Case Motor Unable to Reach 2WD",
+    "severity": ""
+  },
+  {
+    "code": "C1470",
+    "description_ru": "",
+    "description_en": "Transfer Case Motor Unable to Reach 4WD",
+    "severity": ""
+  }
+]

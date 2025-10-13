@@ -1,0 +1,1 @@
+Проверь /api/health и /api/auth/ping. Если 200 — запусти админку и войди admin/admin.

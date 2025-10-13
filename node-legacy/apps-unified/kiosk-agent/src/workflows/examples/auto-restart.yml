@@ -1,0 +1,47 @@
+# Auto-restart on critical alert workflow
+# Автоматический перезапуск киоска при критических алертах
+
+name: auto_restart_on_critical_alert
+description: Automatically restart kiosk on critical device or agent alert
+
+trigger:
+  type: event
+  config:
+    eventName: alert_triggered
+    condition: payload.severity === 'critical'
+
+steps:
+  - name: check_alert_type
+    type: condition
+    config:
+      condition: payload.alertName === 'device_disconnected' || payload.alertName === 'agent_down'
+      onTrue: restart_kiosk
+      onFalse: end
+
+  - name: restart_kiosk
+    type: http
+    config:
+      method: POST
+      url: http://localhost:8080/api/kiosks/{{payload.kioskId}}/restart
+      headers:
+        Authorization: Bearer {{env.ADMIN_TOKEN}}
+
+  - name: wait_restart
+    type: delay
+    config:
+      seconds: 30
+
+  - name: check_health
+    type: http
+    config:
+      method: GET
+      url: http://localhost:8080/api/health
+
+  - name: notify_operator
+    type: email
+    config:
+      to: operator@example.com
+      subject: Kiosk {{payload.kioskId}} restart completed
+      body: Health check result {{steps.check_health.output.status}}
+
+enabled: true

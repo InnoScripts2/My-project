@@ -1,0 +1,76 @@
+# Git
+.git
+.gitignore
+.gitattributes
+
+# Node
+node_modules
+npm-debug.log
+yarn-error.log
+.pnpm-debug.log
+
+# Build artifacts
+dist
+build
+*.log
+
+# Tests
+**/*.test.ts
+**/*.test.js
+**/__tests__
+**/tests
+coverage
+.nyc_output
+
+# Development
+.vscode
+.idea
+*.swp
+*.swo
+*~
+
+# Documentation
+docs
+*.md
+!README.md
+
+# CI/CD
+.github
+.gitlab-ci.yml
+.travis.yml
+
+# Environment
+.env
+.env.*
+!.env.example
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temporary
+tmp
+temp
+*.tmp
+
+# Databases (use volumes instead)
+*.db
+*.sqlite
+*.sqlite3
+
+# Logs (use volumes instead)
+logs
+*.log
+
+# Infra files not needed in build
+infra/systemd
+infra/scripts
+infra/monitoring/grafana
+
+# Development tools
+eslint.config.js
+.eslintrc.*
+.prettierrc
+tsconfig.*.json
+!tsconfig.json
+!tsconfig.build.json
