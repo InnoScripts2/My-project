@@ -1,0 +1,73 @@
+# Prometheus Alert Rules for Payment System
+# Monitors payment-related metrics from kiosk-agent
+
+groups:
+  - name: payments_critical
+    interval: 1m
+    rules:
+      - alert: PaymentSystemDown
+        expr: rate(payments_errors_total[5m]) > 0.5
+        for: 2m
+        labels:
+          severity: critical
+          component: payments
+        annotations:
+          summary: "Payment system experiencing high error rate"
+          description: "Payment error rate is {{ $value | humanizePercentage }} (threshold: 50%)"
+
+      - alert: PaymentIntentsStalled
+        expr: payments_pending_over_90_seconds > 0
+        for: 5m
+        labels:
+          severity: critical
+          component: payments
+        annotations:
+          summary: "Payment intents stalled for over 90 seconds"
+          description: "{{ $value }} payment intents are pending for more than 90 seconds"
+
+      - alert: WebhookSignatureFailures
+        expr: rate(payments_webhook_verified_total{ok="false"}[5m]) > 0.1
+        for: 5m
+        labels:
+          severity: critical
+          component: payments
+        annotations:
+          summary: "High rate of webhook signature failures"
+          description: "Webhook signature failure rate: {{ $value | humanizePercentage }}"
+
+  - name: payments_warning
+    interval: 5m
+    rules:
+      - alert: HighPaymentExpirationRate
+        expr: rate(payments_status_transitions_total{to="expired"}[10m]) > 0.2
+        for: 5m
+        labels:
+          severity: warning
+          component: payments
+        annotations:
+          summary: "High rate of payment expirations"
+          description: "Payment expiration rate: {{ $value | humanizePercentage }} (threshold: 20%)"
+
+      - alert: UnusualPaymentVolume
+        expr: |
+          abs(
+            rate(payments_intent_created_total[1h]) -
+            rate(payments_intent_created_total[1h] offset 24h)
+          ) / rate(payments_intent_created_total[1h] offset 24h) > 0.5
+        for: 10m
+        labels:
+          severity: warning
+          component: payments
+        annotations:
+          summary: "Unusual payment volume detected"
+          description: "Payment volume differs by more than 50% from same time yesterday"
+
+      - alert: ManualConfirmationsIncreasing
+        expr: rate(payments_manual_confirmations_total[1h]) > 0.1
+        for: 15m
+        labels:
+          severity: warning
+          component: payments
+        annotations:
+          summary: "Increasing manual payment confirmations"
+          description: "Manual confirmation rate: {{ $value | humanize }} per second"

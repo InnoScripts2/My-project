@@ -1,0 +1,83 @@
+# HELP payments_intent_created_total Total number of payment intents created
+# TYPE payments_intent_created_total counter
+payments_intent_created_total{provider="yookassa",service="thickness"} 142
+payments_intent_created_total{provider="yookassa",service="obd_deposit"} 23
+payments_intent_created_total{provider="inmemory",service="thickness"} 5
+
+# HELP payments_status_transitions_total Total number of payment status transitions
+# TYPE payments_status_transitions_total counter
+payments_status_transitions_total{provider="yookassa",from="pending",to="succeeded"} 118
+payments_status_transitions_total{provider="yookassa",from="pending",to="expired"} 12
+payments_status_transitions_total{provider="yookassa",from="pending",to="canceled"} 8
+payments_status_transitions_total{provider="yookassa",from="succeeded",to="refunded"} 2
+
+# HELP payments_webhook_verified_total Total number of webhook signature verifications
+# TYPE payments_webhook_verified_total counter
+payments_webhook_verified_total{provider="yookassa",ok="true"} 132
+payments_webhook_verified_total{provider="yookassa",ok="false"} 2
+
+# HELP payments_errors_total Total number of payment errors
+# TYPE payments_errors_total counter
+payments_errors_total{provider="yookassa",stage="create_intent"} 5
+payments_errors_total{provider="yookassa",stage="get_status"} 3
+payments_errors_total{provider="yookassa",stage="webhook_processing"} 2
+
+# HELP payments_pending_over_90_seconds Number of payments pending for over 90 seconds
+# TYPE payments_pending_over_90_seconds gauge
+payments_pending_over_90_seconds 0
+
+# HELP payments_manual_confirmations_total Count of manually confirmed payments
+# TYPE payments_manual_confirmations_total gauge
+payments_manual_confirmations_total 1
+
+# HELP payments_dev_confirmations_total Count of dev-confirmed payments
+# TYPE payments_dev_confirmations_total gauge
+payments_dev_confirmations_total 5
+
+# HELP payments_last_event_timestamp_seconds Unix timestamp of last payment event
+# TYPE payments_last_event_timestamp_seconds gauge
+payments_last_event_timestamp_seconds 1705315845
+
+# HELP payments_total_intents Total number of payment intents observed
+# TYPE payments_total_intents gauge
+payments_total_intents 165
+
+# HELP lock_open_attempts_total Total number of lock open attempts
+# TYPE lock_open_attempts_total counter
+lock_open_attempts_total{deviceType="thickness",result="success"} 85
+lock_open_attempts_total{deviceType="thickness",result="failed"} 3
+lock_open_attempts_total{deviceType="thickness",result="policy_blocked"} 2
+lock_open_attempts_total{deviceType="obd",result="success"} 18
+lock_open_attempts_total{deviceType="obd",result="failed"} 1
+
+# HELP lock_state Current lock state (0=closed, 1=opened, 2=fault)
+# TYPE lock_state gauge
+lock_state{deviceType="thickness"} 0
+lock_state{deviceType="obd"} 0
+
+# HELP watchdog_restarts_total Total number of watchdog restarts
+# TYPE watchdog_restarts_total counter
+watchdog_restarts_total{reason="unresponsive"} 0
+watchdog_restarts_total{reason="crash"} 0
+watchdog_restarts_total{reason="manual"} 1
+
+# HELP app_build_info Build information
+# TYPE app_build_info gauge
+app_build_info{version="0.1.0",channel="PROD"} 1
+
+# HELP process_resident_memory_bytes Resident memory size in bytes
+# TYPE process_resident_memory_bytes gauge
+process_resident_memory_bytes 52428800
+
+# HELP process_cpu_user_seconds_total CPU time in user mode
+# TYPE process_cpu_user_seconds_total counter
+process_cpu_user_seconds_total 125.5
+
+# HELP nodejs_eventloop_lag_seconds Event loop lag in seconds
+# TYPE nodejs_eventloop_lag_seconds gauge
+nodejs_eventloop_lag_seconds 0.002
+
+# HELP nodejs_gc_duration_seconds GC duration
+# TYPE nodejs_gc_duration_seconds summary
+nodejs_gc_duration_seconds_sum 1.5
+nodejs_gc_duration_seconds_count 50

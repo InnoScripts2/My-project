@@ -1,0 +1,28 @@
+{
+  "partners": [
+    {
+      "product": "Diagzone PRO",
+      "displayName": "Команда Diagzone PRO",
+      "developers": [
+        "Имя разработчика 1",
+        "Имя разработчика 2"
+      ],
+      "roles": ["OBD‑II экспертиза", "ПО для диагностики"],
+      "website": null
+    },
+    {
+      "product": "rDevice",
+      "displayName": "Команда rDevice",
+      "developers": [
+        "Имя разработчика A",
+        "Имя разработчика B"
+      ],
+      "roles": ["Оборудование/ПО толщиномера", "Интеграция с датчиками"],
+      "website": null
+    }
+  ],
+  "license": {
+    "type": "licensed-integration",
+    "notes": "Использование по договору с распределением прибыли 3–5% (детали в договоре)."
+  }
+}

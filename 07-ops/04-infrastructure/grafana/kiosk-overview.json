@@ -1,0 +1,209 @@
+{
+  "dashboard": {
+    "title": "Kiosk Health Overview",
+    "description": "High-level health and performance metrics for kiosk terminals",
+    "tags": ["kiosk", "monitoring", "overview"],
+    "timezone": "browser",
+    "editable": true,
+    "graphTooltip": 1,
+    "time": {
+      "from": "now-6h",
+      "to": "now"
+    },
+    "refresh": "30s",
+    "panels": [
+      {
+        "id": 1,
+        "title": "Payment Success Rate",
+        "type": "stat",
+        "gridPos": { "h": 8, "w": 6, "x": 0, "y": 0 },
+        "targets": [
+          {
+            "expr": "rate(payments_status_transitions_total{to=\"succeeded\"}[5m]) / rate(payments_intent_created_total[5m]) * 100",
+            "legendFormat": "Success Rate",
+            "refId": "A"
+          }
+        ],
+        "options": {
+          "colorMode": "background",
+          "graphMode": "area",
+          "orientation": "auto"
+        },
+        "fieldConfig": {
+          "defaults": {
+            "unit": "percent",
+            "thresholds": {
+              "mode": "absolute",
+              "steps": [
+                { "value": 0, "color": "red" },
+                { "value": 80, "color": "yellow" },
+                { "value": 95, "color": "green" }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": 2,
+        "title": "Lock Open Success Rate",
+        "type": "stat",
+        "gridPos": { "h": 8, "w": 6, "x": 6, "y": 0 },
+        "targets": [
+          {
+            "expr": "rate(lock_open_attempts_total{result=\"success\"}[5m]) / rate(lock_open_attempts_total[5m]) * 100",
+            "legendFormat": "Success Rate",
+            "refId": "A"
+          }
+        ],
+        "options": {
+          "colorMode": "background",
+          "graphMode": "area"
+        },
+        "fieldConfig": {
+          "defaults": {
+            "unit": "percent",
+            "thresholds": {
+              "mode": "absolute",
+              "steps": [
+                { "value": 0, "color": "red" },
+                { "value": 90, "color": "yellow" },
+                { "value": 98, "color": "green" }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": 3,
+        "title": "Active Locks (Open State)",
+        "type": "gauge",
+        "gridPos": { "h": 8, "w": 6, "x": 12, "y": 0 },
+        "targets": [
+          {
+            "expr": "sum(lock_state == 1)",
+            "legendFormat": "Open Locks",
+            "refId": "A"
+          }
+        ],
+        "fieldConfig": {
+          "defaults": {
+            "unit": "short",
+            "min": 0,
+            "max": 2,
+            "thresholds": {
+              "mode": "absolute",
+              "steps": [
+                { "value": 0, "color": "green" },
+                { "value": 1, "color": "yellow" },
+                { "value": 2, "color": "red" }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": 4,
+        "title": "Agent Restarts (1h)",
+        "type": "stat",
+        "gridPos": { "h": 8, "w": 6, "x": 18, "y": 0 },
+        "targets": [
+          {
+            "expr": "increase(watchdog_restarts_total[1h])",
+            "legendFormat": "Restarts",
+            "refId": "A"
+          }
+        ],
+        "fieldConfig": {
+          "defaults": {
+            "unit": "short",
+            "thresholds": {
+              "mode": "absolute",
+              "steps": [
+                { "value": 0, "color": "green" },
+                { "value": 1, "color": "yellow" },
+                { "value": 3, "color": "red" }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": 5,
+        "title": "Payment Intents Over Time",
+        "type": "graph",
+        "gridPos": { "h": 9, "w": 12, "x": 0, "y": 8 },
+        "targets": [
+          {
+            "expr": "rate(payments_intent_created_total[5m])",
+            "legendFormat": "Created",
+            "refId": "A"
+          },
+          {
+            "expr": "rate(payments_status_transitions_total{to=\"succeeded\"}[5m])",
+            "legendFormat": "Succeeded",
+            "refId": "B"
+          },
+          {
+            "expr": "rate(payments_status_transitions_total{to=\"expired\"}[5m])",
+            "legendFormat": "Expired",
+            "refId": "C"
+          }
+        ],
+        "yaxes": [
+          { "format": "short", "label": "Rate (per sec)" }
+        ]
+      },
+      {
+        "id": 6,
+        "title": "Lock Operations by Device Type",
+        "type": "graph",
+        "gridPos": { "h": 9, "w": 12, "x": 12, "y": 8 },
+        "targets": [
+          {
+            "expr": "rate(lock_open_attempts_total{result=\"success\"}[5m])",
+            "legendFormat": "{{deviceType}} - Success",
+            "refId": "A"
+          },
+          {
+            "expr": "rate(lock_open_attempts_total{result=\"failed\"}[5m])",
+            "legendFormat": "{{deviceType}} - Failed",
+            "refId": "B"
+          }
+        ],
+        "yaxes": [
+          { "format": "short", "label": "Rate (per sec)" }
+        ]
+      },
+      {
+        "id": 7,
+        "title": "Memory Usage (MB)",
+        "type": "graph",
+        "gridPos": { "h": 8, "w": 12, "x": 0, "y": 17 },
+        "targets": [
+          {
+            "expr": "process_resident_memory_bytes / 1024 / 1024",
+            "legendFormat": "RSS Memory",
+            "refId": "A"
+          }
+        ],
+        "yaxes": [
+          { "format": "short", "label": "MB" }
+        ]
+      },
+      {
+        "id": 8,
+        "title": "Build Info",
+        "type": "table",
+        "gridPos": { "h": 8, "w": 12, "x": 12, "y": 17 },
+        "targets": [
+          {
+            "expr": "app_build_info",
+            "legendFormat": "{{version}} - {{channel}}",
+            "refId": "A",
+            "format": "table"
+          }
+        ]
+      }
+    ]
+  }
+}

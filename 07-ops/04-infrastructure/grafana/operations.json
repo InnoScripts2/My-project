@@ -1,0 +1,240 @@
+{
+  "dashboard": {
+    "title": "Operations Dashboard",
+    "description": "Detailed operational metrics for troubleshooting and monitoring",
+    "tags": ["kiosk", "operations", "troubleshooting"],
+    "timezone": "browser",
+    "editable": true,
+    "graphTooltip": 1,
+    "time": {
+      "from": "now-3h",
+      "to": "now"
+    },
+    "refresh": "15s",
+    "panels": [
+      {
+        "id": 1,
+        "title": "Payment Errors by Stage",
+        "type": "graph",
+        "gridPos": { "h": 8, "w": 12, "x": 0, "y": 0 },
+        "targets": [
+          {
+            "expr": "sum by (stage) (rate(payments_errors_total[5m]))",
+            "legendFormat": "{{stage}}",
+            "refId": "A"
+          }
+        ],
+        "yaxes": [
+          { "format": "short", "label": "Errors per sec" }
+        ],
+        "alert": {
+          "conditions": [
+            {
+              "evaluator": { "type": "gt", "params": [0.05] },
+              "operator": { "type": "and" },
+              "query": { "params": ["A", "5m", "now"] },
+              "reducer": { "type": "avg" },
+              "type": "query"
+            }
+          ],
+          "name": "Payment Errors Alert"
+        }
+      },
+      {
+        "id": 2,
+        "title": "Lock Failures by Device Type",
+        "type": "graph",
+        "gridPos": { "h": 8, "w": 12, "x": 12, "y": 0 },
+        "targets": [
+          {
+            "expr": "sum by (deviceType) (rate(lock_open_attempts_total{result=\"failed\"}[5m]))",
+            "legendFormat": "{{deviceType}}",
+            "refId": "A"
+          }
+        ],
+        "yaxes": [
+          { "format": "short", "label": "Failures per sec" }
+        ]
+      },
+      {
+        "id": 3,
+        "title": "Webhook Signature Failures",
+        "type": "stat",
+        "gridPos": { "h": 4, "w": 6, "x": 0, "y": 8 },
+        "targets": [
+          {
+            "expr": "rate(payments_webhook_verified_total{ok=\"false\"}[5m])",
+            "legendFormat": "Failed Verifications",
+            "refId": "A"
+          }
+        ],
+        "fieldConfig": {
+          "defaults": {
+            "unit": "short",
+            "thresholds": {
+              "mode": "absolute",
+              "steps": [
+                { "value": 0, "color": "green" },
+                { "value": 0.01, "color": "yellow" },
+                { "value": 0.1, "color": "red" }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": 4,
+        "title": "Pending Over 90s",
+        "type": "stat",
+        "gridPos": { "h": 4, "w": 6, "x": 6, "y": 8 },
+        "targets": [
+          {
+            "expr": "payments_pending_over_90_seconds",
+            "legendFormat": "Stalled Payments",
+            "refId": "A"
+          }
+        ],
+        "fieldConfig": {
+          "defaults": {
+            "unit": "short",
+            "thresholds": {
+              "mode": "absolute",
+              "steps": [
+                { "value": 0, "color": "green" },
+                { "value": 1, "color": "yellow" },
+                { "value": 3, "color": "red" }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": 5,
+        "title": "Manual Confirmations",
+        "type": "graph",
+        "gridPos": { "h": 4, "w": 6, "x": 12, "y": 8 },
+        "targets": [
+          {
+            "expr": "payments_manual_confirmations_total",
+            "legendFormat": "Manual",
+            "refId": "A"
+          },
+          {
+            "expr": "payments_dev_confirmations_total",
+            "legendFormat": "Dev",
+            "refId": "B"
+          }
+        ],
+        "yaxes": [
+          { "format": "short", "label": "Count" }
+        ]
+      },
+      {
+        "id": 6,
+        "title": "Lock State by Device",
+        "type": "graph",
+        "gridPos": { "h": 4, "w": 6, "x": 18, "y": 8 },
+        "targets": [
+          {
+            "expr": "lock_state",
+            "legendFormat": "{{deviceType}} (0=closed, 1=open, 2=fault)",
+            "refId": "A"
+          }
+        ],
+        "yaxes": [
+          { "format": "short", "label": "State", "min": 0, "max": 2 }
+        ]
+      },
+      {
+        "id": 7,
+        "title": "Payment Status Transitions",
+        "type": "graph",
+        "gridPos": { "h": 8, "w": 12, "x": 0, "y": 12 },
+        "targets": [
+          {
+            "expr": "rate(payments_status_transitions_total[5m])",
+            "legendFormat": "{{from}} → {{to}}",
+            "refId": "A"
+          }
+        ],
+        "yaxes": [
+          { "format": "short", "label": "Transitions per sec" }
+        ]
+      },
+      {
+        "id": 8,
+        "title": "Watchdog Restarts by Reason",
+        "type": "graph",
+        "gridPos": { "h": 8, "w": 12, "x": 12, "y": 12 },
+        "targets": [
+          {
+            "expr": "rate(watchdog_restarts_total[5m])",
+            "legendFormat": "{{reason}}",
+            "refId": "A"
+          }
+        ],
+        "yaxes": [
+          { "format": "short", "label": "Restarts per sec" }
+        ]
+      },
+      {
+        "id": 9,
+        "title": "Event Loop Lag",
+        "type": "graph",
+        "gridPos": { "h": 6, "w": 8, "x": 0, "y": 20 },
+        "targets": [
+          {
+            "expr": "nodejs_eventloop_lag_seconds",
+            "legendFormat": "Event Loop Lag",
+            "refId": "A"
+          }
+        ],
+        "yaxes": [
+          { "format": "s", "label": "Seconds" }
+        ]
+      },
+      {
+        "id": 10,
+        "title": "GC Duration",
+        "type": "graph",
+        "gridPos": { "h": 6, "w": 8, "x": 8, "y": 20 },
+        "targets": [
+          {
+            "expr": "rate(nodejs_gc_duration_seconds_sum[5m])",
+            "legendFormat": "GC Time",
+            "refId": "A"
+          }
+        ],
+        "yaxes": [
+          { "format": "s", "label": "Seconds" }
+        ]
+      },
+      {
+        "id": 11,
+        "title": "Last Payment Event",
+        "type": "stat",
+        "gridPos": { "h": 6, "w": 8, "x": 16, "y": 20 },
+        "targets": [
+          {
+            "expr": "time() - payments_last_event_timestamp_seconds",
+            "legendFormat": "Time Since Last Event",
+            "refId": "A"
+          }
+        ],
+        "fieldConfig": {
+          "defaults": {
+            "unit": "s",
+            "thresholds": {
+              "mode": "absolute",
+              "steps": [
+                { "value": 0, "color": "green" },
+                { "value": 300, "color": "yellow" },
+                { "value": 600, "color": "red" }
+              ]
+            }
+          }
+        }
+      }
+    ]
+  }
+}

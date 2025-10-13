@@ -1,0 +1,37 @@
+# Prometheus Configuration for Kiosk Agent
+# Scrapes metrics from kiosk-agent on localhost:7070
+
+global:
+  scrape_interval: 15s
+  evaluation_interval: 15s
+  external_labels:
+    cluster: 'kiosk-terminal'
+    environment: 'production'
+
+# Alerting configuration
+alerting:
+  alertmanagers:
+    - static_configs:
+        - targets:
+            - localhost:9093
+
+# Load alert rules
+rule_files:
+  - "../../02-application/alerts/payments.rules.yml"
+  - "../../02-application/alerts/locks.rules.yml"
+
+# Scrape configurations
+scrape_configs:
+  # Kiosk Agent metrics
+  - job_name: 'kiosk-agent'
+    scrape_interval: 15s
+    scrape_timeout: 10s
+    static_configs:
+      - targets: ['localhost:7070']
+    metrics_path: '/metrics'
+
+  # Node exporter (если установлен)
+  - job_name: 'node'
+    scrape_interval: 30s
+    static_configs:
+      - targets: ['localhost:9100']

@@ -1,0 +1,73 @@
+# Prometheus Alert Rules for Lock System
+# Monitors lock mechanism metrics from kiosk-agent
+
+groups:
+  - name: locks_critical
+    interval: 1m
+    rules:
+      - alert: LockMechanicalFailure
+        expr: lock_state == 2
+        for: 30s
+        labels:
+          severity: critical
+          component: locks
+        annotations:
+          summary: "Lock mechanical failure detected"
+          description: "Lock {{ $labels.deviceType }} has mechanical failure (fault state)"
+
+      - alert: LockOpenFailureRate
+        expr: |
+          rate(lock_open_attempts_total{result="failed"}[5m]) /
+          rate(lock_open_attempts_total[5m]) > 0.3
+        for: 3m
+        labels:
+          severity: critical
+          component: locks
+        annotations:
+          summary: "High lock open failure rate"
+          description: "Lock open failure rate for {{ $labels.deviceType }}: {{ $value | humanizePercentage }} (threshold: 30%)"
+
+      - alert: AllLocksStuck
+        expr: sum(lock_state == 1) == 0 and sum(lock_open_attempts_total) > 0
+        for: 5m
+        labels:
+          severity: critical
+          component: locks
+        annotations:
+          summary: "All locks appear to be stuck"
+          description: "No locks are in open state despite attempts"
+
+  - name: locks_warning
+    interval: 5m
+    rules:
+      - alert: PolicyBlocksIncreasing
+        expr: rate(lock_open_attempts_total{result="policy_blocked"}[10m]) > 0.1
+        for: 5m
+        labels:
+          severity: warning
+          component: locks
+        annotations:
+          summary: "Increasing number of policy blocks"
+          description: "Policy block rate: {{ $value | humanize }} per second for {{ $labels.deviceType }}"
+
+      - alert: LockStuckOpen
+        expr: lock_state{deviceType="thickness"} == 1 or lock_state{deviceType="obd"} == 1
+        for: 30m
+        labels:
+          severity: warning
+          component: locks
+        annotations:
+          summary: "Lock stuck in open state"
+          description: "Lock {{ $labels.deviceType }} has been open for over 30 minutes"
+
+      - alert: UnusualLockActivity
+        expr: |
+          rate(lock_open_attempts_total[1h]) >
+          2 * avg_over_time(rate(lock_open_attempts_total[1h])[1d:1h])
+        for: 10m
+        labels:
+          severity: warning
+          component: locks
+        annotations:
+          summary: "Unusual lock activity detected"
+          description: "Lock activity is significantly higher than daily average for {{ $labels.deviceType }}"
