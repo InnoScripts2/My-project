@@ -1,0 +1,22 @@
+name: Verify APK Manifest
+
+on:
+    push:
+        paths:
+            - "10-tools/04-infrastructure/artifacts/third-party/**"
+            - "06-infra/04-infrastructure/infra-root/scripts/apk-manifest.ps1"
+            - ".github/workflows/apk-manifest-verify.yml"
+    pull_request:
+        paths:
+            - "10-tools/04-infrastructure/artifacts/third-party/**"
+            - "06-infra/04-infrastructure/infra-root/scripts/apk-manifest.ps1"
+
+jobs:
+    verify:
+        runs-on: windows-latest
+        steps:
+            - uses: actions/checkout@v4
+            - name: Verify manifest matches current APK files
+              shell: pwsh
+              run: |
+                  pwsh -NoProfile -ExecutionPolicy Bypass -File .\06-infra\04-infrastructure\infra-root\scripts\apk-manifest.ps1 -Verify -Deterministic

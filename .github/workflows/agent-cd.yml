@@ -1,0 +1,163 @@
+name: Kiosk Agent CD
+
+on:
+  push:
+    tags:
+      - 'v*.*.*'
+    branches:
+      - main
+  workflow_dispatch:
+    inputs:
+      environment:
+        description: 'Deployment environment'
+        required: true
+        default: 'staging'
+        type: choice
+        options:
+          - staging
+          - production
+
+jobs:
+  deploy-staging:
+    name: Deploy to Staging
+    runs-on: ubuntu-latest
+    if: github.ref == 'refs/heads/main' || github.event.inputs.environment == 'staging'
+    environment:
+      name: staging
+      url: https://staging.kiosk.local
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: |
+          npm ci
+          npm ci --workspace=apps/kiosk-agent
+
+      - name: Build application
+        run: npm run build --workspace=apps/kiosk-agent
+
+      - name: Create deployment package
+        run: |
+          mkdir -p deploy-package
+          cp -r apps/kiosk-agent/dist deploy-package/
+          cp apps/kiosk-agent/package*.json deploy-package/
+          tar -czf kiosk-agent-staging.tar.gz -C deploy-package .
+
+      - name: Upload to staging server
+        env:
+          STAGING_HOST: ${{ secrets.STAGING_HOST }}
+          STAGING_USER: ${{ secrets.STAGING_USER }}
+          STAGING_SSH_KEY: ${{ secrets.STAGING_SSH_KEY }}
+        run: |
+          echo "Deployment to staging requires SSH access configuration"
+          echo "Configure STAGING_HOST, STAGING_USER, and STAGING_SSH_KEY secrets"
+          # Example deployment command:
+          # ssh -i $STAGING_SSH_KEY $STAGING_USER@$STAGING_HOST "cd /opt/kiosk-agent && git pull && npm ci --production && systemctl restart kiosk-agent"
+
+  deploy-production:
+    name: Deploy to Production
+    runs-on: ubuntu-latest
+    if: startsWith(github.ref, 'refs/tags/v') || github.event.inputs.environment == 'production'
+    environment:
+      name: production
+      url: https://kiosk.local
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: |
+          npm ci
+          npm ci --workspace=apps/kiosk-agent
+
+      - name: Build application
+        run: npm run build --workspace=apps/kiosk-agent
+
+      - name: Run production tests
+        run: npm run test --workspace=apps/kiosk-agent
+        env:
+          NODE_ENV: production
+
+      - name: Create release package
+        run: |
+          mkdir -p release-package
+          cp -r apps/kiosk-agent/dist release-package/
+          cp apps/kiosk-agent/package*.json release-package/
+          cp -r infra release-package/
+          tar -czf kiosk-agent-${{ github.ref_name }}.tar.gz -C release-package .
+
+      - name: Create GitHub Release
+        uses: softprops/action-gh-release@v1
+        if: startsWith(github.ref, 'refs/tags/v')
+        with:
+          files: kiosk-agent-${{ github.ref_name }}.tar.gz
+          generate_release_notes: true
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Deploy to production server
+        env:
+          PROD_HOST: ${{ secrets.PROD_HOST }}
+          PROD_USER: ${{ secrets.PROD_USER }}
+          PROD_SSH_KEY: ${{ secrets.PROD_SSH_KEY }}
+        run: |
+          echo "Production deployment requires SSH access configuration"
+          echo "Configure PROD_HOST, PROD_USER, and PROD_SSH_KEY secrets"
+          # Example deployment commands:
+          # Install SSH key
+          # mkdir -p ~/.ssh
+          # echo "$PROD_SSH_KEY" > ~/.ssh/deploy_key
+          # chmod 600 ~/.ssh/deploy_key
+          # 
+          # Deploy to production
+          # scp -i ~/.ssh/deploy_key kiosk-agent-*.tar.gz $PROD_USER@$PROD_HOST:/tmp/
+          # ssh -i ~/.ssh/deploy_key $PROD_USER@$PROD_HOST << 'EOF'
+          #   sudo systemctl stop kiosk-agent
+          #   cd /opt/kiosk-agent
+          #   sudo tar -xzf /tmp/kiosk-agent-*.tar.gz
+          #   sudo npm ci --production
+          #   sudo systemctl start kiosk-agent
+          #   sudo systemctl status kiosk-agent
+          # EOF
+
+      - name: Notify deployment
+        if: success()
+        run: |
+          echo "Deployment to production completed successfully"
+          # Add notification logic here (Slack, email, etc.)
+
+  rollback-production:
+    name: Rollback Production
+    runs-on: ubuntu-latest
+    if: github.event_name == 'workflow_dispatch'
+    environment:
+      name: production
+    steps:
+      - name: Rollback to previous version
+        env:
+          PROD_HOST: ${{ secrets.PROD_HOST }}
+          PROD_USER: ${{ secrets.PROD_USER }}
+          PROD_SSH_KEY: ${{ secrets.PROD_SSH_KEY }}
+        run: |
+          echo "Rollback requires SSH access and backup configuration"
+          # Example rollback command:
+          # ssh -i $PROD_SSH_KEY $PROD_USER@$PROD_HOST << 'EOF'
+          #   sudo systemctl stop kiosk-agent
+          #   cd /opt/kiosk-agent
+          #   sudo git checkout HEAD~1
+          #   sudo npm ci --production
+          #   sudo systemctl start kiosk-agent
+          # EOF

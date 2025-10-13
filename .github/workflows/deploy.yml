@@ -1,0 +1,121 @@
+name: Deploy to GitHub Pages and Remote Server
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+# Разрешения для GitHub Pages
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# Разрешить только один деплой одновременно
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
+jobs:
+  # Сборка статических файлов
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+          cache: "npm"
+
+      - name: Install dependencies
+        run: npm ci --legacy-peer-deps
+
+      - name: Build kiosk-agent
+        working-directory: 03-apps/02-application/kiosk-agent
+        run: |
+          npm ci --legacy-peer-deps
+          npm run build
+
+      - name: Copy frontend files
+        run: |
+          mkdir -p _site
+          cp index.html _site/
+          cp styles.css _site/
+          cp manifest.webmanifest _site/
+          cp service-worker.js _site/
+          [ -d assets ] && cp -r assets _site/ || true
+          [ -d public ] && cp -r public _site/ || true
+          [ -f robots.txt ] && cp robots.txt _site/ || true
+          [ -f favicon.ico ] && cp favicon.ico _site/ || true
+
+      - name: Setup Pages
+        uses: actions/configure-pages@v4
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: "_site"
+
+  # Деплой на GitHub Pages
+  deploy-github-pages:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    needs: build
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
+
+  # Деплой на удалённый сервер (опционально)
+  deploy-remote-server:
+    runs-on: ubuntu-latest
+    needs: build
+    if: ${{ vars.DEPLOY_TO_REMOTE_SERVER == 'true' }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Download artifact
+        uses: actions/download-artifact@v3
+        with:
+          name: github-pages
+          path: _site
+
+      - name: Extract artifact
+        run: |
+          cd _site
+          tar -xf artifact.tar
+          rm artifact.tar
+
+      - name: Deploy to remote server via SSH
+        uses: appleboy/ssh-action@v1.0.0
+        with:
+          host: ${{ secrets.REMOTE_HOST }}
+          username: ${{ secrets.REMOTE_USER }}
+          key: ${{ secrets.REMOTE_SSH_KEY }}
+          port: ${{ secrets.REMOTE_PORT || 22 }}
+          script: |
+            echo "Deploying to remote server..."
+            # Здесь ваши команды для деплоя на 31.31.197.40
+            # Например:
+            # cd /var/www/kiosk
+            # git pull origin main
+            # systemctl restart nginx
+
+      - name: Copy files via SCP (альтернативный метод)
+        if: ${{ vars.USE_SCP_DEPLOY == 'true' }}
+        uses: appleboy/scp-action@v0.1.4
+        with:
+          host: ${{ secrets.REMOTE_HOST }}
+          username: ${{ secrets.REMOTE_USER }}
+          key: ${{ secrets.REMOTE_SSH_KEY }}
+          port: ${{ secrets.REMOTE_PORT || 22 }}
+          source: "_site/*"
+          target: ${{ vars.REMOTE_DEPLOY_PATH || '/var/www/kiosk' }}
+          strip_components: 1
