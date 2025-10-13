@@ -1,0 +1,2 @@
+-keep class android.webkit.** { *; }
+-keep class com.selfservice.kiosk.** { *; }

@@ -1,0 +1,1 @@
+DEPRECATED: файл устарел и заменён планом docs/internal/heavy-analysis-plan.md. Не использовать.

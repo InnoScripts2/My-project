@@ -1,0 +1,33 @@
+com.selfservice.kiosk.app-constraintlayout-2.0.1-0 C:\Users\Alexsey\.gradle\caches\transforms-4\06680e3d07f57e1757db75db5b138296\transformed\constraintlayout-2.0.1\res
+com.selfservice.kiosk.app-lifecycle-process-2.6.2-1 C:\Users\Alexsey\.gradle\caches\transforms-4\0b3fe843dde5471f4672989ab555c6ce\transformed\lifecycle-process-2.6.2\res
+com.selfservice.kiosk.app-lifecycle-runtime-2.6.2-2 C:\Users\Alexsey\.gradle\caches\transforms-4\26bf052fb15f9d12877d34af9fecd8cc\transformed\lifecycle-runtime-2.6.2\res
+com.selfservice.kiosk.app-startup-runtime-1.1.1-3 C:\Users\Alexsey\.gradle\caches\transforms-4\33ef6ba1db3aea78394f6d4177aacd60\transformed\startup-runtime-1.1.1\res
+com.selfservice.kiosk.app-core-ktx-1.13.1-4 C:\Users\Alexsey\.gradle\caches\transforms-4\3ed8e2cb71e147bee16d2f162b037b02\transformed\core-ktx-1.13.1\res
+com.selfservice.kiosk.app-profileinstaller-1.3.1-5 C:\Users\Alexsey\.gradle\caches\transforms-4\3f9b0c6097268aeadfb0d0454654c426\transformed\profileinstaller-1.3.1\res
+com.selfservice.kiosk.app-material-1.12.0-6 C:\Users\Alexsey\.gradle\caches\transforms-4\5095a7a0c6af34a4738a36200fc95018\transformed\material-1.12.0\res
+com.selfservice.kiosk.app-core-runtime-2.2.0-7 C:\Users\Alexsey\.gradle\caches\transforms-4\5a18e6b66ae60e16f215fce5b1831296\transformed\core-runtime-2.2.0\res
+com.selfservice.kiosk.app-lifecycle-livedata-core-2.6.2-8 C:\Users\Alexsey\.gradle\caches\transforms-4\5fabe6f0f19b3e4629f32a768c8b5cf9\transformed\lifecycle-livedata-core-2.6.2\res
+com.selfservice.kiosk.app-lifecycle-livedata-2.6.2-9 C:\Users\Alexsey\.gradle\caches\transforms-4\6ccc63fa5d7c0c891de1c7ba642c8448\transformed\lifecycle-livedata-2.6.2\res
+com.selfservice.kiosk.app-emoji2-views-helper-1.3.0-10 C:\Users\Alexsey\.gradle\caches\transforms-4\6ea4f40b4d6740986841b0c96e5ed97e\transformed\emoji2-views-helper-1.3.0\res
+com.selfservice.kiosk.app-annotation-experimental-1.4.0-11 C:\Users\Alexsey\.gradle\caches\transforms-4\724618e3acbac0b6630cd78d962cfd92\transformed\annotation-experimental-1.4.0\res
+com.selfservice.kiosk.app-recyclerview-1.1.0-12 C:\Users\Alexsey\.gradle\caches\transforms-4\75bd052e313d6b67bc13cf7a19fa91bc\transformed\recyclerview-1.1.0\res
+com.selfservice.kiosk.app-appcompat-resources-1.7.0-13 C:\Users\Alexsey\.gradle\caches\transforms-4\99b2de1f29cb3dfbe6ec49bf5339090c\transformed\appcompat-resources-1.7.0\res
+com.selfservice.kiosk.app-emoji2-1.3.0-14 C:\Users\Alexsey\.gradle\caches\transforms-4\9c338641084c861c71fab80cfab25553\transformed\emoji2-1.3.0\res
+com.selfservice.kiosk.app-core-1.13.1-15 C:\Users\Alexsey\.gradle\caches\transforms-4\a310b155118595bfa58675b53a2e9300\transformed\core-1.13.1\res
+com.selfservice.kiosk.app-activity-1.8.0-16 C:\Users\Alexsey\.gradle\caches\transforms-4\a60a7bd1c29d67b2d58be11a8635f8fb\transformed\activity-1.8.0\res
+com.selfservice.kiosk.app-fragment-1.5.4-17 C:\Users\Alexsey\.gradle\caches\transforms-4\bb52309905bd6e624a85c059fc1e7dc0\transformed\fragment-1.5.4\res
+com.selfservice.kiosk.app-transition-1.5.0-18 C:\Users\Alexsey\.gradle\caches\transforms-4\c17c38c9c54c53a73221eb831f490d2e\transformed\transition-1.5.0\res
+com.selfservice.kiosk.app-lifecycle-viewmodel-2.6.2-19 C:\Users\Alexsey\.gradle\caches\transforms-4\c89e94e8f1044aec04bd7bf22ff40bfa\transformed\lifecycle-viewmodel-2.6.2\res
+com.selfservice.kiosk.app-coordinatorlayout-1.1.0-20 C:\Users\Alexsey\.gradle\caches\transforms-4\ce7ada8709bef2ec259ca7449a301c2e\transformed\coordinatorlayout-1.1.0\res
+com.selfservice.kiosk.app-cardview-1.0.0-21 C:\Users\Alexsey\.gradle\caches\transforms-4\d3b077953497aa9f9936725f3f44a15d\transformed\cardview-1.0.0\res
+com.selfservice.kiosk.app-drawerlayout-1.1.1-22 C:\Users\Alexsey\.gradle\caches\transforms-4\d49f81b486e905bba60c2e0b0d442a76\transformed\drawerlayout-1.1.1\res
+com.selfservice.kiosk.app-lifecycle-viewmodel-savedstate-2.6.2-23 C:\Users\Alexsey\.gradle\caches\transforms-4\d553d9a172b48749a83819d1b7ef17b6\transformed\lifecycle-viewmodel-savedstate-2.6.2\res
+com.selfservice.kiosk.app-appcompat-1.7.0-24 C:\Users\Alexsey\.gradle\caches\transforms-4\de76f97a07a585f331e5fb71a14d125d\transformed\appcompat-1.7.0\res
+com.selfservice.kiosk.app-viewpager2-1.0.0-25 C:\Users\Alexsey\.gradle\caches\transforms-4\e5ea7cbac1d6bf47aec7ef854c5da9eb\transformed\viewpager2-1.0.0\res
+com.selfservice.kiosk.app-savedstate-1.2.1-26 C:\Users\Alexsey\.gradle\caches\transforms-4\ed35fb1d14a01a9eabdc04686e211ff1\transformed\savedstate-1.2.1\res
+com.selfservice.kiosk.app-resValues-27 C:\Users\Alexsey\Desktop\My project\apps\android-kiosk\app\build\generated\res\resValues\release
+com.selfservice.kiosk.app-packageReleaseResources-28 C:\Users\Alexsey\Desktop\My project\apps\android-kiosk\app\build\intermediates\incremental\release\packageReleaseResources\merged.dir
+com.selfservice.kiosk.app-packageReleaseResources-29 C:\Users\Alexsey\Desktop\My project\apps\android-kiosk\app\build\intermediates\incremental\release\packageReleaseResources\stripped.dir
+com.selfservice.kiosk.app-release-30 C:\Users\Alexsey\Desktop\My project\apps\android-kiosk\app\build\intermediates\merged_res\release\mergeReleaseResources
+com.selfservice.kiosk.app-main-31 C:\Users\Alexsey\Desktop\My project\apps\android-kiosk\app\src\main\res
+com.selfservice.kiosk.app-release-32 C:\Users\Alexsey\Desktop\My project\apps\android-kiosk\app\src\release\res
