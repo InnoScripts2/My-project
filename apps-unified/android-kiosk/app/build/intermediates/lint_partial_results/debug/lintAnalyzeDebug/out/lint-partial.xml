@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<incidents format="6" by="lint 8.4.1" type="partial_results">
+    <map id="UnusedResources">
+        <location id="R.xml.network_security_config"
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/xml/network_security_config.xml"
+            line="2"
+            column="1"
+            startOffset="40"
+            endLine="9"
+            endColumn="27"
+            endOffset="300"/>
+        <location id="R.string.kiosk_url_dev"
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/values/strings.xml"
+            line="10"
+            column="11"
+            startOffset="413"
+            endLine="10"
+            endColumn="31"
+            endOffset="433"/>
+        <location id="R.string.kiosk_url_fallback"
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/values/strings.xml"
+            line="7"
+            column="11"
+            startOffset="313"
+            endLine="7"
+            endColumn="36"
+            endOffset="338"/>
+        <entry
+            name="model"
+            string="drawable[ic_kiosk_foreground(U)],id[webView(D)],layout[activity_main(D)],mipmap[ic_launcher(U)],string[app_name(U),kiosk_url(U),kiosk_url_fallback(D),kiosk_url_dev(D)],style[AppTheme(U)],xml[network_security_config(D)];3^0;;;"/>
+        <location id="R.layout.activity_main"
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_main.xml"
+            line="2"
+            column="1"
+            startOffset="40"
+            endLine="9"
+            endColumn="15"
+            endOffset="354"/>
+    </map>
+    <map id="NotificationPermission">
+        <entry
+            name="className"
+            string="com/blankj/utilcode/util/NotificationUtils"/>
+        <location id="class"
+            file="$GRADLE_USER_HOME/caches/transforms-4/ada803ec7e5e6e463201b7f614d7ba34/transformed/utilcodex-1.31.1/jars/classes.jar"/>
+    </map>
+    <map id="UnsafeIntentLaunch">
+            <map id="unprotected">
+                <entry
+                    name="com.selfservice.kiosk.MainActivity"
+                    boolean="true"/>
+            </map>
+    </map>
+
+</incidents>

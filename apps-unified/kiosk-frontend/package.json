@@ -1,0 +1,16 @@
+{
+  "name": "@selfservice/kiosk-frontend",
+  "version": "1.0.0",
+  "description": "Frontend UI для киоска самообслуживания",
+  "type": "module",
+  "scripts": {
+    "dev": "vite serve --port 3000",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "htmlhint index.html"
+  },
+  "devDependencies": {
+    "vite": "^5.0.0",
+    "htmlhint": "^1.1.4"
+  }
+}

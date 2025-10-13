@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.selfservice.kiosk.bluetooth.BluetoothEdgeCasesTest" tests="7" skipped="0" failures="0" errors="0" timestamp="2025-10-13T10:19:52" hostname="DESKTOP-0B9FJSD" time="1.234">
+  <properties/>
+  <testcase name="testPermissionsForAndroid12Plus" classname="com.selfservice.kiosk.bluetooth.BluetoothEdgeCasesTest" time="1.156"/>
+  <testcase name="testDeviceNameFiltering" classname="com.selfservice.kiosk.bluetooth.BluetoothEdgeCasesTest" time="0.048"/>
+  <testcase name="testMacAddressFormat" classname="com.selfservice.kiosk.bluetooth.BluetoothEdgeCasesTest" time="0.005"/>
+  <testcase name="testConnectionTimeoutCalculation" classname="com.selfservice.kiosk.bluetooth.BluetoothEdgeCasesTest" time="0.001"/>
+  <testcase name="testPermissionsForAndroid11AndBelow" classname="com.selfservice.kiosk.bluetooth.BluetoothEdgeCasesTest" time="0.021"/>
+  <testcase name="testRssiRangeValidation" classname="com.selfservice.kiosk.bluetooth.BluetoothEdgeCasesTest" time="0.001"/>
+  <testcase name="testSerialNumberValidation" classname="com.selfservice.kiosk.bluetooth.BluetoothEdgeCasesTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

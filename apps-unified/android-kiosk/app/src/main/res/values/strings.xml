@@ -1,0 +1,11 @@
+<resources>
+  <string name="app_name">Автосервис самообслуживания</string>
+  <!-- Primary URL: GitHub Pages (автоматически обновляется при push) -->
+  <string name="kiosk_url">https://innoscripts2.github.io/my-own-service/</string>
+
+  <!-- Fallback URL: Remote server (если GitHub Pages недоступен) -->
+  <string name="kiosk_url_fallback">http://31.31.197.40/</string>
+
+  <!-- Local development URL -->
+  <string name="kiosk_url_dev">http://10.0.2.2:8080/</string>
+</resources>

@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="refresh" content="0;url=/admin/" />
+    <script>
+      // GitHub Pages SPA fallback: перенаправление на корневой index с сохранением пути
+      (function() {
+        var l = window.location;
+        var redirectPath = '/admin/' + (l.pathname.replace(/^\/admin\//, '')) + l.search + l.hash;
+        window.location.replace(redirectPath);
+      })();
+    </script>
+  </head>
+  <body></body>
+  </html>

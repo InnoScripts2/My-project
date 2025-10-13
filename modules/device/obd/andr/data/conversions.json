@@ -1,0 +1,104 @@
+[
+  {
+    "name": "PERCENT_FROM_A",
+    "formula": "A*100/255",
+    "unit": "percent",
+    "notes": "Generic linear mapping of byte A to percent"
+  },
+  {
+    "name": "TEMP_FROM_A",
+    "formula": "A-40",
+    "unit": "degC",
+    "notes": "Standard temperature conversion for coolant/intake sensors"
+  },
+  {
+    "name": "RPM_FROM_AB",
+    "formula": "((A*256)+B)/4",
+    "unit": "rpm",
+    "notes": "Standard calculation for engine RPM"
+  },
+  {
+    "name": "SPEED_FROM_A",
+    "formula": "A",
+    "unit": "km_per_h",
+    "notes": "Direct interpretation of byte A as vehicle speed"
+  },
+  {
+    "name": "FUEL_TRIM_PERCENT",
+    "formula": "(A-128)*100/128",
+    "unit": "percent",
+    "notes": "Fuel trim scaling from SAE J1979-DA Table A-2"
+  },
+  {
+    "name": "INTAKE_PRESSURE_KPA",
+    "formula": "A",
+    "unit": "kPa",
+    "notes": "Absolute pressure conversion for manifold sensors"
+  },
+  {
+    "name": "MAF_GRAMS_PER_SEC",
+    "formula": "((A*256)+B)/100",
+    "unit": "grams_per_sec",
+    "notes": "Mass airflow conversion for PID 0x10"
+  },
+  {
+    "name": "THROTTLE_PERCENT",
+    "formula": "A*100/255",
+    "unit": "percent",
+    "notes": "Throttle position scaling from SAE J1979-DA Table A-2"
+  },
+  {
+    "name": "FUEL_LEVEL_PERCENT",
+    "formula": "A*100/255",
+    "unit": "percent",
+    "notes": "Fuel level scaling from SAE J1979-DA Table A-2"
+  },
+  {
+    "name": "OXYGEN_SENSOR_VOLTAGE",
+    "formula": "A/200",
+    "unit": "volt",
+    "notes": "Narrow-band O2 sensor voltage conversion"
+  },
+  {
+    "name": "TIMING_ADVANCE_DEG",
+    "formula": "(A/2)-64",
+    "unit": "deg",
+    "notes": "Ignition timing advance relative to TDC"
+  },
+  {
+    "name": "RUN_TIME_SECONDS",
+    "formula": "((A*256)+B)",
+    "unit": "seconds",
+    "notes": "Run time conversion for 16-bit counters"
+  },
+  {
+    "name": "DISTANCE_TRAVELED_KM",
+    "formula": "((A*256)+B)",
+    "unit": "km",
+    "notes": "Distance counters from SAE J1979"
+  },
+  {
+    "name": "EVAP_PURGE_PERCENT",
+    "formula": "A*100/255",
+    "unit": "percent",
+    "notes": "Commanded evaporative purge scaling"
+  },
+  {
+    "name": "BAROMETRIC_PRESSURE_KPA",
+    "formula": "A",
+    "unit": "kPa",
+    "notes": "Barometric pressure direct mapping"
+  },
+  {
+    "name": "CONTROL_MODULE_VOLTAGE",
+    "formula": "((A*256)+B)/1000",
+    "unit": "volt",
+    "notes": "Control module voltage (PID 0x42)"
+  },
+  {
+    "name": "ABSOLUTE_LOAD_PERCENT",
+    "formula": "((A*256)+B)*100/255",
+    "unit": "percent",
+    "notes": "Absolute load reference from SAE J1979"
+  }
+]

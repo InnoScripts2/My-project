@@ -1,0 +1,117 @@
+{
+  "common": {
+    "loading": "Loading...",
+    "error": "Error",
+    "success": "Success",
+    "cancel": "Cancel",
+    "save": "Save",
+    "close": "Close",
+    "back": "Back",
+    "next": "Next",
+    "search": "Search",
+    "filter": "Filter",
+    "export": "Export",
+    "refresh": "Refresh"
+  },
+  "auth": {
+    "login": "Login",
+    "logout": "Logout",
+    "email": "Email",
+    "password": "Password",
+    "token": "Token",
+    "loginWithEmail": "Login with Email",
+    "loginWithToken": "Login with Token",
+    "invalidCredentials": "Invalid credentials"
+  },
+  "nav": {
+    "dashboard": "Dashboard",
+    "sessions": "Sessions",
+    "monitoring": "Monitoring",
+    "settings": "Settings"
+  },
+  "dashboard": {
+    "title": "Dashboard",
+    "activeSessions": "Active Sessions",
+    "errorsLast15Min": "Errors (Last 15 min)",
+    "avgLatency": "Average Latency",
+    "recentEvents": "Recent Events"
+  },
+  "sessions": {
+    "title": "Sessions",
+    "id": "ID",
+    "service": "Service",
+    "status": "Status",
+    "startedAt": "Started At",
+    "finishedAt": "Finished At",
+    "actions": "Actions",
+    "viewDetails": "View Details",
+    "copyId": "Copy ID",
+    "exportCsv": "Export CSV",
+    "filters": {
+      "service": "Service",
+      "status": "Status",
+      "period": "Period",
+      "searchPlaceholder": "Search by ID or text"
+    }
+  },
+  "sessionDetails": {
+    "title": "Session Details",
+    "tabs": {
+      "logs": "Logs",
+      "devices": "Devices",
+      "payments": "Payments"
+    },
+    "logs": {
+      "level": "Level",
+      "timestamp": "Timestamp",
+      "message": "Message",
+      "copyFragment": "Copy Fragment",
+      "loadMore": "Load More"
+    },
+    "devices": {
+      "currentState": "Current State",
+      "connectionHistory": "Connection History",
+      "requestStatus": "Request Status",
+      "rssi": "RSSI",
+      "protocol": "Protocol"
+    },
+    "payments": {
+      "intentId": "Intent ID",
+      "status": "Status",
+      "amount": "Amount",
+      "currency": "Currency",
+      "refreshStatus": "Refresh Status"
+    }
+  },
+  "monitoring": {
+    "title": "Monitoring",
+    "selectMetrics": "Select Metrics",
+    "interval": "Interval",
+    "intervals": {
+      "15m": "15 minutes",
+      "1h": "1 hour",
+      "24h": "24 hours",
+      "custom": "Custom"
+    }
+  },
+  "settings": {
+    "title": "Settings",
+    "configuration": "Configuration",
+    "viewConfig": "View Configuration",
+    "editConfig": "Edit Configuration",
+    "confirmChanges": "Confirm Changes"
+  },
+  "status": {
+    "created": "Created",
+    "running": "Running",
+    "completed": "Completed",
+    "failed": "Failed",
+    "cancelled": "Cancelled",
+    "pending": "Pending",
+    "succeeded": "Succeeded"
+  },
+  "service": {
+    "OBD": "OBD-II Diagnostics",
+    "THICKNESS": "Thickness Measurement"
+  }
+}

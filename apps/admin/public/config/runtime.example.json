@@ -1,0 +1,10 @@
+{
+  "apiBaseUrl": "https://admin-service.example.com",
+  "sseUrl": "https://admin-service.example.com/events",
+  "sentryDsn": "",
+  "otlpEndpoint": "",
+  "features": {
+    "enableSSE": true,
+    "enableOTel": false
+  }
+}

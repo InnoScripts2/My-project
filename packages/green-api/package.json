@@ -1,0 +1,29 @@
+{
+  "name": "@selfservice/green-api",
+  "version": "1.0.0",
+  "description": "Green API WhatsApp integration for sending reports",
+  "type": "module",
+  "main": "./src/index.ts",
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "scripts": {
+    "test": "node --test",
+    "lint": "eslint src"
+  },
+  "keywords": [
+    "green-api",
+    "whatsapp",
+    "reports"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "node-fetch": "^3.3.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0"
+  }
+}

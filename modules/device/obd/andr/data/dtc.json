@@ -1,0 +1,146 @@
+[
+  {
+    "code": "P0000",
+    "system": "powertrain",
+    "label": "No diagnostic code reported",
+    "notes": "SAE J2012"
+  },
+  {
+    "code": "P0001",
+    "system": "powertrain",
+    "label": "Fuel volume regulator control circuit open",
+    "notes": "SAE J2012"
+  },
+  {
+    "code": "P0100",
+    "system": "powertrain",
+    "label": "Mass or volume air flow circuit malfunction",
+    "notes": "SAE J2012"
+  },
+  {
+    "code": "P0113",
+    "system": "powertrain",
+    "label": "Intake air temperature sensor 1 circuit high",
+    "notes": "SAE J2012"
+  },
+  {
+    "code": "P0171",
+    "system": "powertrain",
+    "label": "Fuel trim system too lean (Bank 1)",
+    "notes": "SAE J2012"
+  },
+  {
+    "code": "P0300",
+    "system": "powertrain",
+    "label": "Random or multiple cylinder misfire detected",
+    "notes": "SAE J2012"
+  },
+  {
+    "code": "P0325",
+    "system": "powertrain",
+    "label": "Knock sensor 1 circuit malfunction (Bank 1)",
+    "notes": "SAE J2012"
+  },
+  {
+    "code": "P0420",
+    "system": "powertrain",
+    "label": "Catalyst system efficiency below threshold (Bank 1)",
+    "notes": "SAE J2012"
+  },
+  {
+    "code": "P0440",
+    "system": "powertrain",
+    "label": "Evaporative emission control system malfunction",
+    "notes": "SAE J2012"
+  },
+  {
+    "code": "P0500",
+    "system": "powertrain",
+    "label": "Vehicle speed sensor malfunction",
+    "notes": "SAE J2012"
+  },
+  {
+    "code": "P0606",
+    "system": "powertrain",
+    "label": "PCM processor fault",
+    "notes": "SAE J2012"
+  },
+  {
+    "code": "P0700",
+    "system": "powertrain",
+    "label": "Transmission control system request",
+    "notes": "SAE J2012"
+  },
+  {
+    "code": "C0035",
+    "system": "chassis",
+    "label": "Left front wheel speed sensor circuit malfunction",
+    "notes": "SAE J2012"
+  },
+  {
+    "code": "C0040",
+    "system": "chassis",
+    "label": "Right front wheel speed sensor circuit malfunction",
+    "notes": "SAE J2012"
+  },
+  {
+    "code": "C0110",
+    "system": "chassis",
+    "label": "Hydraulic pump motor circuit malfunction",
+    "notes": "SAE J2012"
+  },
+  {
+    "code": "C1234",
+    "system": "chassis",
+    "label": "Wheel speed correlation fault",
+    "notes": "SAE J2012"
+  },
+  {
+    "code": "B0020",
+    "system": "body",
+    "label": "Passenger airbag deployment control circuit high",
+    "notes": "SAE J2012"
+  },
+  {
+    "code": "B0050",
+    "system": "body",
+    "label": "Driver seat belt pretensioner deployment circuit fault",
+    "notes": "SAE J2012"
+  },
+  {
+    "code": "B1325",
+    "system": "body",
+    "label": "Vehicle battery voltage low",
+    "notes": "SAE J2012"
+  },
+  {
+    "code": "B2109",
+    "system": "body",
+    "label": "Keyless entry transmitter low battery",
+    "notes": "SAE J2012"
+  },
+  {
+    "code": "U0001",
+    "system": "network",
+    "label": "High speed CAN communication bus fault",
+    "notes": "SAE J2012"
+  },
+  {
+    "code": "U0100",
+    "system": "network",
+    "label": "Lost communication with ECM/PCM",
+    "notes": "SAE J2012"
+  },
+  {
+    "code": "U0121",
+    "system": "network",
+    "label": "Lost communication with anti-lock brake system module",
+    "notes": "SAE J2012"
+  },
+  {
+    "code": "U0415",
+    "system": "network",
+    "label": "Invalid data received from ABS module",
+    "notes": "SAE J2012"
+  }
+]

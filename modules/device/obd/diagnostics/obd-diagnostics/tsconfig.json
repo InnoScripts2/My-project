@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+    "lib": ["ES2022"],
+    "declaration": true,
+    "outDir": "dist",
+    "rootDir": "src",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "resolveJsonModule": true
+  },
+  "include": [
+    "src/index.ts",
+    "src/KingbolenEdiagDriver.ts",
+    "src/ObdConnectionManager.ts",
+    "src/transports.ts",
+    "src/database/types.ts",
+    "src/database/DtcDatabase.ts",
+    "src/database/PidDatabase.ts",
+    "src/shims.d.ts"
+  ],
+  "exclude": ["node_modules", "dist", "**/*.test.ts"]
+}

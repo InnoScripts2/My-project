@@ -1,0 +1,428 @@
+:root{
+  /* Светлая тема по умолчанию */
+  --bg: #F7F9FC;
+  --panel: #FFFFFF;
+  --text: #0F172A;  /* почти чёрный */
+  --muted: #64748B; /* slate-500 */
+  --accent: #2563EB; /* blue-600 */
+  --accent-2: #16A34A; /* green-600 */
+  --ok: #16A34A;
+  --warn: #F59E0B;
+  --danger: #DC2626;
+}
+*{box-sizing:border-box}
+html,body{height:100%}
+body{
+  margin:0;
+  font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  user-select: none;
+}
+/* utilities */
+.hidden{display:none !important}
+.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
+/* Utility: скрыть визуально, оставить для скринридеров */
+.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
+.app{position:relative; min-height:100vh}
+.screen{display:none; position:absolute; inset:0; padding:4vh}
+.screen.active{display:block}
+.center{max-width:1200px; margin:0 auto; display:flex; flex-direction:column; align-items:center; justify-content:center; min-height:92vh; text-align:center}
+.center.narrow{max-width:760px}
+.center.wide{max-width:1400px}
+.brand{font-size:64px; line-height:1.05; margin:0 0 16px; letter-spacing:0.5px}
+.brand{animation:floatY 3.2s ease-in-out infinite; will-change: transform}
+/* Двухстрочный бренд */
+.brand{ display:inline-flex; flex-direction:column; align-items:center; gap:0.2em; text-align:center }
+.brand .brand-line{ display:block; line-height:1.0; }
+.brand .brand-top{ font-weight:800; letter-spacing:0.4px; }
+.brand .brand-bottom{ font-weight:800; letter-spacing:0.2px; }
+/* Адаптивные размеры для двух строк */
+.brand .brand-top{ font-size: clamp(2.2rem, 4.4vw, 4rem); }
+.brand .brand-bottom{ font-size: clamp(2.0rem, 4vw, 3.6rem); }
+
+@keyframes floatY{
+  0%{ transform: translateY(0) }
+  50%{ transform: translateY(-10px) }
+  100%{ transform: translateY(0) }
+}
+
+@media (prefers-reduced-motion: reduce){
+  .brand{ animation: none }
+}
+.tagline{font-size:20px; color:var(--muted); margin:0 0 24px}
+.cta.subtle{opacity:0.9; border:1px dashed #CBD5E1; color:#334155; padding:10px 16px; border-radius:999px; background:#ffffffa6}
+
+h2{font-size:40px; margin:0 0 16px}
+.lead{font-size:18px; color:var(--muted)}
+.benefits{list-style:none; padding:0; margin:16px 0 24px; font-size:18px}
+.benefits li{padding:10px 12px; background:#F3F4F6; border:1px solid #E5E7EB; border-radius:12px; margin-bottom:10px}
+
+/* Маркетинговые элементы */
+.eyebrow{font-size:12px; letter-spacing:.12em; text-transform:uppercase; color:#64748B; font-weight:800; margin-bottom:8px}
+.checklist{list-style:none; padding:0; margin:16px 0 24px; display:flex; flex-direction:column; gap:10px}
+.checklist li{position:relative; padding:10px 12px 10px 36px; background:#F8FAFC; border:1px solid #E2E8F0; border-radius:12px}
+.checklist li::before{content:""; position:absolute; left:12px; top:12px; width:18px; height:18px; background-repeat:no-repeat; background-size:18px 18px; background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none'><circle cx='12' cy='12' r='12' fill='%232563EB'/><path d='M7 12.5l3 3 7-7' stroke='white' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'/></svg>");}
+.checklist strong{color:#0F172A}
+
+.terms{display:flex; gap:12px; align-items:center; justify-content:center; margin:16px 0}
+.terms a{color:var(--accent); text-decoration:underline; font-weight:600}
+.terms a:hover{filter:brightness(0.9)}
+.terms a:focus-visible{outline:3px solid var(--accent); outline-offset:2px; border-radius:6px}
+
+.actions{margin-top:10px}
+button{font-size:18px; padding:14px 22px; border-radius:12px; border:1px solid #CBD5E1; background:#F8FAFC; color:var(--text); cursor:pointer}
+button.small{padding:10px 16px; font-size:clamp(0.9rem,1vw,1rem)}
+button.primary{background:var(--accent); border-color:transparent; color:#fff}
+button.secondary{background:#FFFFFF; border-color:#CBD5E1; color:#0F172A}
+button:disabled{opacity:.5; cursor:not-allowed}
+button.ghost{background:#FFFFFF; border-color:#E2E8F0}
+/* Hover/active/focus states */
+button:hover:not(:disabled){filter:brightness(0.98)}
+button.primary:hover:not(:disabled){filter:brightness(0.96)}
+button.secondary:hover:not(:disabled),button.ghost:hover:not(:disabled){border-color:#94A3B8}
+button:active:not(:disabled){transform:translateY(1px)}
+button:focus-visible{outline:3px solid var(--accent); outline-offset:2px; box-shadow:0 0 0 4px rgba(37,99,235,.10)}
+
+.cards{display:grid; grid-template-columns:repeat(2, minmax(280px, 1fr)); gap:24px; margin-top:16px}
+.cards.one{grid-template-columns:repeat(2, minmax(260px, 1fr))}
+.cards.three{grid-template-columns:repeat(3, minmax(220px, 1fr))}
+.vehicle-preview{margin-top:28px; width:100%; max-width:620px; background:#FFFFFF; border:1px solid #E2E8F0; border-radius:18px; padding:18px; display:flex; flex-direction:column; gap:12px; box-shadow:0 4px 14px rgba(15,23,42,.08); align-items:center}
+.vehicle-preview img{width:100%; height:auto; border-radius:14px; object-fit:cover; box-shadow:0 8px 18px rgba(15,23,42,.06)}
+.vehicle-caption{font-size:clamp(0.95rem, 1.1vw, 1.05rem); color:#475569; line-height:1.4; text-align:left; width:100%}
+.card{background:var(--panel); border:1px solid #E5E7EB; border-radius:16px; padding:20px; text-align:left; box-shadow:0 1px 2px rgba(16,24,40,.04)}
+.card.selectable{cursor:pointer; user-select:none}
+.card.selectable:hover{border-color:#CBD5E1}
+.card.selected{outline:3px solid var(--accent); box-shadow:0 0 0 4px rgba(37,99,235,.08)}
+.card.selectable:focus-visible{outline:3px solid var(--accent); box-shadow:0 0 0 4px rgba(37,99,235,.10)}
+.card.selectable:active{transform:translateY(1px)}
+.card-title{font-size:24px; font-weight:800; margin-bottom:8px}
+.card-desc{color:#475569; margin-bottom:12px}
+.card-price{font-weight:600; margin-bottom:16px}
+.card-icon{width:72px; height:72px; border-radius:20px; display:flex; align-items:center; justify-content:center; margin-bottom:16px; background:#E0EAFF; color:#1D4ED8}
+.card-icon img{width:40px; height:40px}
+.card-icon--blue{background:linear-gradient(135deg,#E0EAFF 0%, #C7D2FE 100%)}
+.card-icon--indigo{background:linear-gradient(135deg,#E0E7FF 0%, #C4B5FD 100%); color:#4338CA}
+.card-icon--emerald{background:linear-gradient(135deg,#DCFCE7 0%, #BBF7D0 100%); color:#047857}
+.card-icon--orange{background:linear-gradient(135deg,#FFEDD5 0%, #FED7AA 100%); color:#B45309}
+.card-icon img{filter:drop-shadow(0 4px 8px rgba(15,23,42,.12));}
+
+.hero-icon{width:96px; height:96px; border-radius:24px; background:linear-gradient(135deg,#E0EAFF 0%, #E8F0FF 100%); display:flex; align-items:center; justify-content:center; margin:0 auto 16px; color:#1D4ED8}
+.hero-icon img{width:48px; height:48px}
+.hero-icon--indigo{background:linear-gradient(135deg,#EDE9FE 0%, #DDD6FE 100%); color:#4338CA}
+
+/* Status badges */
+.status-line{margin:12px 0}
+.badge{display:inline-flex; align-items:center; gap:8px; font-size:14px; font-weight:600; padding:6px 10px; border-radius:999px; border:1px solid #E5E7EB; background:#fff}
+.badge::before{content:""; width:8px; height:8px; border-radius:50%; display:inline-block; background:#94A3B8}
+.badge-ok{color:#065F46; border-color:#A7F3D0; background:#ECFDF5}
+.badge-ok::before{background:#10B981}
+.badge-warn{color:#7C2D12; border-color:#FED7AA; background:#FFF7ED}
+.badge-warn::before{background:#F59E0B}
+.badge-danger{color:#7F1D1D; border-color:#FECACA; background:#FEF2F2}
+.badge-danger::before{background:#DC2626}
+
+.form{display:flex; flex-direction:column; gap:16px; width:100%; margin:12px 0}
+.field{display:flex; flex-direction:column; gap:8px}
+.field span{font-weight:600}
+.field input,.field select{font-size:18px; padding:12px 14px; border-radius:12px; border:1px solid #CBD5E1; background:#FFFFFF}
+.contact-field{align-items:flex-start; gap:6px; max-width:600px; margin:0 auto}
+/* Метка поля делаем компактнее, но читабельно для киоска */
+.contact-field span{font-size:clamp(0.95rem,1.1vw,1.05rem)}
+/* Инпут: слегка меньше кегль и паддинги для плотности */
+.contact-input{font-size:clamp(0.98rem,1.1vw,1.1rem); padding:10px 12px; border-radius:12px; width:100%}
+/* Подсказка: уже, ниже межстрочный интервал */
+.field-hint{font-size:clamp(0.9rem,0.95vw,1rem); color:#64748B; max-width:600px; margin:4px auto 0; text-align:left; line-height:1.4}
+/* Контейнеры контактных экранов сужаем, чтобы текст выглядел плотнее */
+#screen-thk-contact .center.narrow,
+#screen-obd-contact .center.narrow{ max-width:700px }
+.field input[data-invalid="1"], .field select[data-invalid="1"]{border-color:#F87171; background:#FEF2F2}
+.field input[data-valid="1"], .field select[data-valid="1"]{border-color:#A7F3D0; background:#ECFDF5}
+.field-error{display:none; align-self:flex-start; color:#B91C1C; font-size:0.9rem; line-height:1.3; min-height:1.2em}
+.field-error.visible{display:block}
+.hint{color:#64748B; font-size:14px; margin-top:6px}
+.muted-note{color:#64748B; font-size:14px; margin-top:10px}
+.amount{font-weight:800; font-size:20px; margin:8px 0 4px}
+
+/* Contact input & label — scaled (reduced ~1.5x from previous 2x) */
+#screen-thk-contact .contact-field span,
+#screen-obd-contact .contact-field span {
+  /* ~1.33x baseline */
+  font-size: clamp(1.27rem, 1.47vw, 1.4rem);
+}
+
+#screen-thk-contact .contact-input,
+#screen-obd-contact .contact-input {
+  /* ensure we override generic .field input clamp */
+  font-size: clamp(1.33rem, 1.6vw, 1.5rem);
+  padding: 16px 18px; /* 24px -> ~16px */
+  border-radius: 16px; /* 24px -> 16px */
+}
+
+/* Match bottom hint with the adjusted input size on contact screens */
+#screen-thk-contact .field-hint,
+#screen-obd-contact .field-hint {
+  font-size: clamp(1rem, 1.1vw, 1.1rem);
+  line-height: 1.45;
+}
+
+/* Contact instructions and illustrations */
+#screen-thk-contact .contact-instructions,
+#screen-obd-contact .contact-instructions{
+  margin-top: 16px;
+  text-align: left;
+  width: 100%;
+  max-width: 700px;
+}
+#screen-thk-contact .contact-instructions h3,
+#screen-obd-contact .contact-instructions h3{
+  font-size: clamp(1.1rem, 1.4vw, 1.25rem);
+  margin: 8px 0;
+}
+#screen-thk-contact .contact-instructions .steps,
+#screen-obd-contact .contact-instructions .steps{
+  margin: 8px 0 12px;
+  padding-left: 18px;
+  color: var(--text);
+}
+#screen-thk-contact .contact-illustrations,
+#screen-obd-contact .contact-illustrations{
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 12px;
+}
+#screen-thk-contact .contact-illustrations .tile,
+#screen-obd-contact .contact-illustrations .tile{
+  background: var(--panel);
+  border: 1px solid #E5E7EB;
+  border-radius: 12px;
+  padding: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+#screen-thk-contact .contact-illustrations img,
+#screen-obd-contact .contact-illustrations img{
+  width: 48px;
+  height: 48px;
+}
+#screen-thk-contact .contact-illustrations .caption,
+#screen-obd-contact .contact-illustrations .caption{
+  margin-top: 6px;
+  font-size: clamp(0.9rem, 1vw, 1rem);
+  color: var(--muted);
+}
+
+.actions.row{display:flex; gap:12px; margin-top:18px}
+.actions.row.tight{gap:10px; align-items:center; flex-wrap:wrap}
+.actions.column{display:flex; flex-direction:column; gap:12px; align-items:center; margin-top:18px}
+
+.qr-placeholder{width:240px; height:240px; background:repeating-linear-gradient(45deg,#e5e7eb,#e5e7eb 10px,#f8fafc 10px,#f8fafc 20px); border:2px dashed #94A3B8; border-radius:16px; margin:16px auto}
+
+.dev-skip{
+  position:fixed; right:16px; bottom:16px; padding:10px 14px; background:var(--accent-2); color:#04130a; border:none; border-radius:999px; font-weight:600; box-shadow:0 8px 24px rgba(0,0,0,.15)
+}
+
+@media (max-width: 900px){
+  .brand{font-size:40px}
+  h2{font-size:28px}
+  .cards{grid-template-columns:1fr}
+  .cards.one{grid-template-columns:1fr}
+  .cards.three{grid-template-columns:1fr}
+  .vehicle-preview{max-width:100%; margin-top:20px; padding:16px}
+}
+
+/* High contrast support */
+@media (forced-colors: active){
+  .card.selected, button:focus-visible, .card.selectable:focus-visible { outline:2px solid Highlight; box-shadow:none }
+  .qr-placeholder{ border-color: GrayText }
+}
+
+/* Modal (terms) */
+.modal-backdrop{position:fixed; inset:0; background:rgba(15,23,42,.48); display:flex; align-items:center; justify-content:center; padding:24px; z-index:1000}
+.modal{background:#fff; color:var(--text); border-radius:16px; border:1px solid #E5E7EB; width:min(920px, 96vw); max-height:92vh; display:flex; flex-direction:column; box-shadow:0 20px 60px rgba(0,0,0,.2)}
+.modal-header{display:flex; align-items:center; justify-content:space-between; padding:16px 20px; border-bottom:1px solid #E5E7EB}
+.modal-title{font-size:20px; font-weight:800}
+.modal-body{padding:16px 20px; overflow:auto}
+.modal-actions{display:flex; gap:12px; justify-content:flex-end; padding:16px 20px; border-top:1px solid #E5E7EB}
+.modal .close{background:#fff; border:1px solid #CBD5E1}
+
+/* Showcase (витрина на приветствии) */
+.showcase{display:grid; grid-template-columns: repeat(2, minmax(260px, 1fr)); gap:24px; margin: 8px 0 18px}
+.promo-card{position:relative; background: linear-gradient(180deg, #ffffff 0%, #f8fbff 100%)}
+.promo-card{border-color:#E2E8F0}
+.promo-card:hover{box-shadow:0 10px 30px rgba(2, 6, 23, .08); transform: translateY(-1px); transition: box-shadow .2s ease, transform .2s ease}
+.promo-card .card-title{font-size: clamp(1.3rem, 2vw, 1.6rem)}
+.promo-card .card-desc{color:#334155}
+.mini-list{list-style:none; padding:0; margin:8px 0 12px; display:flex; flex-direction:column; gap:6px}
+.mini-list li{position:relative; padding:8px 10px 8px 34px; background:#F8FAFC; border:1px solid #E2E8F0; border-radius:10px; font-size: clamp(0.95rem, 1.1vw, 1.05rem)}
+.mini-list li::before{content:""; position:absolute; left:10px; top:9px; width:16px; height:16px; background-repeat:no-repeat; background-size:16px 16px; background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none'><circle cx='12' cy='12' r='12' fill='%2316A34A'/><path d='M7 12.5l3 3 7-7' stroke='white' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'/></svg>");}
+@media (max-width: 900px){
+  .showcase{ grid-template-columns: 1fr }
+}
+
+/* ============================
+   Responsive fluid scaling
+   ============================ */
+/* Базовый размер шрифта подстраиваем под экран. Работает и на FHD 21.5" и на меньших дисплеях. */
+html{ font-size: clamp(14px, 0.9vw + 0.3vh, 18px); }
+
+/* Современные viewport-единицы для корректной высоты на разных ОС/браузерах */
+.app{ min-height: 100svh; }
+.screen{ padding: clamp(16px, 4vh, 48px); }
+
+/* Контейнеры: ширина ограничена, но эластична на больших экранах */
+.center{ max-width: clamp(64rem, 80vw, 90rem); }
+.center.wide{ max-width: clamp(70rem, 86vw, 100rem); }
+
+/* Типографика (fluid) */
+.brand{ font-size: clamp(2.5rem, 5vw, 4.5rem); }
+h2{ font-size: clamp(1.6rem, 3vw, 2.6rem); }
+.lead, .benefits, .benefits li, .card-desc, .muted-note, .hint{ font-size: clamp(0.95rem, 1.2vw, 1.125rem); }
+.card-title{ font-size: clamp(1.25rem, 1.8vw, 1.6rem); }
+.card-price{ font-size: clamp(1.05rem, 1.4vw, 1.25rem); }
+button, .field input, .field select{ font-size: clamp(1rem, 1.2vw, 1.125rem); }
+.badge{ font-size: clamp(0.85rem, 1vw, 1rem); }
+
+/* Безопасные переносы длинных слов/чисел, чтобы ничего не «выпадало» за рамки */
+h1, h2, .card-title, .card-desc, .lead, .benefits li, .badge, .muted-note, .hint{ overflow-wrap:anywhere; }
+
+/* Отступы и сетки — эластичные */
+.actions.row, .actions.column{ gap: clamp(10px, 1.6vh, 16px); }
+.cards{ gap: clamp(16px, 2vw, 24px); }
+.qr-placeholder{ width: clamp(200px, 20vmin, 260px); height: clamp(200px, 20vmin, 260px); }
+
+/* Модалка — ограничиваем ширину и высоту в относительно больших единицах */
+.modal{ width: min(92vw, 64rem); max-height: 92svh; }
+.modal-title{ font-size: clamp(1.1rem, 1.6vw, 1.35rem); }
+
+/* Очень большие экраны: немного увеличим минимальные размеры карточек */
+@media (min-width: 1600px){
+  .cards.two{ grid-template-columns: repeat(2, minmax(320px, 1fr)); }
+  .cards.three{ grid-template-columns: repeat(3, minmax(300px, 1fr)); }
+}
+
+/* Очень узкие экраны: слегка уменьшить базу, чтобы всё помещалось */
+@media (max-width: 360px){
+  html{ font-size: clamp(13px, 4.5vw, 15px); }
+}
+
+/* Payment info */
+.payment-info{margin:12px 0; padding:12px; border-radius:12px; background:#F8FAFC; border:1px solid #E2E8F0; text-align:left; width:100%;}
+.payment-info strong{display:block; margin-bottom:6px}
+.payment-info ul{list-style:none; margin:0; padding:0; display:flex; flex-direction:column; gap:6px}
+.payment-info li{font-size:clamp(0.95rem,1.1vw,1rem); color:#475569}
+
+.self-check-box{margin-top:16px; padding:14px 16px; border-radius:12px; border:1px solid #E2E8F0; background:#F8FAFC; text-align:left; display:flex; flex-direction:column; gap:6px}
+.self-check-box strong{font-weight:700; font-size:clamp(1rem,1.2vw,1.1rem)}
+.self-check-box ul{list-style:none; margin:0; padding:0; display:flex; flex-direction:column; gap:4px; font-size:clamp(0.9rem,1.05vw,1rem); color:#475569}
+.self-check-box--ok{border-color:#A7F3D0; background:#ECFDF5; color:#047857}
+.self-check-box--warn{border-color:#FDE68A; background:#FFF7ED; color:#B45309}
+.self-check-box--error{border-color:#FECACA; background:#FEF2F2; color:#991B1B}
+.self-check-box--loading{border-style:dashed; border-color:#BFDBFE; background:#EFF6FF; color:#1D4ED8}
+.self-check-box--loading .meta{color:#1E3A8A}
+.self-check-box .meta{font-size:0.85em; color:#64748B}
+.self-check-box--inline{margin-top:12px}
+
+/* OBD results */
+#obd-results-list{white-space:normal}
+.obd-results-list{list-style:none; padding:0; margin:0; display:flex; flex-direction:column; gap:10px}
+.obd-result-item{padding:10px 12px; border-radius:12px; border:1px solid #E2E8F0; background:#fff; display:flex; flex-direction:column; gap:4px}
+.obd-result-code{font-weight:700; font-size:1.05em; display:flex; align-items:center; gap:8px}
+.obd-result-severity{display:inline-flex; align-items:center; gap:6px; border-radius:999px; padding:4px 10px; font-size:0.85em; font-weight:600}
+.obd-severity-critical{background:#FEF2F2; color:#991B1B; border:1px solid #FECACA}
+.obd-severity-warning{background:#FFF7ED; color:#B45309; border:1px solid #FDE68A}
+.obd-severity-info{background:#ECFDF5; color:#047857; border:1px solid #A7F3D0}
+.obd-result-desc{color:#475569; font-size:0.95em}
+.obd-note{color:#64748B; font-size:0.9em; margin-top:6px}
+.obd-summary{margin-bottom:12px; font-size:clamp(0.95rem,1.1vw,1.05rem); color:#1F2937}
+.obd-summary ul{list-style:none; margin:6px 0 0; padding:0; display:flex; flex-direction:column; gap:4px}
+.obd-summary li{display:flex; align-items:center; gap:6px}
+.obd-summary .dot{width:10px; height:10px; border-radius:50%; background:#16A34A; display:inline-block}
+.obd-summary .dot.warn{background:#F59E0B}
+.obd-summary .dot.alert{background:#DC2626}
+.obd-live{margin-bottom:12px; font-size:clamp(0.9rem,1.05vw,1rem); color:#1F2937; display:flex; flex-direction:column; gap:4px}
+.obd-live-row{display:flex; justify-content:space-between; gap:12px; background:#F8FAFC; border:1px solid #E2E8F0; border-radius:10px; padding:8px 12px}
+.obd-live-row strong{font-weight:700}
+.obd-live-row span{color:#475569}
+
+.obd-connection-meta{margin:12px 0; padding:12px 14px; border-radius:12px; border:1px solid #E2E8F0; background:#F8FAFC; display:flex; flex-direction:column; gap:6px; text-align:left}
+.obd-connection-meta strong{font-weight:700; font-size:clamp(1rem,1.15vw,1.1rem); color:#0F172A}
+.obd-connection-meta ul{list-style:none; margin:0; padding:0; display:flex; flex-direction:column; gap:4px; font-size:clamp(0.9rem,1.05vw,1rem); color:#1F2937}
+.obd-connection-meta li{display:flex; align-items:flex-start; gap:6px; line-height:1.35}
+.obd-connection-meta li::before{content:'•'; color:#2563EB; font-weight:700}
+.obd-connection-meta .meta-block{margin-top:4px; font-size:0.85em; color:#475569; display:flex; flex-direction:column; gap:4px}
+.obd-connection-meta .meta-block ul{font-size:inherit; color:inherit}
+.obd-connection-meta .meta-block li::before{color:#64748B}
+.obd-connection-meta .error{color:#B91C1C}
+
+.obd-summary-grid{display:grid; grid-template-columns:repeat(auto-fit, minmax(220px, 1fr)); gap:12px; margin:12px 0}
+.obd-summary-card{padding:12px 14px; border-radius:12px; border:1px solid #E2E8F0; background:#F8FAFC; display:flex; flex-direction:column; gap:6px}
+.obd-summary-card h3{margin:0; font-size:1.05em; font-weight:700; color:#0F172A}
+.obd-summary-card .obd-summary-status{font-weight:600}
+.obd-summary-card .obd-summary-status.ok{color:#047857}
+.obd-summary-card .obd-summary-status.warn{color:#B45309}
+.obd-summary-card .obd-summary-status.alert{color:#991B1B}
+.obd-summary-card .meta{font-size:0.85em; color:#64748B}
+
+.form-row{display:flex; align-items:center; flex-wrap:wrap; gap:0.75rem; margin-top:8px}
+.form-row .ghost.small{flex-shrink:0}
+.port-status-wrapper{display:flex; flex-direction:column; gap:0.25rem; min-width:220px}
+.port-status-wrapper .meta{color:#6B7280; font-size:0.85rem}
+.link{background:none; border:none; padding:0; margin:0; color:#2563EB; text-decoration:underline; font:inherit; cursor:pointer; display:inline; border-radius:4px}
+.link:hover{color:#1D4ED8}
+.link:focus-visible{outline:2px solid #2563EB; outline-offset:2px}
+
+/* Credits (благодарности) */
+.credits{ margin: 14px 0 18px; width: 100%; }
+.credits-title{ font-weight: 800; color:#0F172A; margin-bottom: 8px; }
+.credits-grid{ display:grid; grid-template-columns: repeat(2, minmax(220px, 1fr)); gap: 12px; }
+.credits-card{ background:#FFFFFF; border:1px solid #E5E7EB; border-radius:12px; padding:12px; text-align:left }
+.credits-name{ font-weight:700; margin-bottom:4px }
+.credits-roles{ color:#475569; font-size: 0.95em; margin-bottom:6px }
+.credits-devs{ list-style: none; padding:0; margin:0; display:flex; flex-wrap:wrap; gap:8px }
+.credits-devs li{ background:#F8FAFC; border:1px solid #E2E8F0; border-radius:999px; padding:4px 10px; font-size:0.95em }
+@media (max-width: 900px){ .credits-grid{ grid-template-columns: 1fr } }
+
+/* Thickness points grid */
+.thk-points-grid{ display:grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 10px; margin: 12px 0; width:100%; }
+.thk-point{ padding: 10px 12px; border-radius: 12px; border:1px solid #E2E8F0; background:#FFFFFF; text-align:left; box-shadow:0 1px 2px rgba(16,24,40,.04) }
+.thk-point .thk-point-label{ font-size: clamp(0.95rem, 1.05vw, 1.05rem); color:#0F172A; }
+.thk-point--pending{ border-style: dashed; background:#F8FAFC }
+.thk-point--ok{ border-color:#A7F3D0; background:#ECFDF5 }
+.thk-point--skip{ border-color:#FDE68A; background:#FFF7ED }
+
+/* Settings button */
+.settings-button {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: #f3f4f6;
+  border: 2px solid #d1d5db;
+  font-size: 24px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 998;
+  transition: all 0.2s ease;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.settings-button:hover {
+  background: #e5e7eb;
+  transform: scale(1.05);
+}
+
+.settings-button:focus-visible {
+  outline: 2px solid #2563eb;
+  outline-offset: 2px;
+}
+
+.settings-button:active {
+  transform: scale(0.95);
+}

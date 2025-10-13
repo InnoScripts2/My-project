@@ -1,0 +1,19 @@
+{
+  "name": "@selfservice/obd-andr",
+  "version": "0.0.1",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "tsc -p tsconfig.build.json",
+    "test": "node --loader ts-node/esm --test ./src/**/*.test.ts",
+    "check:pids": "node --loader ts-node/esm ./scripts/validate-pids.ts",
+    "check:dtc": "node --loader ts-node/esm ./scripts/validate-dtc.ts",
+    "data:preview": "node ./scripts/import-pids.mjs"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.5"
+  }
+}

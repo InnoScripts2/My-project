@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.selfservice.kiosk.bluetooth.scanner.ScanRecordParserTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2025-10-13T10:19:53" hostname="DESKTOP-0B9FJSD" time="0.002">
+  <properties/>
+  <testcase name="testParseSerialNumberFromManufacturerData_validData" classname="com.selfservice.kiosk.bluetooth.scanner.ScanRecordParserTest" time="0.002"/>
+  <testcase name="testParseSerialNumberFromServiceData_validData" classname="com.selfservice.kiosk.bluetooth.scanner.ScanRecordParserTest" time="0.0"/>
+  <testcase name="testParseSerialNumberFromServiceData_invalidData" classname="com.selfservice.kiosk.bluetooth.scanner.ScanRecordParserTest" time="0.0"/>
+  <testcase name="testParseSerialNumberFromManufacturerData_tooShort" classname="com.selfservice.kiosk.bluetooth.scanner.ScanRecordParserTest" time="0.0"/>
+  <testcase name="testParseSerialNumberFromManufacturerData_invalidCharacters" classname="com.selfservice.kiosk.bluetooth.scanner.ScanRecordParserTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

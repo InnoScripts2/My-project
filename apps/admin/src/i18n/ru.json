@@ -1,0 +1,117 @@
+{
+  "common": {
+    "loading": "Загрузка...",
+    "error": "Ошибка",
+    "success": "Успешно",
+    "cancel": "Отмена",
+    "save": "Сохранить",
+    "close": "Закрыть",
+    "back": "Назад",
+    "next": "Далее",
+    "search": "Поиск",
+    "filter": "Фильтр",
+    "export": "Экспорт",
+    "refresh": "Обновить"
+  },
+  "auth": {
+    "login": "Вход",
+    "logout": "Выход",
+    "email": "Email",
+    "password": "Пароль",
+    "token": "Токен",
+    "loginWithEmail": "Войти с Email",
+    "loginWithToken": "Войти с токеном",
+    "invalidCredentials": "Неверные учетные данные"
+  },
+  "nav": {
+    "dashboard": "Панель управления",
+    "sessions": "Сессии",
+    "monitoring": "Мониторинг",
+    "settings": "Настройки"
+  },
+  "dashboard": {
+    "title": "Панель управления",
+    "activeSessions": "Активные сессии",
+    "errorsLast15Min": "Ошибки за 15 минут",
+    "avgLatency": "Средняя латентность",
+    "recentEvents": "Последние события"
+  },
+  "sessions": {
+    "title": "Сессии",
+    "id": "ID",
+    "service": "Услуга",
+    "status": "Статус",
+    "startedAt": "Начало",
+    "finishedAt": "Завершение",
+    "actions": "Действия",
+    "viewDetails": "Детали",
+    "copyId": "Копировать ID",
+    "exportCsv": "Экспорт CSV",
+    "filters": {
+      "service": "Услуга",
+      "status": "Статус",
+      "period": "Период",
+      "searchPlaceholder": "Поиск по ID или тексту"
+    }
+  },
+  "sessionDetails": {
+    "title": "Детали сессии",
+    "tabs": {
+      "logs": "Логи",
+      "devices": "Устройства",
+      "payments": "Платежи"
+    },
+    "logs": {
+      "level": "Уровень",
+      "timestamp": "Время",
+      "message": "Сообщение",
+      "copyFragment": "Копировать фрагмент",
+      "loadMore": "Загрузить еще"
+    },
+    "devices": {
+      "currentState": "Текущее состояние",
+      "connectionHistory": "История подключений",
+      "requestStatus": "Запросить статус",
+      "rssi": "RSSI",
+      "protocol": "Протокол"
+    },
+    "payments": {
+      "intentId": "ID интента",
+      "status": "Статус",
+      "amount": "Сумма",
+      "currency": "Валюта",
+      "refreshStatus": "Обновить статус"
+    }
+  },
+  "monitoring": {
+    "title": "Мониторинг",
+    "selectMetrics": "Выбрать метрики",
+    "interval": "Интервал",
+    "intervals": {
+      "15m": "15 минут",
+      "1h": "1 час",
+      "24h": "24 часа",
+      "custom": "Настроить"
+    }
+  },
+  "settings": {
+    "title": "Настройки",
+    "configuration": "Конфигурация",
+    "viewConfig": "Просмотр конфигурации",
+    "editConfig": "Редактировать конфигурацию",
+    "confirmChanges": "Подтвердить изменения"
+  },
+  "status": {
+    "created": "Создана",
+    "running": "Выполняется",
+    "completed": "Завершена",
+    "failed": "Ошибка",
+    "cancelled": "Отменена",
+    "pending": "Ожидание",
+    "succeeded": "Успешно"
+  },
+  "service": {
+    "OBD": "Диагностика OBD-II",
+    "THICKNESS": "Толщинометрия"
+  }
+}

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.selfservice.kiosk.bluetooth.data.ElmResponseParserAvailabilityTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2025-10-13T10:19:53" hostname="DESKTOP-0B9FJSD" time="0.015">
+  <properties/>
+  <testcase name="parseDtcResponse returns empty list for NO DATA" classname="com.selfservice.kiosk.bluetooth.data.ElmResponseParserAvailabilityTest" time="0.001"/>
+  <testcase name="parseDtcResponse exposed through diagnostics-core" classname="com.selfservice.kiosk.bluetooth.data.ElmResponseParserAvailabilityTest" time="0.007"/>
+  <testcase name="normalizeResponse strips terminal markers" classname="com.selfservice.kiosk.bluetooth.data.ElmResponseParserAvailabilityTest" time="0.007"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

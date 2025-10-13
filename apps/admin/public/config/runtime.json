@@ -1,0 +1,10 @@
+{
+  "apiBaseUrl": "http://localhost:7083",
+  "sseUrl": "http://localhost:7070/events",
+  "sentryDsn": "",
+  "otlpEndpoint": "",
+  "features": {
+    "enableSSE": true,
+    "enableOTel": false
+  }
+}

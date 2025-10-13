@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.selfservice.kiosk.diagnostics.elm.ElmResponseParserTest" tests="8" skipped="0" failures="0" errors="0" timestamp="2025-10-13T09:32:41" hostname="DESKTOP-0B9FJSD" time="0.06">
+  <properties/>
+  <testcase name="parseDifferentPrefixes" classname="com.selfservice.kiosk.diagnostics.elm.ElmResponseParserTest" time="0.049"/>
+  <testcase name="normalizeResponseRemovesOkAndPrompts" classname="com.selfservice.kiosk.diagnostics.elm.ElmResponseParserTest" time="0.008"/>
+  <testcase name="parseSingleDtc" classname="com.selfservice.kiosk.diagnostics.elm.ElmResponseParserTest" time="0.0"/>
+  <testcase name="parseWithLineBreaks" classname="com.selfservice.kiosk.diagnostics.elm.ElmResponseParserTest" time="0.001"/>
+  <testcase name="parseMultipleDtcs" classname="com.selfservice.kiosk.diagnostics.elm.ElmResponseParserTest" time="0.0"/>
+  <testcase name="normalizeResponseKeepsSearchingLines" classname="com.selfservice.kiosk.diagnostics.elm.ElmResponseParserTest" time="0.0"/>
+  <testcase name="ignoreEmptyPayload" classname="com.selfservice.kiosk.diagnostics.elm.ElmResponseParserTest" time="0.001"/>
+  <testcase name="normalizeResponseCompactsMultiline" classname="com.selfservice.kiosk.diagnostics.elm.ElmResponseParserTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

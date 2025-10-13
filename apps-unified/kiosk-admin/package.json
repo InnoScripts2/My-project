@@ -1,0 +1,38 @@
+{
+  "name": "kiosk-admin",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "build:dev": "vite build --mode development",
+    "preview": "vite preview",
+    "lint": "eslint . --max-warnings 0",
+    "typecheck": "vue-tsc --noEmit",
+    "test": "vitest",
+    "test:ui": "vitest --ui"
+  },
+  "dependencies": {
+    "ant-design-vue": "^4.1.0",
+    "axios": "^1.6.5",
+    "chart.js": "^4.4.1",
+    "kiosk-selfservice-unified": "file:../..",
+    "pinia": "^2.1.7",
+    "socket.io-client": "^4.7.4",
+    "vue": "^3.4.0",
+    "vue-chartjs": "^5.3.0",
+    "vue-i18n": "^9.14.5",
+    "vue-router": "^4.2.5"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.0",
+    "@vitejs/plugin-vue": "^5.0.0",
+    "@vitest/ui": "^1.0.0",
+    "happy-dom": "^12.10.3",
+    "typescript": "^5.6.3",
+    "vite": "^5.0.0",
+    "vitest": "^1.0.0",
+    "vue-tsc": "^2.0.0"
+  }
+}

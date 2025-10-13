@@ -1,0 +1,285 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.selfservice.kiosk"
+4    android:versionCode="1"
+5    android:versionName="0.1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="26"
+9        android:targetSdkVersion="34" />
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\Users\Alexsey\Desktop\My project\apps-unified\android-kiosk\app\src\main\AndroidManifest.xml:5:5-67
+11-->C:\Users\Alexsey\Desktop\My project\apps-unified\android-kiosk\app\src\main\AndroidManifest.xml:5:22-64
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->C:\Users\Alexsey\Desktop\My project\apps-unified\android-kiosk\app\src\main\AndroidManifest.xml:6:5-79
+12-->C:\Users\Alexsey\Desktop\My project\apps-unified\android-kiosk\app\src\main\AndroidManifest.xml:6:22-76
+13    <uses-permission
+13-->C:\Users\Alexsey\Desktop\My project\apps-unified\android-kiosk\app\src\main\AndroidManifest.xml:7:5-8:38
+14        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+14-->C:\Users\Alexsey\Desktop\My project\apps-unified\android-kiosk\app\src\main\AndroidManifest.xml:7:22-78
+15        android:maxSdkVersion="28" />
+15-->C:\Users\Alexsey\Desktop\My project\apps-unified\android-kiosk\app\src\main\AndroidManifest.xml:8:9-35
+16    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+16-->C:\Users\Alexsey\Desktop\My project\apps-unified\android-kiosk\app\src\main\AndroidManifest.xml:9:5-11:38
+16-->C:\Users\Alexsey\Desktop\My project\apps-unified\android-kiosk\app\src\main\AndroidManifest.xml:10:9-61
+17
+18    <!-- Legacy Bluetooth (API < 31) -->
+19    <uses-permission
+19-->C:\Users\Alexsey\Desktop\My project\apps-unified\android-kiosk\app\src\main\AndroidManifest.xml:14:5-95
+20        android:name="android.permission.BLUETOOTH"
+20-->C:\Users\Alexsey\Desktop\My project\apps-unified\android-kiosk\app\src\main\AndroidManifest.xml:14:22-65
+21        android:maxSdkVersion="30" />
+21-->C:\Users\Alexsey\Desktop\My project\apps-unified\android-kiosk\app\src\main\AndroidManifest.xml:14:66-92
+22    <uses-permission
+22-->C:\Users\Alexsey\Desktop\My project\apps-unified\android-kiosk\app\src\main\AndroidManifest.xml:15:5-101
+23        android:name="android.permission.BLUETOOTH_ADMIN"
+23-->C:\Users\Alexsey\Desktop\My project\apps-unified\android-kiosk\app\src\main\AndroidManifest.xml:15:22-71
+24        android:maxSdkVersion="30" />
+24-->C:\Users\Alexsey\Desktop\My project\apps-unified\android-kiosk\app\src\main\AndroidManifest.xml:15:72-98
+25
+26    <!-- New Bluetooth (API 31+) -->
+27    <uses-permission android:name="android.permission.BLUETOOTH_CONNECT" />
+27-->C:\Users\Alexsey\Desktop\My project\apps-unified\android-kiosk\app\src\main\AndroidManifest.xml:18:5-76
+27-->C:\Users\Alexsey\Desktop\My project\apps-unified\android-kiosk\app\src\main\AndroidManifest.xml:18:22-73
+28    <uses-permission
+28-->C:\Users\Alexsey\Desktop\My project\apps-unified\android-kiosk\app\src\main\AndroidManifest.xml:19:5-20:58
+29        android:name="android.permission.BLUETOOTH_SCAN"
+29-->C:\Users\Alexsey\Desktop\My project\apps-unified\android-kiosk\app\src\main\AndroidManifest.xml:19:22-70
+30        android:usesPermissionFlags="neverForLocation" />
+30-->C:\Users\Alexsey\Desktop\My project\apps-unified\android-kiosk\app\src\main\AndroidManifest.xml:20:9-55
+31
+32    <!-- Location (required for Bluetooth scan on API levels < 31) -->
+33    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+33-->C:\Users\Alexsey\Desktop\My project\apps-unified\android-kiosk\app\src\main\AndroidManifest.xml:23:5-79
+33-->C:\Users\Alexsey\Desktop\My project\apps-unified\android-kiosk\app\src\main\AndroidManifest.xml:23:22-76
+34    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+34-->C:\Users\Alexsey\Desktop\My project\apps-unified\android-kiosk\app\src\main\AndroidManifest.xml:24:5-81
+34-->C:\Users\Alexsey\Desktop\My project\apps-unified\android-kiosk\app\src\main\AndroidManifest.xml:24:22-78
+35
+36    <!-- Bluetooth features -->
+37    <uses-feature
+37-->C:\Users\Alexsey\Desktop\My project\apps-unified\android-kiosk\app\src\main\AndroidManifest.xml:27:5-88
+38        android:name="android.hardware.bluetooth"
+38-->C:\Users\Alexsey\Desktop\My project\apps-unified\android-kiosk\app\src\main\AndroidManifest.xml:27:19-60
+39        android:required="false" />
+39-->C:\Users\Alexsey\Desktop\My project\apps-unified\android-kiosk\app\src\main\AndroidManifest.xml:27:61-85
+40    <uses-feature
+40-->C:\Users\Alexsey\Desktop\My project\apps-unified\android-kiosk\app\src\main\AndroidManifest.xml:28:5-91
+41        android:name="android.hardware.bluetooth_le"
+41-->C:\Users\Alexsey\Desktop\My project\apps-unified\android-kiosk\app\src\main\AndroidManifest.xml:28:19-63
+42        android:required="true" />
+42-->C:\Users\Alexsey\Desktop\My project\apps-unified\android-kiosk\app\src\main\AndroidManifest.xml:28:64-88
+43
+44    <uses-permission android:name="android.permission.BLUETOOTH_ADVERTISE" />
+44-->[:serialport] C:\Users\Alexsey\Desktop\My project\apps-unified\android-kiosk\serialport\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:15:5-78
+44-->[:serialport] C:\Users\Alexsey\Desktop\My project\apps-unified\android-kiosk\serialport\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:15:22-75
+45
+46    <uses-feature android:name="android.hardware.location.gps" />
+46-->[:serialport] C:\Users\Alexsey\Desktop\My project\apps-unified\android-kiosk\serialport\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:17:5-66
+46-->[:serialport] C:\Users\Alexsey\Desktop\My project\apps-unified\android-kiosk\serialport\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:17:19-63
+47
+48    <queries>
+48-->[com.blankj:utilcodex:1.31.1] C:\Users\Alexsey\.gradle\caches\transforms-4\ada803ec7e5e6e463201b7f614d7ba34\transformed\utilcodex-1.31.1\AndroidManifest.xml:9:5-16:15
+49        <intent>
+49-->[com.blankj:utilcodex:1.31.1] C:\Users\Alexsey\.gradle\caches\transforms-4\ada803ec7e5e6e463201b7f614d7ba34\transformed\utilcodex-1.31.1\AndroidManifest.xml:10:9-12:18
+50            <action android:name="android.intent.action.MAIN" />
+50-->C:\Users\Alexsey\Desktop\My project\apps-unified\android-kiosk\app\src\main\AndroidManifest.xml:44:17-69
+50-->C:\Users\Alexsey\Desktop\My project\apps-unified\android-kiosk\app\src\main\AndroidManifest.xml:44:25-66
+51        </intent>
+52        <intent>
+52-->[com.blankj:utilcodex:1.31.1] C:\Users\Alexsey\.gradle\caches\transforms-4\ada803ec7e5e6e463201b7f614d7ba34\transformed\utilcodex-1.31.1\AndroidManifest.xml:13:9-15:18
+53            <action android:name="android.intent.action.VIEW" />
+53-->[com.blankj:utilcodex:1.31.1] C:\Users\Alexsey\.gradle\caches\transforms-4\ada803ec7e5e6e463201b7f614d7ba34\transformed\utilcodex-1.31.1\AndroidManifest.xml:14:13-65
+53-->[com.blankj:utilcodex:1.31.1] C:\Users\Alexsey\.gradle\caches\transforms-4\ada803ec7e5e6e463201b7f614d7ba34\transformed\utilcodex-1.31.1\AndroidManifest.xml:14:21-62
+54        </intent>
+55    </queries>
+56
+57    <permission
+57-->[androidx.core:core:1.13.1] C:\Users\Alexsey\.gradle\caches\transforms-4\a310b155118595bfa58675b53a2e9300\transformed\core-1.13.1\AndroidManifest.xml:22:5-24:47
+58        android:name="com.selfservice.kiosk.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+58-->[androidx.core:core:1.13.1] C:\Users\Alexsey\.gradle\caches\transforms-4\a310b155118595bfa58675b53a2e9300\transformed\core-1.13.1\AndroidManifest.xml:23:9-81
+59        android:protectionLevel="signature" />
+59-->[androidx.core:core:1.13.1] C:\Users\Alexsey\.gradle\caches\transforms-4\a310b155118595bfa58675b53a2e9300\transformed\core-1.13.1\AndroidManifest.xml:24:9-44
+60
+61    <uses-permission android:name="com.selfservice.kiosk.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+61-->[androidx.core:core:1.13.1] C:\Users\Alexsey\.gradle\caches\transforms-4\a310b155118595bfa58675b53a2e9300\transformed\core-1.13.1\AndroidManifest.xml:26:5-97
+61-->[androidx.core:core:1.13.1] C:\Users\Alexsey\.gradle\caches\transforms-4\a310b155118595bfa58675b53a2e9300\transformed\core-1.13.1\AndroidManifest.xml:26:22-94
+62
+63    <application
+63-->C:\Users\Alexsey\Desktop\My project\apps-unified\android-kiosk\app\src\main\AndroidManifest.xml:30:5-49:19
+64        android:allowBackup="true"
+64-->C:\Users\Alexsey\Desktop\My project\apps-unified\android-kiosk\app\src\main\AndroidManifest.xml:31:9-35
+65        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+65-->[androidx.core:core:1.13.1] C:\Users\Alexsey\.gradle\caches\transforms-4\a310b155118595bfa58675b53a2e9300\transformed\core-1.13.1\AndroidManifest.xml:28:18-86
+66        android:extractNativeLibs="false"
+67        android:hardwareAccelerated="true"
+67-->C:\Users\Alexsey\Desktop\My project\apps-unified\android-kiosk\app\src\main\AndroidManifest.xml:36:9-43
+68        android:icon="@mipmap/ic_launcher"
+68-->C:\Users\Alexsey\Desktop\My project\apps-unified\android-kiosk\app\src\main\AndroidManifest.xml:32:9-43
+69        android:label="@string/app_name"
+69-->C:\Users\Alexsey\Desktop\My project\apps-unified\android-kiosk\app\src\main\AndroidManifest.xml:33:9-41
+70        android:theme="@style/AppTheme"
+70-->C:\Users\Alexsey\Desktop\My project\apps-unified\android-kiosk\app\src\main\AndroidManifest.xml:34:9-40
+71        android:usesCleartextTraffic="true" >
+71-->C:\Users\Alexsey\Desktop\My project\apps-unified\android-kiosk\app\src\main\AndroidManifest.xml:35:9-44
+72        <activity
+72-->C:\Users\Alexsey\Desktop\My project\apps-unified\android-kiosk\app\src\main\AndroidManifest.xml:38:9-47:20
+73            android:name="com.selfservice.kiosk.MainActivity"
+73-->C:\Users\Alexsey\Desktop\My project\apps-unified\android-kiosk\app\src\main\AndroidManifest.xml:39:13-41
+74            android:configChanges="orientation|screenSize|keyboardHidden"
+74-->C:\Users\Alexsey\Desktop\My project\apps-unified\android-kiosk\app\src\main\AndroidManifest.xml:40:13-74
+75            android:exported="true"
+75-->C:\Users\Alexsey\Desktop\My project\apps-unified\android-kiosk\app\src\main\AndroidManifest.xml:41:13-36
+76            android:screenOrientation="portrait" >
+76-->C:\Users\Alexsey\Desktop\My project\apps-unified\android-kiosk\app\src\main\AndroidManifest.xml:42:13-49
+77            <intent-filter>
+77-->C:\Users\Alexsey\Desktop\My project\apps-unified\android-kiosk\app\src\main\AndroidManifest.xml:43:13-46:29
+78                <action android:name="android.intent.action.MAIN" />
+78-->C:\Users\Alexsey\Desktop\My project\apps-unified\android-kiosk\app\src\main\AndroidManifest.xml:44:17-69
+78-->C:\Users\Alexsey\Desktop\My project\apps-unified\android-kiosk\app\src\main\AndroidManifest.xml:44:25-66
+79
+80                <category android:name="android.intent.category.LAUNCHER" />
+80-->C:\Users\Alexsey\Desktop\My project\apps-unified\android-kiosk\app\src\main\AndroidManifest.xml:45:17-77
+80-->C:\Users\Alexsey\Desktop\My project\apps-unified\android-kiosk\app\src\main\AndroidManifest.xml:45:27-74
+81            </intent-filter>
+82        </activity>
+83
+84        <service android:name="world.shanya.serialport.service.SerialPortService" >
+84-->[:serialport] C:\Users\Alexsey\Desktop\My project\apps-unified\android-kiosk\serialport\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:30:9-31:19
+84-->[:serialport] C:\Users\Alexsey\Desktop\My project\apps-unified\android-kiosk\serialport\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:30:18-82
+85        </service>
+86        <service android:name="world.shanya.serialport.server.SerialPortServerService" />
+86-->[:serialport] C:\Users\Alexsey\Desktop\My project\apps-unified\android-kiosk\serialport\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:32:9-90
+86-->[:serialport] C:\Users\Alexsey\Desktop\My project\apps-unified\android-kiosk\serialport\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:32:18-87
+87
+88        <activity android:name="world.shanya.serialport.discovery.DiscoveryActivity" />
+88-->[:serialport] C:\Users\Alexsey\Desktop\My project\apps-unified\android-kiosk\serialport\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:34:9-88
+88-->[:serialport] C:\Users\Alexsey\Desktop\My project\apps-unified\android-kiosk\serialport\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:34:19-85
+89        <activity
+89-->[com.blankj:utilcodex:1.31.1] C:\Users\Alexsey\.gradle\caches\transforms-4\ada803ec7e5e6e463201b7f614d7ba34\transformed\utilcodex-1.31.1\AndroidManifest.xml:19:9-24:75
+90            android:name="com.blankj.utilcode.util.UtilsTransActivity4MainProcess"
+90-->[com.blankj:utilcodex:1.31.1] C:\Users\Alexsey\.gradle\caches\transforms-4\ada803ec7e5e6e463201b7f614d7ba34\transformed\utilcodex-1.31.1\AndroidManifest.xml:20:13-83
+91            android:configChanges="orientation|keyboardHidden|screenSize"
+91-->[com.blankj:utilcodex:1.31.1] C:\Users\Alexsey\.gradle\caches\transforms-4\ada803ec7e5e6e463201b7f614d7ba34\transformed\utilcodex-1.31.1\AndroidManifest.xml:21:13-74
+92            android:exported="false"
+92-->[com.blankj:utilcodex:1.31.1] C:\Users\Alexsey\.gradle\caches\transforms-4\ada803ec7e5e6e463201b7f614d7ba34\transformed\utilcodex-1.31.1\AndroidManifest.xml:22:13-37
+93            android:theme="@style/ActivityTranslucent"
+93-->[com.blankj:utilcodex:1.31.1] C:\Users\Alexsey\.gradle\caches\transforms-4\ada803ec7e5e6e463201b7f614d7ba34\transformed\utilcodex-1.31.1\AndroidManifest.xml:23:13-55
+94            android:windowSoftInputMode="stateHidden|stateAlwaysHidden" />
+94-->[com.blankj:utilcodex:1.31.1] C:\Users\Alexsey\.gradle\caches\transforms-4\ada803ec7e5e6e463201b7f614d7ba34\transformed\utilcodex-1.31.1\AndroidManifest.xml:24:13-72
+95        <activity
+95-->[com.blankj:utilcodex:1.31.1] C:\Users\Alexsey\.gradle\caches\transforms-4\ada803ec7e5e6e463201b7f614d7ba34\transformed\utilcodex-1.31.1\AndroidManifest.xml:25:9-31:75
+96            android:name="com.blankj.utilcode.util.UtilsTransActivity"
+96-->[com.blankj:utilcodex:1.31.1] C:\Users\Alexsey\.gradle\caches\transforms-4\ada803ec7e5e6e463201b7f614d7ba34\transformed\utilcodex-1.31.1\AndroidManifest.xml:26:13-71
+97            android:configChanges="orientation|keyboardHidden|screenSize"
+97-->[com.blankj:utilcodex:1.31.1] C:\Users\Alexsey\.gradle\caches\transforms-4\ada803ec7e5e6e463201b7f614d7ba34\transformed\utilcodex-1.31.1\AndroidManifest.xml:27:13-74
+98            android:exported="false"
+98-->[com.blankj:utilcodex:1.31.1] C:\Users\Alexsey\.gradle\caches\transforms-4\ada803ec7e5e6e463201b7f614d7ba34\transformed\utilcodex-1.31.1\AndroidManifest.xml:28:13-37
+99            android:multiprocess="true"
+99-->[com.blankj:utilcodex:1.31.1] C:\Users\Alexsey\.gradle\caches\transforms-4\ada803ec7e5e6e463201b7f614d7ba34\transformed\utilcodex-1.31.1\AndroidManifest.xml:29:13-40
+100            android:theme="@style/ActivityTranslucent"
+100-->[com.blankj:utilcodex:1.31.1] C:\Users\Alexsey\.gradle\caches\transforms-4\ada803ec7e5e6e463201b7f614d7ba34\transformed\utilcodex-1.31.1\AndroidManifest.xml:30:13-55
+101            android:windowSoftInputMode="stateHidden|stateAlwaysHidden" />
+101-->[com.blankj:utilcodex:1.31.1] C:\Users\Alexsey\.gradle\caches\transforms-4\ada803ec7e5e6e463201b7f614d7ba34\transformed\utilcodex-1.31.1\AndroidManifest.xml:31:13-72
+102
+103        <provider
+103-->[com.blankj:utilcodex:1.31.1] C:\Users\Alexsey\.gradle\caches\transforms-4\ada803ec7e5e6e463201b7f614d7ba34\transformed\utilcodex-1.31.1\AndroidManifest.xml:33:9-41:20
+104            android:name="com.blankj.utilcode.util.UtilsFileProvider"
+104-->[com.blankj:utilcodex:1.31.1] C:\Users\Alexsey\.gradle\caches\transforms-4\ada803ec7e5e6e463201b7f614d7ba34\transformed\utilcodex-1.31.1\AndroidManifest.xml:34:13-70
+105            android:authorities="com.selfservice.kiosk.utilcode.fileprovider"
+105-->[com.blankj:utilcodex:1.31.1] C:\Users\Alexsey\.gradle\caches\transforms-4\ada803ec7e5e6e463201b7f614d7ba34\transformed\utilcodex-1.31.1\AndroidManifest.xml:35:13-73
+106            android:exported="false"
+106-->[com.blankj:utilcodex:1.31.1] C:\Users\Alexsey\.gradle\caches\transforms-4\ada803ec7e5e6e463201b7f614d7ba34\transformed\utilcodex-1.31.1\AndroidManifest.xml:36:13-37
+107            android:grantUriPermissions="true" >
+107-->[com.blankj:utilcodex:1.31.1] C:\Users\Alexsey\.gradle\caches\transforms-4\ada803ec7e5e6e463201b7f614d7ba34\transformed\utilcodex-1.31.1\AndroidManifest.xml:37:13-47
+108            <meta-data
+108-->[com.blankj:utilcodex:1.31.1] C:\Users\Alexsey\.gradle\caches\transforms-4\ada803ec7e5e6e463201b7f614d7ba34\transformed\utilcodex-1.31.1\AndroidManifest.xml:38:13-40:68
+109                android:name="android.support.FILE_PROVIDER_PATHS"
+109-->[com.blankj:utilcodex:1.31.1] C:\Users\Alexsey\.gradle\caches\transforms-4\ada803ec7e5e6e463201b7f614d7ba34\transformed\utilcodex-1.31.1\AndroidManifest.xml:39:17-67
+110                android:resource="@xml/util_code_provider_paths" />
+110-->[com.blankj:utilcodex:1.31.1] C:\Users\Alexsey\.gradle\caches\transforms-4\ada803ec7e5e6e463201b7f614d7ba34\transformed\utilcodex-1.31.1\AndroidManifest.xml:40:17-65
+111        </provider>
+112
+113        <service
+113-->[com.blankj:utilcodex:1.31.1] C:\Users\Alexsey\.gradle\caches\transforms-4\ada803ec7e5e6e463201b7f614d7ba34\transformed\utilcodex-1.31.1\AndroidManifest.xml:43:9-49:19
+114            android:name="com.blankj.utilcode.util.MessengerUtils$ServerService"
+114-->[com.blankj:utilcodex:1.31.1] C:\Users\Alexsey\.gradle\caches\transforms-4\ada803ec7e5e6e463201b7f614d7ba34\transformed\utilcodex-1.31.1\AndroidManifest.xml:44:13-81
+115            android:exported="false" >
+115-->[com.blankj:utilcodex:1.31.1] C:\Users\Alexsey\.gradle\caches\transforms-4\ada803ec7e5e6e463201b7f614d7ba34\transformed\utilcodex-1.31.1\AndroidManifest.xml:45:13-37
+116            <intent-filter>
+116-->[com.blankj:utilcodex:1.31.1] C:\Users\Alexsey\.gradle\caches\transforms-4\ada803ec7e5e6e463201b7f614d7ba34\transformed\utilcodex-1.31.1\AndroidManifest.xml:46:13-48:29
+117                <action android:name="com.selfservice.kiosk.messenger" />
+117-->[com.blankj:utilcodex:1.31.1] C:\Users\Alexsey\.gradle\caches\transforms-4\ada803ec7e5e6e463201b7f614d7ba34\transformed\utilcodex-1.31.1\AndroidManifest.xml:47:17-69
+117-->[com.blankj:utilcodex:1.31.1] C:\Users\Alexsey\.gradle\caches\transforms-4\ada803ec7e5e6e463201b7f614d7ba34\transformed\utilcodex-1.31.1\AndroidManifest.xml:47:25-66
+118            </intent-filter>
+119        </service>
+120
+121        <provider
+121-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Alexsey\.gradle\caches\transforms-4\9c338641084c861c71fab80cfab25553\transformed\emoji2-1.3.0\AndroidManifest.xml:24:9-32:20
+122            android:name="androidx.startup.InitializationProvider"
+122-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Alexsey\.gradle\caches\transforms-4\9c338641084c861c71fab80cfab25553\transformed\emoji2-1.3.0\AndroidManifest.xml:25:13-67
+123            android:authorities="com.selfservice.kiosk.androidx-startup"
+123-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Alexsey\.gradle\caches\transforms-4\9c338641084c861c71fab80cfab25553\transformed\emoji2-1.3.0\AndroidManifest.xml:26:13-68
+124            android:exported="false" >
+124-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Alexsey\.gradle\caches\transforms-4\9c338641084c861c71fab80cfab25553\transformed\emoji2-1.3.0\AndroidManifest.xml:27:13-37
+125            <meta-data
+125-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Alexsey\.gradle\caches\transforms-4\9c338641084c861c71fab80cfab25553\transformed\emoji2-1.3.0\AndroidManifest.xml:29:13-31:52
+126                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+126-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Alexsey\.gradle\caches\transforms-4\9c338641084c861c71fab80cfab25553\transformed\emoji2-1.3.0\AndroidManifest.xml:30:17-75
+127                android:value="androidx.startup" />
+127-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Alexsey\.gradle\caches\transforms-4\9c338641084c861c71fab80cfab25553\transformed\emoji2-1.3.0\AndroidManifest.xml:31:17-49
+128            <meta-data
+128-->[androidx.lifecycle:lifecycle-process:2.8.4] C:\Users\Alexsey\.gradle\caches\transforms-4\c166295bcc5645aff37e6aca8470e8bf\transformed\lifecycle-process-2.8.4\AndroidManifest.xml:29:13-31:52
+129                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+129-->[androidx.lifecycle:lifecycle-process:2.8.4] C:\Users\Alexsey\.gradle\caches\transforms-4\c166295bcc5645aff37e6aca8470e8bf\transformed\lifecycle-process-2.8.4\AndroidManifest.xml:30:17-78
+130                android:value="androidx.startup" />
+130-->[androidx.lifecycle:lifecycle-process:2.8.4] C:\Users\Alexsey\.gradle\caches\transforms-4\c166295bcc5645aff37e6aca8470e8bf\transformed\lifecycle-process-2.8.4\AndroidManifest.xml:31:17-49
+131            <meta-data
+131-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Alexsey\.gradle\caches\transforms-4\3f9b0c6097268aeadfb0d0454654c426\transformed\profileinstaller-1.3.1\AndroidManifest.xml:29:13-31:52
+132                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+132-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Alexsey\.gradle\caches\transforms-4\3f9b0c6097268aeadfb0d0454654c426\transformed\profileinstaller-1.3.1\AndroidManifest.xml:30:17-85
+133                android:value="androidx.startup" />
+133-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Alexsey\.gradle\caches\transforms-4\3f9b0c6097268aeadfb0d0454654c426\transformed\profileinstaller-1.3.1\AndroidManifest.xml:31:17-49
+134        </provider>
+135
+136        <receiver
+136-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Alexsey\.gradle\caches\transforms-4\3f9b0c6097268aeadfb0d0454654c426\transformed\profileinstaller-1.3.1\AndroidManifest.xml:34:9-52:20
+137            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+137-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Alexsey\.gradle\caches\transforms-4\3f9b0c6097268aeadfb0d0454654c426\transformed\profileinstaller-1.3.1\AndroidManifest.xml:35:13-76
+138            android:directBootAware="false"
+138-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Alexsey\.gradle\caches\transforms-4\3f9b0c6097268aeadfb0d0454654c426\transformed\profileinstaller-1.3.1\AndroidManifest.xml:36:13-44
+139            android:enabled="true"
+139-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Alexsey\.gradle\caches\transforms-4\3f9b0c6097268aeadfb0d0454654c426\transformed\profileinstaller-1.3.1\AndroidManifest.xml:37:13-35
+140            android:exported="true"
+140-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Alexsey\.gradle\caches\transforms-4\3f9b0c6097268aeadfb0d0454654c426\transformed\profileinstaller-1.3.1\AndroidManifest.xml:38:13-36
+141            android:permission="android.permission.DUMP" >
+141-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Alexsey\.gradle\caches\transforms-4\3f9b0c6097268aeadfb0d0454654c426\transformed\profileinstaller-1.3.1\AndroidManifest.xml:39:13-57
+142            <intent-filter>
+142-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Alexsey\.gradle\caches\transforms-4\3f9b0c6097268aeadfb0d0454654c426\transformed\profileinstaller-1.3.1\AndroidManifest.xml:40:13-42:29
+143                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+143-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Alexsey\.gradle\caches\transforms-4\3f9b0c6097268aeadfb0d0454654c426\transformed\profileinstaller-1.3.1\AndroidManifest.xml:41:17-91
+143-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Alexsey\.gradle\caches\transforms-4\3f9b0c6097268aeadfb0d0454654c426\transformed\profileinstaller-1.3.1\AndroidManifest.xml:41:25-88
+144            </intent-filter>
+145            <intent-filter>
+145-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Alexsey\.gradle\caches\transforms-4\3f9b0c6097268aeadfb0d0454654c426\transformed\profileinstaller-1.3.1\AndroidManifest.xml:43:13-45:29
+146                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+146-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Alexsey\.gradle\caches\transforms-4\3f9b0c6097268aeadfb0d0454654c426\transformed\profileinstaller-1.3.1\AndroidManifest.xml:44:17-85
+146-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Alexsey\.gradle\caches\transforms-4\3f9b0c6097268aeadfb0d0454654c426\transformed\profileinstaller-1.3.1\AndroidManifest.xml:44:25-82
+147            </intent-filter>
+148            <intent-filter>
+148-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Alexsey\.gradle\caches\transforms-4\3f9b0c6097268aeadfb0d0454654c426\transformed\profileinstaller-1.3.1\AndroidManifest.xml:46:13-48:29
+149                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+149-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Alexsey\.gradle\caches\transforms-4\3f9b0c6097268aeadfb0d0454654c426\transformed\profileinstaller-1.3.1\AndroidManifest.xml:47:17-88
+149-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Alexsey\.gradle\caches\transforms-4\3f9b0c6097268aeadfb0d0454654c426\transformed\profileinstaller-1.3.1\AndroidManifest.xml:47:25-85
+150            </intent-filter>
+151            <intent-filter>
+151-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Alexsey\.gradle\caches\transforms-4\3f9b0c6097268aeadfb0d0454654c426\transformed\profileinstaller-1.3.1\AndroidManifest.xml:49:13-51:29
+152                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+152-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Alexsey\.gradle\caches\transforms-4\3f9b0c6097268aeadfb0d0454654c426\transformed\profileinstaller-1.3.1\AndroidManifest.xml:50:17-95
+152-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Alexsey\.gradle\caches\transforms-4\3f9b0c6097268aeadfb0d0454654c426\transformed\profileinstaller-1.3.1\AndroidManifest.xml:50:25-92
+153            </intent-filter>
+154        </receiver>
+155    </application>
+156
+157</manifest>

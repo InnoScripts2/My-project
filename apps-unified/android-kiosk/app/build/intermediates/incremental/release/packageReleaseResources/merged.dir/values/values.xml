@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="ic_launcher_background">#FF10152A</color>
+    <string name="app_name">Автосервис самообслуживания</string>
+    <string name="kiosk_url">https://innoscripts2.github.io/my-own-service/</string>
+    <string name="kiosk_url_dev">http://10.0.2.2:8080/</string>
+    <string name="kiosk_url_fallback">http://31.31.197.40/</string>
+    <style name="AppTheme" parent="android:Theme.Material.Light.NoActionBar">
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+</resources>

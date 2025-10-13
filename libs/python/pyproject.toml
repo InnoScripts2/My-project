@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "selfservice-diagnostics"
+version = "0.0.1"
+description = "Diagnostics analytics toolkit for the self-service kiosk."
+authors = [{name = "SelfService Team"}]
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = []
+
+[project.optional-dependencies]
+dev = ["pytest>=8.3", "mypy>=1.10", "ruff>=0.6"]
+
+[tool.setuptools.packages.find]
+where = ["packages"]

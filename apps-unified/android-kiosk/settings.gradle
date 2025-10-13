@@ -1,0 +1,4 @@
+rootProject.name = "AndroidKiosk"
+include ':app'
+include ':serialport'
+include ':diagnostics-core'
