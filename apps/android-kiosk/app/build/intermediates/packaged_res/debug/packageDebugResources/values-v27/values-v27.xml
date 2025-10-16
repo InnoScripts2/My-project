@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppTheme" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@color/diagnostics_background</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@color/diagnostics_background</item>
+        <item name="android:navigationBarDividerColor">@color/diagnostics_divider</item>
+        <item name="android:textColorPrimary">@color/diagnostics_text_primary</item>
+        <item name="android:textColorSecondary">@color/diagnostics_text_secondary</item>
+        <item name="android:colorAccent">@color/diagnostics_accent</item>
+        <item name="colorPrimary">@color/diagnostics_accent</item>
+        <item name="colorPrimaryVariant">@color/diagnostics_accent</item>
+        <item name="colorSecondary">@color/diagnostics_accent</item>
+        <item name="colorOnPrimary">@color/diagnostics_text_primary</item>
+        <item name="colorOnSecondary">@color/diagnostics_text_primary</item>
+        <item name="colorSurface">@color/diagnostics_card_background</item>
+        <item name="colorOnSurface">@color/diagnostics_text_primary</item>
+        <item name="android:colorBackground">@color/diagnostics_background</item>
+    </style>
+</resources>

@@ -1,0 +1,63 @@
+Start testing: Oct 14 00:54 RTZ 8 (çèìà)
+----------------------------------------------------------
+1/4 Testing: passthru_session_test
+1/4 Test: passthru_session_test
+Command: "C:/Users/Alexsey/Desktop/My project/build/cpp-tests/tests/Debug/passthru_session_test.exe"
+Directory: C:/Users/Alexsey/Desktop/My project/build/cpp-tests/tests
+"passthru_session_test" start time: Oct 14 00:54 RTZ 8 (çèìà)
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.30 sec
+----------------------------------------------------------
+Test Passed.
+"passthru_session_test" end time: Oct 14 00:54 RTZ 8 (çèìà)
+"passthru_session_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/4 Testing: loopback_transport_test
+2/4 Test: loopback_transport_test
+Command: "C:/Users/Alexsey/Desktop/My project/build/cpp-tests/tests/Debug/loopback_transport_test.exe"
+Directory: C:/Users/Alexsey/Desktop/My project/build/cpp-tests/tests
+"loopback_transport_test" start time: Oct 14 00:54 RTZ 8 (çèìà)
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.33 sec
+----------------------------------------------------------
+Test Passed.
+"loopback_transport_test" end time: Oct 14 00:54 RTZ 8 (çèìà)
+"loopback_transport_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/4 Testing: passthru_core_test
+3/4 Test: passthru_core_test
+Command: "C:/Users/Alexsey/Desktop/My project/build/cpp-tests/tests/Debug/passthru_core_test.exe"
+Directory: C:/Users/Alexsey/Desktop/My project/build/cpp-tests/tests
+"passthru_core_test" start time: Oct 14 00:54 RTZ 8 (çèìà)
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.28 sec
+----------------------------------------------------------
+Test Passed.
+"passthru_core_test" end time: Oct 14 00:54 RTZ 8 (çèìà)
+"passthru_core_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+4/4 Testing: passthru_exports_test
+4/4 Test: passthru_exports_test
+Command: "C:/Users/Alexsey/Desktop/My project/build/cpp-tests/tests/Debug/passthru_exports_test.exe"
+Directory: C:/Users/Alexsey/Desktop/My project/build/cpp-tests/tests
+"passthru_exports_test" start time: Oct 14 00:54 RTZ 8 (çèìà)
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.28 sec
+----------------------------------------------------------
+Test Passed.
+"passthru_exports_test" end time: Oct 14 00:54 RTZ 8 (çèìà)
+"passthru_exports_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Oct 14 00:54 RTZ 8 (çèìà)

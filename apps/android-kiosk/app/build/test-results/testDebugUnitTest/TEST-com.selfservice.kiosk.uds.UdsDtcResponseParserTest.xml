@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.selfservice.kiosk.uds.UdsDtcResponseParserTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2025-10-16T00:00:20" hostname="DESKTOP-0B9FJSD" time="0.001">
+  <properties/>
+  <testcase name="parse_returnsRecordsForPositivePayload" classname="com.selfservice.kiosk.uds.UdsDtcResponseParserTest" time="0.0"/>
+  <testcase name="parse_throwsOnUnexpectedHeader" classname="com.selfservice.kiosk.uds.UdsDtcResponseParserTest" time="0.0"/>
+  <testcase name="parse_returnsEmptyWhenCountZero" classname="com.selfservice.kiosk.uds.UdsDtcResponseParserTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

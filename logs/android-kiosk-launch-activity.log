@@ -1,0 +1,4 @@
+--------- beginning of main
+10-15 17:12:49.795 I/MainActivity(22981): onCreate
+10-15 17:12:49.805 I/MainActivity(22981): onStart
+10-15 17:12:49.831 I/MainActivity(22981): onResume

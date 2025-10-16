@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.selfservice.kiosk.infrastructure.config.BleAdapterConfigParserTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2025-10-16T00:00:20" hostname="DESKTOP-0B9FJSD" time="0.008">
+  <properties/>
+  <testcase name="parsesDefaultBrandAndVehicleMappings" classname="com.selfservice.kiosk.infrastructure.config.BleAdapterConfigParserTest" time="0.007"/>
+  <testcase name="ignoresEntriesWithUnknownMode" classname="com.selfservice.kiosk.infrastructure.config.BleAdapterConfigParserTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

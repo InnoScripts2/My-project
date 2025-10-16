@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.selfservice.kiosk.diagnostics.passthru.NativePassThruTransportTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2025-10-14T12:57:18" hostname="DESKTOP-0B9FJSD" time="0.111">
+  <properties/>
+  <testcase name="readBatteryState without active channel fails with adapter unavailable" classname="com.selfservice.kiosk.diagnostics.passthru.NativePassThruTransportTest" time="0.095"/>
+  <testcase name="write forwards per frame tx flags" classname="com.selfservice.kiosk.diagnostics.passthru.NativePassThruTransportTest" time="0.006"/>
+  <testcase name="native timeout error maps to diagnostics timeout" classname="com.selfservice.kiosk.diagnostics.passthru.NativePassThruTransportTest" time="0.006"/>
+  <testcase name="open connect and lifecycle operations delegate to bridge" classname="com.selfservice.kiosk.diagnostics.passthru.NativePassThruTransportTest" time="0.004"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

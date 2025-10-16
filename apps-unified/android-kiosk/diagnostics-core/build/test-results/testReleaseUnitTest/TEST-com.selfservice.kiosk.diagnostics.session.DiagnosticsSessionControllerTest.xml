@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.selfservice.kiosk.diagnostics.session.DiagnosticsSessionControllerTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2025-10-14T12:57:19" hostname="DESKTOP-0B9FJSD" time="0.019">
+  <properties/>
+  <testcase name="stopSession closes adapter and resets state" classname="com.selfservice.kiosk.diagnostics.session.DiagnosticsSessionControllerTest" time="0.011"/>
+  <testcase name="startSession with extended addressing installs flow and pass filters" classname="com.selfservice.kiosk.diagnostics.session.DiagnosticsSessionControllerTest" time="0.003"/>
+  <testcase name="startSession opens adapter and establishes channel" classname="com.selfservice.kiosk.diagnostics.session.DiagnosticsSessionControllerTest" time="0.001"/>
+  <testcase name="startSession after existing session closes previous adapter" classname="com.selfservice.kiosk.diagnostics.session.DiagnosticsSessionControllerTest" time="0.001"/>
+  <testcase name="startSession reports failure when adapter unavailable" classname="com.selfservice.kiosk.diagnostics.session.DiagnosticsSessionControllerTest" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

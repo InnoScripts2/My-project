@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.selfservice.kiosk.report.DiagnosticReportBuilderTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2025-10-16T00:00:20" hostname="DESKTOP-0B9FJSD" time="0.041">
+  <properties/>
+  <testcase name="build_includesPaymentSectionInOutputs" classname="com.selfservice.kiosk.report.DiagnosticReportBuilderTest" time="0.033"/>
+  <testcase name="build_appliesOverrideTimestampAndLocale" classname="com.selfservice.kiosk.report.DiagnosticReportBuilderTest" time="0.008"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

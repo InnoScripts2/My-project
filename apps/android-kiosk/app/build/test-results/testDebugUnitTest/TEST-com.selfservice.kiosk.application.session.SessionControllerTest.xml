@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.selfservice.kiosk.application.session.SessionControllerTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2025-10-16T00:00:20" hostname="DESKTOP-0B9FJSD" time="0.024">
+  <properties/>
+  <testcase name="fail session stores error" classname="com.selfservice.kiosk.application.session.SessionControllerTest" time="0.002"/>
+  <testcase name="recordBleConnection updates status and emits events" classname="com.selfservice.kiosk.application.session.SessionControllerTest" time="0.002"/>
+  <testcase name="recordScanProgress updates status and emits event" classname="com.selfservice.kiosk.application.session.SessionControllerTest" time="0.004"/>
+  <testcase name="createSession stores session and publishes event" classname="com.selfservice.kiosk.application.session.SessionControllerTest" time="0.002"/>
+  <testcase name="complete session transitions to completed" classname="com.selfservice.kiosk.application.session.SessionControllerTest" time="0.001"/>
+  <testcase name="attach payment intent moves session to awaiting payment" classname="com.selfservice.kiosk.application.session.SessionControllerTest" time="0.012"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

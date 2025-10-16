@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.selfservice.kiosk.diagnostics.passthru.PassThruClientTest" tests="9" skipped="0" failures="0" errors="0" timestamp="2025-10-14T12:57:19" hostname="DESKTOP-0B9FJSD" time="0.045">
+  <properties/>
+  <testcase name="open fails when adapter already present" classname="com.selfservice.kiosk.diagnostics.passthru.PassThruClientTest" time="0.008"/>
+  <testcase name="send propagates timeout as diagnostics exception" classname="com.selfservice.kiosk.diagnostics.passthru.PassThruClientTest" time="0.011"/>
+  <testcase name="open establishes adapter and channel lifecycle" classname="com.selfservice.kiosk.diagnostics.passthru.PassThruClientTest" time="0.003"/>
+  <testcase name="receive returns empty when read times out" classname="com.selfservice.kiosk.diagnostics.passthru.PassThruClientTest" time="0.005"/>
+  <testcase name="session policy can disable automatic recovery" classname="com.selfservice.kiosk.diagnostics.passthru.PassThruClientTest" time="0.003"/>
+  <testcase name="session policy triggers channel recovery after sequential timeouts" classname="com.selfservice.kiosk.diagnostics.passthru.PassThruClientTest" time="0.007"/>
+  <testcase name="establishChannel cleans up when configuration fails" classname="com.selfservice.kiosk.diagnostics.passthru.PassThruClientTest" time="0.002"/>
+  <testcase name="open propagates adapter unavailable error" classname="com.selfservice.kiosk.diagnostics.passthru.PassThruClientTest" time="0.001"/>
+  <testcase name="establishChannel applies requested configuration" classname="com.selfservice.kiosk.diagnostics.passthru.PassThruClientTest" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

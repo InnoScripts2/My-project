@@ -1,0 +1,28 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.selfservice.kiosk.app-mergeDebugResources-58:/values-v27/values-v27.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Alexsey\\Desktop\\My project\\apps\\android-kiosk\\app\\src\\main\\res\\values-v27\\styles.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "57",
+                        "endLines": "22",
+                        "endColumns": "12",
+                        "endOffsets": "1580"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "22",
+                        "endColumns": "12",
+                        "endOffsets": "1558"
+                    }
+                }
+            ]
+        }
+    ]
+}

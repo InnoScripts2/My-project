@@ -1,0 +1,9 @@
+C:/Users/Alexsey/Desktop/My project/build/cpp-tests/CMakeFiles/selfservice_obd.dir
+C:/Users/Alexsey/Desktop/My project/build/cpp-tests/CMakeFiles/RUN_TESTS.dir
+C:/Users/Alexsey/Desktop/My project/build/cpp-tests/CMakeFiles/ALL_BUILD.dir
+C:/Users/Alexsey/Desktop/My project/build/cpp-tests/CMakeFiles/ZERO_CHECK.dir
+C:/Users/Alexsey/Desktop/My project/build/cpp-tests/tests/CMakeFiles/passthru_session_test.dir
+C:/Users/Alexsey/Desktop/My project/build/cpp-tests/tests/CMakeFiles/loopback_transport_test.dir
+C:/Users/Alexsey/Desktop/My project/build/cpp-tests/tests/CMakeFiles/passthru_core_test.dir
+C:/Users/Alexsey/Desktop/My project/build/cpp-tests/tests/CMakeFiles/passthru_exports_test.dir
+C:/Users/Alexsey/Desktop/My project/build/cpp-tests/tests/CMakeFiles/RUN_TESTS.dir

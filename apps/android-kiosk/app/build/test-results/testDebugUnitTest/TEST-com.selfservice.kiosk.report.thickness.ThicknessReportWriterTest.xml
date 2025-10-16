@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.selfservice.kiosk.report.thickness.ThicknessReportWriterTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2025-10-16T00:00:20" hostname="DESKTOP-0B9FJSD" time="0.04">
+  <properties/>
+  <testcase name="write removes oldest files when exceeding retention limit" classname="com.selfservice.kiosk.report.thickness.ThicknessReportWriterTest" time="0.025"/>
+  <testcase name="write appends suffix when file with same name already exists" classname="com.selfservice.kiosk.report.thickness.ThicknessReportWriterTest" time="0.009"/>
+  <testcase name="write stores summary data in output file" classname="com.selfservice.kiosk.report.thickness.ThicknessReportWriterTest" time="0.006"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

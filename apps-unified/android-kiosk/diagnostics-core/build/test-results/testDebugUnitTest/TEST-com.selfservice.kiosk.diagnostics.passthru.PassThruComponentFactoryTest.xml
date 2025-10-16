@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.selfservice.kiosk.diagnostics.passthru.PassThruComponentFactoryTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2025-10-14T12:57:18" hostname="DESKTOP-0B9FJSD" time="0.078">
+  <properties/>
+  <testcase name="createClient wraps transport" classname="com.selfservice.kiosk.diagnostics.passthru.PassThruComponentFactoryTest" time="0.073"/>
+  <testcase name="createTransport falls back on missing native library" classname="com.selfservice.kiosk.diagnostics.passthru.PassThruComponentFactoryTest" time="0.002"/>
+  <testcase name="createTransport fails when fallback disabled" classname="com.selfservice.kiosk.diagnostics.passthru.PassThruComponentFactoryTest" time="0.001"/>
+  <testcase name="createTransport rethrows unexpected errors" classname="com.selfservice.kiosk.diagnostics.passthru.PassThruComponentFactoryTest" time="0.001"/>
+  <testcase name="createTransport returns native on success" classname="com.selfservice.kiosk.diagnostics.passthru.PassThruComponentFactoryTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
