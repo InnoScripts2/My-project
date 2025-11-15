@@ -300,7 +300,7 @@ npm run apk:doctor
 
 ### 5.2 Настройка kiosk_url
 
-Отредактировать `apps/android-kiosk/app/src/main/res/values/strings.xml`:
+Отредактировать `03-apps/02-application/android-kiosk/app/src/main/res/values/strings.xml`:
 
 ```xml
 <resources>
@@ -319,7 +319,7 @@ npm run apk:doctor
 npm run apk:build
 ```
 
-APK будет в `apps/android-kiosk/app/build/outputs/apk/debug/app-debug.apk`
+APK будет в `03-apps/02-application/android-kiosk/app/build/outputs/apk/debug/app-debug.apk`
 
 ### 5.4 Сборка Release APK
 
@@ -341,12 +341,12 @@ RELEASE_KEY_PASSWORD=your-password
 npm run apk:build:release
 ```
 
-APK будет в `apps/android-kiosk/app/build/outputs/apk/release/app-release.apk`
+APK будет в `03-apps/02-application/android-kiosk/app/build/outputs/apk/release/app-release.apk`
 
 ### 5.5 Установка на устройство
 
 ```bash
-adb install apps/android-kiosk/app/build/outputs/apk/debug/app-debug.apk
+adb install 03-apps/02-application/android-kiosk/app/build/outputs/apk/debug/app-debug.apk
 ```
 
 Или перенести APK на устройство и установить вручную.

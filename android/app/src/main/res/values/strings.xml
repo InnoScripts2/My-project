@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Автосервис самообслуживания</string>
+    <string name="kiosk_url">https://innoscripts2.github.io/my-own-service/</string>
+    <string name="kiosk_url_fallback">http://31.31.197.40/</string>
+    <string name="kiosk_url_dev">http://10.0.2.2:8080/</string>
+    <string name="kiosk_url_dialog_title">Настройка URL</string>
+    <string name="kiosk_url_dialog_message">Введите новый адрес для загрузки интерфейса</string>
+    <string name="bluetooth_prereq_missing_permissions">Предоставьте доступ к Bluetooth и
+        геолокации, чтобы продолжить диагностику.</string>
+    <string name="bluetooth_prereq_enable_bluetooth">Включите Bluetooth на устройстве, чтобы
+        подключиться к адаптеру.</string>
+    <string name="bluetooth_prereq_enable_location">Включите службы геолокации. Они необходимы для
+        поиска Bluetooth-устройств.</string>
+    <string name="bluetooth_prereq_ready">Все предпосылки выполнены. Диагностика доступна.</string>
+    <string name="bluetooth_prereq_retry_hint">Нажмите на сообщение, чтобы повторить проверку.</string>
+    <string name="bluetooth_prereq_retry_accessibility_action">Повторная проверка состояния
+        Bluetooth</string>
+</resources>

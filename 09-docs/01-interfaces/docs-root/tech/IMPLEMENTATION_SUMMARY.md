@@ -58,7 +58,7 @@ This implementation adds comprehensive support for:
 ### 2. Android Bluetooth Integration ✅
 
 #### Manifest Permissions
-- **Location:** `apps/android-kiosk/app/src/main/AndroidManifest.xml`
+- **Location:** `03-apps/02-application/android-kiosk/app/src/main/AndroidManifest.xml`
 - **Added:**
   - Legacy Bluetooth (API < 31): `BLUETOOTH`, `BLUETOOTH_ADMIN`
   - Modern Bluetooth (API 31+): `BLUETOOTH_CONNECT`, `BLUETOOTH_SCAN`
@@ -66,7 +66,7 @@ This implementation adds comprehensive support for:
   - Feature declarations: `bluetooth`, `bluetooth_le`
 
 #### Runtime Permission Handling
-- **Location:** `apps/android-kiosk/app/src/main/java/com/selfservice/kiosk/MainActivity.kt`
+- **Location:** `03-apps/02-application/android-kiosk/app/src/main/java/com/selfservice/kiosk/MainActivity.kt`
 - **Features:**
   - API-level aware permission array
   - User-friendly explanation dialog
@@ -77,7 +77,7 @@ This implementation adds comprehensive support for:
 ### 3. OBD-II Vehicle Profiles ✅
 
 #### Vehicle Profiles Module
-- **Location:** `apps/kiosk-agent/src/devices/obd/vehicleProfiles.ts` (11KB)
+- **Location:** `03-apps/02-application/kiosk-shell/agent/src/devices/obd/vehicleProfiles.ts` (11KB)
 - **Features:**
   - 10 OBD-II protocol configurations
   - Toyota/Lexus specific profiles (4 profiles)
@@ -209,8 +209,8 @@ This implementation adds comprehensive support for:
 ### Modified Files (5)
 1. `.env.example` — Added webhook secret
 2. `supabase/config.toml` — Added function config
-3. `apps/android-kiosk/app/src/main/AndroidManifest.xml` — Bluetooth permissions
-4. `apps/android-kiosk/app/src/main/java/com/selfservice/kiosk/MainActivity.kt` — Permission handling
+3. `03-apps/02-application/android-kiosk/app/src/main/AndroidManifest.xml` — Bluetooth permissions
+4. `03-apps/02-application/android-kiosk/app/src/main/java/com/selfservice/kiosk/MainActivity.kt` — Permission handling
 5. `apps/kiosk-frontend/service-worker.js` — Enhanced offline
 6. `README.md` — Updated docs and version
 

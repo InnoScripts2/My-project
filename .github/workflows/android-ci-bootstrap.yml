@@ -1,0 +1,49 @@
+name: Android CI Bootstrap
+
+on:
+    push:
+        branches:
+            - main
+            - develop
+            - sync/**
+        paths:
+            - "android/**"
+            - ".github/workflows/android-ci-bootstrap.yml"
+    pull_request:
+        branches:
+            - main
+            - develop
+        paths:
+            - "android/**"
+            - ".github/workflows/android-ci-bootstrap.yml"
+    workflow_dispatch:
+
+jobs:
+    gradle-build:
+        name: Lint · Test · Assemble Debug
+        runs-on: ubuntu-latest
+
+        steps:
+            - name: Checkout repository
+              uses: actions/checkout@v4
+
+            - name: Set up Java 17
+              uses: actions/setup-java@v4
+              with:
+                  distribution: temurin
+                  java-version: "17"
+
+            - name: Set up Android SDK
+              uses: android-actions/setup-android@v2
+              with:
+                  api-level: 34
+                  build-tools: 34.0.0
+
+            - name: Configure Gradle caching
+              uses: gradle/actions/setup-gradle@v3
+              with:
+                  build-root-directory: android
+
+            - name: Run Gradle tasks
+              working-directory: android
+              run: ./gradlew lint test assembleDebug --build-cache --stacktrace
