@@ -1,0 +1,75 @@
+{
+    "session": 10,
+    "date": "2025-11-07",
+    "focus": "phase-a-retrospective",
+    "risks": [
+        {
+            "id": "A-01",
+            "description": "Gradle module growth without tracking APK weight milestones",
+            "impact": "high",
+            "likelihood": "medium",
+            "mitigation": "Add build task collecting module size metrics on sessions 10, 20, 40, 60, 80 and fail pipeline when regression exceeds 3 MB"
+        },
+        {
+            "id": "A-02",
+            "description": "Legacy scripts outside android/tools continue to drift",
+            "impact": "medium",
+            "likelihood": "medium",
+            "mitigation": "Enforce tooling entrypoints via forwarding stubs and schedule audit of remaining scripts in session 11"
+        },
+        {
+            "id": "A-03",
+            "description": "Insufficient Kotlin coverage for OBD command/data layer",
+            "impact": "high",
+            "likelihood": "high",
+            "mitigation": "Port command/data definitions from modules/device/obd/andr and require unit tests for every conversion"
+        }
+    ],
+    "apkWeightPlan": {
+        "targetMb": 60,
+        "baselineMb": 5.41,
+        "milestones": [
+            {
+                "session": 20,
+                "minimumMb": 25
+            },
+            {
+                "session": 40,
+                "minimumMb": 40
+            },
+            {
+                "session": 60,
+                "minimumMb": 52
+            },
+            {
+                "session": 80,
+                "minimumMb": 60
+            }
+        ],
+        "actions": [
+            "Introduce resource-pack placeholder assets (vector + raw) in sessions 12-18",
+            "Bundle offline DTC dictionaries in feature-obd-core by session 18",
+            "Embed TensorFlow Lite runtime in session 27 with compression budget snapshot"
+        ]
+    },
+    "actuals": {
+        "checkedAt": "2025-11-07T00:00:00Z",
+        "apkSizeMb": 5.63,
+        "deltaFromBaselineMb": 0.22,
+        "nextCheckpointSession": 20,
+        "notes": "Debug APK rebuilt after ISO-TP integration; weight increased by 0.22 MB versus baseline while remaining far below session-20 milestone."
+    },
+    "conclusion": {
+        "summary": "Фаза A удерживается в графике: APK вырос на 0.22 MB за счёт ISO-TP и офлайн-словарей, контрольные покрытия и lint остаются зелёными, подготовка к фокусам фаз B–C начата.",
+        "decisions": [
+            "Закрепить измерение веса на сессиях 20/40/60/80 через автоматизированный таск Gradle",
+            "Продолжить перенос инфраструктурных скриптов в android/tools до завершения ревизии",
+            "Нарастить unit-тесты для команд OBD при каждой новой интеграции"
+        ],
+        "nextSteps": [
+            "Сформировать отчёт о ретро сессии 10 и распределить follow-up по сессиям 13–15",
+            "Зафиксировать KPI веса APK в CI, чтобы регрессия >3 MB блокировала merge",
+            "Подготовить чеклист для мониторинга миграции оставшихся legacy-скриптов"
+        ]
+    }
+}

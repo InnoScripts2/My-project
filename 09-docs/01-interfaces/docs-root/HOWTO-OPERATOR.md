@@ -167,7 +167,7 @@ console.log(window.AGENT_API_BASE);
 
 ### Для разработчиков
 При работе с локальным агентом в LAN:
-1. Запустите агент: `npm --prefix apps/kiosk-agent run dev`
+1. Запустите агент: `npm --prefix 03-apps/02-application/kiosk-shell/agent run dev`
 2. Узнайте LAN IP агента (из вывода `npm run static`)
 3. Откройте фронтенд с параметром: `http://localhost:8080/?agent=http://192.168.1.100:7070`
 
@@ -180,7 +180,7 @@ console.log(window.AGENT_API_BASE);
 ```
 http://31.31.197.40/
 ```
-(Задано в `apps/android-kiosk/app/src/main/res/values/strings.xml`)
+(Задано в `03-apps/02-application/android-kiosk/app/src/main/res/values/strings.xml`)
 
 ### Смена URL
 #### Вариант 1: Долгое нажатие на экран
@@ -208,12 +208,12 @@ npm run apk:build:release
 ```
 APK будет в:
 ```
-apps/android-kiosk/app/build/outputs/apk/debug/app-debug.apk
+03-apps/02-application/android-kiosk/app/build/outputs/apk/debug/app-debug.apk
 ```
 
 Установка на устройство:
 ```bash
-adb install -r apps/android-kiosk/app/build/outputs/apk/debug/app-debug.apk
+adb install -r 03-apps/02-application/android-kiosk/app/build/outputs/apk/debug/app-debug.apk
 ```
 
 ---

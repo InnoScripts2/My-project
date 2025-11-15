@@ -562,6 +562,15 @@ npm --prefix apps/kiosk-agent run self-check:obd -- --port COM3
 [INFO] Self-check completed: PASS
 ```
 
+### 6.4. UI-оверлей предпосылок в киоске
+
+- `android/app/src/main/kotlin/com/selfservice/kiosk/MainActivity.kt` подключает `BluetoothPrerequisitePresenter` из `feature-obd-ui` и подписывается на `BluetoothPrerequisiteUiState`.
+- Состояние `isReady` скрывает контейнер `R.id.prerequisiteStatusContainer`, сбрасывая `isClickable`, `isFocusable` и `contentDescription`, чтобы скринридер не озвучивал устаревшие подсказки.
+- Любое состояние с недостающими предпосылками делает панель видимой, заполняет сообщение и подсказку, и формирует единый `contentDescription` для чтения оверлея голосом.
+- Оператор может нажать на панель для ручного `evaluate()` предпосылок; действие задублировано через `AccessibilityActionCompat.ACTION_CLICK` с строкой `bluetooth_prereq_retry_accessibility_action`.
+- Для поддержки повторных объявлений хранится последний текст объявления; при смене сообщения вызывается `announceForAccessibility` только с новым значением.
+- Инструментальные тесты `MainActivityBluetoothPrerequisiteTest` покрывают все сценарии отображения, ручного повтора и восстановления `contentDescription` после возвращения в состояние «предпосылки отсутствуют».
+
 ---
 
 ## 7. Troubleshooting

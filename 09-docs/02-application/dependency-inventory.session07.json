@@ -1,0 +1,355 @@
+[
+    {
+        "packagePath": "03-apps/02-application/admin/package.json",
+        "name": "@selfservice/admin",
+        "dependencies": [
+            "@emotion/react@^11.13.3",
+            "@emotion/styled@^11.13.0",
+            "@hookform/resolvers@^3.9.0",
+            "@mui/icons-material@^6.1.6",
+            "@mui/material@^6.1.6",
+            "@sentry/browser@^8.37.1",
+            "@tabler/icons-react@^3.19.0",
+            "@tanstack/react-query@^5.59.0",
+            "@tanstack/react-table@^8.20.5",
+            "date-fns@^4.1.0",
+            "echarts@^5.5.1",
+            "echarts-for-react@^3.0.2",
+            "i18next@^23.15.2",
+            "notistack@^3.0.1",
+            "react@^18.3.1",
+            "react-dom@^18.3.1",
+            "react-hook-form@^7.53.0",
+            "react-i18next@^15.0.2",
+            "react-router-dom@^6.27.0",
+            "zod@^3.23.8"
+        ],
+        "devDependencies": [
+            "@eslint/js@^9.37.0",
+            "@testing-library/jest-dom@^6.6.3",
+            "@testing-library/react@^16.0.1",
+            "@types/react@^18.3.12",
+            "@types/react-dom@^18.3.1",
+            "@typescript-eslint/eslint-plugin@^7.18.0",
+            "@typescript-eslint/parser@^7.18.0",
+            "@vitejs/plugin-react@^4.7.0",
+            "eslint@^8.57.0",
+            "eslint-plugin-react@^7.37.1",
+            "eslint-plugin-react-hooks@^4.6.2",
+            "prettier@^3.3.3",
+            "typescript@^5.6.3",
+            "vite@^5.4.10",
+            "vitest@^2.1.4"
+        ]
+    },
+    {
+        "packagePath": "03-apps/02-application/kiosk-shell/agent/package.json",
+        "name": "kiosk-agent",
+        "dependencies": [
+            "@selfservice/obd-diagnostics@file:../../../modules/device/obd/diagnostics/obd-diagnostics",
+            "@selfservice/payments@file:../../../modules/service/payments/core",
+            "@selfservice/reporting@file:../../../modules/service/reports/reporting",
+            "@supabase/supabase-js@^2.45.0",
+            "@types/better-sqlite3@^7.6.13",
+            "@types/ws@^8.18.1",
+            "better-sqlite3@^12.4.1",
+            "cors@^2.8.5",
+            "express@^4.19.2",
+            "kiosk-agent@file:",
+            "morgan@^1.10.0",
+            "nodemailer@^6.10.1",
+            "pg@^8.11.3",
+            "prom-client@^15.1.3",
+            "serialport@^12.0.0",
+            "socket.io@^4.7.4",
+            "ws@^8.18.3",
+            "zod@^3.23.8"
+        ],
+        "devDependencies": [
+            "@serialport/binding-mock@^10.2.2",
+            "@types/better-sqlite3@^7.6.13",
+            "@types/cors@^2.8.19",
+            "@types/express@^4.17.21",
+            "@types/morgan@^1.9.10",
+            "@types/node@^20.12.12",
+            "@types/nodemailer@^6.4.20",
+            "@types/pg@^8.15.5",
+            "ts-node@^10.9.2",
+            "ts-node-dev@^2.0.0",
+            "tsx@^4.20.6",
+            "typescript@^5.4.5"
+        ]
+    },
+    {
+        "packagePath": "03-apps/01-legacy/apps-unified/kiosk-admin/package.json",
+        "name": "kiosk-admin",
+        "dependencies": [
+            "ant-design-vue@^4.1.0",
+            "axios@^1.6.5",
+            "chart.js@^4.4.1",
+            "kiosk-selfservice-unified@file:../..",
+            "pinia@^2.1.7",
+            "socket.io-client@^4.7.4",
+            "vue@^3.4.0",
+            "vue-chartjs@^5.3.0",
+            "vue-i18n@^9.14.5",
+            "vue-router@^4.2.5"
+        ],
+        "devDependencies": [
+            "@types/node@^20.10.0",
+            "@vitejs/plugin-vue@^5.0.0",
+            "@vitest/ui@^1.0.0",
+            "happy-dom@^12.10.3",
+            "typescript@^5.6.3",
+            "vite@^5.0.0",
+            "vitest@^1.0.0",
+            "vue-tsc@^2.0.0"
+        ]
+    },
+    {
+        "packagePath": "03-apps/01-legacy/apps-unified/kiosk-agent/package.json",
+        "name": "kiosk-agent",
+        "dependencies": [
+            "@abandonware/noble@^1.9.2-15",
+            "@selfservice/obd-diagnostics@workspace:*",
+            "@supabase/supabase-js@^2.45.0",
+            "@types/form-data@^2.2.1",
+            "@types/node-cron@^3.0.11",
+            "@types/ws@^8.18.1",
+            "adm-zip@^0.5.10",
+            "async-mutex@^0.5.0",
+            "axios@^1.6.5",
+            "bcryptjs@^2.4.3",
+            "better-sqlite3@^12.4.1",
+            "cors@^2.8.5",
+            "csv-writer@^1.6.0",
+            "duckdb@^1.1.3",
+            "exceljs@^4.4.0",
+            "express@^4.19.2",
+            "form-data@^4.0.4",
+            "helmet@^7.1.0",
+            "jsonwebtoken@^9.0.2",
+            "lodash@^4.17.21",
+            "moment@^2.30.1",
+            "morgan@^1.10.0",
+            "noble-winrt@^0.1.1",
+            "node-cron@^4.2.1",
+            "node-windows@^1.0.0-beta.8",
+            "nodemailer@^6.10.1",
+            "obd-parser@^0.3.0",
+            "pg@^8.11.3",
+            "prom-client@^15.1.3",
+            "redis@^4.6.10",
+            "serialport@^12.0.0",
+            "socket.io@^4.7.5",
+            "uuid@^9.0.1",
+            "winston@^3.11.0",
+            "ws@^8.18.3",
+            "zod@^3.23.8"
+        ],
+        "devDependencies": [
+            "@types/adm-zip@^0.5.5",
+            "@types/better-sqlite3@^7.6.13",
+            "@types/cors@^2.8.19",
+            "@types/express@^4.17.21",
+            "@types/morgan@^1.9.10",
+            "@types/node@^20.12.12",
+            "@types/node-windows@^0.1.6",
+            "@types/nodemailer@^6.4.20",
+            "@types/pg@^8.15.5",
+            "@types/uuid@^9.0.8",
+            "ts-node@^10.9.2",
+            "ts-node-dev@^2.0.0",
+            "typescript@^5.4.5"
+        ]
+    },
+    {
+        "packagePath": "03-apps/01-legacy/apps-unified/kiosk-frontend/package.json",
+        "name": "@selfservice/kiosk-frontend",
+        "dependencies": [],
+        "devDependencies": [
+            "htmlhint@^1.1.4",
+            "vite@^5.0.0"
+        ]
+    },
+    {
+        "packagePath": "04-packages/02-application/modules/device/obd/andr/package.json",
+        "name": "@selfservice/obd-andr",
+        "dependencies": null,
+        "devDependencies": [
+            "ts-node@^10.9.2",
+            "typescript@^5.4.5"
+        ]
+    },
+    {
+        "packagePath": "04-packages/02-application/modules/device/obd/diagnostics/obd-diagnostics/package.json",
+        "name": "@selfservice/obd-diagnostics",
+        "dependencies": [],
+        "devDependencies": []
+    },
+    {
+        "packagePath": "04-packages/02-application/modules/service/payments/core/package.json",
+        "name": "@selfservice/payments",
+        "dependencies": null,
+        "devDependencies": [
+            "@types/node@^20.12.12",
+            "typescript@^5.4.5"
+        ]
+    },
+    {
+        "packagePath": "04-packages/02-application/modules/service/reports/reporting/package.json",
+        "name": "@selfservice/reporting",
+        "dependencies": [
+            "nodemailer@^6.10.1",
+            "pdfkit@^0.15.0"
+        ],
+        "devDependencies": [
+            "@types/node@^20.12.12",
+            "@types/nodemailer@^6.4.20",
+            "@types/pdfkit@^0.13.5",
+            "typescript@^5.4.5"
+        ]
+    },
+    {
+        "packagePath": "10-tools/03-domain/node-legacy/apps/kiosk/agent/package.json",
+        "name": "kiosk-agent",
+        "dependencies": [
+            "@selfservice/obd-diagnostics@file:../../../modules/device/obd/diagnostics/obd-diagnostics",
+            "@selfservice/payments@file:../../../modules/service/payments/core",
+            "@selfservice/reporting@file:../../../modules/service/reports/reporting",
+            "@supabase/supabase-js@^2.45.0",
+            "@types/better-sqlite3@^7.6.13",
+            "@types/ws@^8.18.1",
+            "better-sqlite3@^12.4.1",
+            "cors@^2.8.5",
+            "express@^4.19.2",
+            "kiosk-agent@file:",
+            "morgan@^1.10.0",
+            "nodemailer@^6.10.1",
+            "pg@^8.11.3",
+            "prom-client@^15.1.3",
+            "serialport@^12.0.0",
+            "socket.io@^4.7.4",
+            "ws@^8.18.3",
+            "zod@^3.23.8"
+        ],
+        "devDependencies": [
+            "@serialport/binding-mock@^10.2.2",
+            "@types/better-sqlite3@^7.6.13",
+            "@types/cors@^2.8.19",
+            "@types/express@^4.17.21",
+            "@types/morgan@^1.9.10",
+            "@types/node@^20.12.12",
+            "@types/nodemailer@^6.4.20",
+            "@types/pg@^8.15.5",
+            "ts-node@^10.9.2",
+            "ts-node-dev@^2.0.0",
+            "tsx@^4.20.6",
+            "typescript@^5.4.5"
+        ]
+    },
+    {
+        "packagePath": "10-tools/03-domain/node-legacy/apps/kiosk/ui/package.json",
+        "name": "@selfservice/kiosk-frontend",
+        "dependencies": null,
+        "devDependencies": [
+            "@axe-core/playwright@^4.8.3",
+            "@playwright/test@^1.40.1",
+            "@types/node@^20.10.6",
+            "eslint@^8.56.0",
+            "typescript@^5.3.3",
+            "vite@^5.0.10",
+            "vite-plugin-html@^3.2.1"
+        ]
+    },
+    {
+        "packagePath": "10-tools/03-domain/node-legacy/apps/kiosk-admin/package.json",
+        "name": "kiosk-admin",
+        "dependencies": [
+            "ant-design-vue@^4.1.0",
+            "axios@^1.6.5",
+            "chart.js@^4.4.1",
+            "pinia@^2.1.7",
+            "socket.io-client@^4.7.4",
+            "vue@^3.4.0",
+            "vue-chartjs@^5.3.0",
+            "vue-router@^4.2.5"
+        ],
+        "devDependencies": [
+            "@types/node@^20.10.0",
+            "@vitejs/plugin-vue@^5.0.0",
+            "@vitest/ui@^1.0.0",
+            "happy-dom@^12.10.3",
+            "typescript@^5.3.0",
+            "vite@^5.0.0",
+            "vitest@^1.0.0",
+            "vue-tsc@^1.8.27"
+        ]
+    },
+    {
+        "packagePath": "10-tools/03-domain/node-legacy/apps-unified/kiosk-agent/package.json",
+        "name": "kiosk-agent",
+        "dependencies": [
+            "@abandonware/noble@^1.9.2-15",
+            "@selfservice/obd-diagnostics@workspace:*",
+            "@supabase/supabase-js@^2.45.0",
+            "@types/form-data@^2.2.1",
+            "@types/node-cron@^3.0.11",
+            "@types/ws@^8.18.1",
+            "adm-zip@^0.5.10",
+            "async-mutex@^0.5.0",
+            "axios@^1.6.5",
+            "bcryptjs@^2.4.3",
+            "better-sqlite3@^12.4.1",
+            "cors@^2.8.5",
+            "csv-writer@^1.6.0",
+            "duckdb@^1.1.3",
+            "exceljs@^4.4.0",
+            "express@^4.19.2",
+            "form-data@^4.0.4",
+            "helmet@^7.1.0",
+            "jsonwebtoken@^9.0.2",
+            "lodash@^4.17.21",
+            "moment@^2.30.1",
+            "morgan@^1.10.0",
+            "noble-winrt@^0.1.1",
+            "node-cron@^4.2.1",
+            "node-windows@^1.0.0-beta.8",
+            "nodemailer@^6.10.1",
+            "obd-parser@^0.3.0",
+            "pg@^8.11.3",
+            "prom-client@^15.1.3",
+            "redis@^4.6.10",
+            "serialport@^12.0.0",
+            "socket.io@^4.7.5",
+            "uuid@^9.0.1",
+            "winston@^3.11.0",
+            "ws@^8.18.3",
+            "zod@^3.23.8"
+        ],
+        "devDependencies": [
+            "@types/adm-zip@^0.5.5",
+            "@types/better-sqlite3@^7.6.13",
+            "@types/cors@^2.8.19",
+            "@types/express@^4.17.21",
+            "@types/morgan@^1.9.10",
+            "@types/node@^20.12.12",
+            "@types/node-windows@^0.1.6",
+            "@types/nodemailer@^6.4.20",
+            "@types/pg@^8.15.5",
+            "@types/uuid@^9.0.8",
+            "ts-node@^10.9.2",
+            "ts-node-dev@^2.0.0",
+            "typescript@^5.4.5"
+        ]
+    },
+    {
+        "packagePath": "10-tools/03-domain/node-legacy/packages-unified/obd-andr/package.json",
+        "name": "@selfservice/obd-andr",
+        "dependencies": [],
+        "devDependencies": [
+            "rimraf@^6.0.1",
+            "typescript@^5.5.4"
+        ]
+    }
+]

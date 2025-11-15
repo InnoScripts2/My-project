@@ -243,7 +243,7 @@ https://<project-id>.supabase.co/functions/v1/payments-webhook
 
 ### Configuration
 
-**Файл:** `apps/android-kiosk/app/src/main/java/com/selfservice/kiosk/MainActivity.kt`
+**Файл:** `03-apps/02-application/android-kiosk/app/src/main/java/com/selfservice/kiosk/MainActivity.kt`
 
 - [x] `kiosk_url` читается из:
   - SharedPreferences (`custom_url`)
@@ -253,7 +253,7 @@ https://<project-id>.supabase.co/functions/v1/payments-webhook
 
 ### Bluetooth/Location Permissions
 
-**Manifest:** `apps/android-kiosk/app/src/main/AndroidManifest.xml`
+**Manifest:** `03-apps/02-application/android-kiosk/app/src/main/AndroidManifest.xml`
 
 - [x] Legacy Bluetooth permissions (API < 31):
   - `BLUETOOTH`
@@ -284,24 +284,24 @@ https://<project-id>.supabase.co/functions/v1/payments-webhook
 
 **Контракты:**
 
-| Endpoint | Method | Request | Response |
-|----------|--------|---------|----------|
-| `/devices/status` | GET | - | `{ obd, thickness, ... }` |
-| `/api/serialports` | GET | - | `[{ path, ... }]` |
-| `/api/obd/open` | POST | `{ options }` | `{ ok, snapshot }` |
-| `/api/obd/close` | POST | - | `{ ok }` |
-| `/api/obd/read-dtc` | POST | - | `{ ok, data: [...] }` |
-| `/api/obd/clear-dtc` | POST | - | `{ ok }` |
-| `/api/obd/status` | GET | - | `{ ok, data }` |
-| `/api/obd/live-basic` | GET | - | `{ ok, data }` |
-| `/api/obd/session` | GET | - | `{ state, ... }` |
-| `/payments/intent` | POST | `{ amount, ... }` | `{ id, url }` |
-| `/payments/:id/status` | GET | - | `{ status, ... }` |
-| `/payments/confirm-dev` | POST | `{ intentId }` | `{ ok }` (DEV only) |
-| `/reports/generate` | POST | `{ data, ... }` | `{ ok, id }` |
-| `/reports/view/:id` | GET | - | HTML |
-| `/reports/send` | POST | `{ reportId, email }` | `{ ok }` |
-| `/reports/send-sms` | POST | `{ reportId, phone }` | `{ ok }` |
+| Endpoint                | Method | Request               | Response                  |
+| ----------------------- | ------ | --------------------- | ------------------------- |
+| `/devices/status`       | GET    | -                     | `{ obd, thickness, ... }` |
+| `/api/serialports`      | GET    | -                     | `[{ path, ... }]`         |
+| `/api/obd/open`         | POST   | `{ options }`         | `{ ok, snapshot }`        |
+| `/api/obd/close`        | POST   | -                     | `{ ok }`                  |
+| `/api/obd/read-dtc`     | POST   | -                     | `{ ok, data: [...] }`     |
+| `/api/obd/clear-dtc`    | POST   | -                     | `{ ok }`                  |
+| `/api/obd/status`       | GET    | -                     | `{ ok, data }`            |
+| `/api/obd/live-basic`   | GET    | -                     | `{ ok, data }`            |
+| `/api/obd/session`      | GET    | -                     | `{ state, ... }`          |
+| `/payments/intent`      | POST   | `{ amount, ... }`     | `{ id, url }`             |
+| `/payments/:id/status`  | GET    | -                     | `{ status, ... }`         |
+| `/payments/confirm-dev` | POST   | `{ intentId }`        | `{ ok }` (DEV only)       |
+| `/reports/generate`     | POST   | `{ data, ... }`       | `{ ok, id }`              |
+| `/reports/view/:id`     | GET    | -                     | HTML                      |
+| `/reports/send`         | POST   | `{ reportId, email }` | `{ ok }`                  |
+| `/reports/send-sms`     | POST   | `{ reportId, phone }` | `{ ok }`                  |
 
 **Проверка:**
 - [x] Все эндпойнты реализованы

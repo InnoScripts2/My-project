@@ -20,16 +20,16 @@ NoClassDefFoundError: org/gradle/wrapper/IDownload
 
 В репозитории уже настроены следующие файлы:
 
-- **`apps/android-kiosk/gradle/wrapper/gradle-wrapper.jar`** (43 KB)
+- **`03-apps/02-application/android-kiosk/gradle/wrapper/gradle-wrapper.jar`** (43 KB)
   - Корректный wrapper jar для Gradle 8.7
   - Создан с использованием официального Gradle 8.7
 
-- **`apps/android-kiosk/gradle.properties`**
+- **`03-apps/02-application/android-kiosk/gradle.properties`**
   - Настроена UTF-8 кодировка: `org.gradle.jvmargs=-Dfile.encoding=UTF-8 -Dsun.jnu.encoding=UTF-8`
   - Оптимизирована память: `-Xmx2g`
   - Включён Gradle daemon для ускорения сборок
 
-- **`apps/android-kiosk/local.properties`** (игнорируется Git)
+- **`03-apps/02-application/android-kiosk/local.properties`** (игнорируется Git)
   - Автоматически создаётся скриптом сборки
   - Содержит путь к Android SDK
 
